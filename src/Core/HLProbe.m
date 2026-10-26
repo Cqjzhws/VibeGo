@@ -7,9 +7,18 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-#import <CallKit/CallKit.h>
 #import <dlfcn.h>
 #import <objc/message.h>
+
+// CallKit runtime load — 避免 zig clang 找不到 CallKit.framework Headers
+// @class / @protocol 前向声明让编译器不报错，运行时由 NSClassFromString 加载
+@class CXCallObserver, CXCall;
+@protocol CXCallObserverDelegate;
+
+typedef void (*CXCallObserverDelegateIMP)(id, SEL, id, id);
+@interface HLCallProbe2_RT : NSObject <CXCallObserverDelegate>
+@property (nonatomic, copy) void (^onChanged)(void);
+@end
 
 #import "gatt_config.h"
 
@@ -369,9 +378,10 @@ static NSString *HL_ActiveCategory(void) {
 // CTCallCenter 在 iOS 10 就 deprecated，后台 App 拿不到 currentCalls。
 // CXCallObserver 是 CallKit 框架提供的后台可用替代——不需要用户权限、不需要 entilement。
 
-@interface HLCallProbe2 () <CXCallObserver>
-@property (nonatomic, strong) CXCallObserver *observer;
-@property (nonatomic, strong) NSHashTable<CXCall *> *activeCalls;
+// Runtime CXCallObserver — 避免 zig clang 找不到 CallKit.framework Headers
+@interface HLCallProbe2 ()
+@property (nonatomic, strong) id observer;          // CXCallObserver, runtime 加载
+@property (nonatomic, strong) id rtDelegate;         // HLCallProbe2_RT 实例
 @end
 
 @implementation HLCallProbe2 {
@@ -389,44 +399,50 @@ static NSString *HL_ActiveCategory(void) {
     return s;
 }
 
-- (instancetype)init {
-    if ((self = [super init])) {
-        _activeCalls = [NSHashTable weakObjectsHashTable];
-    }
-    return self;
-}
-
 - (BOOL)inCall   { return _inCall; }
 - (BOOL)ctCall   { return _lastCT; }
 - (NSString *)category { return _lastCat ?: @"-"; }
+
+// runtime: [obj setValue:val forKey:@"delegate"] 或 objc_setAssociatedObject
+static void HL_SetDelegate(id obj, id delegate) {
+    @try {
+        [obj setValue:delegate forKey:@"delegate"];
+    } @catch (NSException *e) {
+        // 有些版本 CallKit delegate 属性是 readonly fallback 到 objc runtime
+    }
+}
+
+static NSArray *HL_GetCalls(id observer) {
+    @try {
+        return ((NSArray *(*)(id, SEL))objc_msgSend)(observer, NSSelectorFromString(@"calls"));
+    } @catch (NSException *e) { return nil; }
+}
 
 - (void)start {
     if (![APref(@"HLCallModeEnable", @(HL_DEFAULT_CALL_ENABLE)) boolValue]) {
         HLExternalLog(@"[通话] 通话模式已关闭");
         return;
     }
-    // CXCallObserver — iOS 10+, 后台可用, 无需用户授权
-    _observer = [CXCallObserver new];
-    _observer.delegate = self;
-    HLExternalLog(@"[通话] CXCallObserver 已注册（替代 CTCallCenter）");
+    Class obsCls = NSClassFromString(@"CXCallObserver");
+    if (!obsCls) {
+        HLExternalLog(@"[通话] 找不到 CXCallObserver 类（CallKit.framework 未加载）");
+    } else {
+        _observer = [obsCls new];
+        // HLCallProbe2_RT 实现 CXCallObserverDelegate，runtime 设置 delegate
+        __weak HLCallProbe2 *weakSelf = self;
+        _rtDelegate = [HLCallProbe2_RT new];
+        ((HLCallProbe2_RT *)_rtDelegate).onChanged = ^{
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf tick];
+            });
+        };
+        HL_SetDelegate(_observer, _rtDelegate);
+        HLExternalLog(@"[通话] CXCallObserver 已注册（runtime, 替代 CTCallCenter）");
+    }
 
     _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self
                                             selector:@selector(tick) userInfo:nil repeats:YES];
     [self tick];
-}
-
-// MARK: CXCallObserver delegate — 实时通话状态变化
-
-- (void)callObserver:(CXCallObserver *)callObserver
-            callChanged:(CXCall *)call {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        BOOL hasActive = NO;
-        for (CXCall *c in callObserver.calls) {
-            if (!c.hasEnded) { hasActive = YES; break; }
-        }
-        // 立即响应：任何活跃通话或刚结束的通话都触发 tick
-        [self tick];
-    });
 }
 
 // MARK: 状态判定
@@ -434,11 +450,14 @@ static NSString *HL_ActiveCategory(void) {
 - (void)tick {
     NSString *cat = HL_ActiveCategory();
 
-    // 从 CXCallObserver 拿活跃通话列表（hasEnded=NO 表示正在通话中）
+    // 从 CXCallObserver runtime 拿活跃通话列表
     BOOL ct = NO;
     if (_observer) {
-        for (CXCall *c in _observer.calls) {
-            if (!c.hasEnded) { ct = YES; break; }
+        NSArray *calls = HL_GetCalls(_observer);
+        for (id c in calls) {
+            BOOL ended = NO;
+            @try { ended = ((BOOL (*)(id, SEL))objc_msgSend)(c, NSSelectorFromString(@"hasEnded")); } @catch (NSException *e) {}
+            if (!ended) { ct = YES; break; }
         }
     }
 
@@ -467,6 +486,13 @@ static NSString *HL_ActiveCategory(void) {
     }
 }
 
+@end
+
+// MARK: HLCallProbe2_RT — CXCallObserverDelegate runtime impl
+@implementation HLCallProbe2_RT
+- (void)callObserver:(id)callObserver callChanged:(id)call {
+    if (self.onChanged) self.onChanged();
+}
 @end
 
 #pragma mark - 对外状态
