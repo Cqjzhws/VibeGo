@@ -1,1 +1,47 @@
-I2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CiNpbXBvcnQgPENvcmVCbHVldG9vdGgvQ29yZUJsdWV0b290aC5oPgoKTlNfQVNTVU1FX05PTk5VTExfQkVHSU4KCi8vLyDorr7lpIfkv6Hmga8v55S15rGgL+engeacieeJueW+geeahOihjOS4uuWIhuexu++8iOWQq+S5ieaOqOa1i++8jOS7heaMiSBHQVRUIOWxnuaAp+aOqOaWre+8iQp0eXBlZGVmIE5TX0VOVU0oTlNJbnRlZ2VyLCBWR0NoYXJDYXRlZ29yeSkgewogICAgVkdDaGFyQ2F0ZWdvcnlVbmtub3duICAgICAgPSAwLAogICAgVkdDaGFyQ2F0ZWdvcnlEZXZpY2VJbmZvICAgPSAxLCAgLy8gU0lHIERJU++8muWOguWVhi/lnovlj7cv5bqP5YiX5Y+3L+eJiOacrAogICAgVkdDaGFyQ2F0ZWdvcnlCYXR0ZXJ5ICAgICAgPSAyLCAgLy8g5qCH5YeG55S16YePCiAgICBWR0NoYXJDYXRlZ29yeUluZm8gICAgICAgICA9IDMsICAvLyDlj6ror7vkv6Hmga/nsbvvvIjmjqjmtYvvvIkKICAgIFZHQ2hhckNhdGVnb3J5Q29uZmlnICAgICAgID0gNCwgIC8vIOWPr+ivu+WGmemFjee9ruexu++8iOaOqOa1i++8iQogICAgVkdDaGFyQ2F0ZWdvcnlTdGF0dXMgICAgICAgPSA1LCAgLy8g54q25oCBL+S6i+S7tu+8iFIvTu+8jOaOqOa1i++8iQogICAgVkdDaGFyQ2F0ZWdvcnlDb21tYW5kICAgICAgPSA2LCAgLy8g5ZG95LukL+WGme+8iFcvV1fvvIzmjqjmtYvvvIkKICAgIFZHQ2hhckNhdGVnb3J5QXVkaW9VcCAgICAgID0gNywgIC8vIOmfs+mikeS4iuihjO+8iE7vvIzmjqjmtYvvvIkKICAgIFZHQ2hhckNhdGVnb3J5QXVkaW9Eb3duICAgID0gOCwgIC8vIOmfs+mikeS4i+ihjO+8iOaOqOa1i++8iQogICAgVkdDaGFyQ2F0ZWdvcnlWZW5kb3JTdHJlYW0gPSA5LCAgLy8g5Y6C5ZWG5rWB6YCa6YGTIEM4Rjd4eHh477yI5o6o5rWL77yJCn07CgovLy8gVmliZSBHbyDlrp7mtYsgR0FUVCDljY/orq7moaPmoYjvvJrlm7rljJblj6ror7vmnprkuL7ml6Xlv5fkuK3nmoTnnJ/lrp4gVVVJRO+8jOW5tuaPkOS+m+WPi+WlveWQjS/liIbnsbvjgIIKLy8vIOaVsOaNruadpeiHqiB2Z19nYXR0XzIwMjYxMDE2XzA4MTA0My5sb2fvvJvnp4HmnInnibnlvoHlkKvkuYnkuLrmjqjmtYvvvIzmlLnliqjljY/orq7liY3pobvmipPljIXnoa7orqTjgIIKQGludGVyZmFjZSBWR0dhdHRQcm9maWxlIDogTlNPYmplY3QKCi8vLyDku7vmhI8gVVVJRO+8iDE2LWJpdCDnn63lkI3miJYgMTI4LWJpdCDlhajlkI3vvIzlpKflsI/lhpnkuI3mlY/mhJ/vvIktPiDlj4vlpb3kuK3mloflkI0KKyAoTlNTdHJpbmcgKilmcmllbmRseU5hbWVGb3JVVUlEOihOU1N0cmluZyAqKXV1aWQ7CgovLy8g5YiG57G7CisgKFZHQ2hhckNhdGVnb3J5KWNhdGVnb3J5Rm9yVVVJRDooTlNTdHJpbmcgKil1dWlkOwoKLy8vIOWIhuexu+S4reaWh+WQjQorIChOU1N0cmluZyAqKWNhdGVnb3J5TmFtZTooVkdDaGFyQ2F0ZWdvcnkpY2F0ZWdvcnk7CgovLy8g5bey5o6o5pat55qE6K+t5LmJ5o+Q56S677yI5Z+65LqO5aSa5Lu95Y+q6K+75oqT5YyF55qE6KeC5a+f77yM57qv5YGH6K6+77yM5pS55Yqo5Y2P6K6u5YmN6aG75YaN5oqT5YyF56Gu6K6k77yJ44CC5peg5o6o5pat6L+U5ZueIG5pbOOAggorIChOU1N0cmluZyAqKWhpbnRGb3JVVUlEOihOU1N0cmluZyAqKXV1aWQ7CgovLy8gNiDkuKrnp4HmnInmnI3liqEgVVVJRO+8iOaOoua1i+aXtuW6lOmHjeeCueiusOW9le+8iQorIChOU0FycmF5PENCVVVJRCAqPiAqKXZlbmRvclNlcnZpY2VVVUlEczsKCi8vLyA4IOS4quWOguWVhua1gemAmumBk+eJueW+ge+8iEM4Rjd4eHh477yM6K6i6ZiFL+WGmeWFpeWPr+aKk+ecn+Wunumfs+mikeaIluS6i+S7tua1ge+8iQorIChOU0FycmF5PENCVVVJRCAqPiAqKXZlbmRvclN0cmVhbUNoYXJhY3RlcmlzdGljVVVJRHM7CgovLy8g5bey55+l54m55b6B5oC75pWw77yI5ZCrIFNJRyDmoIflh4bkuI7np4HmnInvvIkKKyAoTlNJbnRlZ2VyKWtub3duQ2hhcmFjdGVyaXN0aWNDb3VudDsKCkBlbmQKCk5TX0FTU1VNRV9OT05OVUxMX0VORAo=
+#import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+/// 设备信息/电池/私有特征的行为分类（含义推测，仅按 GATT 属性推断）
+typedef NS_ENUM(NSInteger, VGCharCategory) {
+    VGCharCategoryUnknown      = 0,
+    VGCharCategoryDeviceInfo   = 1,  // SIG DIS：厂商/型号/序列号/版本
+    VGCharCategoryBattery      = 2,  // 标准电量
+    VGCharCategoryInfo         = 3,  // 只读信息类（推测）
+    VGCharCategoryConfig       = 4,  // 可读写配置类（推测）
+    VGCharCategoryStatus       = 5,  // 状态/事件（R/N，推测）
+    VGCharCategoryCommand      = 6,  // 命令/写（W/WW，推测）
+    VGCharCategoryAudioUp      = 7,  // 音频上行（N，推测）
+    VGCharCategoryAudioDown    = 8,  // 音频下行（推测）
+    VGCharCategoryVendorStream = 9,  // 厂商流通道 C8F7xxxx（推测）
+};
+
+/// Vibe Go 实测 GATT 协议档案：固化只读枚举日志中的真实 UUID，并提供友好名/分类。
+/// 数据来自 vg_gatt_20261016_081043.log；私有特征含义为推测，改动协议前须抓包确认。
+@interface VGGattProfile : NSObject
+
+/// 任意 UUID（16-bit 短名或 128-bit 全名，大小写不敏感）-> 友好中文名
++ (NSString *)friendlyNameForUUID:(NSString *)uuid;
+
+/// 分类
++ (VGCharCategory)categoryForUUID:(NSString *)uuid;
+
+/// 分类中文名
++ (NSString *)categoryName:(VGCharCategory)category;
+
+/// 已推断的语义提示（基于多份只读抓包的观察，纯假设，改动协议前须再抓包确认）。无推断返回 nil。
++ (NSString *)hintForUUID:(NSString *)uuid;
+
+/// 6 个私有服务 UUID（探测时应重点记录）
++ (NSArray<CBUUID *> *)vendorServiceUUIDs;
+
+/// 8 个厂商流通道特征（C8F7xxxx，订阅/写入可抓真实音频或事件流）
++ (NSArray<CBUUID *> *)vendorStreamCharacteristicUUIDs;
+
+/// 已知特征总数（含 SIG 标准与私有）
++ (NSInteger)knownCharacteristicCount;
+
+@end
+
+NS_ASSUME_NONNULL_END
