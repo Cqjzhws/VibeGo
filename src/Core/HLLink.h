@@ -1,1 +1,26 @@
-Ly8NCi8vICBITExpbmsuaCDigJQgVmliZSBHbyDliqnlkKzlmaggQkxFIOi/nuaOpeeuoeeQhg0KLy8NCi8vICDlhazlvIDmjqXlj6PvvIjlhbbku5bmqKHlnZflpI3nlKjov57mjqUgLyBDQkNlbnRyYWxNYW5hZ2Vy77yJDQovLw0KDQojaW1wb3J0IDxGb3VuZGF0aW9uL0ZvdW5kYXRpb24uaD4NCiNpbXBvcnQgPENvcmVCbHVldG9vdGgvQ29yZUJsdWV0b290aC5oPg0KDQpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTg0KDQpAaW50ZXJmYWNlIEhMTGluayA6IE5TT2JqZWN0IDxDQkNlbnRyYWxNYW5hZ2VyRGVsZWdhdGUsIENCUGVyaXBoZXJhbERlbGVnYXRlPg0KKyAoaW5zdGFuY2V0eXBlKXNoYXJlZDsNCi0gKHZvaWQpc3RhcnQ7DQotIChOU0FycmF5PENCUGVyaXBoZXJhbCAqPiAqKWNvbm5lY3RlZFBlcmlwaGVyYWxzOw0KLSAoQk9PTClhcHBseU11dGU6KEJPT0wpbXV0ZTsNCi0gKEJPT0wpaG9sZEFjdGl2ZTsNCi0gKE5TU3RyaW5nICopc3RhdHVzVGV4dDsNCkBlbmQNCg0KLy8g5aSW6YOo5o6n5Yi2DQp2b2lkIEhMU2V0Q2FsbE1vZGUoQk9PTCBvbik7DQp2b2lkIEhMUmVhcHBseU5vdyh2b2lkKTsNCnZvaWQgSExTZXRQbGF5aW5nUHJvdmlkZXIoQk9PTCAoXnApKHZvaWQpKTsNCg0KTlNfQVNTVU1FX05PTk5VTExfRU5EDQo=
+//
+//  HLLink.h — Vibe Go 助听器 BLE 连接管理
+//
+//  公开接口（其他模块复用连接 / CBCentralManager）
+//
+
+#import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface HLLink : NSObject <CBCentralManagerDelegate, CBPeripheralDelegate>
++ (instancetype)shared;
+- (void)start;
+- (NSArray<CBPeripheral *> *)connectedPeripherals;
+- (BOOL)applyMute:(BOOL)mute;
+- (BOOL)holdActive;
+- (NSString *)statusText;
+@end
+
+// 外部控制
+void HLSetCallMode(BOOL on);
+void HLReapplyNow(void);
+void HLSetPlayingProvider(BOOL (^p)(void));
+
+NS_ASSUME_NONNULL_END
