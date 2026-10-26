@@ -1,1 +1,8 @@
-I2ltcG9ydCA8VUlLaXQvVUlLaXQuaD4NCiNpbXBvcnQgIlZHQXBwRGVsZWdhdGUuaCINCg0KaW50IG1haW4oaW50IGFyZ2MsIGNoYXIgKmFyZ3ZbXSkgew0KICAgIEBhdXRvcmVsZWFzZXBvb2wgew0KICAgICAgICByZXR1cm4gVUlBcHBsaWNhdGlvbk1haW4oYXJnYywgYXJndiwgbmlsLCBOU1N0cmluZ0Zyb21DbGFzcyhbVkdBcHBEZWxlZ2F0ZSBjbGFzc10pKTsNCiAgICB9DQp9DQo=
+#import <UIKit/UIKit.h>
+#import "VGAppDelegate.h"
+
+int main(int argc, char *argv[]) {
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VGAppDelegate class]));
+    }
+}
