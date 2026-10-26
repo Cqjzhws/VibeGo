@@ -1,1 +1,91 @@
-I2ltcG9ydCAiVkdEaWFnbm9zZVZDLmgiDQojaW1wb3J0ICJWR1N0YWJpbGl0eUxvZy5oIg0KI2ltcG9ydCAiVkdNb25pdG9yLmgiDQojaW1wb3J0ICJWR0hlYXJpbmdEZXZpY2UuaCINCg0KQGludGVyZmFjZSBWR0RpYWdub3NlVkMgKCkNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcpIFVJTGFiZWwgKnN0YXRzTGFiZWw7DQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBVSVRleHRWaWV3ICpldmVudHNWaWV3Ow0KQGVuZA0KDQpAaW1wbGVtZW50YXRpb24gVkdEaWFnbm9zZVZDDQoNCi0gKHZvaWQpdmlld0RpZExvYWQgew0KICAgIFtzdXBlciB2aWV3RGlkTG9hZF07DQogICAgc2VsZi50aXRsZSA9IEAi56iz5a6a5oCn6K+K5patIjsNCiAgICBzZWxmLnZpZXcuYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC4wNiBhbHBoYToxXTsNCg0KICAgIHNlbGYubmF2aWdhdGlvbkl0ZW0ucmlnaHRCYXJCdXR0b25JdGVtID0NCiAgICAgICAgW1tVSUJhckJ1dHRvbkl0ZW0gYWxsb2NdIGluaXRXaXRoQmFyQnV0dG9uU3lzdGVtSXRlbTpVSUJhckJ1dHRvblN5c3RlbUl0ZW1BY3Rpb24NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3Ioc2hhcmVDc3YpXTsNCg0KICAgIHNlbGYuc3RhdHNMYWJlbCA9IFtVSUxhYmVsIG5ld107DQogICAgc2VsZi5zdGF0c0xhYmVsLmZvbnQgPSBbVUlGb250IHN5c3RlbUZvbnRPZlNpemU6MTQgd2VpZ2h0OlVJRm9udFdlaWdodE1lZGl1bV07DQogICAgc2VsZi5zdGF0c0xhYmVsLnRleHRDb2xvciA9IFVJQ29sb3Iud2hpdGVDb2xvcjsNCiAgICBzZWxmLnN0YXRzTGFiZWwubnVtYmVyT2ZMaW5lcyA9IDA7DQogICAgc2VsZi5zdGF0c0xhYmVsLmJhY2tncm91bmRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjEwIGdyZWVuOjAuMTYgYmx1ZTowLjE2IGFscGhhOjFdOw0KICAgIHNlbGYuc3RhdHNMYWJlbC5sYXllci5jb3JuZXJSYWRpdXMgPSAxMjsNCiAgICBzZWxmLnN0YXRzTGFiZWwubGF5ZXIubWFza3NUb0JvdW5kcyA9IFlFUzsNCiAgICBzZWxmLnN0YXRzTGFiZWwudHJhbnNsYXRlc0F1dG9yZXNpemluZ01hc2tJbnRvQ29uc3RyYWludHMgPSBOTzsNCiAgICBbc2VsZi52aWV3IGFkZFN1YnZpZXc6c2VsZi5zdGF0c0xhYmVsXTsNCg0KICAgIHNlbGYuZXZlbnRzVmlldyA9IFtVSVRleHRWaWV3IG5ld107DQogICAgc2VsZi5ldmVudHNWaWV3LmVkaXRhYmxlID0gTk87DQogICAgc2VsZi5ldmVudHNWaWV3LmZvbnQgPSBbVUlGb250IGZvbnRXaXRoTmFtZTpAIk1lbmxvLVJlZ3VsYXIiIHNpemU6MTFdOw0KICAgIHNlbGYuZXZlbnRzVmlldy50ZXh0Q29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MC43NSBncmVlbjowLjk1IGJsdWU6MC44NSBhbHBoYToxXTsNCiAgICBzZWxmLmV2ZW50c1ZpZXcuYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgYmxhY2tDb2xvcl07DQogICAgc2VsZi5ldmVudHNWaWV3LmxheWVyLmNvcm5lclJhZGl1cyA9IDEyOw0KICAgIHNlbGYuZXZlbnRzVmlldy50cmFuc2xhdGVzQXV0b3Jlc2l6aW5nTWFza0ludG9Db25zdHJhaW50cyA9IE5POw0KICAgIFtzZWxmLnZpZXcgYWRkU3VidmlldzpzZWxmLmV2ZW50c1ZpZXddOw0KDQogICAgW05TTGF5b3V0Q29uc3RyYWludCBhY3RpdmF0ZUNvbnN0cmFpbnRzOkBbDQogICAgICAgIFtzZWxmLnN0YXRzTGFiZWwudG9wQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYudmlldy5zYWZlQXJlYUxheW91dEd1aWRlLnRvcEFuY2hvciBjb25zdGFudDoxNF0sDQogICAgICAgIFtzZWxmLnN0YXRzTGFiZWwubGVhZGluZ0FuY2hvciBjb25zdHJhaW50RXF1YWxUb0FuY2hvcjpzZWxmLnZpZXcubGVhZGluZ0FuY2hvciBjb25zdGFudDoxNF0sDQogICAgICAgIFtzZWxmLnN0YXRzTGFiZWwudHJhaWxpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi52aWV3LnRyYWlsaW5nQW5jaG9yIGNvbnN0YW50Oi0xNF0sDQogICAgICAgIFtzZWxmLmV2ZW50c1ZpZXcudG9wQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYuc3RhdHNMYWJlbC5ib3R0b21BbmNob3IgY29uc3RhbnQ6MTJdLA0KICAgICAgICBbc2VsZi5ldmVudHNWaWV3LmxlYWRpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi52aWV3LmxlYWRpbmdBbmNob3IgY29uc3RhbnQ6MTRdLA0KICAgICAgICBbc2VsZi5ldmVudHNWaWV3LnRyYWlsaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYudmlldy50cmFpbGluZ0FuY2hvciBjb25zdGFudDotMTRdLA0KICAgICAgICBbc2VsZi5ldmVudHNWaWV3LmJvdHRvbUFuY2hvciBjb25zdHJhaW50RXF1YWxUb0FuY2hvcjpzZWxmLnZpZXcuc2FmZUFyZWFMYXlvdXRHdWlkZS5ib3R0b21BbmNob3IgY29uc3RhbnQ6LTE0XSwNCiAgICBdXTsNCg0KICAgIFtbTlNOb3RpZmljYXRpb25DZW50ZXIgZGVmYXVsdENlbnRlcl0gYWRkT2JzZXJ2ZXI6c2VsZg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0b3I6QHNlbGVjdG9yKHJlbG9hZCkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOlZHU3RhdHVzRGlkQ2hhbmdlTm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOw0KfQ0KDQotICh2b2lkKXZpZXdXaWxsQXBwZWFyOihCT09MKWFuaW1hdGVkIHsNCiAgICBbc3VwZXIgdmlld1dpbGxBcHBlYXI6YW5pbWF0ZWRdOw0KICAgIFtzZWxmIHJlbG9hZF07DQp9DQoNCi0gKHZvaWQpcmVsb2FkIHsNCiAgICBzZWxmLnN0YXRzTGFiZWwudGV4dCA9DQogICAgICAgIFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICDlvZPliY3vvJolQFxuXG4lQCIsDQogICAgICAgICAgICBbVkdNb25pdG9yIHNoYXJlZF0ubGF0ZXN0LnN1bW1hcnkgPzogQCItIiwNCiAgICAgICAgICAgIFtWR1N0YWJpbGl0eUxvZy5zaGFyZWQgc3RhdGlzdGljc1RleHRdXTsNCg0KICAgIE5TRGF0ZUZvcm1hdHRlciAqZiA9IFtOU0RhdGVGb3JtYXR0ZXIgbmV3XTsNCiAgICBmLmRhdGVGb3JtYXQgPSBAIk1NLWRkIEhIOm1tOnNzIjsNCiAgICBOU011dGFibGVBcnJheSAqbGluZXMgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOw0KICAgIGZvciAoTlNEaWN0aW9uYXJ5ICplIGluIFtWR1N0YWJpbGl0eUxvZy5zaGFyZWQgZXZlbnRzXSkgew0KICAgICAgICBOU0RhdGUgKnRzID0gW05TRGF0ZSBkYXRlV2l0aFRpbWVJbnRlcnZhbFNpbmNlMTk3MDpbZVtAInRzIl0gZG91YmxlVmFsdWVdXTsNCiAgICAgICAgTlNTdHJpbmcgKm1hcmsgPSBbZVtAInN0YXRlIl0gaXNFcXVhbDpAImNvbm5lY3RlZCJdID8gQCLwn5+iIiA6IEAi8J+UtCI7DQogICAgICAgIFtsaW5lcyBhZGRPYmplY3Q6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCIlQCAlQCAlQCIsDQogICAgICAgICAgICAgICAgICAgICAgICAgIFtmIHN0cmluZ0Zyb21EYXRlOnRzXSwgbWFyaywgZVtAInN1bW1hcnkiXV1dOw0KICAgIH0NCiAgICBzZWxmLmV2ZW50c1ZpZXcudGV4dCA9IGxpbmVzLmNvdW50DQogICAgICAgID8gW0Ai6L+e5o6l5LqL5Lu25pe26Ze057q/77yI5pyA6L+R5Zyo5LiK77yJXG5cbiIgc3RyaW5nQnlBcHBlbmRpbmdTdHJpbmc6W2xpbmVzIGNvbXBvbmVudHNKb2luZWRCeVN0cmluZzpAIlxuIl1dDQogICAgICAgIDogQCLmmoLml6Dov57mjqXkuovku7bjgILmiZPlvIDmnKzlupTnlKjkv53mjIHov5DooYzvvIznirbmgIHlj5jljJbkvJrooqvorrDlvZXjgIIiOw0KfQ0KDQotICh2b2lkKXNoYXJlQ3N2IHsNCiAgICAvLyDlhYjmiorlvZPliY3nirbmgIHlho3ph4fmoLfkuIDmrKHvvIzkv53or4Hlr7zlh7rmnIDmlrANCiAgICBbW1ZHTW9uaXRvciBzaGFyZWRdIHJlZnJlc2hdOw0KICAgIE5TVVJMICp1cmwgPSBbVkdTdGFiaWxpdHlMb2cuc2hhcmVkIGV4cG9ydEZpbGVdOw0KICAgIFVJQWN0aXZpdHlWaWV3Q29udHJvbGxlciAqYSA9DQogICAgICAgIFtbVUlBY3Rpdml0eVZpZXdDb250cm9sbGVyIGFsbG9jXSBpbml0V2l0aEFjdGl2aXR5SXRlbXM6QFt1cmxdIGFwcGxpY2F0aW9uQWN0aXZpdGllczpuaWxdOw0KICAgIGEucG9wb3ZlclByZXNlbnRhdGlvbkNvbnRyb2xsZXIuYmFyQnV0dG9uSXRlbSA9IHNlbGYubmF2aWdhdGlvbkl0ZW0ucmlnaHRCYXJCdXR0b25JdGVtOw0KICAgIFtzZWxmIHByZXNlbnRWaWV3Q29udHJvbGxlcjphIGFuaW1hdGVkOllFUyBjb21wbGV0aW9uOm5pbF07DQp9DQoNCkBlbmQNCg==
+#import "VGDiagnoseVC.h"
+#import "VGStabilityLog.h"
+#import "VGMonitor.h"
+#import "VGHearingDevice.h"
+
+@interface VGDiagnoseVC ()
+@property (nonatomic, strong) UILabel *statsLabel;
+@property (nonatomic, strong) UITextView *eventsView;
+@end
+
+@implementation VGDiagnoseVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"稳定性诊断";
+    self.view.backgroundColor = [UIColor colorWithWhite:0.06 alpha:1];
+
+    self.navigationItem.rightBarButtonItem =
+        [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+                                                      target:self action:@selector(shareCsv)];
+
+    self.statsLabel = [UILabel new];
+    self.statsLabel.font = [UIFont systemFontOfSize:14 weight:UIFontWeightMedium];
+    self.statsLabel.textColor = UIColor.whiteColor;
+    self.statsLabel.numberOfLines = 0;
+    self.statsLabel.backgroundColor = [UIColor colorWithRed:0.10 green:0.16 blue:0.16 alpha:1];
+    self.statsLabel.layer.cornerRadius = 12;
+    self.statsLabel.layer.masksToBounds = YES;
+    self.statsLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.statsLabel];
+
+    self.eventsView = [UITextView new];
+    self.eventsView.editable = NO;
+    self.eventsView.font = [UIFont fontWithName:@"Menlo-Regular" size:11];
+    self.eventsView.textColor = [UIColor colorWithRed:0.75 green:0.95 blue:0.85 alpha:1];
+    self.eventsView.backgroundColor = [UIColor blackColor];
+    self.eventsView.layer.cornerRadius = 12;
+    self.eventsView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.eventsView];
+
+    [NSLayoutConstraint activateConstraints:@[
+        [self.statsLabel.topAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor constant:14],
+        [self.statsLabel.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:14],
+        [self.statsLabel.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-14],
+        [self.eventsView.topAnchor constraintEqualToAnchor:self.statsLabel.bottomAnchor constant:12],
+        [self.eventsView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:14],
+        [self.eventsView.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-14],
+        [self.eventsView.bottomAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.bottomAnchor constant:-14],
+    ]];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reload)
+                                                 name:VGStatusDidChangeNotification object:nil];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self reload];
+}
+
+- (void)reload {
+    self.statsLabel.text =
+        [NSString stringWithFormat:@"  当前：%@\n\n%@",
+            [VGMonitor shared].latest.summary ?: @"-",
+            [VGStabilityLog.shared statisticsText]];
+
+    NSDateFormatter *f = [NSDateFormatter new];
+    f.dateFormat = @"MM-dd HH:mm:ss";
+    NSMutableArray *lines = [NSMutableArray array];
+    for (NSDictionary *e in [VGStabilityLog.shared events]) {
+        NSDate *ts = [NSDate dateWithTimeIntervalSince1970:[e[@"ts"] doubleValue]];
+        NSString *mark = [e[@"state"] isEqual:@"connected"] ? @"🟢" : @"🔴";
+        [lines addObject:[NSString stringWithFormat:@"%@ %@ %@",
+                          [f stringFromDate:ts], mark, e[@"summary"]]];
+    }
+    self.eventsView.text = lines.count
+        ? [@"连接事件时间线（最近在上）\n\n" stringByAppendingString:[lines componentsJoinedByString:@"\n"]]
+        : @"暂无连接事件。打开本应用保持运行，状态变化会被记录。";
+}
+
+- (void)shareCsv {
+    // 先把当前状态再采样一次，保证导出最新
+    [[VGMonitor shared] refresh];
+    NSURL *url = [VGStabilityLog.shared exportFile];
+    UIActivityViewController *a =
+        [[UIActivityViewController alloc] initWithActivityItems:@[url] applicationActivities:nil];
+    a.popoverPresentationController.barButtonItem = self.navigationItem.rightBarButtonItem;
+    [self presentViewController:a animated:YES completion:nil];
+}
+
+@end
