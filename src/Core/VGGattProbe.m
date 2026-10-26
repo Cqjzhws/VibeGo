@@ -1,1 +1,454 @@
-I2ltcG9ydCAiVkdHYXR0UHJvYmUuaCINCiNpbXBvcnQgPG9iamMvcnVudGltZS5oPg0KI2ltcG9ydCAiVkdQcm9iZVNuYXBzaG90LmgiDQojaW1wb3J0ICJWR0dhdHRQcm9maWxlLmgiDQojaW1wb3J0ICJWR1Byb2JlRGV2aWNlLmgiDQojaW1wb3J0ICJWR0Vhck1hcC5oIg0KDQpOU05vdGlmaWNhdGlvbk5hbWUgY29uc3QgVkdHYXR0TG9nTm90aWZpY2F0aW9uICAgICA9IEAiVkdHYXR0TG9nTm90aWZpY2F0aW9uIjsNCk5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR0dhdHRTdGF0ZU5vdGlmaWNhdGlvbiAgID0gQCJWR0dhdHRTdGF0ZU5vdGlmaWNhdGlvbiI7DQpOU05vdGlmaWNhdGlvbk5hbWUgY29uc3QgVkdHYXR0RGV2aWNlc05vdGlmaWNhdGlvbiA9IEAiVkdHYXR0RGV2aWNlc05vdGlmaWNhdGlvbiI7DQoNCnN0YXRpYyBjb25zdCB1aW50MTZfdCBrVkdDb21wYW55ID0gMHgwMjk1OyAvLyBXUyBBdWRpb2xvZ3kgNjYxDQpzdGF0aWMgY29uc3QgTlNUaW1lSW50ZXJ2YWwga1ZHUHJvYmVUaW1lb3V0ID0gNDUuMDsNCnN0YXRpYyBjb25zdCBOU0ludGVnZXIga1ZHTWF4RGV2aWNlcyA9IDI7DQoNCi8vIOS7heiHquWKqOivu+WPlui/meS6myBTSUcg5qCH5YeG5Y+q6K+754m55b6B77yIMTYtYml0IFVVSUTvvIkNCnN0YXRpYyBOU1NldDxOU1N0cmluZyAqPiAqVkdTYWZlUmVhZFVVSURzKHZvaWQpIHsNCiAgICBzdGF0aWMgTlNTZXQgKnM7DQogICAgc3RhdGljIGRpc3BhdGNoX29uY2VfdCBvbmNlOw0KICAgIGRpc3BhdGNoX29uY2UoJm9uY2UsIF57DQogICAgICAgIHMgPSBbTlNTZXQgc2V0V2l0aEFycmF5OkBbDQogICAgICAgICAgICBAIjJBMTkiLCAvLyBCYXR0ZXJ5IExldmVsDQogICAgICAgICAgICBAIjJBMjQiLCBAIjJBMjUiLCBAIjJBMjYiLCBAIjJBMjciLCBAIjJBMjgiLCBAIjJBMjkiLCAvLyBNb2RlbC9TZXJpYWwvRmlybXdhcmUvSGFyZHdhcmUvU29mdHdhcmUvTWFudWZhY3R1cmVyDQogICAgICAgICAgICBAIjJBMjMiLCBAIjJBNTAiLCAvLyBTeXN0ZW0gSUQgLyBQblAgSUQNCiAgICAgICAgXV07DQogICAgfSk7DQogICAgcmV0dXJuIHM7DQp9DQoNCnN0YXRpYyBOU1N0cmluZyAqVkdVVUlEU2hvcnQoQ0JVVUlEICp1dWlkKSB7DQogICAgTlNTdHJpbmcgKnMgPSB1dWlkLlVVSURTdHJpbmcudXBwZXJjYXNlU3RyaW5nOw0KICAgIC8vIDE2LWJpdCDliKvlkI0gVVVJRCDln7rlupUNCiAgICBOU1N0cmluZyAqYmFzZSA9IEAiLTAwMDAtMTAwMC04MDAwLTAwODA1RjlCMzRGQiI7DQogICAgaWYgKHMubGVuZ3RoID09IDM2ICYmIFtzIGhhc1N1ZmZpeDpiYXNlXSkgew0KICAgICAgICByZXR1cm4gW3Mgc3Vic3RyaW5nVG9JbmRleDo4XTsNCiAgICB9DQogICAgcmV0dXJuIHM7DQp9DQoNCnN0YXRpYyBOU1N0cmluZyAqVkdQcm9wcyhDQkNoYXJhY3RlcmlzdGljUHJvcGVydGllcyBwKSB7DQogICAgTlNNdXRhYmxlQXJyYXkgKmEgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOw0KICAgIGlmIChwICYgQ0JDaGFyYWN0ZXJpc3RpY1Byb3BlcnR5UmVhZCkgICAgW2EgYWRkT2JqZWN0OkAiUiJdOw0KICAgIGlmIChwICYgQ0JDaGFyYWN0ZXJpc3RpY1Byb3BlcnR5V3JpdGUpICAgW2EgYWRkT2JqZWN0OkAiVyJdOw0KICAgIGlmIChwICYgQ0JDaGFyYWN0ZXJpc3RpY1Byb3BlcnR5V3JpdGVXaXRob3V0UmVzcG9uc2UpIFthIGFkZE9iamVjdDpAIldXIl07DQogICAgaWYgKHAgJiBDQkNoYXJhY3RlcmlzdGljUHJvcGVydHlOb3RpZnkpICBbYSBhZGRPYmplY3Q6QCJOIl07DQogICAgaWYgKHAgJiBDQkNoYXJhY3RlcmlzdGljUHJvcGVydHlJbmRpY2F0ZSlbYSBhZGRPYmplY3Q6QCJJIl07DQogICAgcmV0dXJuIFthIGNvbXBvbmVudHNKb2luZWRCeVN0cmluZzpAIi8iXTsNCn0NCg0KLy8g5oqK5pWw5o2u6L2s5oiQ56m65qC85YiG6ZqU55qE5Y2B5YWt6L+b5Yi25Liy77yM55So5LqO5bGV56S65LqM6L+b5Yi254m55b6B77yI5LiN5Y+v5omT5Y2w5pe277yJDQpzdGF0aWMgTlNTdHJpbmcgKlZHVG9IZXgoTlNEYXRhICp2KSB7DQogICAgaWYgKHYubGVuZ3RoID09IDApIHJldHVybiBAIiI7DQogICAgTlNNdXRhYmxlU3RyaW5nICpzID0gW05TTXV0YWJsZVN0cmluZyBzdHJpbmddOw0KICAgIGNvbnN0IHVpbnQ4X3QgKmIgPSB2LmJ5dGVzOw0KICAgIGZvciAoTlNVSW50ZWdlciBpID0gMDsgaSA8IHYubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgaWYgKGkpIFtzIGFwcGVuZFN0cmluZzpAIiAiXTsNCiAgICAgICAgW3MgYXBwZW5kRm9ybWF0OkAiJTAyWCIsIGJbaV1dOw0KICAgIH0NCiAgICByZXR1cm4gczsNCn0NCg0KLy8g5LuO5bm/5pKt5Y6C5ZWG5pWw5o2u6YeM5o6o5pat6ICz5Yir44CCDQovLyDlrp7mtYvkvp3mja7vvIjmnKzmnLogVmliZSBHb++8jOW6j+WIl+WPtyBKRkE3MzExPeWPs+iAsyAvIEpGQTU2MzE95bem6ICz77yMMyDmrKHni6znq4vmipPljIXkuIDoh7TvvInvvJoNCi8vIDIzIOWtl+iKgui0n+i9veS4re+8jOS4i+aghyAxNiDkuI7kuIvmoIcgMjIg55qEIGJpdDbvvIgweDQw77yJ5Y+q5Zyo5Y+z6ICz572u5L2N4oCU4oCUDQovLyAgIOWPs+iAsyDigKYgQzEg4oCmIDcwIOKApiA0MCDvvZwg5bem6ICzIOKApiA4MyDigKYgNTEg4oCmIDAwDQovLyDkuKTkuKrkvY3nva7nu5PorrrkuIDoh7TmiY3nu5nlh7rmjqjmlq3vvIzlkKbliJnkuI3njJzvvIjov5Tlm54gbmls77yJ44CCDQpzdGF0aWMgTlNTdHJpbmcgKlZHTWZyRWFySGludChOU0RhdGEgKm1mcikgew0KICAgIGlmIChtZnIubGVuZ3RoIDwgMjMpIHJldHVybiBuaWw7DQogICAgY29uc3QgdWludDhfdCAqYiA9IG1mci5ieXRlczsNCiAgICBCT09MIGJpdDE2ID0gKGJbMTZdICYgMHg0MCkgIT0gMDsNCiAgICBCT09MIGJpdDIyID0gKGJbMjJdICYgMHg0MCkgIT0gMDsNCiAgICBpZiAoYml0MTYgPT0gYml0MjIpIHJldHVybiBiaXQxNiA/IEAi5Y+z6ICzIiA6IEAi5bem6ICzIjsNCiAgICByZXR1cm4gbmlsOw0KfQ0KDQpAaW50ZXJmYWNlIFZHR2F0dFByb2JlICgpDQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBDQkNlbnRyYWxNYW5hZ2VyICpjZW50cmFsOw0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgZGlzcGF0Y2hfcXVldWVfdCBxOw0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgTlNNdXRhYmxlQXJyYXk8TlNTdHJpbmcgKj4gKmxvZ0xpbmVzOw0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgTlNNdXRhYmxlRGljdGlvbmFyeTxOU1VVSUQgKiwgQ0JQZXJpcGhlcmFsICo+ICp0YXJnZXRzOw0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgTlNNdXRhYmxlRGljdGlvbmFyeTxOU1VVSUQgKiwgVkdQcm9iZURldmljZSAqPiAqZGV2aWNlTWFwOw0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgTlNNdXRhYmxlU2V0PE5TVVVJRCAqPiAqZG9uZTsNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcpIE5TRGF0ZSAqc3RhcnRlZEF0Ow0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgTlNUaW1lciAqdGltZW91dDsNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCByZWFkd3JpdGUpIEJPT0wgcnVubmluZzsNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBjb3B5KSAgIE5TU3RyaW5nICpzdGF0ZVRleHQ7DQpAZW5kDQoNCkBpbXBsZW1lbnRhdGlvbiBWR0dhdHRQcm9iZQ0KDQorIChpbnN0YW5jZXR5cGUpc2hhcmVkIHsNCiAgICBzdGF0aWMgVkdHYXR0UHJvYmUgKm07IHN0YXRpYyBkaXNwYXRjaF9vbmNlX3Qgb25jZTsNCiAgICBkaXNwYXRjaF9vbmNlKCZvbmNlLCBeeyBtID0gW1ZHR2F0dFByb2JlIG5ld107IH0pOw0KICAgIHJldHVybiBtOw0KfQ0KDQotIChpbnN0YW5jZXR5cGUpaW5pdCB7DQogICAgc2VsZiA9IFtzdXBlciBpbml0XTsNCiAgICBpZiAoc2VsZikgew0KICAgICAgICBfbG9nTGluZXMgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOw0KICAgICAgICBfdGFyZ2V0cyA9IFtOU011dGFibGVEaWN0aW9uYXJ5IGRpY3Rpb25hcnldOw0KICAgICAgICBfZGV2aWNlTWFwID0gW05TTXV0YWJsZURpY3Rpb25hcnkgZGljdGlvbmFyeV07DQogICAgICAgIF9kb25lID0gW05TTXV0YWJsZVNldCBzZXRdOw0KICAgICAgICBfcSA9IGRpc3BhdGNoX3F1ZXVlX2NyZWF0ZSgidmcuZ2F0dCIsIERJU1BBVENIX1FVRVVFX1NFUklBTCk7DQogICAgICAgIF9zdGF0ZVRleHQgPSBAIuepuumXsiI7DQogICAgfQ0KICAgIHJldHVybiBzZWxmOw0KfQ0KDQotIChOU0FycmF5PE5TU3RyaW5nICo+ICopbGluZXMgew0KICAgIEBzeW5jaHJvbml6ZWQgKHNlbGYubG9nTGluZXMpIHsgcmV0dXJuIFtzZWxmLmxvZ0xpbmVzIGNvcHldOyB9DQp9DQoNCi0gKHZvaWQpcG9zdExvZzooTlNTdHJpbmcgKilsaW5lIHsNCiAgICBAc3luY2hyb25pemVkIChzZWxmLmxvZ0xpbmVzKSB7IFtzZWxmLmxvZ0xpbmVzIGFkZE9iamVjdDpsaW5lXTsgfQ0KICAgIGRpc3BhdGNoX2FzeW5jKGRpc3BhdGNoX2dldF9tYWluX3F1ZXVlKCksIF57DQogICAgICAgIFtbTlNOb3RpZmljYXRpb25DZW50ZXIgZGVmYXVsdENlbnRlcl0gcG9zdE5vdGlmaWNhdGlvbk5hbWU6VkdHYXR0TG9nTm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOw0KICAgIH0pOw0KfQ0KDQotICh2b2lkKXNldFN0YXRlOihOU1N0cmluZyAqKXMgew0KICAgIHNlbGYuc3RhdGVUZXh0ID0gczsNCiAgICBkaXNwYXRjaF9hc3luYyhkaXNwYXRjaF9nZXRfbWFpbl9xdWV1ZSgpLCBeew0KICAgICAgICBbW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdIHBvc3ROb3RpZmljYXRpb25OYW1lOlZHR2F0dFN0YXRlTm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOw0KICAgIH0pOw0KfQ0KDQotICh2b2lkKXN0YXJ0IHsNCiAgICBpZiAoc2VsZi5ydW5uaW5nKSByZXR1cm47DQogICAgc2VsZi5ydW5uaW5nID0gWUVTOw0KICAgIHNlbGYuc3RhcnRlZEF0ID0gW05TRGF0ZSBkYXRlXTsNCiAgICBAc3luY2hyb25pemVkIChzZWxmLmxvZ0xpbmVzKSB7IFtzZWxmLmxvZ0xpbmVzIHJlbW92ZUFsbE9iamVjdHNdOyB9DQogICAgW3NlbGYudGFyZ2V0cyByZW1vdmVBbGxPYmplY3RzXTsgW3NlbGYuZG9uZSByZW1vdmVBbGxPYmplY3RzXTsgW3NlbGYuZGV2aWNlTWFwIHJlbW92ZUFsbE9iamVjdHNdOw0KDQogICAgW3NlbGYgcG9zdExvZzpAIj09PT09PT09PT09PT09PT0gVmliZSBHbyBHQVRUIOWPquivu+aemuS4viA9PT09PT09PT09PT09PT09Il07DQogICAgW3NlbGYgcG9zdExvZzpAIuWuieWFqOaooeW8j++8muaemuS4vuWFqOmDqOacjeWKoS/nibnlvoHvvIzku4Xor7vlj5bluKYgUmVhZCDlsZ7mgKfogIXvvJvkuI3pibTmnYPjgIHkuI3lhpnlhaXjgIHkuI3orqLpmIXpgJrnn6UiXTsNCiAgICBbc2VsZiBwb3N0TG9nOkAi5q+U5a+55qih5byP77ya57uT5p2f5pe25Lya5LiO44CM5LiK5qyh5o6i5rWL44CN6Ieq5Yqo5q+U5a+577yM5YiX5Ye65Y+R55Sf5Y+Y5YyW55qE54m55b6B77yI5Z+657q/5Y+q5a2Y5pys5py677yM5LiN5LiK5Lyg77yJIl07DQogICAgW3NlbGYgc2V0U3RhdGU6QCLliJ3lp4vljJbok53niZnigKYiXTsNCiAgICBzZWxmLmNlbnRyYWwgPSBbW0NCQ2VudHJhbE1hbmFnZXIgYWxsb2NdIGluaXRXaXRoRGVsZWdhdGU6c2VsZiBxdWV1ZTpzZWxmLnENCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3B0aW9uczpAeyBDQkNlbnRyYWxNYW5hZ2VyT3B0aW9uU2hvd1Bvd2VyQWxlcnRLZXk6IEBOTyB9XTsNCiAgICBzZWxmLnRpbWVvdXQgPSBbTlNUaW1lciBzY2hlZHVsZWRUaW1lcldpdGhUaW1lSW50ZXJ2YWw6a1ZHUHJvYmVUaW1lb3V0IHRhcmdldDpzZWxmDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yOkBzZWxlY3RvcihmaW5pc2hUaW1lb3V0KSB1c2VySW5mbzpuaWwgcmVwZWF0czpOT107DQp9DQoNCi0gKHZvaWQpZmluaXNoVGltZW91dCB7DQogICAgW3NlbGYgcG9zdExvZzpAIuKAlCDliLDovr4gNDUg56eS5o6i5rWL5pe26ZmQ77yM57uT5p2fIOKAlCJdOw0KICAgIFtzZWxmIGZpbmlzaF07DQp9DQoNCi0gKHZvaWQpZmluaXNoIHsNCiAgICBpZiAoIXNlbGYucnVubmluZykgcmV0dXJuOw0KICAgIHNlbGYucnVubmluZyA9IE5POw0KICAgIFtzZWxmLnRpbWVvdXQgaW52YWxpZGF0ZV07IHNlbGYudGltZW91dCA9IG5pbDsNCiAgICBAdHJ5IHsNCiAgICAgICAgZm9yIChDQlBlcmlwaGVyYWwgKnAgaW4gc2VsZi50YXJnZXRzLmFsbFZhbHVlcykgew0KICAgICAgICAgICAgaWYgKHAuc3RhdGUgIT0gQ0JQZXJpcGhlcmFsU3RhdGVEaXNjb25uZWN0ZWQpIFtzZWxmLmNlbnRyYWwgY2FuY2VsUGVyaXBoZXJhbENvbm5lY3Rpb246cF07DQogICAgICAgIH0NCiAgICAgICAgW3NlbGYuY2VudHJhbCBzdG9wU2Nhbl07DQogICAgfSBAY2F0Y2ggKE5TRXhjZXB0aW9uICplKSB7IFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLmuIXnkIblvILluLg6ICVAIiwgZV1dOyB9DQogICAgW3NlbGYgcG9zdExvZzpAIj09PT09PT09PT09PT09PT0g5p6a5Li+57uT5p2fID09PT09PT09PT09PT09PT0iXTsNCiAgICBbc2VsZiBzbmFwc2hvdENvbXBhcmVBbGxdOw0KICAgIFtzZWxmIHNldFN0YXRlOkAi5a6M5oiQ77yM5Y+v5YiG5Lqr5pel5b+XIl07DQogICAgW3NlbGYgcG9zdERldmljZXNdOw0KICAgIGRpc3BhdGNoX2FzeW5jKGRpc3BhdGNoX2dldF9tYWluX3F1ZXVlKCksIF57DQogICAgICAgIFtbTlNOb3RpZmljYXRpb25DZW50ZXIgZGVmYXVsdENlbnRlcl0gcG9zdE5vdGlmaWNhdGlvbk5hbWU6VkdHYXR0TG9nTm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOw0KICAgICAgICBbW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdIHBvc3ROb3RpZmljYXRpb25OYW1lOlZHR2F0dFN0YXRlTm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOw0KICAgIH0pOw0KfQ0KDQotICh2b2lkKXBvc3REZXZpY2VzIHsNCiAgICBkaXNwYXRjaF9hc3luYyhkaXNwYXRjaF9nZXRfbWFpbl9xdWV1ZSgpLCBeew0KICAgICAgICBbW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdIHBvc3ROb3RpZmljYXRpb25OYW1lOlZHR2F0dERldmljZXNOb3RpZmljYXRpb24gb2JqZWN0Om5pbF07DQogICAgfSk7DQp9DQoNCi0gKE5TQXJyYXk8VkdQcm9iZURldmljZSAqPiAqKWRldmljZXMgew0KICAgIEBzeW5jaHJvbml6ZWQgKHNlbGYuZGV2aWNlTWFwKSB7IHJldHVybiBbc2VsZi5kZXZpY2VNYXAuYWxsVmFsdWVzIGNvcHldOyB9DQp9DQoNCiNwcmFnbWEgbWFyayAtIOW/q+eFp+avlOWvue+8iOaJvuWHuuOAjOS8muWPmOeahOeJueW+geOAje+8iQ0KDQovLyDmr4/mrKHmjqLmtYvnu5PmnZ/pg73miormnKzmrKHlj5blgLzlrZjkuLrln7rnur/vvJvkuIvmrKHmjqLmtYvoh6rliqjliJflh7rlt67lvILjgIINCi8vIOi/meagt+eUqOaIt+WPquimgeWcqOaJi+acuuS4iuaTjeS9nOS4gOS4i++8iOWIh+eoi+W6jyAvIOiwg+mfs+mHjyAvIOaNouWcuuaZr++8ie+8jOWGjei3keS4gOasoeaOoua1i++8jA0KLy8g5bCx6IO95LuO5beu5byC5riF5Y2V6YeM55u05o6l55yL5Ye644CM5ZOq5Liq54m55b6B5a+55bqU5ZOq5Liq5Yqf6IO944CN4oCU4oCU5YWo56iL5Y+q6K+777yM5LiN5YaZ6K6+5aSH44CCDQotICh2b2lkKXNuYXBzaG90Q29tcGFyZUFsbCB7DQogICAgTlNBcnJheTxWR1Byb2JlRGV2aWNlICo+ICpkZXZzOw0KICAgIEBzeW5jaHJvbml6ZWQgKHNlbGYuZGV2aWNlTWFwKSB7IGRldnMgPSBbc2VsZi5kZXZpY2VNYXAuYWxsVmFsdWVzIGNvcHldOyB9DQogICAgZm9yIChWR1Byb2JlRGV2aWNlICpkIGluIGRldnMpIHsNCiAgICAgICAgaWYgKGQucmF3VmFsdWVzLmNvdW50ID09IDApIGNvbnRpbnVlOw0KICAgICAgICBOU1N0cmluZyAqa2V5ID0gW1ZHUHJvYmVTbmFwc2hvdCBkZXZpY2VLZXlXaXRoU2VyaWFsOmQuc2VyaWFsIGZhbGxiYWNrOmQucGVyaXBoZXJhbElEXTsNCiAgICAgICAgTlNEaWN0aW9uYXJ5ICpvbGQgPSBbVkdQcm9iZVNuYXBzaG90IGxvYWRGb3JEZXZpY2VLZXk6a2V5XTsNCiAgICAgICAgTlNEaWN0aW9uYXJ5ICpub3cgPSBbZCBzbmFwc2hvdFZhbHVlc107DQogICAgICAgIGQuc25hcHNob3RLZXkgPSBrZXk7DQogICAgICAgIGQuaGFzQmFzZWxpbmUgPSAob2xkLmNvdW50ID4gMCk7DQogICAgICAgIGQuYmFzZWxpbmVEYXRlVGV4dCA9IFtWR1Byb2JlU25hcHNob3Qgc2F2ZWREYXRlVGV4dEZvckRldmljZUtleTprZXldOw0KICAgICAgICBOU0FycmF5PE5TU3RyaW5nICo+ICpjaCA9IFtWR1Byb2JlU25hcHNob3QgY2hhbmdlc0Zyb21PbGQ6b2xkIHRvTmV3Om5vd107DQogICAgICAgIGQuY2hhbmdlcyA9IGNoOw0KDQogICAgICAgIFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCJb5b+r54WnXSDigKYlQCAg5Z+657q/6ZSuPSVAIiwNCiAgICAgICAgICAgICAgICAgICAgICAgZC5wZXJpcGhlcmFsSUQgPzogQCI/Pz8/Pz8iLCBrZXldXTsNCiAgICAgICAgaWYgKCFkLmhhc0Jhc2VsaW5lKSB7DQogICAgICAgICAgICBbc2VsZiBwb3N0TG9nOkAiICAgICAg6aaW5qyh6K6w5b2V5Z+657q/77yM5bey5L+d5a2Y77yb5LiL5qyh5o6i5rWL5Lya6Ieq5Yqo5YiX5Ye65Y+Y5YyW6aG5Il07DQogICAgICAgIH0gZWxzZSBpZiAoY2guY291bnQgPT0gMCkgew0KICAgICAgICAgICAgW3NlbGYgcG9zdExvZzpbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIiAgICAgIOS4juS4iuasoe+8iCVA77yJ5a6M5YWo5LiA6Ie077yaMCDpobnlj5jljJYiLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgZC5iYXNlbGluZURhdGVUZXh0ID86IEAi5LiK5qyhIl1dOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgW3NlbGYgcG9zdExvZzpbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIiAgICAgIOKaoO+4jyDovoPkuIrmrKHvvIglQO+8ieWFsSAlbHUg6aG55Y+Y5YyW77yaIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgIGQuYmFzZWxpbmVEYXRlVGV4dCA/OiBAIuS4iuasoSIsICh1bnNpZ25lZCBsb25nKWNoLmNvdW50XV07DQogICAgICAgICAgICBmb3IgKE5TU3RyaW5nICpjIGluIGNoKSBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICAgICAgICDCtyAlQCIsIGNdXTsNCiAgICAgICAgfQ0KICAgICAgICBbVkdQcm9iZVNuYXBzaG90IHNhdmVWYWx1ZXM6bm93IGZvckRldmljZUtleTprZXldOw0KICAgIH0NCn0NCg0KI3ByYWdtYSBtYXJrIC0gQ2VudHJhbA0KDQotICh2b2lkKWNlbnRyYWxNYW5hZ2VyRGlkVXBkYXRlU3RhdGU6KENCQ2VudHJhbE1hbmFnZXIgKiljZW50cmFsIHsNCiAgICBpZiAoY2VudHJhbC5zdGF0ZSA9PSBDQk1hbmFnZXJTdGF0ZVBvd2VyZWRPbikgew0KICAgICAgICBbc2VsZiBzZXRTdGF0ZTpAIuato+WcqOaJq+aPjyBjb21wYW55PTY2MSDorr7lpIfigKYiXTsNCiAgICAgICAgW3NlbGYgcG9zdExvZzpAIlvmiavmj49dIOW8gOWni+ebkeWQrOW5v+aSre+8iOacgOWkmui/nuaOpSAyIOWPqu+8iSJdOw0KICAgICAgICBbY2VudHJhbCBzY2FuRm9yUGVyaXBoZXJhbHNXaXRoU2VydmljZXM6bmlsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3B0aW9uczpAeyBDQkNlbnRyYWxNYW5hZ2VyU2Nhbk9wdGlvbkFsbG93RHVwbGljYXRlc0tleTogQE5PIH1dOw0KICAgIH0gZWxzZSB7DQogICAgICAgIFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLok53niZnnirbmgIHlvILluLg6ICVsZCIsIChsb25nKWNlbnRyYWwuc3RhdGVdXTsNCiAgICB9DQp9DQoNCi0gKHZvaWQpY2VudHJhbE1hbmFnZXI6KENCQ2VudHJhbE1hbmFnZXIgKiljZW50cmFsDQogICAgZGlkRGlzY292ZXJQZXJpcGhlcmFsOihDQlBlcmlwaGVyYWwgKilwZXJpcGhlcmFsDQogICAgICAgIGFkdmVydGlzZW1lbnREYXRhOihOU0RpY3Rpb25hcnkgKilhZHYgUlNTSTooTlNOdW1iZXIgKilSU1NJIHsNCiAgICBOU0RhdGEgKm1mciA9IGFkdltDQkFkdmVydGlzZW1lbnREYXRhTWFudWZhY3R1cmVyRGF0YUtleV07DQogICAgaWYgKG1mci5sZW5ndGggPCAyKSByZXR1cm47DQogICAgY29uc3QgdWludDhfdCAqYiA9IG1mci5ieXRlczsNCiAgICBpZiAoKGJbMF0gfCAoYlsxXSA8PCA4KSkgIT0ga1ZHQ29tcGFueSkgcmV0dXJuOw0KDQogICAgTlNVVUlEICpwaWQgPSBwZXJpcGhlcmFsLmlkZW50aWZpZXI7DQogICAgaWYgKHNlbGYudGFyZ2V0c1twaWRdIHx8IHNlbGYudGFyZ2V0cy5jb3VudCA+PSBrVkdNYXhEZXZpY2VzKSByZXR1cm47DQoNCiAgICBOU1N0cmluZyAqbmFtZSA9IGFkdltDQkFkdmVydGlzZW1lbnREYXRhTG9jYWxOYW1lS2V5XSA/OiBwZXJpcGhlcmFsLm5hbWUgPzogQCIo5peg5ZCNKSI7DQogICAgc2VsZi50YXJnZXRzW3BpZF0gPSBwZXJpcGhlcmFsOw0KICAgIFZHUHJvYmVEZXZpY2UgKmRldiA9IFtWR1Byb2JlRGV2aWNlIG5ld107DQogICAgZGV2LnBlcmlwaGVyYWxJRCA9IFtwaWQuVVVJRFN0cmluZyBzdWJzdHJpbmdGcm9tSW5kZXg6cGlkLlVVSURTdHJpbmcubGVuZ3RoIC0gNl07DQogICAgZGV2LmVhcktleSA9IHBpZC5VVUlEU3RyaW5nOw0KICAgIGRldi5lYXJMYWJlbCA9IFtWR0Vhck1hcCBlYXJMYWJlbEZvcktleTpwaWQuVVVJRFN0cmluZ107DQogICAgZGV2LmFkdmVydGlzZWROYW1lID0gbmFtZTsNCiAgICBkZXYubWZySGV4ID0gVkdUb0hleChtZnIpOw0KICAgIGRldi5tZnJFYXJIaW50ID0gVkdNZnJFYXJIaW50KG1mcik7DQogICAgc2VsZi5kZXZpY2VNYXBbcGlkXSA9IGRldjsNCiAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiW+WPkeeOsF0gJUAgIGlkPeKApiVAICBSU1NJPSVAIGRCbSIsIG5hbWUsDQogICAgICAgICAgICAgICAgICAgW3BpZC5VVUlEU3RyaW5nIHN1YnN0cmluZ0Zyb21JbmRleDpwaWQuVVVJRFN0cmluZy5sZW5ndGggLSA2XSwgUlNTSV1dOw0KICAgIFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCIgICAgICDlub/mkq3ljoLllYbmlbDmja4oJWx1QikgPSAlQCVAIiwNCiAgICAgICAgICAgICAgICAgICAodW5zaWduZWQgbG9uZyltZnIubGVuZ3RoLCBkZXYubWZySGV4LA0KICAgICAgICAgICAgICAgICAgIGRldi5tZnJFYXJIaW50Lmxlbmd0aCA/IFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICAg5L6n5Yir5o6o5patPSVAIiwgZGV2Lm1mckVhckhpbnRdIDogQCIiXV07DQogICAgcGVyaXBoZXJhbC5kZWxlZ2F0ZSA9IHNlbGY7DQogICAgW2NlbnRyYWwgY29ubmVjdFBlcmlwaGVyYWw6cGVyaXBoZXJhbCBvcHRpb25zOm5pbF07DQogICAgW3NlbGYgc2V0U3RhdGU6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLlt7Llj5HnjrAgJWx1IOWPqu+8jOato+WcqOi/nuaOpeKApiIsICh1bnNpZ25lZCBsb25nKXNlbGYudGFyZ2V0cy5jb3VudF1dOw0KfQ0KDQotICh2b2lkKWNlbnRyYWxNYW5hZ2VyOihDQkNlbnRyYWxNYW5hZ2VyICopY2VudHJhbCBkaWRDb25uZWN0UGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCB7DQogICAgW3NlbGYgcG9zdExvZzpbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIlvov57mjqVdIOaIkOWKnyDigKYlQO+8jOWPkeeOsOacjeWKoeS4rSIsDQogICAgICAgICAgICAgICAgICAgW3BlcmlwaGVyYWwuaWRlbnRpZmllci5VVUlEU3RyaW5nIHN1YnN0cmluZ0Zyb21JbmRleDpwZXJpcGhlcmFsLmlkZW50aWZpZXIuVVVJRFN0cmluZy5sZW5ndGggLSA2XV1dOw0KICAgIG9iamNfc2V0QXNzb2NpYXRlZE9iamVjdChwZXJpcGhlcmFsLCBAc2VsZWN0b3Ioc3RhcnQpLCBbTlNNdXRhYmxlQXJyYXkgYXJyYXldLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICBPQkpDX0FTU09DSUFUSU9OX1JFVEFJTl9OT05BVE9NSUMpOyAvLyDlvoXmnprkuL7mnI3liqENCiAgICBbcGVyaXBoZXJhbCByZWFkUlNTSV07DQogICAgW3BlcmlwaGVyYWwgZGlzY292ZXJTZXJ2aWNlczpuaWxdOw0KfQ0KDQotICh2b2lkKWNlbnRyYWxNYW5hZ2VyOihDQkNlbnRyYWxNYW5hZ2VyICopY2VudHJhbCBkaWRGYWlsVG9Db25uZWN0UGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCBlcnJvcjooTlNFcnJvciAqKWVycm9yIHsNCiAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiW+i/nuaOpeWksei0pV0gJUAiLCBlcnJvci5sb2NhbGl6ZWREZXNjcmlwdGlvbl1dOw0KICAgIFtzZWxmLmRvbmUgYWRkT2JqZWN0OnBlcmlwaGVyYWwuaWRlbnRpZmllcl07DQogICAgW3NlbGYgbWF5YmVGaW5pc2hdOw0KfQ0KDQotICh2b2lkKWNlbnRyYWxNYW5hZ2VyOihDQkNlbnRyYWxNYW5hZ2VyICopY2VudHJhbCBkaWREaXNjb25uZWN0UGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCBlcnJvcjooTlNFcnJvciAqKWVycm9yIHsNCiAgICBbc2VsZi5kb25lIGFkZE9iamVjdDpwZXJpcGhlcmFsLmlkZW50aWZpZXJdOw0KICAgIFtzZWxmIG1heWJlRmluaXNoXTsNCn0NCg0KI3ByYWdtYSBtYXJrIC0gUGVyaXBoZXJhbA0KDQotICh2b2lkKXBlcmlwaGVyYWw6KENCUGVyaXBoZXJhbCAqKXBlcmlwaGVyYWwgZGlkRGlzY292ZXJTZXJ2aWNlczooTlNFcnJvciAqKWVycm9yIHsNCiAgICBpZiAoZXJyb3IpIHsgW3NlbGYgcG9zdExvZzpbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIlvmnI3liqHplJnor69dICVAIiwgZXJyb3IubG9jYWxpemVkRGVzY3JpcHRpb25dXTsgfQ0KICAgIE5TTXV0YWJsZUFycmF5ICpwZW5kaW5nID0gb2JqY19nZXRBc3NvY2lhdGVkT2JqZWN0KHBlcmlwaGVyYWwsIEBzZWxlY3RvcihzdGFydCkpOw0KICAgIE5TQXJyYXkgKnNlcnZpY2VzID0gcGVyaXBoZXJhbC5zZXJ2aWNlcyA/OiBAW107DQogICAgW3BlbmRpbmcgYWRkT2JqZWN0c0Zyb21BcnJheTpzZXJ2aWNlc107DQogICAgZm9yIChDQlNlcnZpY2UgKnN2YyBpbiBzZXJ2aWNlcykgew0KICAgICAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICDmnI3liqEgJUAiLCBWR1VVSURTaG9ydChzdmMuVVVJRCldXTsNCiAgICAgICAgW3BlcmlwaGVyYWwgZGlzY292ZXJDaGFyYWN0ZXJpc3RpY3M6bmlsIGZvclNlcnZpY2U6c3ZjXTsNCiAgICB9DQogICAgaWYgKHBlbmRpbmcuY291bnQgPT0gMCkgew0KICAgICAgICBkaXNwYXRjaF9hZnRlcihkaXNwYXRjaF90aW1lKERJU1BBVENIX1RJTUVfTk9XLCAoaW50NjRfdCkoMS4wICogTlNFQ19QRVJfU0VDKSksIHNlbGYucSwgXnsNCiAgICAgICAgICAgIFtzZWxmIG1hcmtEb25lOnBlcmlwaGVyYWxdOw0KICAgICAgICB9KTsNCiAgICB9DQp9DQoNCi0gKHZvaWQpcGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCBkaWREaXNjb3ZlckNoYXJhY3RlcmlzdGljc0ZvclNlcnZpY2U6KENCU2VydmljZSAqKXNlcnZpY2UgZXJyb3I6KE5TRXJyb3IgKillcnJvciB7DQogICAgaWYgKGVycm9yKSBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiW+eJueW+gemUmeivryBzdmMgJUBdICVAIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFZHVVVJRFNob3J0KHNlcnZpY2UuVVVJRCksIGVycm9yLmxvY2FsaXplZERlc2NyaXB0aW9uXV07DQoNCiAgICBOU011dGFibGVBcnJheTxDQkNoYXJhY3RlcmlzdGljICo+ICp0b1JlYWQgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOw0KICAgIGZvciAoQ0JDaGFyYWN0ZXJpc3RpYyAqYyBpbiBzZXJ2aWNlLmNoYXJhY3RlcmlzdGljcyA/OiBAW10pIHsNCiAgICAgICAgTlNTdHJpbmcgKnNob3J0VVVJRCA9IFZHVVVJRFNob3J0KGMuVVVJRCk7DQogICAgICAgIE5TU3RyaW5nICpmbiA9IFtWR0dhdHRQcm9maWxlIGZyaWVuZGx5TmFtZUZvclVVSUQ6c2hvcnRVVUlEXTsNCiAgICAgICAgVkdDaGFyQ2F0ZWdvcnkgY2F0ID0gW1ZHR2F0dFByb2ZpbGUgY2F0ZWdvcnlGb3JVVUlEOnNob3J0VVVJRF07DQogICAgICAgIE5TU3RyaW5nICp0YWcgPSBmbiA/IFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiJUAgwrcgJUAiLCBmbiwgW1ZHR2F0dFByb2ZpbGUgY2F0ZWdvcnlOYW1lOmNhdF1dDQogICAgICAgICAgICAgICAgICAgICAgICAgICA6IFtWR0dhdHRQcm9maWxlIGNhdGVnb3J5TmFtZTpjYXRdOw0KICAgICAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICAgIOeJueW+gSAlQCAgWyVAXSAgJUAiLCBzaG9ydFVVSUQsIFZHUHJvcHMoYy5wcm9wZXJ0aWVzKSwgdGFnXV07DQogICAgICAgIFZHUHJvYmVEZXZpY2UgKmRldiA9IHNlbGYuZGV2aWNlTWFwW3BlcmlwaGVyYWwuaWRlbnRpZmllcl07DQogICAgICAgIGlmIChkZXYpIGRldi5jaGFyQ291bnQgKz0gMTsNCiAgICAgICAgLy8g5a6J5YWo5Y6f5YiZ77ya5Y+q6K+75Y+W5bimIFJlYWQg5bGe5oCn44CB5LiU6Z2e5YaZL+WGmeaXoOWTjeW6lOS4k+WxnueahOeJueW+ge+8iOWRveS7pOeJueW+gSBbV10vW1dXXSDoh6rliqjmjpLpmaTvvInjgIINCiAgICAgICAgLy8g5LiN6K6i6ZiF5Lu75L2V6YCa55+l77yI5LiN5YaZIENDQ0TvvInjgIHkuI3lhpnlhaXku7vkvZXnibnlvoHjgIHkuI3lgZrpibTmnYPjgIINCiAgICAgICAgQk9PTCByZWFkYWJsZSA9IChjLnByb3BlcnRpZXMgJiBDQkNoYXJhY3RlcmlzdGljUHJvcGVydHlSZWFkKSAhPSAwOw0KICAgICAgICBpZiAocmVhZGFibGUpIFt0b1JlYWQgYWRkT2JqZWN0OmNdOw0KICAgIH0NCiAgICAvLyDpgJDkuKror7vmoIflh4blj6ror7vpobkNCiAgICBmb3IgKENCQ2hhcmFjdGVyaXN0aWMgKmMgaW4gdG9SZWFkKSBbcGVyaXBoZXJhbCByZWFkVmFsdWVGb3JDaGFyYWN0ZXJpc3RpYzpjXTsNCg0KICAgIC8vIOivpeacjeWKoeaemuS4vuWujOaIkO+8jOS7juW+heWkhOeQhuenu+mZpO+8m+WFqOmDqOWujOaIkOWQjueVmSAzIOenkuetieivu+WPluWbnuiwg++8jOWGjee7k+adn+atpOiuvuWkhw0KICAgIE5TTXV0YWJsZUFycmF5ICpwZW5kaW5nID0gb2JqY19nZXRBc3NvY2lhdGVkT2JqZWN0KHBlcmlwaGVyYWwsIEBzZWxlY3RvcihzdGFydCkpOw0KICAgIFtwZW5kaW5nIHJlbW92ZU9iamVjdDpzZXJ2aWNlXTsNCiAgICBpZiAocGVuZGluZy5jb3VudCA9PSAwKSB7DQogICAgICAgIFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCIgIOKApiVAIOacjeWKoS/nibnlvoHmnprkuL7lrozmr5XvvIznrYnlvoXlj6ror7vov5Tlm54iLA0KICAgICAgICAgICAgICAgICAgICAgICBbcGVyaXBoZXJhbC5pZGVudGlmaWVyLlVVSURTdHJpbmcgc3Vic3RyaW5nRnJvbUluZGV4OnBlcmlwaGVyYWwuaWRlbnRpZmllci5VVUlEU3RyaW5nLmxlbmd0aCAtIDZdXV07DQogICAgICAgIENCUGVyaXBoZXJhbCAqd2Vha1AgPSBwZXJpcGhlcmFsOw0KICAgICAgICBkaXNwYXRjaF9hZnRlcihkaXNwYXRjaF90aW1lKERJU1BBVENIX1RJTUVfTk9XLCAoaW50NjRfdCkoMy4wICogTlNFQ19QRVJfU0VDKSksIHNlbGYucSwgXnsNCiAgICAgICAgICAgIFtzZWxmIG1hcmtEb25lOndlYWtQXTsNCiAgICAgICAgfSk7DQogICAgfQ0KfQ0KDQotICh2b2lkKXBlcmlwaGVyYWw6KENCUGVyaXBoZXJhbCAqKXBlcmlwaGVyYWwgZGlkVXBkYXRlVmFsdWVGb3JDaGFyYWN0ZXJpc3RpYzooQ0JDaGFyYWN0ZXJpc3RpYyAqKWMgZXJyb3I6KE5TRXJyb3IgKillcnJvciB7ICAgIE5TU3RyaW5nICp1ID0gVkdVVUlEU2hvcnQoYy5VVUlEKTsNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgLy8g5Yqg5a+G6ZSZ6K+v5Lmf6K6w5b2V77yI5a6D5pys6Lqr5bCx5piv57uT6K6677yJ77yM5L2G5LiN6Kem5Y+R5Lu75L2V6YWN5a+55Yqo5L2cDQogICAgICAgIFtzZWxmIHBvc3RMb2c6W05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCIgICAgICDor7vlj5YgJUAgPT4g6ZSZ6K+vICVsZCAlQO+8iOWPr+iDvemcgOWKoOWvhu+8jOW3suWBnOatou+8iSIsDQogICAgICAgICAgICAgICAgICAgICAgIHUsIChsb25nKWVycm9yLmNvZGUsIGVycm9yLmxvY2FsaXplZERlc2NyaXB0aW9uXV07DQogICAgICAgIHJldHVybjsNCiAgICB9DQogICAgTlNEYXRhICp2ID0gYy52YWx1ZTsNCiAgICBOU1N0cmluZyAqaGV4ID0gW3YgYmFzZTY0RW5jb2RlZFN0cmluZ1dpdGhPcHRpb25zOjBdOw0KICAgIE5TTXV0YWJsZVN0cmluZyAqYXNjaWkgPSBbTlNNdXRhYmxlU3RyaW5nIHN0cmluZ107DQogICAgLy8g5Y+q5pyJ44CM5YWo6YOo5a2X6IqC6YO95Y+v5omT5Y2w44CN5omN5oyJ5paH5pys5bGV56S677yb5Y+q6KaB5Ye6546w5LiA5Liq5o6n5Yi25a2X6IqCL05VTCDlsLHmjInkuozov5vliLbotbAgaGV444CCDQogICAgLy8g77yI5q2k5YmN5piv44CM5Lu75LiA5a2X6IqC5Y+v5omT5Y2w5bCx566X5paH5pys44CN77yM5a+86Ie0IDIwIOWtl+iKgua1geaVsOaNruiiq+aYvuekuuaIkOa7oeWxj+OAjC7jgI3vvIkNCiAgICBCT09MIGFsbFByaW50YWJsZSA9ICh2Lmxlbmd0aCA+IDApOw0KICAgIGZvciAoTlNVSW50ZWdlciBpID0gMDsgaSA8IHYubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgdWludDhfdCB4ID0gKChjb25zdCB1aW50OF90ICopdi5ieXRlcylbaV07DQogICAgICAgIEJPT0wgb2sgPSAoeCA+PSAzMiAmJiB4IDwgMTI3KTsNCiAgICAgICAgaWYgKCFvaykgYWxsUHJpbnRhYmxlID0gTk87DQogICAgICAgIFthc2NpaSBhcHBlbmRTdHJpbmc6b2sgPyBbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIiVjIiwgeF0gOiBAIi4iXTsNCiAgICB9DQogICAgLy8g5LqM6L+b5Yi277yI5LiN5Y+v5omT5Y2w77yJ57uf5LiA55So5Y2B5YWt6L+b5Yi25bGV56S677yM6YG/5YWN5ruh5bGP44CMLuOAjQ0KICAgIE5TU3RyaW5nICpkZWNvZGVkID0gYWxsUHJpbnRhYmxlID8gW2FzY2lpIGNvcHldIDogVkdUb0hleCh2KTsNCiAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICAgICAg4pyF6K+75Y+WICVAID0gJUAgIGFzY2lpPVwiJUBcIiIsIHUsIGhleCwgYXNjaWldXTsNCg0KICAgIC8vIOe7k+aehOWMluWGmeWbnuiuvuWkh+aho+ahiO+8iOS7headpeiHqiBTSUcg5qCH5YeG5Y+q6K+754m55b6B77yJDQogICAgVkdQcm9iZURldmljZSAqZGV2ID0gc2VsZi5kZXZpY2VNYXBbcGVyaXBoZXJhbC5pZGVudGlmaWVyXTsNCiAgICBpZiAoZGV2KSB7DQogICAgICAgIGlmICAgICAgKFt1IGlzRXF1YWxUb1N0cmluZzpAIjJBMjkiXSkgZGV2Lm1hbnVmYWN0dXJlciA9IFthc2NpaSBjb3B5XTsNCiAgICAgICAgZWxzZSBpZiAoW3UgaXNFcXVhbFRvU3RyaW5nOkAiMkEyNCJdKSBkZXYubW9kZWwgPSBbYXNjaWkgY29weV07DQogICAgICAgIGVsc2UgaWYgKFt1IGlzRXF1YWxUb1N0cmluZzpAIjJBMjUiXSkgZGV2LnNlcmlhbCA9IFthc2NpaSBjb3B5XTsNCiAgICAgICAgZWxzZSBpZiAoW3UgaXNFcXVhbFRvU3RyaW5nOkAiMkEyNyJdKSBkZXYuaHdSZXYgPSBbYXNjaWkgY29weV07DQogICAgICAgIGVsc2UgaWYgKFt1IGlzRXF1YWxUb1N0cmluZzpAIjJBMjYiXSkgZGV2LmZ3UmV2ID0gW2FzY2lpIGNvcHldOw0KICAgICAgICBlbHNlIGlmIChbdSBpc0VxdWFsVG9TdHJpbmc6QCIyQTI4Il0pIGRldi5zd1JldiA9IFthc2NpaSBjb3B5XTsNCiAgICB9DQoNCiAgICAvLyDnlLXph4/nibnliKvop6Por7sNCiAgICBpZiAoW3UgaXNFcXVhbFRvU3RyaW5nOkAiMkExOSJdICYmIHYubGVuZ3RoID49IDEpIHsNCiAgICAgICAgdWludDhfdCBwY3QgPSAoKGNvbnN0IHVpbnQ4X3QgKil2LmJ5dGVzKVswXTsNCiAgICAgICAgW3NlbGYgcG9zdExvZzpbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIiAgICAgIPCflIsg5qCH5YeG55S15rGg5pyN5Yqh55S16YePID0gJXUlJSIsIHBjdF1dOw0KICAgICAgICBkZXYuYmF0dGVyeSA9IFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiJXUlJSIsIHBjdF07DQogICAgfSBlbHNlIHsNCiAgICAgICAgLy8g5YW25L2Z5Y+v6K+754m55b6B77yI5Y6C5ZWG5L+h5oGvL+eKtuaAgS/phY3nva7nrYnvvInnurPlhaXnu5PmnoTljJbpgaXmtYvvvIzmjIkgVVVJRCDlrZjop6PnoIHkuLINCiAgICAgICAgTlNTZXQgKmRpcyA9IFtOU1NldCBzZXRXaXRoT2JqZWN0czpAIjJBMjkiLEAiMkEyNCIsQCIyQTI1IixAIjJBMjciLEAiMkEyNiIsQCIyQTI4IixuaWxdOw0KICAgICAgICBpZiAoZGV2ICYmICFbZGlzIGNvbnRhaW5zT2JqZWN0OnVdKSB7DQogICAgICAgICAgICBpZiAoIWRldi5yYXdWYWx1ZXMpIGRldi5yYXdWYWx1ZXMgPSBbTlNNdXRhYmxlRGljdGlvbmFyeSBkaWN0aW9uYXJ5XTsNCiAgICAgICAgICAgIGRldi5yYXdWYWx1ZXNbdV0gPSBkZWNvZGVkOw0KICAgICAgICAgICAgTlNTdHJpbmcgKmZuID0gW1ZHR2F0dFByb2ZpbGUgZnJpZW5kbHlOYW1lRm9yVVVJRDp1XTsNCiAgICAgICAgICAgIGlmIChmbi5sZW5ndGgpIHsNCiAgICAgICAgICAgICAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiICAgICAg8J+TpiAlQCA9ICVAIiwgZm4sIGRlY29kZWRdXTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCn0NCg0KLSAodm9pZClwZXJpcGhlcmFsOihDQlBlcmlwaGVyYWwgKilwZXJpcGhlcmFsIGRpZFJlYWRSU1NJOihOU051bWJlciAqKVJTU0kgZXJyb3I6KE5TRXJyb3IgKillcnJvciB7DQogICAgaWYgKCFlcnJvcikgew0KICAgICAgICBbc2VsZiBwb3N0TG9nOltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiW+mTvui3r1JTU0ldICVsZCBkQm3vvIjov57mjqXmgIHlrp7mtYvvvIkiLCAobG9uZylSU1NJLmludGVnZXJWYWx1ZV1dOw0KICAgIH0NCn0NCg0KLSAodm9pZClwZXJpcGhlcmFsRGlkVXBkYXRlTmFtZTooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCB7fQ0KDQovLyDmnI3liqEv54m55b6B5Y+R546w5piv5byC5q2l5om56YeP55qE77yM6YeH55So5bu25pe25pS25bC+77ya5peg5paw5rS75YqoIDIg56eS5ZCO5pat5byADQotICh2b2lkKW1hcmtEb25lOihDQlBlcmlwaGVyYWwgKilwZXJpcGhlcmFsIHsNCiAgICBbc2VsZi5kb25lIGFkZE9iamVjdDpwZXJpcGhlcmFsLmlkZW50aWZpZXJdOw0KICAgIFtzZWxmIHBvc3REZXZpY2VzXTsNCiAgICBbc2VsZiBtYXliZUZpbmlzaF07DQp9DQoNCi0gKHZvaWQpbWF5YmVGaW5pc2ggew0KICAgIGlmIChzZWxmLnRhcmdldHMuY291bnQgPT0gMCkgcmV0dXJuOw0KICAgIE5TVGltZUludGVydmFsIGVsYXBzZWQgPSAtW3NlbGYuc3RhcnRlZEF0IHRpbWVJbnRlcnZhbFNpbmNlTm93XTsNCiAgICBCT09MIHNjYW5XaW5kb3dPSyA9IChzZWxmLnRhcmdldHMuY291bnQgPj0ga1ZHTWF4RGV2aWNlcykgfHwgKGVsYXBzZWQgPj0gMTIuMCk7DQogICAgaWYgKHNjYW5XaW5kb3dPSyAmJiBzZWxmLmRvbmUuY291bnQgPj0gc2VsZi50YXJnZXRzLmNvdW50KSB7DQogICAgICAgIFtzZWxmLmNlbnRyYWwgc3RvcFNjYW5dOw0KICAgICAgICBbc2VsZiBmaW5pc2hdOw0KICAgIH0NCn0NCg0KLSAoTlNVUkwgKilleHBvcnRGaWxlIHsNCiAgICBOU1N0cmluZyAqdGV4dCA9IFtbc2VsZiBsaW5lc10gY29tcG9uZW50c0pvaW5lZEJ5U3RyaW5nOkAiXG4iXTsNCg0KICAgIC8vIOWcqOaWh+acrOaXpeW/l+WQjumZhOWKoOe7k+aehOWMliBKU09O77yI5L6/5LqO6Leo5qyh5oqT5YyF5a+55q+U5YiG5p6Q77yJDQogICAgTlNNdXRhYmxlQXJyYXkgKmRldnMgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOw0KICAgIGZvciAoVkdQcm9iZURldmljZSAqZCBpbiBzZWxmLmRldmljZU1hcC5hbGxWYWx1ZXMpIHsNCiAgICAgICAgTlNNdXRhYmxlRGljdGlvbmFyeSAqbyA9IFtOU011dGFibGVEaWN0aW9uYXJ5IGRpY3Rpb25hcnldOw0KICAgICAgICBpZiAoZC5wZXJpcGhlcmFsSUQpIG9bQCJpZCJdID0gZC5wZXJpcGhlcmFsSUQ7DQogICAgICAgIGlmIChkLmVhckxhYmVsKSAgICAgb1tAImVhciJdID0gZC5lYXJMYWJlbDsNCiAgICAgICAgaWYgKGQuaW5mZXJyZWRFYXJUZXh0KSBvW0AiZWFySW5mZXJyZWQiXSA9IFtkIGluZmVycmVkRWFyVGV4dF07DQogICAgICAgIGlmIChkLnBhaXJpbmdJRCkgICAgb1tAInBhaXJpbmdJRCJdID0gW2QgcGFpcmluZ0lEXTsNCiAgICAgICAgaWYgKGQubWZySGV4KSAgICAgICBvW0AiYWR2ZXJ0TWZySGV4Il0gPSBkLm1mckhleDsNCiAgICAgICAgaWYgKGQuYWR2ZXJ0aXNlZE5hbWUpIG9bQCJuYW1lIl0gPSBkLmFkdmVydGlzZWROYW1lOw0KICAgICAgICBpZiAoZC5tYW51ZmFjdHVyZXIpIG9bQCJtYW51ZmFjdHVyZXIiXSA9IGQubWFudWZhY3R1cmVyOw0KICAgICAgICBpZiAoZC5tb2RlbCkgICAgICAgIG9bQCJtb2RlbCJdID0gZC5tb2RlbDsNCiAgICAgICAgaWYgKGQuc2VyaWFsKSAgICAgICBvW0Aic2VyaWFsIl0gPSBkLnNlcmlhbDsNCiAgICAgICAgaWYgKGQuaHdSZXYpICAgICAgICBvW0AiaGFyZHdhcmUiXSA9IGQuaHdSZXY7DQogICAgICAgIGlmIChkLmZ3UmV2KSAgICAgICAgb1tAImZpcm13YXJlIl0gPSBkLmZ3UmV2Ow0KICAgICAgICBpZiAoZC5zd1JldikgICAgICAgIG9bQCJzb2Z0d2FyZSJdID0gZC5zd1JldjsNCiAgICAgICAgaWYgKGQuYmF0dGVyeSkgICAgICBvW0AiYmF0dGVyeSJdID0gZC5iYXR0ZXJ5Ow0KICAgICAgICBvW0AiY2hhckNvdW50Il0gPSBAKGQuY2hhckNvdW50KTsNCiAgICAgICAgaWYgKGQucmF3VmFsdWVzLmNvdW50KSBvW0AidGVsZW1ldHJ5Il0gPSBkLnJhd1ZhbHVlczsNCiAgICAgICAgaWYgKGQuaGFzQmFzZWxpbmUpIHsNCiAgICAgICAgICAgIG9bQCJiYXNlbGluZUF0Il0gPSBkLmJhc2VsaW5lRGF0ZVRleHQgPzogQCLkuIrmrKEiOw0KICAgICAgICAgICAgb1tAImNoYW5nZXNWc0xhc3RSdW4iXSA9IGQuY2hhbmdlcyA/OiBAW107DQogICAgICAgIH0NCiAgICAgICAgW2RldnMgYWRkT2JqZWN0Om9dOw0KICAgIH0NCiAgICBOU0Vycm9yICpqZXJyOw0KICAgIE5TRGF0YSAqamRhdGEgPSBbTlNKU09OU2VyaWFsaXphdGlvbiBkYXRhV2l0aEpTT05PYmplY3Q6QHtAImRldmljZXMiOiBkZXZzfSBvcHRpb25zOk5TSlNPTldyaXRpbmdQcmV0dHlQcmludGVkIGVycm9yOiZqZXJyXTsNCiAgICBOU1N0cmluZyAqanNvbiA9IGplcnIgPyBAIiIgOiBbW05TU3RyaW5nIGFsbG9jXSBpbml0V2l0aERhdGE6amRhdGEgZW5jb2Rpbmc6TlNVVEY4U3RyaW5nRW5jb2RpbmddOw0KICAgIE5TU3RyaW5nICpmdWxsID0gW3RleHQgc3RyaW5nQnlBcHBlbmRpbmdGb3JtYXQ6QCJcblxuPT09PT09PT0g57uT5p6E5YyWIEpTT04gPT09PT09PT1cbiVAXG4iLCBqc29uXTsNCg0KICAgIE5TVVJMICpkaXIgPSBbW05TRmlsZU1hbmFnZXIgZGVmYXVsdE1hbmFnZXJdIFVSTEZvckRpcmVjdG9yeTpOU0RvY3VtZW50RGlyZWN0b3J5DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluRG9tYWluOk5TVXNlckRvbWFpbk1hc2sgYXBwcm9wcmlhdGVGb3JVUkw6bmlsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JlYXRlOllFUyBlcnJvcjpuaWxdOw0KICAgIE5TRGF0ZUZvcm1hdHRlciAqZiA9IFtOU0RhdGVGb3JtYXR0ZXIgbmV3XTsNCiAgICBmLmRhdGVGb3JtYXQgPSBAInl5eXlNTWRkX0hIbW1zcyI7DQogICAgTlNVUkwgKnVybCA9IFtkaXIgVVJMQnlBcHBlbmRpbmdQYXRoQ29tcG9uZW50Og0KICAgICAgICAgICAgICAgICAgW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCJ2Z19nYXR0XyVALmxvZyIsIFtmIHN0cmluZ0Zyb21EYXRlOk5TRGF0ZS5kYXRlXV1dOw0KICAgIFtmdWxsIHdyaXRlVG9VUkw6dXJsIGF0b21pY2FsbHk6WUVTIGVuY29kaW5nOk5TVVRGOFN0cmluZ0VuY29kaW5nIGVycm9yOm5pbF07DQogICAgcmV0dXJuIHVybDsNCn0NCg0KQGVuZA0K
+#import "VGGattProbe.h"
+#import <objc/runtime.h>
+#import "VGProbeSnapshot.h"
+#import "VGGattProfile.h"
+#import "VGProbeDevice.h"
+#import "VGEarMap.h"
+
+NSNotificationName const VGGattLogNotification     = @"VGGattLogNotification";
+NSNotificationName const VGGattStateNotification   = @"VGGattStateNotification";
+NSNotificationName const VGGattDevicesNotification = @"VGGattDevicesNotification";
+
+static const uint16_t kVGCompany = 0x0295; // WS Audiology 661
+static const NSTimeInterval kVGProbeTimeout = 45.0;
+static const NSInteger kVGMaxDevices = 2;
+
+// 仅自动读取这些 SIG 标准只读特征（16-bit UUID）
+static NSSet<NSString *> *VGSafeReadUUIDs(void) {
+    static NSSet *s;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        s = [NSSet setWithArray:@[
+            @"2A19", // Battery Level
+            @"2A24", @"2A25", @"2A26", @"2A27", @"2A28", @"2A29", // Model/Serial/Firmware/Hardware/Software/Manufacturer
+            @"2A23", @"2A50", // System ID / PnP ID
+        ]];
+    });
+    return s;
+}
+
+static NSString *VGUUIDShort(CBUUID *uuid) {
+    NSString *s = uuid.UUIDString.uppercaseString;
+    // 16-bit 别名 UUID 基底
+    NSString *base = @"-0000-1000-8000-00805F9B34FB";
+    if (s.length == 36 && [s hasSuffix:base]) {
+        return [s substringToIndex:8];
+    }
+    return s;
+}
+
+static NSString *VGProps(CBCharacteristicProperties p) {
+    NSMutableArray *a = [NSMutableArray array];
+    if (p & CBCharacteristicPropertyRead)    [a addObject:@"R"];
+    if (p & CBCharacteristicPropertyWrite)   [a addObject:@"W"];
+    if (p & CBCharacteristicPropertyWriteWithoutResponse) [a addObject:@"WW"];
+    if (p & CBCharacteristicPropertyNotify)  [a addObject:@"N"];
+    if (p & CBCharacteristicPropertyIndicate)[a addObject:@"I"];
+    return [a componentsJoinedByString:@"/"];
+}
+
+// 把数据转成空格分隔的十六进制串，用于展示二进制特征（不可打印时）
+static NSString *VGToHex(NSData *v) {
+    if (v.length == 0) return @"";
+    NSMutableString *s = [NSMutableString string];
+    const uint8_t *b = v.bytes;
+    for (NSUInteger i = 0; i < v.length; i++) {
+        if (i) [s appendString:@" "];
+        [s appendFormat:@"%02X", b[i]];
+    }
+    return s;
+}
+
+// 从广播厂商数据里推断耳别。
+// 实测依据（本机 Vibe Go，序列号 JFA7311=右耳 / JFA5631=左耳，3 次独立抓包一致）：
+// 23 字节负载中，下标 16 与下标 22 的 bit6（0x40）只在右耳置位——
+//   右耳 … C1 … 70 … 40 ｜ 左耳 … 83 … 51 … 00
+// 两个位置结论一致才给出推断，否则不猜（返回 nil）。
+static NSString *VGMfrEarHint(NSData *mfr) {
+    if (mfr.length < 23) return nil;
+    const uint8_t *b = mfr.bytes;
+    BOOL bit16 = (b[16] & 0x40) != 0;
+    BOOL bit22 = (b[22] & 0x40) != 0;
+    if (bit16 == bit22) return bit16 ? @"右耳" : @"左耳";
+    return nil;
+}
+
+@interface VGGattProbe ()
+@property (nonatomic, strong) CBCentralManager *central;
+@property (nonatomic, strong) dispatch_queue_t q;
+@property (nonatomic, strong) NSMutableArray<NSString *> *logLines;
+@property (nonatomic, strong) NSMutableDictionary<NSUUID *, CBPeripheral *> *targets;
+@property (nonatomic, strong) NSMutableDictionary<NSUUID *, VGProbeDevice *> *deviceMap;
+@property (nonatomic, strong) NSMutableSet<NSUUID *> *done;
+@property (nonatomic, strong) NSDate *startedAt;
+@property (nonatomic, strong) NSTimer *timeout;
+@property (nonatomic, readwrite) BOOL running;
+@property (nonatomic, copy)   NSString *stateText;
+@end
+
+@implementation VGGattProbe
+
++ (instancetype)shared {
+    static VGGattProbe *m; static dispatch_once_t once;
+    dispatch_once(&once, ^{ m = [VGGattProbe new]; });
+    return m;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _logLines = [NSMutableArray array];
+        _targets = [NSMutableDictionary dictionary];
+        _deviceMap = [NSMutableDictionary dictionary];
+        _done = [NSMutableSet set];
+        _q = dispatch_queue_create("vg.gatt", DISPATCH_QUEUE_SERIAL);
+        _stateText = @"空闲";
+    }
+    return self;
+}
+
+- (NSArray<NSString *> *)lines {
+    @synchronized (self.logLines) { return [self.logLines copy]; }
+}
+
+- (void)postLog:(NSString *)line {
+    @synchronized (self.logLines) { [self.logLines addObject:line]; }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGGattLogNotification object:nil];
+    });
+}
+
+- (void)setState:(NSString *)s {
+    self.stateText = s;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGGattStateNotification object:nil];
+    });
+}
+
+- (void)start {
+    if (self.running) return;
+    self.running = YES;
+    self.startedAt = [NSDate date];
+    @synchronized (self.logLines) { [self.logLines removeAllObjects]; }
+    [self.targets removeAllObjects]; [self.done removeAllObjects]; [self.deviceMap removeAllObjects];
+
+    [self postLog:@"================ Vibe Go GATT 只读枚举 ================"];
+    [self postLog:@"安全模式：枚举全部服务/特征，仅读取带 Read 属性者；不鉴权、不写入、不订阅通知"];
+    [self postLog:@"比对模式：结束时会与「上次探测」自动比对，列出发生变化的特征（基线只存本机，不上传）"];
+    [self setState:@"初始化蓝牙…"];
+    self.central = [[CBCentralManager alloc] initWithDelegate:self queue:self.q
+                                                     options:@{ CBCentralManagerOptionShowPowerAlertKey: @NO }];
+    self.timeout = [NSTimer scheduledTimerWithTimeInterval:kVGProbeTimeout target:self
+                                                  selector:@selector(finishTimeout) userInfo:nil repeats:NO];
+}
+
+- (void)finishTimeout {
+    [self postLog:@"— 到达 45 秒探测时限，结束 —"];
+    [self finish];
+}
+
+- (void)finish {
+    if (!self.running) return;
+    self.running = NO;
+    [self.timeout invalidate]; self.timeout = nil;
+    @try {
+        for (CBPeripheral *p in self.targets.allValues) {
+            if (p.state != CBPeripheralStateDisconnected) [self.central cancelPeripheralConnection:p];
+        }
+        [self.central stopScan];
+    } @catch (NSException *e) { [self postLog:[NSString stringWithFormat:@"清理异常: %@", e]]; }
+    [self postLog:@"================ 枚举结束 ================"];
+    [self snapshotCompareAll];
+    [self setState:@"完成，可分享日志"];
+    [self postDevices];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGGattLogNotification object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGGattStateNotification object:nil];
+    });
+}
+
+- (void)postDevices {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGGattDevicesNotification object:nil];
+    });
+}
+
+- (NSArray<VGProbeDevice *> *)devices {
+    @synchronized (self.deviceMap) { return [self.deviceMap.allValues copy]; }
+}
+
+#pragma mark - 快照比对（找出「会变的特征」）
+
+// 每次探测结束都把本次取值存为基线；下次探测自动列出差异。
+// 这样用户只要在手机上操作一下（切程序 / 调音量 / 换场景），再跑一次探测，
+// 就能从差异清单里直接看出「哪个特征对应哪个功能」——全程只读，不写设备。
+- (void)snapshotCompareAll {
+    NSArray<VGProbeDevice *> *devs;
+    @synchronized (self.deviceMap) { devs = [self.deviceMap.allValues copy]; }
+    for (VGProbeDevice *d in devs) {
+        if (d.rawValues.count == 0) continue;
+        NSString *key = [VGProbeSnapshot deviceKeyWithSerial:d.serial fallback:d.peripheralID];
+        NSDictionary *old = [VGProbeSnapshot loadForDeviceKey:key];
+        NSDictionary *now = [d snapshotValues];
+        d.snapshotKey = key;
+        d.hasBaseline = (old.count > 0);
+        d.baselineDateText = [VGProbeSnapshot savedDateTextForDeviceKey:key];
+        NSArray<NSString *> *ch = [VGProbeSnapshot changesFromOld:old toNew:now];
+        d.changes = ch;
+
+        [self postLog:[NSString stringWithFormat:@"[快照] …%@  基线键=%@",
+                       d.peripheralID ?: @"??????", key]];
+        if (!d.hasBaseline) {
+            [self postLog:@"      首次记录基线，已保存；下次探测会自动列出变化项"];
+        } else if (ch.count == 0) {
+            [self postLog:[NSString stringWithFormat:@"      与上次（%@）完全一致：0 项变化",
+                           d.baselineDateText ?: @"上次"]];
+        } else {
+            [self postLog:[NSString stringWithFormat:@"      ⚠️ 较上次（%@）共 %lu 项变化：",
+                           d.baselineDateText ?: @"上次", (unsigned long)ch.count]];
+            for (NSString *c in ch) [self postLog:[NSString stringWithFormat:@"        · %@", c]];
+        }
+        [VGProbeSnapshot saveValues:now forDeviceKey:key];
+    }
+}
+
+#pragma mark - Central
+
+- (void)centralManagerDidUpdateState:(CBCentralManager *)central {
+    if (central.state == CBManagerStatePoweredOn) {
+        [self setState:@"正在扫描 company=661 设备…"];
+        [self postLog:@"[扫描] 开始监听广播（最多连接 2 只）"];
+        [central scanForPeripheralsWithServices:nil
+                                        options:@{ CBCentralManagerScanOptionAllowDuplicatesKey: @NO }];
+    } else {
+        [self postLog:[NSString stringWithFormat:@"蓝牙状态异常: %ld", (long)central.state]];
+    }
+}
+
+- (void)centralManager:(CBCentralManager *)central
+    didDiscoverPeripheral:(CBPeripheral *)peripheral
+        advertisementData:(NSDictionary *)adv RSSI:(NSNumber *)RSSI {
+    NSData *mfr = adv[CBAdvertisementDataManufacturerDataKey];
+    if (mfr.length < 2) return;
+    const uint8_t *b = mfr.bytes;
+    if ((b[0] | (b[1] << 8)) != kVGCompany) return;
+
+    NSUUID *pid = peripheral.identifier;
+    if (self.targets[pid] || self.targets.count >= kVGMaxDevices) return;
+
+    NSString *name = adv[CBAdvertisementDataLocalNameKey] ?: peripheral.name ?: @"(无名)";
+    self.targets[pid] = peripheral;
+    VGProbeDevice *dev = [VGProbeDevice new];
+    dev.peripheralID = [pid.UUIDString substringFromIndex:pid.UUIDString.length - 6];
+    dev.earKey = pid.UUIDString;
+    dev.earLabel = [VGEarMap earLabelForKey:pid.UUIDString];
+    dev.advertisedName = name;
+    dev.mfrHex = VGToHex(mfr);
+    dev.mfrEarHint = VGMfrEarHint(mfr);
+    self.deviceMap[pid] = dev;
+    [self postLog:[NSString stringWithFormat:@"[发现] %@  id=…%@  RSSI=%@ dBm", name,
+                   [pid.UUIDString substringFromIndex:pid.UUIDString.length - 6], RSSI]];
+    [self postLog:[NSString stringWithFormat:@"      广播厂商数据(%luB) = %@%@",
+                   (unsigned long)mfr.length, dev.mfrHex,
+                   dev.mfrEarHint.length ? [NSString stringWithFormat:@"   侧别推断=%@", dev.mfrEarHint] : @""]];
+    peripheral.delegate = self;
+    [central connectPeripheral:peripheral options:nil];
+    [self setState:[NSString stringWithFormat:@"已发现 %lu 只，正在连接…", (unsigned long)self.targets.count]];
+}
+
+- (void)centralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral {
+    [self postLog:[NSString stringWithFormat:@"[连接] 成功 …%@，发现服务中",
+                   [peripheral.identifier.UUIDString substringFromIndex:peripheral.identifier.UUIDString.length - 6]]];
+    objc_setAssociatedObject(peripheral, @selector(start), [NSMutableArray array],
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC); // 待枚举服务
+    [peripheral readRSSI];
+    [peripheral discoverServices:nil];
+}
+
+- (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    [self postLog:[NSString stringWithFormat:@"[连接失败] %@", error.localizedDescription]];
+    [self.done addObject:peripheral.identifier];
+    [self maybeFinish];
+}
+
+- (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    [self.done addObject:peripheral.identifier];
+    [self maybeFinish];
+}
+
+#pragma mark - Peripheral
+
+- (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error {
+    if (error) { [self postLog:[NSString stringWithFormat:@"[服务错误] %@", error.localizedDescription]]; }
+    NSMutableArray *pending = objc_getAssociatedObject(peripheral, @selector(start));
+    NSArray *services = peripheral.services ?: @[];
+    [pending addObjectsFromArray:services];
+    for (CBService *svc in services) {
+        [self postLog:[NSString stringWithFormat:@"  服务 %@", VGUUIDShort(svc.UUID)]];
+        [peripheral discoverCharacteristics:nil forService:svc];
+    }
+    if (pending.count == 0) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), self.q, ^{
+            [self markDone:peripheral];
+        });
+    }
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error {
+    if (error) [self postLog:[NSString stringWithFormat:@"[特征错误 svc %@] %@",
+                              VGUUIDShort(service.UUID), error.localizedDescription]];
+
+    NSMutableArray<CBCharacteristic *> *toRead = [NSMutableArray array];
+    for (CBCharacteristic *c in service.characteristics ?: @[]) {
+        NSString *shortUUID = VGUUIDShort(c.UUID);
+        NSString *fn = [VGGattProfile friendlyNameForUUID:shortUUID];
+        VGCharCategory cat = [VGGattProfile categoryForUUID:shortUUID];
+        NSString *tag = fn ? [NSString stringWithFormat:@"%@ · %@", fn, [VGGattProfile categoryName:cat]]
+                           : [VGGattProfile categoryName:cat];
+        [self postLog:[NSString stringWithFormat:@"    特征 %@  [%@]  %@", shortUUID, VGProps(c.properties), tag]];
+        VGProbeDevice *dev = self.deviceMap[peripheral.identifier];
+        if (dev) dev.charCount += 1;
+        // 安全原则：只读取带 Read 属性、且非写/写无响应专属的特征（命令特征 [W]/[WW] 自动排除）。
+        // 不订阅任何通知（不写 CCCD）、不写入任何特征、不做鉴权。
+        BOOL readable = (c.properties & CBCharacteristicPropertyRead) != 0;
+        if (readable) [toRead addObject:c];
+    }
+    // 逐个读标准只读项
+    for (CBCharacteristic *c in toRead) [peripheral readValueForCharacteristic:c];
+
+    // 该服务枚举完成，从待处理移除；全部完成后留 3 秒等读取回调，再结束此设备
+    NSMutableArray *pending = objc_getAssociatedObject(peripheral, @selector(start));
+    [pending removeObject:service];
+    if (pending.count == 0) {
+        [self postLog:[NSString stringWithFormat:@"  …%@ 服务/特征枚举完毕，等待只读返回",
+                       [peripheral.identifier.UUIDString substringFromIndex:peripheral.identifier.UUIDString.length - 6]]];
+        CBPeripheral *weakP = peripheral;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), self.q, ^{
+            [self markDone:weakP];
+        });
+    }
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)c error:(NSError *)error {    NSString *u = VGUUIDShort(c.UUID);
+    if (error) {
+        // 加密错误也记录（它本身就是结论），但不触发任何配对动作
+        [self postLog:[NSString stringWithFormat:@"      读取 %@ => 错误 %ld %@（可能需加密，已停止）",
+                       u, (long)error.code, error.localizedDescription]];
+        return;
+    }
+    NSData *v = c.value;
+    NSString *hex = [v base64EncodedStringWithOptions:0];
+    NSMutableString *ascii = [NSMutableString string];
+    // 只有「全部字节都可打印」才按文本展示；只要出现一个控制字节/NUL 就按二进制走 hex。
+    // （此前是「任一字节可打印就算文本」，导致 20 字节流数据被显示成满屏「.」）
+    BOOL allPrintable = (v.length > 0);
+    for (NSUInteger i = 0; i < v.length; i++) {
+        uint8_t x = ((const uint8_t *)v.bytes)[i];
+        BOOL ok = (x >= 32 && x < 127);
+        if (!ok) allPrintable = NO;
+        [ascii appendString:ok ? [NSString stringWithFormat:@"%c", x] : @"."];
+    }
+    // 二进制（不可打印）统一用十六进制展示，避免满屏「.」
+    NSString *decoded = allPrintable ? [ascii copy] : VGToHex(v);
+    [self postLog:[NSString stringWithFormat:@"      ✅读取 %@ = %@  ascii=\"%@\"", u, hex, ascii]];
+
+    // 结构化写回设备档案（仅来自 SIG 标准只读特征）
+    VGProbeDevice *dev = self.deviceMap[peripheral.identifier];
+    if (dev) {
+        if      ([u isEqualToString:@"2A29"]) dev.manufacturer = [ascii copy];
+        else if ([u isEqualToString:@"2A24"]) dev.model = [ascii copy];
+        else if ([u isEqualToString:@"2A25"]) dev.serial = [ascii copy];
+        else if ([u isEqualToString:@"2A27"]) dev.hwRev = [ascii copy];
+        else if ([u isEqualToString:@"2A26"]) dev.fwRev = [ascii copy];
+        else if ([u isEqualToString:@"2A28"]) dev.swRev = [ascii copy];
+    }
+
+    // 电量特别解读
+    if ([u isEqualToString:@"2A19"] && v.length >= 1) {
+        uint8_t pct = ((const uint8_t *)v.bytes)[0];
+        [self postLog:[NSString stringWithFormat:@"      🔋 标准电池服务电量 = %u%%", pct]];
+        dev.battery = [NSString stringWithFormat:@"%u%%", pct];
+    } else {
+        // 其余可读特征（厂商信息/状态/配置等）纳入结构化遥测，按 UUID 存解码串
+        NSSet *dis = [NSSet setWithObjects:@"2A29",@"2A24",@"2A25",@"2A27",@"2A26",@"2A28",nil];
+        if (dev && ![dis containsObject:u]) {
+            if (!dev.rawValues) dev.rawValues = [NSMutableDictionary dictionary];
+            dev.rawValues[u] = decoded;
+            NSString *fn = [VGGattProfile friendlyNameForUUID:u];
+            if (fn.length) {
+                [self postLog:[NSString stringWithFormat:@"      📦 %@ = %@", fn, decoded]];
+            }
+        }
+    }
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didReadRSSI:(NSNumber *)RSSI error:(NSError *)error {
+    if (!error) {
+        [self postLog:[NSString stringWithFormat:@"[链路RSSI] %ld dBm（连接态实测）", (long)RSSI.integerValue]];
+    }
+}
+
+- (void)peripheralDidUpdateName:(CBPeripheral *)peripheral {}
+
+// 服务/特征发现是异步批量的，采用延时收尾：无新活动 2 秒后断开
+- (void)markDone:(CBPeripheral *)peripheral {
+    [self.done addObject:peripheral.identifier];
+    [self postDevices];
+    [self maybeFinish];
+}
+
+- (void)maybeFinish {
+    if (self.targets.count == 0) return;
+    NSTimeInterval elapsed = -[self.startedAt timeIntervalSinceNow];
+    BOOL scanWindowOK = (self.targets.count >= kVGMaxDevices) || (elapsed >= 12.0);
+    if (scanWindowOK && self.done.count >= self.targets.count) {
+        [self.central stopScan];
+        [self finish];
+    }
+}
+
+- (NSURL *)exportFile {
+    NSString *text = [[self lines] componentsJoinedByString:@"\n"];
+
+    // 在文本日志后附加结构化 JSON（便于跨次抓包对比分析）
+    NSMutableArray *devs = [NSMutableArray array];
+    for (VGProbeDevice *d in self.deviceMap.allValues) {
+        NSMutableDictionary *o = [NSMutableDictionary dictionary];
+        if (d.peripheralID) o[@"id"] = d.peripheralID;
+        if (d.earLabel)     o[@"ear"] = d.earLabel;
+        if (d.inferredEarText) o[@"earInferred"] = [d inferredEarText];
+        if (d.pairingID)    o[@"pairingID"] = [d pairingID];
+        if (d.mfrHex)       o[@"advertMfrHex"] = d.mfrHex;
+        if (d.advertisedName) o[@"name"] = d.advertisedName;
+        if (d.manufacturer) o[@"manufacturer"] = d.manufacturer;
+        if (d.model)        o[@"model"] = d.model;
+        if (d.serial)       o[@"serial"] = d.serial;
+        if (d.hwRev)        o[@"hardware"] = d.hwRev;
+        if (d.fwRev)        o[@"firmware"] = d.fwRev;
+        if (d.swRev)        o[@"software"] = d.swRev;
+        if (d.battery)      o[@"battery"] = d.battery;
+        o[@"charCount"] = @(d.charCount);
+        if (d.rawValues.count) o[@"telemetry"] = d.rawValues;
+        if (d.hasBaseline) {
+            o[@"baselineAt"] = d.baselineDateText ?: @"上次";
+            o[@"changesVsLastRun"] = d.changes ?: @[];
+        }
+        [devs addObject:o];
+    }
+    NSError *jerr;
+    NSData *jdata = [NSJSONSerialization dataWithJSONObject:@{@"devices": devs} options:NSJSONWritingPrettyPrinted error:&jerr];
+    NSString *json = jerr ? @"" : [[NSString alloc] initWithData:jdata encoding:NSUTF8StringEncoding];
+    NSString *full = [text stringByAppendingFormat:@"\n\n======== 结构化 JSON ========\n%@\n", json];
+
+    NSURL *dir = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory
+                                                        inDomain:NSUserDomainMask appropriateForURL:nil
+                                                          create:YES error:nil];
+    NSDateFormatter *f = [NSDateFormatter new];
+    f.dateFormat = @"yyyyMMdd_HHmmss";
+    NSURL *url = [dir URLByAppendingPathComponent:
+                  [NSString stringWithFormat:@"vg_gatt_%@.log", [f stringFromDate:NSDate.date]]];
+    [full writeToURL:url atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    return url;
+}
+
+@end
