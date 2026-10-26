@@ -1,1 +1,73 @@
-I2ltcG9ydCAiVkdQcm9iZVNuYXBzaG90LmgiCiNpbXBvcnQgIlZHR2F0dFByb2ZpbGUuaCIKCnN0YXRpYyBOU1N0cmluZyAqIGNvbnN0IGtWR1Byb2JlU25hcHNob3RTdG9yZUtleSA9IEAiVkdQcm9iZVNuYXBzaG90U3RvcmVfdjEiOwoKQGltcGxlbWVudGF0aW9uIFZHUHJvYmVTbmFwc2hvdAoKKyAoTlNNdXRhYmxlRGljdGlvbmFyeSAqKXN0b3JlIHsKICAgIE5TRGljdGlvbmFyeSAqZCA9IFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIGRpY3Rpb25hcnlGb3JLZXk6a1ZHUHJvYmVTbmFwc2hvdFN0b3JlS2V5XTsKICAgIHJldHVybiBkID8gW2QgbXV0YWJsZUNvcHldIDogW05TTXV0YWJsZURpY3Rpb25hcnkgZGljdGlvbmFyeV07Cn0KCisgKHZvaWQpd3JpdGVTdG9yZTooTlNEaWN0aW9uYXJ5ICopc3RvcmUgewogICAgW1tOU1VzZXJEZWZhdWx0cyBzdGFuZGFyZFVzZXJEZWZhdWx0c10gc2V0T2JqZWN0OnN0b3JlIGZvcktleTprVkdQcm9iZVNuYXBzaG90U3RvcmVLZXldOwogICAgW1tOU1VzZXJEZWZhdWx0cyBzdGFuZGFyZFVzZXJEZWZhdWx0c10gc3luY2hyb25pemVdOwp9CgorIChOU1N0cmluZyAqKWRldmljZUtleVdpdGhTZXJpYWw6KE5TU3RyaW5nICopc2VyaWFsIGZhbGxiYWNrOihOU1N0cmluZyAqKWZhbGxiYWNrIHsKICAgIGlmIChzZXJpYWwubGVuZ3RoKSByZXR1cm4gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCJTTjolQCIsIHNlcmlhbF07CiAgICBpZiAoZmFsbGJhY2subGVuZ3RoKSByZXR1cm4gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCJJRDolQCIsIGZhbGxiYWNrXTsKICAgIHJldHVybiBAIlVOS05PV04iOwp9CgorIChOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilsb2FkRm9yRGV2aWNlS2V5OihOU1N0cmluZyAqKWtleSB7CiAgICBpZiAoa2V5Lmxlbmd0aCA9PSAwKSByZXR1cm4gQHt9OwogICAgTlNEaWN0aW9uYXJ5ICplbnRyeSA9IFtzZWxmIHN0b3JlXVtrZXldOwogICAgTlNEaWN0aW9uYXJ5ICp2YWxzID0gZW50cnlbQCJ2YWx1ZXMiXTsKICAgIHJldHVybiBbdmFscyBpc0tpbmRPZkNsYXNzOltOU0RpY3Rpb25hcnkgY2xhc3NdXSA/IHZhbHMgOiBAe307Cn0KCisgKE5TU3RyaW5nICopc2F2ZWREYXRlVGV4dEZvckRldmljZUtleTooTlNTdHJpbmcgKilrZXkgewogICAgaWYgKGtleS5sZW5ndGggPT0gMCkgcmV0dXJuIG5pbDsKICAgIE5TTnVtYmVyICp0cyA9IFtzZWxmIHN0b3JlXVtrZXldW0AiYXQiXTsKICAgIGlmICghW3RzIGlzS2luZE9mQ2xhc3M6W05TTnVtYmVyIGNsYXNzXV0pIHJldHVybiBuaWw7CiAgICBOU0RhdGUgKmQgPSBbTlNEYXRlIGRhdGVXaXRoVGltZUludGVydmFsU2luY2UxOTcwOnRzLmRvdWJsZVZhbHVlXTsKICAgIE5TRGF0ZUZvcm1hdHRlciAqZiA9IFtOU0RhdGVGb3JtYXR0ZXIgbmV3XTsKICAgIGYuZGF0ZUZvcm1hdCA9IEAiTU0tZGQgSEg6bW0iOwogICAgcmV0dXJuIFtmIHN0cmluZ0Zyb21EYXRlOmRdOwp9CgorICh2b2lkKXNhdmVWYWx1ZXM6KE5TRGljdGlvbmFyeTxOU1N0cmluZyAqLCBOU1N0cmluZyAqPiAqKXZhbHVlcyBmb3JEZXZpY2VLZXk6KE5TU3RyaW5nICopa2V5IHsKICAgIGlmIChrZXkubGVuZ3RoID09IDApIHJldHVybjsKICAgIE5TTXV0YWJsZURpY3Rpb25hcnkgKnN0b3JlID0gW3NlbGYgc3RvcmVdOwogICAgc3RvcmVba2V5XSA9IEB7IEAiYXQiOiBAKFtbTlNEYXRlIGRhdGVdIHRpbWVJbnRlcnZhbFNpbmNlMTk3MF0pLAogICAgICAgICAgICAgICAgICAgIEAidmFsdWVzIjogdmFsdWVzID86IEB7fSB9OwogICAgW3NlbGYgd3JpdGVTdG9yZTpzdG9yZV07Cn0KCisgKE5TQXJyYXk8TlNTdHJpbmcgKj4gKiljaGFuZ2VzRnJvbU9sZDooTlNEaWN0aW9uYXJ5PE5TU3RyaW5nICosIE5TU3RyaW5nICo+ICopb2xkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b05ldzooTlNEaWN0aW9uYXJ5PE5TU3RyaW5nICosIE5TU3RyaW5nICo+ICopbm93IHsKICAgIE5TTXV0YWJsZUFycmF5ICpvdXQgPSBbTlNNdXRhYmxlQXJyYXkgYXJyYXldOwogICAgaWYgKG9sZC5jb3VudCA9PSAwKSByZXR1cm4gb3V0OwogICAgTlNNdXRhYmxlU2V0ICphbGxLZXlzID0gW05TTXV0YWJsZVNldCBzZXRXaXRoQXJyYXk6b2xkLmFsbEtleXNdOwogICAgW2FsbEtleXMgYWRkT2JqZWN0c0Zyb21BcnJheTpub3cuYWxsS2V5c107CiAgICBOU0FycmF5ICpzb3J0ZWQgPSBbW2FsbEtleXMgYWxsT2JqZWN0c10gc29ydGVkQXJyYXlVc2luZ1NlbGVjdG9yOkBzZWxlY3Rvcihjb21wYXJlOildOwogICAgZm9yIChOU1N0cmluZyAqdSBpbiBzb3J0ZWQpIHsKICAgICAgICBOU1N0cmluZyAqYSA9IG9sZFt1XSA/OiBAIiI7CiAgICAgICAgTlNTdHJpbmcgKmIgPSBub3dbdV0gPzogQCIiOwogICAgICAgIGlmIChbYSBpc0VxdWFsVG9TdHJpbmc6Yl0pIGNvbnRpbnVlOwogICAgICAgIE5TU3RyaW5nICpmbiA9IFtWR0dhdHRQcm9maWxlIGZyaWVuZGx5TmFtZUZvclVVSUQ6dV07CiAgICAgICAgTlNTdHJpbmcgKmxhYmVsID0gZm4ubGVuZ3RoID8gZm4gOiB1OwogICAgICAgIFtvdXQgYWRkT2JqZWN0OltOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OkAiJUDvvJolQCDihpIgJUAiLAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCwgYS5sZW5ndGggPyBhIDogQCIo56m6KSIsIGIubGVuZ3RoID8gYiA6IEAiKOepuikiXV07CiAgICB9CiAgICByZXR1cm4gb3V0Owp9CgorICh2b2lkKXJlc2V0QWxsIHsKICAgIFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIHJlbW92ZU9iamVjdEZvcktleTprVkdQcm9iZVNuYXBzaG90U3RvcmVLZXldOwogICAgW1tOU1VzZXJEZWZhdWx0cyBzdGFuZGFyZFVzZXJEZWZhdWx0c10gc3luY2hyb25pemVdOwp9CgpAZW5kCg==
+#import "VGProbeSnapshot.h"
+#import "VGGattProfile.h"
+
+static NSString * const kVGProbeSnapshotStoreKey = @"VGProbeSnapshotStore_v1";
+
+@implementation VGProbeSnapshot
+
++ (NSMutableDictionary *)store {
+    NSDictionary *d = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kVGProbeSnapshotStoreKey];
+    return d ? [d mutableCopy] : [NSMutableDictionary dictionary];
+}
+
++ (void)writeStore:(NSDictionary *)store {
+    [[NSUserDefaults standardUserDefaults] setObject:store forKey:kVGProbeSnapshotStoreKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
++ (NSString *)deviceKeyWithSerial:(NSString *)serial fallback:(NSString *)fallback {
+    if (serial.length) return [NSString stringWithFormat:@"SN:%@", serial];
+    if (fallback.length) return [NSString stringWithFormat:@"ID:%@", fallback];
+    return @"UNKNOWN";
+}
+
++ (NSDictionary<NSString *, NSString *> *)loadForDeviceKey:(NSString *)key {
+    if (key.length == 0) return @{};
+    NSDictionary *entry = [self store][key];
+    NSDictionary *vals = entry[@"values"];
+    return [vals isKindOfClass:[NSDictionary class]] ? vals : @{};
+}
+
++ (NSString *)savedDateTextForDeviceKey:(NSString *)key {
+    if (key.length == 0) return nil;
+    NSNumber *ts = [self store][key][@"at"];
+    if (![ts isKindOfClass:[NSNumber class]]) return nil;
+    NSDate *d = [NSDate dateWithTimeIntervalSince1970:ts.doubleValue];
+    NSDateFormatter *f = [NSDateFormatter new];
+    f.dateFormat = @"MM-dd HH:mm";
+    return [f stringFromDate:d];
+}
+
++ (void)saveValues:(NSDictionary<NSString *, NSString *> *)values forDeviceKey:(NSString *)key {
+    if (key.length == 0) return;
+    NSMutableDictionary *store = [self store];
+    store[key] = @{ @"at": @([[NSDate date] timeIntervalSince1970]),
+                    @"values": values ?: @{} };
+    [self writeStore:store];
+}
+
++ (NSArray<NSString *> *)changesFromOld:(NSDictionary<NSString *, NSString *> *)old
+                                  toNew:(NSDictionary<NSString *, NSString *> *)now {
+    NSMutableArray *out = [NSMutableArray array];
+    if (old.count == 0) return out;
+    NSMutableSet *allKeys = [NSMutableSet setWithArray:old.allKeys];
+    [allKeys addObjectsFromArray:now.allKeys];
+    NSArray *sorted = [[allKeys allObjects] sortedArrayUsingSelector:@selector(compare:)];
+    for (NSString *u in sorted) {
+        NSString *a = old[u] ?: @"";
+        NSString *b = now[u] ?: @"";
+        if ([a isEqualToString:b]) continue;
+        NSString *fn = [VGGattProfile friendlyNameForUUID:u];
+        NSString *label = fn.length ? fn : u;
+        [out addObject:[NSString stringWithFormat:@"%@：%@ → %@",
+                        label, a.length ? a : @"(空)", b.length ? b : @"(空)"]];
+    }
+    return out;
+}
+
++ (void)resetAll {
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:kVGProbeSnapshotStoreKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+@end
