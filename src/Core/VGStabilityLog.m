@@ -1,1 +1,104 @@
-Ly8KLy8gIFZHU3RhYmlsaXR5TG9nLm0KLy8KCiNpbXBvcnQgIlZHU3RhYmlsaXR5TG9nLmgiCgpzdGF0aWMgTlNTdHJpbmcgKmNvbnN0IGtWR1N0YWJpbGl0eUtleSA9IEAidmdfc3RhYmlsaXR5X2V2ZW50c192MSI7CnN0YXRpYyBjb25zdCBOU1VJbnRlZ2VyIGtWR01heEV2ZW50cyA9IDUwMDsKCkBpbXBsZW1lbnRhdGlvbiBWR1N0YWJpbGl0eUxvZwoKKyAoaW5zdGFuY2V0eXBlKXNoYXJlZCB7CiAgICBzdGF0aWMgVkdTdGFiaWxpdHlMb2cgKnM7CiAgICBzdGF0aWMgZGlzcGF0Y2hfb25jZV90IG9uY2U7CiAgICBkaXNwYXRjaF9vbmNlKCZvbmNlLCBeeyBzID0gW1ZHU3RhYmlsaXR5TG9nIG5ld107IH0pOwogICAgcmV0dXJuIHM7Cn0KCi0gKE5TQXJyYXk8TlNEaWN0aW9uYXJ5ICo+ICopZXZlbnRzIHsKICAgIE5TQXJyYXkgKmEgPSBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBhcnJheUZvcktleTprVkdTdGFiaWxpdHlLZXldOwogICAgcmV0dXJuIGEgPzogQFtdOwp9CgotICh2b2lkKXJlY29yZENvbm5lY3RlZDooQk9PTCljb25uZWN0ZWQgZWFyOihOU1VJbnRlZ2VyKWVhciBzdW1tYXJ5OihOU1N0cmluZyAqKXN1bW1hcnkgewogICAgTlNBcnJheSAqb2xkID0gc2VsZi5ldmVudHM7CiAgICAvLyDnirbmgIHmsqHlj5jlsLHkuI3ph43lpI3orrAKICAgIGlmIChvbGQuY291bnQpIHsKICAgICAgICBOU1N0cmluZyAqbGFzdFN0YXRlID0gb2xkLmZpcnN0T2JqZWN0W0Aic3RhdGUiXTsKICAgICAgICBCT09MIGxhc3RDb25uZWN0ZWQgPSBbbGFzdFN0YXRlIGlzRXF1YWxUb1N0cmluZzpAImNvbm5lY3RlZCJdOwogICAgICAgIGlmIChsYXN0Q29ubmVjdGVkID09IGNvbm5lY3RlZCkgcmV0dXJuOwogICAgfQoKICAgIE5TRGljdGlvbmFyeSAqZSA9IEB7CiAgICAgICAgQCJ0cyI6IEAoW1tOU0RhdGUgZGF0ZV0gdGltZUludGVydmFsU2luY2UxOTcwXSksCiAgICAgICAgQCJzdGF0ZSI6IGNvbm5lY3RlZCA/IEAiY29ubmVjdGVkIiA6IEAiZGlzY29ubmVjdGVkIiwKICAgICAgICBAInN1bW1hcnkiOiBzdW1tYXJ5ID86IEAiIiwKICAgICAgICBAImVhciI6IEAoZWFyKQogICAgfTsKICAgIE5TTXV0YWJsZUFycmF5ICpsaXN0ID0gW05TTXV0YWJsZUFycmF5IGFycmF5V2l0aE9iamVjdDplXTsKICAgIFtsaXN0IGFkZE9iamVjdHNGcm9tQXJyYXk6b2xkXTsKICAgIHdoaWxlIChsaXN0LmNvdW50ID4ga1ZHTWF4RXZlbnRzKSBbbGlzdCByZW1vdmVMYXN0T2JqZWN0XTsKCiAgICBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBzZXRPYmplY3Q6bGlzdCBmb3JLZXk6a1ZHU3RhYmlsaXR5S2V5XTsKICAgIFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIHN5bmNocm9uaXplXTsKfQoKLSAoTlNTdHJpbmcgKilzdGF0aXN0aWNzVGV4dCB7CiAgICBOU0FycmF5ICpldmVudHMgPSBzZWxmLmV2ZW50czsKICAgIGlmICghZXZlbnRzLmNvdW50KSByZXR1cm4gQCLov5jmsqHmnInorrDlvZXliLDov57mjqXkuovku7bjgIIiOwoKICAgIE5TRGF0ZSAqZGF5QWdvID0gW05TRGF0ZSBkYXRlV2l0aFRpbWVJbnRlcnZhbFNpbmNlTm93Oi0yNCAqIDM2MDBdOwogICAgTlNVSW50ZWdlciBkaXNjID0gMCwgY29ubiA9IDA7CiAgICBOU1RpbWVJbnRlcnZhbCBkb3duID0gMDsKICAgIE5TRGF0ZSAqZG93blNpbmNlID0gbmlsOwoKICAgIGZvciAoTlNEaWN0aW9uYXJ5ICplIGluIFtbZXZlbnRzIHJldmVyc2VPYmplY3RFbnVtZXJhdG9yXSBhbGxPYmplY3RzXSkgewogICAgICAgIE5TRGF0ZSAqdHMgPSBbTlNEYXRlIGRhdGVXaXRoVGltZUludGVydmFsU2luY2UxOTcwOltlW0AidHMiXSBkb3VibGVWYWx1ZV1dOwogICAgICAgIGlmIChbdHMgY29tcGFyZTpkYXlBZ29dID09IE5TT3JkZXJlZEFzY2VuZGluZykgY29udGludWU7CiAgICAgICAgaWYgKFtlW0Aic3RhdGUiXSBpc0VxdWFsVG9TdHJpbmc6QCJkaXNjb25uZWN0ZWQiXSkgewogICAgICAgICAgICBkaXNjKys7CiAgICAgICAgICAgIGlmICghZG93blNpbmNlKSBkb3duU2luY2UgPSB0czsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBjb25uKys7CiAgICAgICAgICAgIGlmIChkb3duU2luY2UpIHsgZG93biArPSBbdHMgdGltZUludGVydmFsU2luY2VEYXRlOmRvd25TaW5jZV07IGRvd25TaW5jZSA9IG5pbDsgfQogICAgICAgIH0KICAgIH0KICAgIGlmIChkb3duU2luY2UpIGRvd24gKz0gW1tOU0RhdGUgZGF0ZV0gdGltZUludGVydmFsU2luY2VEYXRlOmRvd25TaW5jZV07CgogICAgTlNVSW50ZWdlciB0b3RhbCA9IGRpc2MgKyBjb25uOwogICAgZG91YmxlIGF2YWlsYWJpbGl0eSA9IHRvdGFsID8gKGRvdWJsZSljb25uIC8gKGRvdWJsZSl0b3RhbCAqIDEwMC4wIDogMTAwLjA7CgogICAgcmV0dXJuIFtOU1N0cmluZyBzdHJpbmdXaXRoRm9ybWF0OgogICAgICAgICAgICBAIui/kSAyNCDlsI/ml7ZcbiIKICAgICAgICAgICAgICIgIOaWreW8gOasoeaVsO+8miVsdVxuIgogICAgICAgICAgICAgIiAg57Sv6K6h56a757q/77yaJWxkIOWIhlxuIgogICAgICAgICAgICAgIiAg6L+e5o6l5LqL5Lu277yaJWx177yI5Zyo57q/5Y2g5q+UICUuMGYlJe+8iVxuIgogICAgICAgICAgICAgIiAg5oC76K6h6K6w5b2V77yaJWx1IOadoe+8iOS4iumZkCA1MDDvvIkiLAogICAgICAgICAgICAodW5zaWduZWQgbG9uZylkaXNjLAogICAgICAgICAgICAobG9uZykoZG93biAvIDYwKSwKICAgICAgICAgICAgKHVuc2lnbmVkIGxvbmcpY29ubiwgYXZhaWxhYmlsaXR5LAogICAgICAgICAgICAodW5zaWduZWQgbG9uZylldmVudHMuY291bnRdOwp9CgotIChOU1VSTCAqKWV4cG9ydEZpbGUgewogICAgTlNEYXRlRm9ybWF0dGVyICpmID0gW05TRGF0ZUZvcm1hdHRlciBuZXddOwogICAgZi5kYXRlRm9ybWF0ID0gQCJ5eXl5LU1NLWRkIEhIOm1tOnNzIjsKCiAgICBOU011dGFibGVTdHJpbmcgKmNzdiA9IFtOU011dGFibGVTdHJpbmcgc3RyaW5nV2l0aFN0cmluZzpAIuaXtumXtCznirbmgIEs5qaC6KaBXG4iXTsKICAgIGZvciAoTlNEaWN0aW9uYXJ5ICplIGluIFtbc2VsZi5ldmVudHMgcmV2ZXJzZU9iamVjdEVudW1lcmF0b3JdIGFsbE9iamVjdHNdKSB7CiAgICAgICAgTlNEYXRlICp0cyA9IFtOU0RhdGUgZGF0ZVdpdGhUaW1lSW50ZXJ2YWxTaW5jZTE5NzA6W2VbQCJ0cyJdIGRvdWJsZVZhbHVlXV07CiAgICAgICAgTlNTdHJpbmcgKnN0YXRlID0gW2VbQCJzdGF0ZSJdIGlzRXF1YWxUb1N0cmluZzpAImNvbm5lY3RlZCJdID8gQCLlt7Lov57mjqUiIDogQCLlt7Lmlq3lvIAiOwogICAgICAgIE5TU3RyaW5nICpzdW1tYXJ5ID0gW2VbQCJzdW1tYXJ5Il0gPzogQCIiIHN0cmluZ0J5UmVwbGFjaW5nT2NjdXJyZW5jZXNPZlN0cmluZzpAIiwiIHdpdGhTdHJpbmc6QCLvvIwiXTsKICAgICAgICBbY3N2IGFwcGVuZEZvcm1hdDpAIiVALCVALCVAXG4iLCBbZiBzdHJpbmdGcm9tRGF0ZTp0c10sIHN0YXRlLCBzdW1tYXJ5XTsKICAgIH0KCiAgICBOU1N0cmluZyAqcGF0aCA9IFtOU1NlYXJjaFBhdGhGb3JEaXJlY3Rvcmllc0luRG9tYWlucyhOU0RvY3VtZW50RGlyZWN0b3J5LCBOU1VzZXJEb21haW5NYXNrLCBZRVMpCiAgICAgICAgICAgICAgICAgICAgICAuZmlyc3RPYmplY3Qgc3RyaW5nQnlBcHBlbmRpbmdQYXRoQ29tcG9uZW50OkAiVmliZUdvLeeos+WumuaApy5jc3YiXTsKICAgIE5TRXJyb3IgKmVyciA9IG5pbDsKICAgIFtjc3Ygd3JpdGVUb0ZpbGU6cGF0aCBhdG9taWNhbGx5OllFUyBlbmNvZGluZzpOU1VURjhTdHJpbmdFbmNvZGluZyBlcnJvcjomZXJyXTsKICAgIGlmIChlcnIpIE5TTG9nKEAiW1ZpYmVHb10g5a+85Ye65aSx6LSlICVAIiwgZXJyKTsKICAgIHJldHVybiBbTlNVUkwgZmlsZVVSTFdpdGhQYXRoOnBhdGhdOwp9CgpAZW5kCg==
+//
+//  VGStabilityLog.m
+//
+
+#import "VGStabilityLog.h"
+
+static NSString *const kVGStabilityKey = @"vg_stability_events_v1";
+static const NSUInteger kVGMaxEvents = 500;
+
+@implementation VGStabilityLog
+
++ (instancetype)shared {
+    static VGStabilityLog *s;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{ s = [VGStabilityLog new]; });
+    return s;
+}
+
+- (NSArray<NSDictionary *> *)events {
+    NSArray *a = [[NSUserDefaults standardUserDefaults] arrayForKey:kVGStabilityKey];
+    return a ?: @[];
+}
+
+- (void)recordConnected:(BOOL)connected ear:(NSUInteger)ear summary:(NSString *)summary {
+    NSArray *old = self.events;
+    // 状态没变就不重复记
+    if (old.count) {
+        NSString *lastState = old.firstObject[@"state"];
+        BOOL lastConnected = [lastState isEqualToString:@"connected"];
+        if (lastConnected == connected) return;
+    }
+
+    NSDictionary *e = @{
+        @"ts": @([[NSDate date] timeIntervalSince1970]),
+        @"state": connected ? @"connected" : @"disconnected",
+        @"summary": summary ?: @"",
+        @"ear": @(ear)
+    };
+    NSMutableArray *list = [NSMutableArray arrayWithObject:e];
+    [list addObjectsFromArray:old];
+    while (list.count > kVGMaxEvents) [list removeLastObject];
+
+    [[NSUserDefaults standardUserDefaults] setObject:list forKey:kVGStabilityKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (NSString *)statisticsText {
+    NSArray *events = self.events;
+    if (!events.count) return @"还没有记录到连接事件。";
+
+    NSDate *dayAgo = [NSDate dateWithTimeIntervalSinceNow:-24 * 3600];
+    NSUInteger disc = 0, conn = 0;
+    NSTimeInterval down = 0;
+    NSDate *downSince = nil;
+
+    for (NSDictionary *e in [[events reverseObjectEnumerator] allObjects]) {
+        NSDate *ts = [NSDate dateWithTimeIntervalSince1970:[e[@"ts"] doubleValue]];
+        if ([ts compare:dayAgo] == NSOrderedAscending) continue;
+        if ([e[@"state"] isEqualToString:@"disconnected"]) {
+            disc++;
+            if (!downSince) downSince = ts;
+        } else {
+            conn++;
+            if (downSince) { down += [ts timeIntervalSinceDate:downSince]; downSince = nil; }
+        }
+    }
+    if (downSince) down += [[NSDate date] timeIntervalSinceDate:downSince];
+
+    NSUInteger total = disc + conn;
+    double availability = total ? (double)conn / (double)total * 100.0 : 100.0;
+
+    return [NSString stringWithFormat:
+            @"近 24 小时\n"
+             "  断开次数：%lu\n"
+             "  累计离线：%ld 分\n"
+             "  连接事件：%lu（在线占比 %.0f%%）\n"
+             "  总计记录：%lu 条（上限 500）",
+            (unsigned long)disc,
+            (long)(down / 60),
+            (unsigned long)conn, availability,
+            (unsigned long)events.count];
+}
+
+- (NSURL *)exportFile {
+    NSDateFormatter *f = [NSDateFormatter new];
+    f.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+
+    NSMutableString *csv = [NSMutableString stringWithString:@"时间,状态,概要\n"];
+    for (NSDictionary *e in [[self.events reverseObjectEnumerator] allObjects]) {
+        NSDate *ts = [NSDate dateWithTimeIntervalSince1970:[e[@"ts"] doubleValue]];
+        NSString *state = [e[@"state"] isEqualToString:@"connected"] ? @"已连接" : @"已断开";
+        NSString *summary = [e[@"summary"] ?: @"" stringByReplacingOccurrencesOfString:@"," withString:@"，"];
+        [csv appendFormat:@"%@,%@,%@\n", [f stringFromDate:ts], state, summary];
+    }
+
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)
+                      .firstObject stringByAppendingPathComponent:@"VibeGo-稳定性.csv"];
+    NSError *err = nil;
+    [csv writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&err];
+    if (err) NSLog(@"[VibeGo] 导出失败 %@", err);
+    return [NSURL fileURLWithPath:path];
+}
+
+@end
