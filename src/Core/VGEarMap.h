@@ -1,1 +1,29 @@
-I2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CgpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTgoKZXh0ZXJuIE5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR0Vhck1hcERpZENoYW5nZU5vdGlmaWNhdGlvbjsKCi8vLyDmjIHkuYXljJbjgIzorr7lpIcg4oaUIOW3puWPs+iAs+OAjeaYoOWwhOOAggovLy8g57O757ufIEFQSe+8iEFYTUZpSGVhcmluZ0RldmljZSrvvInlj6rmj5DkvpvphY3lr7kv5Ye65aOw54q25oCB77yM5LiN57uZIFVVSUQg5LiO6ICz5Yir55qE5a+55bqU77yMCi8vLyDlm6DmraTnlLHnlKjmiLflnKggR0FUVCDpobXlr7nmr4/lj6rorr7lpIfmjIflrprkuIDmrKHvvIjorr7kuLrlt6bogLMv5Y+z6ICz77yJ77yM5pys57G76LSf6LSj5oyB5LmF5a2Y5YKo77yMCi8vLyDkuLvpobXnlLXph4/ljaHjgIFSU1NJIOWNoeOAgUdBVFQg5qGj5qGI5Y2h5YWo5bGA5aSN55So44CCCi8vLyDlrZjlgqjvvJpOU1VzZXJEZWZhdWx0cyDplK4gdmdfZWFyX21hcO+8jOe7k+aehCB7IOWujOaVtFVVSUQgOiBAIkwiIC8gQCJSIiB944CCCi8vLyDmn6Xor6LvvJrmlK/mjIHku7vmhI/plb/luqbnmoQgVVVJRCDlsL7lt7TljLnphY3vvIjnlLXph4/nm5Hop4bnlKjlrozmlbQgVVVJRO+8jFJTU0kg55So5bC+IDgg5L2N77yJ44CCCkBpbnRlcmZhY2UgVkdFYXJNYXAgOiBOU09iamVjdAoKLy8vIOaMieS7u+aEj+mVv+W6pueahCBVVUlE77yI5oiW5YW25bC+5be077yJ5p+l6K+i6ICz5Yir5qCH562+77yb5pyq6K6+5a6a6L+U5ZueIEAiIuOAggorIChOU1N0cmluZyAqKWVhckxhYmVsRm9yS2V5OihudWxsYWJsZSBOU1N0cmluZyAqKXV1aWRPclRhaWw7CgovLy8g6K6+5a6a5p+Q5a6M5pW0IFVVSUQg55qE6ICz5Yir77yIZWFyTGFiZWwg5Y+q5o6l5Y+XIEAi5bem6ICzIiAvIEAi5Y+z6ICzIu+8ieOAggorICh2b2lkKXNldEVhcjooTlNTdHJpbmcgKillYXJMYWJlbCBmb3JGdWxsVVVJRDooTlNTdHJpbmcgKilmdWxsVVVJRDsKCi8vLyDmuIXpmaTmn5DlrozmlbQgVVVJRCDnmoTorr7lrprjgIIKKyAodm9pZCljbGVhckZvckZ1bGxVVUlEOihOU1N0cmluZyAqKWZ1bGxVVUlEOwoKLy8vIOW3suiuvuWumueahOaYoOWwhOW/q+eFpyB7IOWujOaVtFVVSUQgOiBAIkwiL0AiUiIgfe+8jOS7heS+m+WxleekuuOAggorIChOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilzbmFwc2hvdDsKCkBlbmQKCk5TX0FTU1VNRV9OT05OVUxMX0VORAo=
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+extern NSNotificationName const VGEarMapDidChangeNotification;
+
+/// 持久化「设备 ↔ 左右耳」映射。
+/// 系统 API（AXMFiHearingDevice*）只提供配对/出声状态，不给 UUID 与耳别的对应，
+/// 因此由用户在 GATT 页对每只设备指定一次（设为左耳/右耳），本类负责持久存储，
+/// 主页电量卡、RSSI 卡、GATT 档案卡全局复用。
+/// 存储：NSUserDefaults 键 vg_ear_map，结构 { 完整UUID : @"L" / @"R" }。
+/// 查询：支持任意长度的 UUID 尾巴匹配（电量监视用完整 UUID，RSSI 用尾 8 位）。
+@interface VGEarMap : NSObject
+
+/// 按任意长度的 UUID（或其尾巴）查询耳别标签；未设定返回 @""。
++ (NSString *)earLabelForKey:(nullable NSString *)uuidOrTail;
+
+/// 设定某完整 UUID 的耳别（earLabel 只接受 @"左耳" / @"右耳"）。
++ (void)setEar:(NSString *)earLabel forFullUUID:(NSString *)fullUUID;
+
+/// 清除某完整 UUID 的设定。
++ (void)clearForFullUUID:(NSString *)fullUUID;
+
+/// 已设定的映射快照 { 完整UUID : @"L"/@"R" }，仅供展示。
++ (NSDictionary<NSString *, NSString *> *)snapshot;
+
+@end
+
+NS_ASSUME_NONNULL_END
