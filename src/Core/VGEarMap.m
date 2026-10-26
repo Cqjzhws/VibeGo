@@ -50,11 +50,11 @@ static NSString *const kVGAutoKey  = @"vg_ear_auto_map";
 + (NSString *)earLabelForKey:(NSString *)uuidOrTail {
     if (uuidOrTail.length == 0) return @"";
     // 1) 自动映射优先（设备自报，可信）
-    NSDictionary *auto = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kVGAutoKey];
-    for (NSString *k in auto) {
+    NSDictionary *autoMap = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kVGAutoKey];
+    for (NSString *k in autoMap) {
         if ([k isEqualToString:uuidOrTail] || [k hasSuffix:uuidOrTail] ||
             [uuidOrTail hasSuffix:k]) {
-            return [self displayEar:auto[k]];
+            return [self displayEar:autoMap[k]];
         }
     }
     // 2) 回退手动映射
