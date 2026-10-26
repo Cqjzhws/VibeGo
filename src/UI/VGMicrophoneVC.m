@@ -20,10 +20,15 @@ extern void HLReapplyNow(void);
 extern NSArray<NSString *> *HLRecentLines(void);
 extern NSInteger HLGetLevelMax(void);
 extern BOOL HLKeepAliveRunning(void);
-extern BOOL HLKeepAliveEnabled(void);
 extern void HLSetKeepAlive(BOOL on);
+extern BOOL HLKeepAliveEnabled(void);
 extern void HLSetAutomation(BOOL on);
 extern BOOL HLGetAutomation(void);
+// 自适应麦克风（0.8.0）
+extern BOOL HLAdaptiveEnabled(void);
+extern void HLSetAdaptive(BOOL on);
+extern double HLAdaptiveCurrentDB(void);
+extern NSInteger HLAdaptiveRestorePercent(void);
 
 @implementation VGMicrophoneVC {
     UILabel *_big, *_sub, *_ears, *_micLive;
@@ -37,6 +42,9 @@ extern BOOL HLGetAutomation(void);
     UILabel *_autoLabel;
     UISwitch *_holdSwitch;
     UILabel *_holdLabel;
+    UISwitch *_adaptiveSwitch;      // 0.8.0 自适应麦克风
+    UILabel *_adaptiveLabel;
+    UILabel *_adaptiveInfo;         // 显示当前 dB 和有效档位
     UIButton *_applyBtn;
     UITextView *_logView;
     NSTimer *_tick;
@@ -115,6 +123,17 @@ extern BOOL HLGetAutomation(void);
     _holdSwitch.on = [self prefBool:@"HLHoldWhilePlaying" dflt:YES];
     [_holdSwitch addTarget:self action:@selector(holdChanged:) forControlEvents:UIControlEventValueChanged];
 
+    // 0.8.0 自适应麦克风：根据环境噪音自动调节恢复档位
+    _adaptiveLabel = [self label:12 bold:NO color:[UIColor colorWithWhite:0.7 alpha:1]];
+    _adaptiveLabel.numberOfLines = 2;
+    _adaptiveSwitch = [UISwitch new];
+    _adaptiveSwitch.onTintColor = teal;
+    _adaptiveSwitch.on = HLAdaptiveEnabled();
+    [_adaptiveSwitch addTarget:self action:@selector(adaptiveChanged:) forControlEvents:UIControlEventValueChanged];
+    _adaptiveInfo = [self label:11 bold:NO color:[UIColor colorWithWhite:0.55 alpha:1]];
+    _adaptiveInfo.font = [UIFont monospacedSystemFontOfSize:11 weight:UIFontWeightRegular];
+    _adaptiveInfo.numberOfLines = 2;
+
     _applyBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [_applyBtn setTitle:@"立即重新应用" forState:UIControlStateNormal];
     _applyBtn.titleLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightSemibold];
@@ -137,6 +156,7 @@ extern BOOL HLGetAutomation(void);
                         _keepLabel, _keepSwitch,
                         _autoLabel, _autoSwitch,
                         _holdLabel, _holdSwitch,
+                        _adaptiveLabel, _adaptiveSwitch, _adaptiveInfo,
                         _applyBtn, _logView]) {
         [self.view addSubview:v];
     }
@@ -224,6 +244,10 @@ extern BOOL HLGetAutomation(void);
     _holdLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
     _holdSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 34;
 
+    _adaptiveLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
+    _adaptiveSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31); y += 34;
+    _adaptiveInfo.frame = CGRectMake(pad, y, w - pad * 2, 28);      y += 32;
+
     _keepLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
     _keepSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 34;
 
@@ -304,6 +328,22 @@ extern BOOL HLGetAutomation(void);
         _holdLabel.textColor = [UIColor colorWithWhite:0.55 alpha:1];
     }
     if (_holdSwitch.on != hold) _holdSwitch.on = hold;
+
+    // 0.8.0 自适应麦克风
+    BOOL adaptive = HLAdaptiveEnabled();
+    if (adaptive) {
+        double db = HLAdaptiveCurrentDB();
+        NSInteger pct = HLAdaptiveRestorePercent();
+        _adaptiveLabel.text = @"自适应麦克风：运行中（环境噪音自动调档）";
+        _adaptiveLabel.textColor = [UIColor colorWithRed:0.42 green:0.86 blue:0.55 alpha:1];
+        _adaptiveInfo.text = [NSString stringWithFormat:@"环境 %.0f dB · 恢复档位 %ld%%",
+                              db, (long)pct];
+    } else {
+        _adaptiveLabel.text = @"自适应麦克风：关（手动调档）";
+        _adaptiveLabel.textColor = [UIColor colorWithWhite:0.55 alpha:1];
+        _adaptiveInfo.text = @"打开后根据环境噪音自动调节恢复档位";
+    }
+    if (_adaptiveSwitch.on != adaptive) _adaptiveSwitch.on = adaptive;
 }
 
 - (void)refreshAll {
@@ -340,6 +380,11 @@ extern BOOL HLGetAutomation(void);
 - (void)holdChanged:(UISwitch *)sw {
     [[NSUserDefaults standardUserDefaults] setBool:sw.on forKey:@"HLHoldWhilePlaying"];
     [[NSUserDefaults standardUserDefaults] synchronize];
+    [self refreshLabels];
+}
+
+- (void)adaptiveChanged:(UISwitch *)sw {
+    HLSetAdaptive(sw.on);
     [self refreshLabels];
 }
 
