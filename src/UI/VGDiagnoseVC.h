@@ -1,1 +1,3 @@
-I2ltcG9ydCA8VUlLaXQvVUlLaXQuaD4KQGludGVyZmFjZSBWR0RpYWdub3NlVkMgOiBVSVZpZXdDb250cm9sbGVyCkBlbmQK
+#import <UIKit/UIKit.h>
+@interface VGDiagnoseVC : UIViewController
+@end
