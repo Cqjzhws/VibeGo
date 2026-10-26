@@ -1,1 +1,358 @@
-Ly8KLy8gIFZHTWljcm9waG9uZVZDLm0g4oCUIOm6puWFi+mjjuiBlOWKqOaOp+WItumdouadvwovLwovLyAgMC42LjAg5pS55Yqo77yaCi8vICAgwrcg5ruR5Z2X5pS55Li644CM5ZC46ZmE5Yiw6K6+5aSH5qGj5L2N44CN4oCU4oCU5ouW5YiwIDU2JSDkvJroh6rliqjokL3lnKjnnJ/lrp7moaPkvY0gOO+8iDUzJe+8ie+8jAovLyAgICAg5pi+56S65pWw5a2X5ZKM5a6e6ZmF5YaZ5YWl5oql5paH55qE5qGj5L2N5rC46L+c5LiA6Ie077yM5LiN5YaN5Ye6546w44CM5pi+56S6IDU2IOWunumZheWGmSA1M+OAjQovLyAgIMK3IOavj+ihjOagh+etvuWQjOaXtuaYvuekuuOAjOaho+S9jSBOIMK3IFAl44CN77yM5pa55L6/5a+554Wn5pel5b+X6YeM55qEIOaho+S9jT0g5pWw5YC8Ci8vICAgwrcg5paw5aKe44CM5ZCO5Y+w6Z+z6aKR5L+d5rS744CN5byA5YWz77yI6buY6K6k5YWz77yJ77yMQXBwIOiAgeiiq+WQjuWPsOadgOaOieaXtuaJk+W8gAovLwoKI2ltcG9ydCAiVkdNaWNyb3Bob25lVkMuaCIKI2ltcG9ydCA8Q29yZUJsdWV0b290aC9Db3JlQmx1ZXRvb3RoLmg+CgpleHRlcm4gQk9PTCBITE1lZGlhUGxheWluZyh2b2lkKTsKZXh0ZXJuIEJPT0wgSExJbkNhbGwodm9pZCk7CmV4dGVybiBOU1N0cmluZyAqSExDYWxsQ2F0ZWdvcnkodm9pZCk7CmV4dGVybiBOU1N0cmluZyAqSExTdGF0dXNUZXh0KHZvaWQpOwpleHRlcm4gTlNTdHJpbmcgKkhMTWljTGl2ZVRleHQodm9pZCk7CmV4dGVybiB2b2lkIEhMUmVhcHBseU5vdyh2b2lkKTsKZXh0ZXJuIE5TQXJyYXk8TlNTdHJpbmcgKj4gKkhMUmVjZW50TGluZXModm9pZCk7CmV4dGVybiBOU0ludGVnZXIgSExHZXRMZXZlbE1heCh2b2lkKTsKZXh0ZXJuIEJPT0wgSExLZWVwQWxpdmVSdW5uaW5nKHZvaWQpOwpleHRlcm4gQk9PTCBITEtlZXBBbGl2ZUVuYWJsZWQodm9pZCk7CmV4dGVybiB2b2lkIEhMU2V0S2VlcEFsaXZlKEJPT0wgb24pOwpleHRlcm4gdm9pZCBITFNldEF1dG9tYXRpb24oQk9PTCBvbik7CmV4dGVybiBCT09MIEhMR2V0QXV0b21hdGlvbih2b2lkKTsKCkBpbXBsZW1lbnRhdGlvbiBWR01pY3JvcGhvbmVWQyB7CiAgICBVSUxhYmVsICpfYmlnLCAqX3N1YiwgKl9lYXJzLCAqX21pY0xpdmU7CiAgICBVSUxhYmVsICpfbGJsUmVzdG9yZSwgKl9sYmxDYWxsLCAqX2xibE11dGU7CiAgICBVSVNsaWRlciAqX3NsUmVzdG9yZSwgKl9zbENhbGwsICpfc2xNdXRlOwogICAgVUlTd2l0Y2ggKl9sb2NrU3dpdGNoOwogICAgVUlMYWJlbCAqX2xvY2tMYWJlbDsKICAgIFVJU3dpdGNoICpfa2VlcFN3aXRjaDsKICAgIFVJTGFiZWwgKl9rZWVwTGFiZWw7CiAgICBVSVN3aXRjaCAqX2F1dG9Td2l0Y2g7CiAgICBVSUxhYmVsICpfYXV0b0xhYmVsOwogICAgVUlTd2l0Y2ggKl9ob2xkU3dpdGNoOwogICAgVUlMYWJlbCAqX2hvbGRMYWJlbDsKICAgIFVJQnV0dG9uICpfYXBwbHlCdG47CiAgICBVSVRleHRWaWV3ICpfbG9nVmlldzsKICAgIE5TVGltZXIgKl90aWNrOwogICAgTlNVSW50ZWdlciBfbGFzdExvZ0NvdW50OwogICAgQk9PTCBfa2VlcFdhc1J1bm5pbmc7Cn0KCi0gKGluc3RhbmNldHlwZSlpbml0IHsKICAgIGlmICgoc2VsZiA9IFtzdXBlciBpbml0XSkpIHsKICAgICAgICBzZWxmLnRhYkJhckl0ZW0gPSBbW1VJVGFiQmFySXRlbSBhbGxvY10gaW5pdFdpdGhUaXRsZTpAIum6puWFi+mjjiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZTpbVUlJbWFnZSBzeXN0ZW1JbWFnZU5hbWVkOkAibWljLmZpbGwiXSB0YWc6MV07CiAgICB9CiAgICByZXR1cm4gc2VsZjsKfQoKLSAodm9pZCl2aWV3RGlkTG9hZCB7CiAgICBbc3VwZXIgdmlld0RpZExvYWRdOwogICAgc2VsZi50aXRsZSA9IEAi6bqm5YWL6aOO6IGU5YqoIjsKICAgIHNlbGYudmlldy5iYWNrZ3JvdW5kQ29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MC4wMzUgZ3JlZW46MC4wNTUgYmx1ZTowLjA3IGFscGhhOjFdOwoKICAgIF9iaWcgPSBbc2VsZiBsYWJlbDozMCBib2xkOllFUyBjb2xvcjpVSUNvbG9yLndoaXRlQ29sb3JdOwogICAgX3N1YiA9IFtzZWxmIGxhYmVsOjEyIGJvbGQ6Tk8gY29sb3I6W1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC41NSBhbHBoYToxXV07CiAgICBfc3ViLmZvbnQgPSBbVUlGb250IG1vbm9zcGFjZWRTeXN0ZW1Gb250T2ZTaXplOjEyIHdlaWdodDpVSUZvbnRXZWlnaHRSZWd1bGFyXTsKICAgIF9lYXJzID0gW3NlbGYgbGFiZWw6MTQgYm9sZDpOTyBjb2xvcjpbVUlDb2xvciBjb2xvcldpdGhXaGl0ZTowLjggYWxwaGE6MV1dOwogICAgX21pY0xpdmUgPSBbc2VsZiBsYWJlbDoxMSBib2xkOk5PIGNvbG9yOltVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjQ1IGdyZWVuOjAuOSBibHVlOjAuOCBhbHBoYToxXV07CiAgICBfbWljTGl2ZS5mb250ID0gW1VJRm9udCBtb25vc3BhY2VkU3lzdGVtRm9udE9mU2l6ZToxMSB3ZWlnaHQ6VUlGb250V2VpZ2h0UmVndWxhcl07CiAgICBfbWljTGl2ZS5udW1iZXJPZkxpbmVzID0gMjsKCiAgICBVSUNvbG9yICp0ZWFsID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuMzAgZ3JlZW46MC44NSBibHVlOjAuNzUgYWxwaGE6MV07CgogICAgX2xibFJlc3RvcmUgPSBbc2VsZiBsYWJlbDoxMyBib2xkOk5PIGNvbG9yOltVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuNzUgYWxwaGE6MV1dOwogICAgX3NsUmVzdG9yZSA9IFtzZWxmIHNsaWRlcjp0ZWFsIHRhZzoxXTsKICAgIF9zbFJlc3RvcmUudmFsdWUgPSBbc2VsZiBwcmVmSW50OkAiSExSZXN0b3JlUGVyY2VudExlZnQiIGRmbHQ6NjBdOwoKICAgIF9sYmxDYWxsID0gW3NlbGYgbGFiZWw6MTMgYm9sZDpOTyBjb2xvcjpbVUlDb2xvciBjb2xvcldpdGhXaGl0ZTowLjc1IGFscGhhOjFdXTsKICAgIF9zbENhbGwgPSBbc2VsZiBzbGlkZXI6dGVhbCB0YWc6Ml07CiAgICBfc2xDYWxsLnZhbHVlID0gW3NlbGYgcHJlZkludDpAIkhMQ2FsbE11dGVQZXJjZW50TGVmdCIgZGZsdDo1MF07CgogICAgX2xibE11dGUgPSBbc2VsZiBsYWJlbDoxMyBib2xkOk5PIGNvbG9yOltVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuNzUgYWxwaGE6MV1dOwogICAgX3NsTXV0ZSA9IFtzZWxmIHNsaWRlcjp0ZWFsIHRhZzozXTsKICAgIF9zbE11dGUudmFsdWUgPSBbc2VsZiBwcmVmSW50OkAiSExNdXRlUGVyY2VudCIgZGZsdDowXTsKCiAgICAvLyDliJ3lp4vljJbml7bkuZ/lkLjpmYTkuIDmrKHvvIzkv53or4HnlYzpnaLmlbDlrZcgPSDnnJ/lrp7moaPkvY0KICAgIGZvciAoVUlTbGlkZXIgKnMgaW4gQFtfc2xSZXN0b3JlLCBfc2xDYWxsLCBfc2xNdXRlXSkgW3NlbGYgc25hcDpzIHBlcnNpc3Q6Tk9dOwoKICAgIF9sb2NrTGFiZWwgPSBbc2VsZiBsYWJlbDoxMyBib2xkOk5PIGNvbG9yOltVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuNzUgYWxwaGE6MV1dOwogICAgX2xvY2tMYWJlbC50ZXh0ID0gQCLlj7PogLPplIHlrprlnKggMO+8iOiuvuWkh+iHquW3seaJk+W8gOS5n+S8muaMieWbnuWOu++8iSI7CiAgICBfbG9ja1N3aXRjaCA9IFtVSVN3aXRjaCBuZXddOwogICAgX2xvY2tTd2l0Y2gub25UaW50Q29sb3IgPSB0ZWFsOwogICAgX2xvY2tTd2l0Y2gub24gPSBbc2VsZiBwcmVmQm9vbDpAIkhMTG9ja1JpZ2h0RWFyIiBkZmx0OllFU107CiAgICBbX2xvY2tTd2l0Y2ggYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3Rvcihsb2NrQ2hhbmdlZDopIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRWYWx1ZUNoYW5nZWRdOwoKICAgIF9rZWVwTGFiZWwgPSBbc2VsZiBsYWJlbDoxMiBib2xkOk5PIGNvbG9yOltVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuNyBhbHBoYToxXV07CiAgICBfa2VlcExhYmVsLm51bWJlck9mTGluZXMgPSAyOwogICAgX2tlZXBTd2l0Y2ggPSBbVUlTd2l0Y2ggbmV3XTsKICAgIF9rZWVwU3dpdGNoLm9uVGludENvbG9yID0gdGVhbDsKICAgIF9rZWVwU3dpdGNoLm9uID0gSExLZWVwQWxpdmVFbmFibGVkKCk7CiAgICBbX2tlZXBTd2l0Y2ggYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3RvcihrZWVwQ2hhbmdlZDopIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRWYWx1ZUNoYW5nZWRdOwoKICAgIC8vIOiBlOWKqOaAu+W8gOWFs++8muWFs+aOieWQjuS4gOS4quWtl+iKgumDveS4jeWGme+8jOS9hui/nuaOpeWSjOivu+WPlueFp+W4uOOAggogICAgLy8g5rWL5Y+C5pWw77yI6K6w5Z+657q/IOKGkiDmlLnorr7nva4g4oaSIOaJvuW3ruW8gu+8ieW/hemhu+WFiOWFs+Wug++8jOWQpuWImeaIkeS7rOiHquW3seWGmeeahCAxNDU0RTlENgogICAgLy8g5Lya5Zyo5beu5byC6YeM5Y+N5aSN5Ye6546w77yM5oqK55yf5q2j55qE5Y+Y5YyW55uW5o6J44CCCiAgICBfYXV0b0xhYmVsID0gW3NlbGYgbGFiZWw6MTIgYm9sZDpOTyBjb2xvcjpbVUlDb2xvciBjb2xvcldpdGhXaGl0ZTowLjcgYWxwaGE6MV1dOwogICAgX2F1dG9MYWJlbC5udW1iZXJPZkxpbmVzID0gMjsKICAgIF9hdXRvU3dpdGNoID0gW1VJU3dpdGNoIG5ld107CiAgICBfYXV0b1N3aXRjaC5vblRpbnRDb2xvciA9IHRlYWw7CiAgICBfYXV0b1N3aXRjaC5vbiA9IEhMR2V0QXV0b21hdGlvbigpOwogICAgW19hdXRvU3dpdGNoIGFkZFRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3IoYXV0b0NoYW5nZWQ6KSBmb3JDb250cm9sRXZlbnRzOlVJQ29udHJvbEV2ZW50VmFsdWVDaGFuZ2VkXTsKCiAgICAvLyAwLjYuNe+8muaSreaUvuS4reS/neaMgeOAguWunua1iyBpUGhvbmUg6Z+z6YeP6ZSu5Lya55u05o6l5pS55YaZ6bqm5YWL6aOO5qGj5L2N77yMCiAgICAvLyDmiZPlvIDlkI7mkq3mlL4v6YCa6K+d5pyf6Ze06KKr5pS55YaZ5Lya5ZyoIDEg56eS5YaF5oyJ5Zue5Y6777yb5YWz5o6J5YiZ5Y+q5YaZ5LiA5qyh44CCCiAgICBfaG9sZExhYmVsID0gW3NlbGYgbGFiZWw6MTIgYm9sZDpOTyBjb2xvcjpbVUlDb2xvciBjb2xvcldpdGhXaGl0ZTowLjcgYWxwaGE6MV1dOwogICAgX2hvbGRMYWJlbC5udW1iZXJPZkxpbmVzID0gMjsKICAgIF9ob2xkU3dpdGNoID0gW1VJU3dpdGNoIG5ld107CiAgICBfaG9sZFN3aXRjaC5vblRpbnRDb2xvciA9IHRlYWw7CiAgICBfaG9sZFN3aXRjaC5vbiA9IFtzZWxmIHByZWZCb29sOkAiSExIb2xkV2hpbGVQbGF5aW5nIiBkZmx0OllFU107CiAgICBbX2hvbGRTd2l0Y2ggYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3Rvcihob2xkQ2hhbmdlZDopIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRWYWx1ZUNoYW5nZWRdOwoKICAgIF9hcHBseUJ0biA9IFtVSUJ1dHRvbiBidXR0b25XaXRoVHlwZTpVSUJ1dHRvblR5cGVTeXN0ZW1dOwogICAgW19hcHBseUJ0biBzZXRUaXRsZTpAIueri+WNs+mHjeaWsOW6lOeUqCIgZm9yU3RhdGU6VUlDb250cm9sU3RhdGVOb3JtYWxdOwogICAgX2FwcGx5QnRuLnRpdGxlTGFiZWwuZm9udCA9IFtVSUZvbnQgc3lzdGVtRm9udE9mU2l6ZToxNSB3ZWlnaHQ6VUlGb250V2VpZ2h0U2VtaWJvbGRdOwogICAgW19hcHBseUJ0biBzZXRUaXRsZUNvbG9yOlVJQ29sb3Iud2hpdGVDb2xvciBmb3JTdGF0ZTpVSUNvbnRyb2xTdGF0ZU5vcm1hbF07CiAgICBfYXBwbHlCdG4uYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuMTAgZ3JlZW46MC41NSBibHVlOjAuNTAgYWxwaGE6MV07CiAgICBfYXBwbHlCdG4ubGF5ZXIuY29ybmVyUmFkaXVzID0gMTA7CiAgICBbX2FwcGx5QnRuIGFkZFRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3IoYXBwbHlUYXBwZWQpIGZvckNvbnRyb2xFdmVudHM6VUlDb250cm9sRXZlbnRUb3VjaFVwSW5zaWRlXTsKCiAgICBfbG9nVmlldyA9IFtVSVRleHRWaWV3IG5ld107CiAgICBfbG9nVmlldy5lZGl0YWJsZSA9IE5POwogICAgX2xvZ1ZpZXcuZm9udCA9IFtVSUZvbnQgbW9ub3NwYWNlZFN5c3RlbUZvbnRPZlNpemU6MTAgd2VpZ2h0OlVJRm9udFdlaWdodFJlZ3VsYXJdOwogICAgX2xvZ1ZpZXcuYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC4wNiBhbHBoYToxXTsKICAgIF9sb2dWaWV3LnRleHRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjggZ3JlZW46MC45NSBibHVlOjAuOTIgYWxwaGE6MV07CiAgICBfbG9nVmlldy5sYXllci5jb3JuZXJSYWRpdXMgPSAxMDsKICAgIF9sb2dWaWV3LnRleHRDb250YWluZXJJbnNldCA9IFVJRWRnZUluc2V0c01ha2UoNiwgNiwgNiwgNik7CgogICAgZm9yIChVSVZpZXcgKnYgaW4gQFtfYmlnLCBfc3ViLCBfZWFycywgX21pY0xpdmUsCiAgICAgICAgICAgICAgICAgICAgICAgIF9sYmxSZXN0b3JlLCBfc2xSZXN0b3JlLCBfbGJsQ2FsbCwgX3NsQ2FsbCwKICAgICAgICAgICAgICAgICAgICAgICAgX2xibE11dGUsIF9zbE11dGUsIF9sb2NrTGFiZWwsIF9sb2NrU3dpdGNoLAogICAgICAgICAgICAgICAgICAgICAgICBfa2VlcExhYmVsLCBfa2VlcFN3aXRjaCwKICAgICAgICAgICAgICAgICAgICAgICAgX2F1dG9MYWJlbCwgX2F1dG9Td2l0Y2gsCiAgICAgICAgICAgICAgICAgICAgICAgIF9ob2xkTGFiZWwsIF9ob2xkU3dpdGNoLAogICAgICAgICAgICAgICAgICAgICAgICBfYXBwbHlCdG4sIF9sb2dWaWV3XSkgewogICAgICAgIFtzZWxmLnZpZXcgYWRkU3Vidmlldzp2XTsKICAgIH0KCiAgICBbc2VsZiByZWZyZXNoTGFiZWxzXTsKCiAgICBfdGljayA9IFtOU1RpbWVyIHNjaGVkdWxlZFRpbWVyV2l0aFRpbWVJbnRlcnZhbDoxLjAgdGFyZ2V0OnNlbGYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yOkBzZWxlY3RvcihyZWZyZXNoQWxsKSB1c2VySW5mbzpuaWwgcmVwZWF0czpZRVNdOwp9CgotIChVSUxhYmVsICopbGFiZWw6KENHRmxvYXQpc2l6ZSBib2xkOihCT09MKWJvbGQgY29sb3I6KFVJQ29sb3IgKiljb2xvciB7CiAgICBVSUxhYmVsICpsID0gW1VJTGFiZWwgbmV3XTsKICAgIGwuZm9udCA9IGJvbGQgPyBbVUlGb250IGJvbGRTeXN0ZW1Gb250T2ZTaXplOnNpemVdIDogW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOnNpemVdOwogICAgbC50ZXh0Q29sb3IgPSBjb2xvcjsKICAgIHJldHVybiBsOwp9CgotIChVSVNsaWRlciAqKXNsaWRlcjooVUlDb2xvciAqKXRpbnQgdGFnOihOU0ludGVnZXIpdGFnIHsKICAgIFVJU2xpZGVyICpzID0gW1VJU2xpZGVyIG5ld107CiAgICBzLm1pbmltdW1UcmFja1RpbnRDb2xvciA9IHRpbnQ7CiAgICBzLm1pbmltdW1WYWx1ZSA9IDA7CiAgICBzLm1heGltdW1WYWx1ZSA9IDEwMDsKICAgIHMudGFnID0gdGFnOwogICAgW3MgYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3RvcihzbGlkZXJDaGFuZ2VkOikgZm9yQ29udHJvbEV2ZW50czpVSUNvbnRyb2xFdmVudFZhbHVlQ2hhbmdlZF07CiAgICByZXR1cm4gczsKfQoKLSAoTlNJbnRlZ2VyKXByZWZJbnQ6KE5TU3RyaW5nICopa2V5IGRmbHQ6KE5TSW50ZWdlcilkIHsKICAgIGlkIHYgPSBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBvYmplY3RGb3JLZXk6a2V5XTsKICAgIHJldHVybiB2ID8gW3YgaW50ZWdlclZhbHVlXSA6IGQ7Cn0KCi0gKEJPT0wpcHJlZkJvb2w6KE5TU3RyaW5nICopa2V5IGRmbHQ6KEJPT0wpZCB7CiAgICBpZCB2ID0gW1tOU1VzZXJEZWZhdWx0cyBzdGFuZGFyZFVzZXJEZWZhdWx0c10gb2JqZWN0Rm9yS2V5OmtleV07CiAgICByZXR1cm4gdiA/IFt2IGJvb2xWYWx1ZV0gOiBkOwp9CgojcHJhZ21hIG1hcmsgLSDmoaPkvY3lkLjpmYQKCi8vIOeZvuWIhuavlCDihpIg6K6+5aSH5qGj5L2NIOKGkiDlj43nrpfnmb7liIbmr5TvvIzkv53or4Hmu5HlnZfkvY3nva7lkozlrp7pmYXmiqXmlofmoaPkvY3kuIDoh7QKLSAodm9pZClzbmFwOihVSVNsaWRlciAqKXMgcGVyc2lzdDooQk9PTClwZXJzaXN0IHsKICAgIE5TSW50ZWdlciBteCA9IEhMR2V0TGV2ZWxNYXgoKTsKICAgIGlmIChteCA8IDEpIG14ID0gMTU7CiAgICBOU0ludGVnZXIgbHYgPSAoTlNJbnRlZ2VyKWxyb3VuZChzLnZhbHVlIC8gMTAwLjAgKiAoZG91YmxlKW14KTsKICAgIGx2ID0gTUFYKDAsIE1JTihsdiwgbXgpKTsKICAgIE5TSW50ZWdlciBwY3QgPSAoTlNJbnRlZ2VyKWxyb3VuZChsdiAqIDEwMC4wIC8gKGRvdWJsZSlteCk7CiAgICBpZiAoZmFicyhzLnZhbHVlIC0gcGN0KSA+IDAuMDEpIHMudmFsdWUgPSAoZmxvYXQpcGN0OwoKICAgIGlmICghcGVyc2lzdCkgcmV0dXJuOwogICAgTlNVc2VyRGVmYXVsdHMgKmQgPSBbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdOwogICAgaWYgKHMudGFnID09IDEpICAgICAgW2Qgc2V0SW50ZWdlcjpwY3QgZm9yS2V5OkAiSExSZXN0b3JlUGVyY2VudExlZnQiXTsKICAgIGVsc2UgaWYgKHMudGFnID09IDIpIFtkIHNldEludGVnZXI6cGN0IGZvcktleTpAIkhMQ2FsbE11dGVQZXJjZW50TGVmdCJdOwogICAgZWxzZSBpZiAocy50YWcgPT0gMykgW2Qgc2V0SW50ZWdlcjpwY3QgZm9yS2V5OkAiSExNdXRlUGVyY2VudCJdOwogICAgW2Qgc3luY2hyb25pemVdOwp9CgotIChOU0ludGVnZXIpbGV2ZWxPZjooVUlTbGlkZXIgKilzIHsKICAgIE5TSW50ZWdlciBteCA9IEhMR2V0TGV2ZWxNYXgoKTsKICAgIHJldHVybiAoTlNJbnRlZ2VyKWxyb3VuZChzLnZhbHVlIC8gMTAwLjAgKiAoZG91YmxlKW14KTsKfQoKI3ByYWdtYSBtYXJrIC0g5biD5bGACgotICh2b2lkKXZpZXdEaWRMYXlvdXRTdWJ2aWV3cyB7CiAgICBbc3VwZXIgdmlld0RpZExheW91dFN1YnZpZXdzXTsKICAgIENHRmxvYXQgdyA9IHNlbGYudmlldy5ib3VuZHMuc2l6ZS53aWR0aDsKICAgIENHRmxvYXQgcGFkID0gMTY7CiAgICBDR0Zsb2F0IHkgPSBzZWxmLnZpZXcuc2FmZUFyZWFJbnNldHMudG9wICsgNjsKCiAgICBfYmlnLmZyYW1lID0gQ0dSZWN0TWFrZShwYWQsIHksIHcgLSBwYWQgKiAyLCAzOCk7ICAgICAgICAgICAgeSArPSA0MDsKICAgIF9zdWIuZnJhbWUgPSBDR1JlY3RNYWtlKHBhZCwgeSwgdyAtIHBhZCAqIDIsIDE2KTsgICAgICAgICAgICB5ICs9IDE5OwogICAgX2VhcnMuZnJhbWUgPSBDR1JlY3RNYWtlKHBhZCwgeSwgdyAtIHBhZCAqIDIsIDE4KTsgICAgICAgICAgIHkgKz0gMTk7CiAgICBfbWljTGl2ZS5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiwgMjgpOyAgICAgICAgeSArPSAzMTsKCiAgICBfbGJsUmVzdG9yZS5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiwgMTYpOwogICAgX3NsUmVzdG9yZS5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5ICsgMTUsIHcgLSBwYWQgKiAyLCAyOCk7ICB5ICs9IDQ1OwogICAgX2xibENhbGwuZnJhbWUgPSBDR1JlY3RNYWtlKHBhZCwgeSwgdyAtIHBhZCAqIDIsIDE2KTsKICAgIF9zbENhbGwuZnJhbWUgPSBDR1JlY3RNYWtlKHBhZCwgeSArIDE1LCB3IC0gcGFkICogMiwgMjgpOyAgICAgeSArPSA0NTsKICAgIF9sYmxNdXRlLmZyYW1lID0gQ0dSZWN0TWFrZShwYWQsIHksIHcgLSBwYWQgKiAyLCAxNik7CiAgICBfc2xNdXRlLmZyYW1lID0gQ0dSZWN0TWFrZShwYWQsIHkgKyAxNSwgdyAtIHBhZCAqIDIsIDI4KTsgICAgIHkgKz0gNDc7CgogICAgX2xvY2tMYWJlbC5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiAtIDY0LCAzMik7CiAgICBfbG9ja1N3aXRjaC5mcmFtZSA9IENHUmVjdE1ha2UodyAtIHBhZCAtIDUxLCB5ICsgMSwgNTEsIDMxKTsgIHkgKz0gMzQ7CgogICAgX2hvbGRMYWJlbC5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiAtIDY0LCAzMik7CiAgICBfaG9sZFN3aXRjaC5mcmFtZSA9IENHUmVjdE1ha2UodyAtIHBhZCAtIDUxLCB5ICsgMSwgNTEsIDMxKTsgIHkgKz0gMzQ7CgogICAgX2tlZXBMYWJlbC5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiAtIDY0LCAzMik7CiAgICBfa2VlcFN3aXRjaC5mcmFtZSA9IENHUmVjdE1ha2UodyAtIHBhZCAtIDUxLCB5ICsgMSwgNTEsIDMxKTsgIHkgKz0gMzQ7CgogICAgX2F1dG9MYWJlbC5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiAtIDY0LCAzMik7CiAgICBfYXV0b1N3aXRjaC5mcmFtZSA9IENHUmVjdE1ha2UodyAtIHBhZCAtIDUxLCB5ICsgMSwgNTEsIDMxKTsgIHkgKz0gMzg7CgogICAgX2FwcGx5QnRuLmZyYW1lID0gQ0dSZWN0TWFrZShwYWQsIHksIHcgLSBwYWQgKiAyLCAzNik7ICAgICAgICB5ICs9IDQzOwoKICAgIENHRmxvYXQgbG9nSCA9IHNlbGYudmlldy5ib3VuZHMuc2l6ZS5oZWlnaHQgLSB5IC0gc2VsZi52aWV3LnNhZmVBcmVhSW5zZXRzLmJvdHRvbSAtIDg7CiAgICBfbG9nVmlldy5mcmFtZSA9IENHUmVjdE1ha2UocGFkLCB5LCB3IC0gcGFkICogMiwgTUFYKDUwLCBsb2dIKSk7Cn0KCiNwcmFnbWEgbWFyayAtIOWIt+aWsAoKLSAodm9pZClyZWZyZXNoTGFiZWxzIHsKICAgIEJPT0wgcGxheWluZyA9IEhMTWVkaWFQbGF5aW5nKCk7CiAgICBCT09MIGNhbGwgPSBITEluQ2FsbCgpOwoKICAgIE5TU3RyaW5nICp0ZXh0OwogICAgVUlDb2xvciAqY29sb3I7CiAgICBpZiAoY2FsbCkgewogICAgICAgIHRleHQgPSBAIumAmuivneS4rSDCtyDlt6bogLPmjInpgJror53moaPkvY0iOwogICAgICAgIGNvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuNDUgZ3JlZW46MC43NSBibHVlOjEuMCBhbHBoYToxXTsKICAgIH0gZWxzZSBpZiAocGxheWluZykgewogICAgICAgIHRleHQgPSBAIum6puWFi+mjjuW3suWOi+S9jiI7CiAgICAgICAgY29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MS4wIGdyZWVuOjAuNzIgYmx1ZTowLjI1IGFscGhhOjFdOwogICAgfSBlbHNlIHsKICAgICAgICB0ZXh0ID0gQCLpuqblhYvpo47mraPluLgiOwogICAgICAgIGNvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuNDIgZ3JlZW46MC44NiBibHVlOjAuNTUgYWxwaGE6MV07CiAgICB9CiAgICBfYmlnLnRleHQgPSB0ZXh0OwogICAgX2JpZy50ZXh0Q29sb3IgPSBjb2xvcjsKCiAgICBfc3ViLnRleHQgPSBbTlNTdHJpbmcgc3RyaW5nV2l0aEZvcm1hdDpAIuWjsOmfsz0lQCAg6YCa6K+dPSVAICDnsbvliKs9JUAiLAogICAgICAgICAgICAgICAgIHBsYXlpbmcgPyBAIuaciSIgOiBAIuaXoCIsIGNhbGwgPyBAIuaYryIgOiBAIuWQpiIsIEhMQ2FsbENhdGVnb3J5KCkgPzogQCItIl07CgogICAgX2VhcnMudGV4dCA9IFtAIuiAs+acuu+8miIgc3RyaW5nQnlBcHBlbmRpbmdTdHJpbmc6SExTdGF0dXNUZXh0KCkgPzogQCI/Il07CiAgICBfbWljTGl2ZS50ZXh0ID0gW0Ai6Z+z6YeP54m55b6BICIgc3RyaW5nQnlBcHBlbmRpbmdTdHJpbmc6SExNaWNMaXZlVGV4dCgpID86IEAiLSJdOwoKICAgIE5TSW50ZWdlciBybCA9IFtzZWxmIGxldmVsT2Y6X3NsUmVzdG9yZV07CiAgICBOU0ludGVnZXIgY2wgPSBbc2VsZiBsZXZlbE9mOl9zbENhbGxdOwogICAgTlNJbnRlZ2VyIG1sID0gW3NlbGYgbGV2ZWxPZjpfc2xNdXRlXTsKCiAgICBfbGJsUmVzdG9yZS50ZXh0ID0gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLlronpnZnml7blt6bogLPmgaLlpI3vvJrmoaPkvY0gJWxkIMK3ICVsZCUlIiwgKGxvbmcpcmwsIChsb25nKWxyb3VuZChfc2xSZXN0b3JlLnZhbHVlKV07CiAgICBfbGJsQ2FsbC50ZXh0ICAgID0gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLpgJror53ml7blt6bogLPvvJrmoaPkvY0gJWxkIMK3ICVsZCUlIiwgKGxvbmcpY2wsIChsb25nKWxyb3VuZChfc2xDYWxsLnZhbHVlKV07CiAgICBfbGJsTXV0ZS50ZXh0ICAgID0gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLlhbbku5YgQXBwIOWHuuWjsOaXtuWOi+S9juWIsO+8muaho+S9jSAlbGQgwrcgJWxkJSXvvIjlj7PogLPlp4vnu4ggMO+8iSIsIChsb25nKW1sLCAobG9uZylscm91bmQoX3NsTXV0ZS52YWx1ZSldOwoKICAgIEJPT0wgcnVubmluZyA9IEhMS2VlcEFsaXZlUnVubmluZygpOwogICAgQk9PTCBlbmFibGVkID0gSExLZWVwQWxpdmVFbmFibGVkKCk7CiAgICBpZiAoIWVuYWJsZWQpIHsKICAgICAgICBfa2VlcExhYmVsLnRleHQgPSBAIuWQjuWPsOmfs+mikeS/nea0u++8muWFs++8iOaOqOiNkOS/neaMgeWFs+mXre+8jEJMRSDkv53mtLvlt7LlpJ/vvIkiOwogICAgICAgIF9rZWVwTGFiZWwudGV4dENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC41NSBhbHBoYToxXTsKICAgIH0gZWxzZSBpZiAocnVubmluZykgewogICAgICAgIF9rZWVwTGFiZWwudGV4dCA9IEAi5ZCO5Y+w6Z+z6aKR5L+d5rS777ya6L+Q6KGM5Lit77yI6Ziy5ZCO5Y+w6KKr5p2A77yJIjsKICAgICAgICBfa2VlcExhYmVsLnRleHRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjQyIGdyZWVuOjAuODYgYmx1ZTowLjU1IGFscGhhOjFdOwogICAgfSBlbHNlIHsKICAgICAgICBfa2VlcExhYmVsLnRleHQgPSBAIuWQjuWPsOmfs+mikeS/nea0u++8muW3suW8gOS9huacqui/kOihjO+8jOeCueW8gOWFs+mHjeivlSI7CiAgICAgICAgX2tlZXBMYWJlbC50ZXh0Q29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MS4wIGdyZWVuOjAuNzIgYmx1ZTowLjI1IGFscGhhOjFdOwogICAgfQogICAgaWYgKF9rZWVwU3dpdGNoLm9uICE9IGVuYWJsZWQpIF9rZWVwU3dpdGNoLm9uID0gZW5hYmxlZDsKCiAgICBCT09MIGF1dG9fID0gSExHZXRBdXRvbWF0aW9uKCk7CiAgICBpZiAoYXV0b18pIHsKICAgICAgICBfYXV0b0xhYmVsLnRleHQgPSBAIuiBlOWKqOWGmeWFpe+8mui/kOihjOS4re+8iOato+W4uOS9v+eUqO+8iSI7CiAgICAgICAgX2F1dG9MYWJlbC50ZXh0Q29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MC40MiBncmVlbjowLjg2IGJsdWU6MC41NSBhbHBoYToxXTsKICAgIH0gZWxzZSB7CiAgICAgICAgX2F1dG9MYWJlbC50ZXh0ID0gQCLogZTliqjlhpnlhaXvvJrlt7LmmoLlgZzvvIjmtYvlj4LmlbDnlKjvvIzkuI3lhpnku7vkvZXkuJzopb/vvIkiOwogICAgICAgIF9hdXRvTGFiZWwudGV4dENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjEuMCBncmVlbjowLjcyIGJsdWU6MC4yNSBhbHBoYToxXTsKICAgIH0KICAgIGlmIChfYXV0b1N3aXRjaC5vbiAhPSBhdXRvXykgX2F1dG9Td2l0Y2gub24gPSBhdXRvXzsKCiAgICBCT09MIGhvbGQgPSBbc2VsZiBwcmVmQm9vbDpAIkhMSG9sZFdoaWxlUGxheWluZyIgZGZsdDpZRVNdOwogICAgaWYgKGhvbGQpIHsKICAgICAgICBfaG9sZExhYmVsLnRleHQgPSBAIuaSreaUvuS4reS/neaMge+8muW8gO+8iOmfs+mHj+mUruaUueahoyAxIOenkuWGheaMieWbnu+8iSI7CiAgICAgICAgX2hvbGRMYWJlbC50ZXh0Q29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MC40MiBncmVlbjowLjg2IGJsdWU6MC41NSBhbHBoYToxXTsKICAgIH0gZWxzZSB7CiAgICAgICAgX2hvbGRMYWJlbC50ZXh0ID0gQCLmkq3mlL7kuK3kv53mjIHvvJrlhbPvvIjlj6rlnKjliIfmjaLnnqzpl7TlhpnkuIDmrKHvvIkiOwogICAgICAgIF9ob2xkTGFiZWwudGV4dENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC41NSBhbHBoYToxXTsKICAgIH0KICAgIGlmIChfaG9sZFN3aXRjaC5vbiAhPSBob2xkKSBfaG9sZFN3aXRjaC5vbiA9IGhvbGQ7Cn0KCi0gKHZvaWQpcmVmcmVzaEFsbCB7CiAgICBbc2VsZiByZWZyZXNoTGFiZWxzXTsKCiAgICBOU0FycmF5PE5TU3RyaW5nICo+ICpsaW5lcyA9IEhMUmVjZW50TGluZXMoKTsKICAgIGlmIChsaW5lcy5jb3VudCAhPSBfbGFzdExvZ0NvdW50KSB7CiAgICAgICAgX2xhc3RMb2dDb3VudCA9IGxpbmVzLmNvdW50OwogICAgICAgIE5TVUludGVnZXIgZnJvbSA9IGxpbmVzLmNvdW50ID4gMTIwID8gbGluZXMuY291bnQgLSAxMjAgOiAwOwogICAgICAgIF9sb2dWaWV3LnRleHQgPSBbW2xpbmVzIHN1YmFycmF5V2l0aFJhbmdlOk5TTWFrZVJhbmdlKGZyb20sIGxpbmVzLmNvdW50IC0gZnJvbSldCiAgICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnRzSm9pbmVkQnlTdHJpbmc6QCJcbiJdOwogICAgICAgIFtfbG9nVmlldyBzY3JvbGxSYW5nZVRvVmlzaWJsZTpOU01ha2VSYW5nZShfbG9nVmlldy50ZXh0Lmxlbmd0aCwgMCldOwogICAgfQp9CgojcHJhZ21hIG1hcmsgLSDkuqTkupIKCi0gKHZvaWQpc2xpZGVyQ2hhbmdlZDooVUlTbGlkZXIgKilzIHsKICAgIFtzZWxmIHNuYXA6cyBwZXJzaXN0OllFU107CiAgICBbc2VsZiByZWZyZXNoTGFiZWxzXTsKfQoKLSAodm9pZClsb2NrQ2hhbmdlZDooVUlTd2l0Y2ggKilzdyB7CiAgICBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBzZXRCb29sOnN3Lm9uIGZvcktleTpAIkhMTG9ja1JpZ2h0RWFyIl07CiAgICBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBzeW5jaHJvbml6ZV07CiAgICBITFJlYXBwbHlOb3coKTsKfQoKLSAodm9pZClhdXRvQ2hhbmdlZDooVUlTd2l0Y2ggKilzdyB7CiAgICBITFNldEF1dG9tYXRpb24oc3cub24pOwogICAgW3NlbGYgcmVmcmVzaExhYmVsc107Cn0KCi0gKHZvaWQpaG9sZENoYW5nZWQ6KFVJU3dpdGNoICopc3cgewogICAgW1tOU1VzZXJEZWZhdWx0cyBzdGFuZGFyZFVzZXJEZWZhdWx0c10gc2V0Qm9vbDpzdy5vbiBmb3JLZXk6QCJITEhvbGRXaGlsZVBsYXlpbmciXTsKICAgIFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIHN5bmNocm9uaXplXTsKICAgIFtzZWxmIHJlZnJlc2hMYWJlbHNdOwp9CgotICh2b2lkKWtlZXBDaGFuZ2VkOihVSVN3aXRjaCAqKXN3IHsKICAgIEhMU2V0S2VlcEFsaXZlKHN3Lm9uKTsKICAgIFtzZWxmIHJlZnJlc2hMYWJlbHNdOwp9CgotICh2b2lkKWFwcGx5VGFwcGVkIHsKICAgIEhMUmVhcHBseU5vdygpOwogICAgW3NlbGYgcmVmcmVzaEFsbF07Cn0KCi0gKHZvaWQpZGVhbGxvYyB7IFtfdGljayBpbnZhbGlkYXRlXTsgfQoKQGVuZAo=
+//
+//  VGMicrophoneVC.m — 麦克风联动控制面板
+//
+//  0.6.0 改动：
+//   · 滑块改为「吸附到设备档位」——拖到 56% 会自动落在真实档位 8（53%），
+//     显示数字和实际写入报文的档位永远一致，不再出现「显示 56 实际写 53」
+//   · 每行标签同时显示「档位 N · P%」，方便对照日志里的 档位= 数值
+//   · 新增「后台音频保活」开关（默认关），App 老被后台杀掉时打开
+//
+
+#import "VGMicrophoneVC.h"
+#import <CoreBluetooth/CoreBluetooth.h>
+
+extern BOOL HLMediaPlaying(void);
+extern BOOL HLInCall(void);
+extern NSString *HLCallCategory(void);
+extern NSString *HLStatusText(void);
+extern NSString *HLMicLiveText(void);
+extern void HLReapplyNow(void);
+extern NSArray<NSString *> *HLRecentLines(void);
+extern NSInteger HLGetLevelMax(void);
+extern BOOL HLKeepAliveRunning(void);
+extern BOOL HLKeepAliveEnabled(void);
+extern void HLSetKeepAlive(BOOL on);
+extern void HLSetAutomation(BOOL on);
+extern BOOL HLGetAutomation(void);
+
+@implementation VGMicrophoneVC {
+    UILabel *_big, *_sub, *_ears, *_micLive;
+    UILabel *_lblRestore, *_lblCall, *_lblMute;
+    UISlider *_slRestore, *_slCall, *_slMute;
+    UISwitch *_lockSwitch;
+    UILabel *_lockLabel;
+    UISwitch *_keepSwitch;
+    UILabel *_keepLabel;
+    UISwitch *_autoSwitch;
+    UILabel *_autoLabel;
+    UISwitch *_holdSwitch;
+    UILabel *_holdLabel;
+    UIButton *_applyBtn;
+    UITextView *_logView;
+    NSTimer *_tick;
+    NSUInteger _lastLogCount;
+    BOOL _keepWasRunning;
+}
+
+- (instancetype)init {
+    if ((self = [super init])) {
+        self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"麦克风"
+                                                        image:[UIImage systemImageNamed:@"mic.fill"] tag:1];
+    }
+    return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"麦克风联动";
+    self.view.backgroundColor = [UIColor colorWithRed:0.035 green:0.055 blue:0.07 alpha:1];
+
+    _big = [self label:30 bold:YES color:UIColor.whiteColor];
+    _sub = [self label:12 bold:NO color:[UIColor colorWithWhite:0.55 alpha:1]];
+    _sub.font = [UIFont monospacedSystemFontOfSize:12 weight:UIFontWeightRegular];
+    _ears = [self label:14 bold:NO color:[UIColor colorWithWhite:0.8 alpha:1]];
+    _micLive = [self label:11 bold:NO color:[UIColor colorWithRed:0.45 green:0.9 blue:0.8 alpha:1]];
+    _micLive.font = [UIFont monospacedSystemFontOfSize:11 weight:UIFontWeightRegular];
+    _micLive.numberOfLines = 2;
+
+    UIColor *teal = [UIColor colorWithRed:0.30 green:0.85 blue:0.75 alpha:1];
+
+    _lblRestore = [self label:13 bold:NO color:[UIColor colorWithWhite:0.75 alpha:1]];
+    _slRestore = [self slider:teal tag:1];
+    _slRestore.value = [self prefInt:@"HLRestorePercentLeft" dflt:60];
+
+    _lblCall = [self label:13 bold:NO color:[UIColor colorWithWhite:0.75 alpha:1]];
+    _slCall = [self slider:teal tag:2];
+    _slCall.value = [self prefInt:@"HLCallMutePercentLeft" dflt:50];
+
+    _lblMute = [self label:13 bold:NO color:[UIColor colorWithWhite:0.75 alpha:1]];
+    _slMute = [self slider:teal tag:3];
+    _slMute.value = [self prefInt:@"HLMutePercent" dflt:0];
+
+    // 初始化时也吸附一次，保证界面数字 = 真实档位
+    for (UISlider *s in @[_slRestore, _slCall, _slMute]) [self snap:s persist:NO];
+
+    _lockLabel = [self label:13 bold:NO color:[UIColor colorWithWhite:0.75 alpha:1]];
+    _lockLabel.text = @"右耳锁定在 0（设备自己打开也会按回去）";
+    _lockSwitch = [UISwitch new];
+    _lockSwitch.onTintColor = teal;
+    _lockSwitch.on = [self prefBool:@"HLLockRightEar" dflt:YES];
+    [_lockSwitch addTarget:self action:@selector(lockChanged:) forControlEvents:UIControlEventValueChanged];
+
+    _keepLabel = [self label:12 bold:NO color:[UIColor colorWithWhite:0.7 alpha:1]];
+    _keepLabel.numberOfLines = 2;
+    _keepSwitch = [UISwitch new];
+    _keepSwitch.onTintColor = teal;
+    _keepSwitch.on = HLKeepAliveEnabled();
+    [_keepSwitch addTarget:self action:@selector(keepChanged:) forControlEvents:UIControlEventValueChanged];
+
+    // 联动总开关：关掉后一个字节都不写，但连接和读取照常。
+    // 测参数（记基线 → 改设置 → 找差异）必须先关它，否则我们自己写的 1454E9D6
+    // 会在差异里反复出现，把真正的变化盖掉。
+    _autoLabel = [self label:12 bold:NO color:[UIColor colorWithWhite:0.7 alpha:1]];
+    _autoLabel.numberOfLines = 2;
+    _autoSwitch = [UISwitch new];
+    _autoSwitch.onTintColor = teal;
+    _autoSwitch.on = HLGetAutomation();
+    [_autoSwitch addTarget:self action:@selector(autoChanged:) forControlEvents:UIControlEventValueChanged];
+
+    // 0.6.5：播放中保持。实测 iPhone 音量键会直接改写麦克风档位，
+    // 打开后播放/通话期间被改写会在 1 秒内按回去；关掉则只写一次。
+    _holdLabel = [self label:12 bold:NO color:[UIColor colorWithWhite:0.7 alpha:1]];
+    _holdLabel.numberOfLines = 2;
+    _holdSwitch = [UISwitch new];
+    _holdSwitch.onTintColor = teal;
+    _holdSwitch.on = [self prefBool:@"HLHoldWhilePlaying" dflt:YES];
+    [_holdSwitch addTarget:self action:@selector(holdChanged:) forControlEvents:UIControlEventValueChanged];
+
+    _applyBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [_applyBtn setTitle:@"立即重新应用" forState:UIControlStateNormal];
+    _applyBtn.titleLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightSemibold];
+    [_applyBtn setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    _applyBtn.backgroundColor = [UIColor colorWithRed:0.10 green:0.55 blue:0.50 alpha:1];
+    _applyBtn.layer.cornerRadius = 10;
+    [_applyBtn addTarget:self action:@selector(applyTapped) forControlEvents:UIControlEventTouchUpInside];
+
+    _logView = [UITextView new];
+    _logView.editable = NO;
+    _logView.font = [UIFont monospacedSystemFontOfSize:10 weight:UIFontWeightRegular];
+    _logView.backgroundColor = [UIColor colorWithWhite:0.06 alpha:1];
+    _logView.textColor = [UIColor colorWithRed:0.8 green:0.95 blue:0.92 alpha:1];
+    _logView.layer.cornerRadius = 10;
+    _logView.textContainerInset = UIEdgeInsetsMake(6, 6, 6, 6);
+
+    for (UIView *v in @[_big, _sub, _ears, _micLive,
+                        _lblRestore, _slRestore, _lblCall, _slCall,
+                        _lblMute, _slMute, _lockLabel, _lockSwitch,
+                        _keepLabel, _keepSwitch,
+                        _autoLabel, _autoSwitch,
+                        _holdLabel, _holdSwitch,
+                        _applyBtn, _logView]) {
+        [self.view addSubview:v];
+    }
+
+    [self refreshLabels];
+
+    _tick = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self
+                                           selector:@selector(refreshAll) userInfo:nil repeats:YES];
+}
+
+- (UILabel *)label:(CGFloat)size bold:(BOOL)bold color:(UIColor *)color {
+    UILabel *l = [UILabel new];
+    l.font = bold ? [UIFont boldSystemFontOfSize:size] : [UIFont systemFontOfSize:size];
+    l.textColor = color;
+    return l;
+}
+
+- (UISlider *)slider:(UIColor *)tint tag:(NSInteger)tag {
+    UISlider *s = [UISlider new];
+    s.minimumTrackTintColor = tint;
+    s.minimumValue = 0;
+    s.maximumValue = 100;
+    s.tag = tag;
+    [s addTarget:self action:@selector(sliderChanged:) forControlEvents:UIControlEventValueChanged];
+    return s;
+}
+
+- (NSInteger)prefInt:(NSString *)key dflt:(NSInteger)d {
+    id v = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    return v ? [v integerValue] : d;
+}
+
+- (BOOL)prefBool:(NSString *)key dflt:(BOOL)d {
+    id v = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    return v ? [v boolValue] : d;
+}
+
+#pragma mark - 档位吸附
+
+// 百分比 → 设备档位 → 反算百分比，保证滑块位置和实际报文档位一致
+- (void)snap:(UISlider *)s persist:(BOOL)persist {
+    NSInteger mx = HLGetLevelMax();
+    if (mx < 1) mx = 15;
+    NSInteger lv = (NSInteger)lround(s.value / 100.0 * (double)mx);
+    lv = MAX(0, MIN(lv, mx));
+    NSInteger pct = (NSInteger)lround(lv * 100.0 / (double)mx);
+    if (fabs(s.value - pct) > 0.01) s.value = (float)pct;
+
+    if (!persist) return;
+    NSUserDefaults *d = [NSUserDefaults standardUserDefaults];
+    if (s.tag == 1)      [d setInteger:pct forKey:@"HLRestorePercentLeft"];
+    else if (s.tag == 2) [d setInteger:pct forKey:@"HLCallMutePercentLeft"];
+    else if (s.tag == 3) [d setInteger:pct forKey:@"HLMutePercent"];
+    [d synchronize];
+}
+
+- (NSInteger)levelOf:(UISlider *)s {
+    NSInteger mx = HLGetLevelMax();
+    return (NSInteger)lround(s.value / 100.0 * (double)mx);
+}
+
+#pragma mark - 布局
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    CGFloat w = self.view.bounds.size.width;
+    CGFloat pad = 16;
+    CGFloat y = self.view.safeAreaInsets.top + 6;
+
+    _big.frame = CGRectMake(pad, y, w - pad * 2, 38);            y += 40;
+    _sub.frame = CGRectMake(pad, y, w - pad * 2, 16);            y += 19;
+    _ears.frame = CGRectMake(pad, y, w - pad * 2, 18);           y += 19;
+    _micLive.frame = CGRectMake(pad, y, w - pad * 2, 28);        y += 31;
+
+    _lblRestore.frame = CGRectMake(pad, y, w - pad * 2, 16);
+    _slRestore.frame = CGRectMake(pad, y + 15, w - pad * 2, 28);  y += 45;
+    _lblCall.frame = CGRectMake(pad, y, w - pad * 2, 16);
+    _slCall.frame = CGRectMake(pad, y + 15, w - pad * 2, 28);     y += 45;
+    _lblMute.frame = CGRectMake(pad, y, w - pad * 2, 16);
+    _slMute.frame = CGRectMake(pad, y + 15, w - pad * 2, 28);     y += 47;
+
+    _lockLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
+    _lockSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 34;
+
+    _holdLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
+    _holdSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 34;
+
+    _keepLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
+    _keepSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 34;
+
+    _autoLabel.frame = CGRectMake(pad, y, w - pad * 2 - 64, 32);
+    _autoSwitch.frame = CGRectMake(w - pad - 51, y + 1, 51, 31);  y += 38;
+
+    _applyBtn.frame = CGRectMake(pad, y, w - pad * 2, 36);        y += 43;
+
+    CGFloat logH = self.view.bounds.size.height - y - self.view.safeAreaInsets.bottom - 8;
+    _logView.frame = CGRectMake(pad, y, w - pad * 2, MAX(50, logH));
+}
+
+#pragma mark - 刷新
+
+- (void)refreshLabels {
+    BOOL playing = HLMediaPlaying();
+    BOOL call = HLInCall();
+
+    NSString *text;
+    UIColor *color;
+    if (call) {
+        text = @"通话中 · 左耳按通话档位";
+        color = [UIColor colorWithRed:0.45 green:0.75 blue:1.0 alpha:1];
+    } else if (playing) {
+        text = @"麦克风已压低";
+        color = [UIColor colorWithRed:1.0 green:0.72 blue:0.25 alpha:1];
+    } else {
+        text = @"麦克风正常";
+        color = [UIColor colorWithRed:0.42 green:0.86 blue:0.55 alpha:1];
+    }
+    _big.text = text;
+    _big.textColor = color;
+
+    _sub.text = [NSString stringWithFormat:@"声音=%@  通话=%@  类别=%@",
+                 playing ? @"有" : @"无", call ? @"是" : @"否", HLCallCategory() ?: @"-"];
+
+    _ears.text = [@"耳机：" stringByAppendingString:HLStatusText() ?: @"?"];
+    _micLive.text = [@"音量特征 " stringByAppendingString:HLMicLiveText() ?: @"-"];
+
+    NSInteger rl = [self levelOf:_slRestore];
+    NSInteger cl = [self levelOf:_slCall];
+    NSInteger ml = [self levelOf:_slMute];
+
+    _lblRestore.text = [NSString stringWithFormat:@"安静时左耳恢复：档位 %ld · %ld%%", (long)rl, (long)lround(_slRestore.value)];
+    _lblCall.text    = [NSString stringWithFormat:@"通话时左耳：档位 %ld · %ld%%", (long)cl, (long)lround(_slCall.value)];
+    _lblMute.text    = [NSString stringWithFormat:@"其他 App 出声时压低到：档位 %ld · %ld%%（右耳始终 0）", (long)ml, (long)lround(_slMute.value)];
+
+    BOOL running = HLKeepAliveRunning();
+    BOOL enabled = HLKeepAliveEnabled();
+    if (!enabled) {
+        _keepLabel.text = @"后台音频保活：关（推荐保持关闭，BLE 保活已够）";
+        _keepLabel.textColor = [UIColor colorWithWhite:0.55 alpha:1];
+    } else if (running) {
+        _keepLabel.text = @"后台音频保活：运行中（防后台被杀）";
+        _keepLabel.textColor = [UIColor colorWithRed:0.42 green:0.86 blue:0.55 alpha:1];
+    } else {
+        _keepLabel.text = @"后台音频保活：已开但未运行，点开关重试";
+        _keepLabel.textColor = [UIColor colorWithRed:1.0 green:0.72 blue:0.25 alpha:1];
+    }
+    if (_keepSwitch.on != enabled) _keepSwitch.on = enabled;
+
+    BOOL auto_ = HLGetAutomation();
+    if (auto_) {
+        _autoLabel.text = @"联动写入：运行中（正常使用）";
+        _autoLabel.textColor = [UIColor colorWithRed:0.42 green:0.86 blue:0.55 alpha:1];
+    } else {
+        _autoLabel.text = @"联动写入：已暂停（测参数用，不写任何东西）";
+        _autoLabel.textColor = [UIColor colorWithRed:1.0 green:0.72 blue:0.25 alpha:1];
+    }
+    if (_autoSwitch.on != auto_) _autoSwitch.on = auto_;
+
+    BOOL hold = [self prefBool:@"HLHoldWhilePlaying" dflt:YES];
+    if (hold) {
+        _holdLabel.text = @"播放中保持：开（音量键改档 1 秒内按回）";
+        _holdLabel.textColor = [UIColor colorWithRed:0.42 green:0.86 blue:0.55 alpha:1];
+    } else {
+        _holdLabel.text = @"播放中保持：关（只在切换瞬间写一次）";
+        _holdLabel.textColor = [UIColor colorWithWhite:0.55 alpha:1];
+    }
+    if (_holdSwitch.on != hold) _holdSwitch.on = hold;
+}
+
+- (void)refreshAll {
+    [self refreshLabels];
+
+    NSArray<NSString *> *lines = HLRecentLines();
+    if (lines.count != _lastLogCount) {
+        _lastLogCount = lines.count;
+        NSUInteger from = lines.count > 120 ? lines.count - 120 : 0;
+        _logView.text = [[lines subarrayWithRange:NSMakeRange(from, lines.count - from)]
+                         componentsJoinedByString:@"\n"];
+        [_logView scrollRangeToVisible:NSMakeRange(_logView.text.length, 0)];
+    }
+}
+
+#pragma mark - 交互
+
+- (void)sliderChanged:(UISlider *)s {
+    [self snap:s persist:YES];
+    [self refreshLabels];
+}
+
+- (void)lockChanged:(UISwitch *)sw {
+    [[NSUserDefaults standardUserDefaults] setBool:sw.on forKey:@"HLLockRightEar"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    HLReapplyNow();
+}
+
+- (void)autoChanged:(UISwitch *)sw {
+    HLSetAutomation(sw.on);
+    [self refreshLabels];
+}
+
+- (void)holdChanged:(UISwitch *)sw {
+    [[NSUserDefaults standardUserDefaults] setBool:sw.on forKey:@"HLHoldWhilePlaying"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    [self refreshLabels];
+}
+
+- (void)keepChanged:(UISwitch *)sw {
+    HLSetKeepAlive(sw.on);
+    [self refreshLabels];
+}
+
+- (void)applyTapped {
+    HLReapplyNow();
+    [self refreshAll];
+}
+
+- (void)dealloc { [_tick invalidate]; }
+
+@end
