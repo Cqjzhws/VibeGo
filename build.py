@@ -1,1 +1,158 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKVmliZUdvIOWKqeaJiyAwLjYuMCDmiZPljIXlmagKCuWcqCAwLjQuNyDnmoTln7rnoYDkuIrvvJoKICDCtyDljrvmjonkuKTkuKrnqbrlo7PmoIfnrb7pobXvvIjlv6vmjbcgLyDnnIvmiqTvvIkKICDCtyDmlrDlop7jgIzpuqblhYvpo47jgI3ogZTliqjmjqfliLbpobUKICDCtyDmlrDlop7jgIzmt7HluqbmjqLmtYvjgI3og73lipvnn6npmLXpobXvvIjlpI3nlKjlkIzkuIDmnaEgQkxFIOi/nuaOpe+8jOS4jemineWkluaJq+aPj++8iQogIMK3IOWGhee9riBIZWFyaW5nTGlua++8iEdBVFQg5YaZ5YWlIC8g5pat57q/6YeN6L+eIC8g5Y+z6ICz6ZSB5a6a77yJKyDlhajlsYDpn7PpopHkuI7pgJror53mjqLmtYsKIiIiCmltcG9ydCBvcywgc3lzLCBzaHV0aWwsIHN1YnByb2Nlc3MsIHppcGZpbGUsIHBsaXN0bGliCgpST09UID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpClNSQyA9IG9zLnBhdGguam9pbihST09ULCAic3JjIikKU0RLID0gb3MuZW52aXJvbi5nZXQoIklQSE9ORU9TX1NESyIpIG9yIHIiQzovVXNlcnMvQWRtaW5pc3RyYXRvci9Xb3JrQnVkZHkvMjAyNi0xMC0yMC0wMS00NS00MS9zZGsvaVBob25lT1MxNi41LnNkayIKT0xEX0lQQSA9IG9zLmVudmlyb24uZ2V0KCJWSUJFR09fQkFTRV9JUEEiKSBvciByIkM6L1VzZXJzL0FkbWluaXN0cmF0b3IvRG9jdW1lbnRzL3h3ZWNoYXRfZmlsZXMvd3d3XzUzMTgxOF9jb21fNmJkZS9tc2cvZmlsZS8yMDI2LTEwL1ZpYmVHbyDliqnmiYtfMC40LjcuaXBhIgpQWSA9IHN5cy5leGVjdXRhYmxlClpJRyA9IFtQWSwgIi1tIiwgInppZ2xhbmciLCAiY2MiXQoKQVBQID0gIlZpYmVHbyIKRElTUExBWSA9ICJWaWJlR28g5Yqp5omLIgpWRVJTSU9OID0gIjAuNy4wIgpCVUlMRF9OTyA9ICIyMCIKVEFSR0VUID0gImFhcmNoNjQtaW9zLjE1LjAiCk9VVF9JUEEgPSBvcy5wYXRoLmpvaW4oUk9PVCwgIlZpYmVHb+WKqeaJiy0wLjcuMC5pcGEiKQoKQ0ZMQUdTID0gWwogICAgIi10YXJnZXQiLCBUQVJHRVQsCiAgICAiLWlzeXNyb290IiwgU0RLLAogICAgIi1pc3lzdGVtIiwgb3MucGF0aC5qb2luKFNESywgInVzciIsICJpbmNsdWRlIiksCiAgICAiLUYiLCBvcy5wYXRoLmpvaW4oU0RLLCAiU3lzdGVtIiwgIkxpYnJhcnkiLCAiRnJhbWV3b3JrcyIpLAogICAgIi1mb2JqYy1hcmMiLCAiLWZvYmpjLWV4Y2VwdGlvbnMiLCAiLU9iakMiLCAiLU8yIiwKICAgICItZm5vLXNhbml0aXplPXVuZGVmaW5lZCIsCiAgICAiLURITF9TVEFOREFMT05FX0FQUD0xIiwKICAgICItSSIsIFNSQywgIi1JIiwgb3MucGF0aC5qb2luKFNSQywgIkNvcmUiKSwgIi1JIiwgb3MucGF0aC5qb2luKFNSQywgIlVJIiksCiAgICAiLVduby1kZXByZWNhdGVkLWRlY2xhcmF0aW9ucyIsICItV25vLW51bGxhYmlsaXR5LWNvbXBsZXRlbmVzcyIsCiAgICAiLVduby11bnVzZWQtdmFyaWFibGUiLCAiLVduby11bnVzZWQtZnVuY3Rpb24iLAogICAgIi1Xbm8tdW51c2VkLWJ1dC1zZXQtdmFyaWFibGUiLCAiLVduby1mb3JtYXQiLApdCgpGUkFNRVdPUktTID0gWyJVSUtpdCIsICJDb3JlR3JhcGhpY3MiLCAiUXVhcnR6Q29yZSIsICJDb3JlQmx1ZXRvb3RoIiwKICAgICAgICAgICAgICAiQWNjZXNzaWJpbGl0eSIsICJTZWN1cml0eSIsICJVc2VyTm90aWZpY2F0aW9ucyIsCiAgICAgICAgICAgICAgIkFWRm91bmRhdGlvbiIsICJDb3JlVGVsZXBob255IiwgIk1lZGlhUGxheWVyIiwgIkZvdW5kYXRpb24iLAogICAgICAgICAgICAgICJDYWxsS2l0Il0KTERGTEFHUyA9IFsiLVdsLC1oZWFkZXJwYWQsMHg0MDAwIl0KCgpkZWYgcnVuKGNtZCk6CiAgICByID0gc3VicHJvY2Vzcy5ydW4oY21kLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCiAgICBpZiByLnJldHVybmNvZGUgIT0gMDoKICAgICAgICBwcmludChyLnN0ZG91dFstNjAwMDpdKQogICAgICAgIHByaW50KHIuc3RkZXJyWy02MDAwOl0pCiAgICAgICAgcmFpc2UgU3lzdGVtRXhpdCgiRkFJTEVEOiAlcyIgJSAiICIuam9pbihjbWRbOjZdKSkKICAgIGlmIHIuc3RkZXJyLnN0cmlwKCk6CiAgICAgICAgZm9yIGxpbmUgaW4gci5zdGRlcnIuc3RyaXAoKS5zcGxpdGxpbmVzKCk6CiAgICAgICAgICAgIGlmICJlcnJvciIgaW4gbGluZSBvciAid2FybmluZyIgaW4gbGluZToKICAgICAgICAgICAgICAgIHByaW50KCIgICIsIGxpbmUpCiAgICByZXR1cm4gcgoKCmRlZiBzb3VyY2VzKCk6CiAgICBvdXQgPSBbXQogICAgZm9yIHJvb3QsIF8sIGZpbGVzIGluIG9zLndhbGsoU1JDKToKICAgICAgICBmb3IgZm4gaW4gc29ydGVkKGZpbGVzKToKICAgICAgICAgICAgaWYgZm4uZW5kc3dpdGgoIi5tIik6CiAgICAgICAgICAgICAgICBvdXQuYXBwZW5kKG9zLnBhdGguam9pbihyb290LCBmbikpCiAgICByZXR1cm4gb3V0CgoKZGVmIG1haW4oKToKICAgIGJ1aWxkID0gb3MucGF0aC5qb2luKFJPT1QsICJidWlsZCIpCiAgICBpZiBvcy5wYXRoLmV4aXN0cyhidWlsZCk6CiAgICAgICAgc2h1dGlsLnJtdHJlZShidWlsZCkKICAgIGFwcF9kaXIgPSBvcy5wYXRoLmpvaW4oYnVpbGQsICJQYXlsb2FkIiwgIlZpYmVHby5hcHAiKQogICAgb3MubWFrZWRpcnMoYXBwX2RpcikKCiAgICBzcmNzID0gc291cmNlcygpCiAgICBwcmludCgiWzEvNF0g57yW6K+RICVkIOS4qua6kOaWh+S7tiIgJSBsZW4oc3JjcykpCiAgICBleGUgPSBvcy5wYXRoLmpvaW4oYXBwX2RpciwgQVBQKQogICAgY21kID0gWklHICsgQ0ZMQUdTICsgTERGTEFHUyArIFsiLUwiLCBvcy5wYXRoLmpvaW4oU0RLLCAidXNyIiwgImxpYiIpXQogICAgY21kICs9IHNyY3MgKyBbIi1vIiwgZXhlXQogICAgZm9yIGYgaW4gRlJBTUVXT1JLUzoKICAgICAgICBjbWQgKz0gWyItZnJhbWV3b3JrIiwgZl0KICAgIGNtZCArPSBbIi1sIiwgIm9iamMiXQogICAgcnVuKGNtZCkKICAgIG9zLmNobW9kKGV4ZSwgMG83NTUpCiAgICBwcmludCgiICAgICAg5LqM6L+b5Yi2ICUuMWYgS0IiICUgKG9zLnBhdGguZ2V0c2l6ZShleGUpIC8gMTAyNC4wKSkKCiAgICBwcmludCgiWzIvNF0g57uE6KOFIEFwcCDljIUiKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihTUkMsICJJbmZvLnBsaXN0IiksICJyYiIpIGFzIGY6CiAgICAgICAgaW5mbyA9IHBsaXN0bGliLmxvYWQoZikKICAgIGluZm9bIkNGQnVuZGxlU2hvcnRWZXJzaW9uU3RyaW5nIl0gPSBWRVJTSU9OCiAgICBpbmZvWyJDRkJ1bmRsZVZlcnNpb24iXSA9IEJVSUxEX05PCiAgICBpbmZvWyJDRkJ1bmRsZURpc3BsYXlOYW1lIl0gPSBESVNQTEFZCiAgICBpbmZvWyJDRkJ1bmRsZU5hbWUiXSA9IERJU1BMQVkKICAgIGluZm9bIk1pbmltdW1PU1ZlcnNpb24iXSA9ICIxNS4wIgogICAgaW5mb1siTlNCbHVldG9vdGhBbHdheXNVc2FnZURlc2NyaXB0aW9uIl0gPSAoCiAgICAgICAgIueUqOS6jui/nuaOpSBWaWJlIEdvIOWKqeWQrOWZqO+8muivu+WPlueUteaxoC/nirbmgIHkv6Hmga/vvIzlubbogZTliqjosIPoioLpuqblhYvpo47pn7Pph4/moaPkvY0iCiAgICAgICAgIu+8iOaSreaUvuWjsOmfs+aXtuWOi+S9juOAgeWuiemdmeaXtuaBouWkjeOAgemAmuivneaXtuaMiemAmuivneaho+S9je+8ieOAguWFqOmDqOWcqOacrOacuuWujOaIkOOAgiIpCiAgICBtb2RlcyA9IGluZm8uZ2V0KCJVSUJhY2tncm91bmRNb2RlcyIsIFtdKQogICAgZm9yIG0gaW4gKCJibHVldG9vdGgtY2VudHJhbCIsICJhdWRpbyIpOgogICAgICAgIGlmIG0gbm90IGluIG1vZGVzOgogICAgICAgICAgICBtb2Rlcy5hcHBlbmQobSkKICAgIGluZm9bIlVJQmFja2dyb3VuZE1vZGVzIl0gPSBtb2RlcwogICAgaW5mb1siVUlGaWxlU2hhcmluZ0VuYWJsZWQiXSA9IFRydWUKICAgIGluZm9bIkxTU3VwcG9ydHNPcGVuaW5nRG9jdW1lbnRzSW5QbGFjZSJdID0gVHJ1ZQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihhcHBfZGlyLCAiSW5mby5wbGlzdCIpLCAid2IiKSBhcyBmOgogICAgICAgIHBsaXN0bGliLmR1bXAoaW5mbywgZikKCiAgICAjIOWbvuagh++8muS8mOWFiOeUqOacrOWcsCBpY29ucy/vvIjoh6rnu5noh6rotrPvvInvvIzmsqHmnInmiY3lm57okL3liLAgMC40Ljcg55qEIElQQQogICAgaWNvbl9kaXIgPSBvcy5wYXRoLmpvaW4oUk9PVCwgImljb25zIikKICAgIGdvdCA9IDAKICAgIGlmIG9zLnBhdGguaXNkaXIoaWNvbl9kaXIpOgogICAgICAgIGZvciBmbiBpbiBzb3J0ZWQob3MubGlzdGRpcihpY29uX2RpcikpOgogICAgICAgICAgICBpZiBmbi5sb3dlcigpLmVuZHN3aXRoKCIucG5nIik6CiAgICAgICAgICAgICAgICBzaHV0aWwuY29weTIob3MucGF0aC5qb2luKGljb25fZGlyLCBmbiksIG9zLnBhdGguam9pbihhcHBfZGlyLCBmbikpCiAgICAgICAgICAgICAgICBwcmludCgiICAgICAg5Zu+5qCHIiwgZm4sICIo5pys5ZywKSIpCiAgICAgICAgICAgICAgICBnb3QgKz0gMQogICAgaWYgZ290ID09IDAgYW5kIG9zLnBhdGguZXhpc3RzKE9MRF9JUEEpOgogICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKE9MRF9JUEEpIGFzIHo6CiAgICAgICAgICAgIGZvciBuIGluIHoubmFtZWxpc3QoKToKICAgICAgICAgICAgICAgIGlmIG4uc3RhcnRzd2l0aCgiUGF5bG9hZC9WaWJlR28uYXBwLyIpIGFuZCBuLmxvd2VyKCkuZW5kc3dpdGgoIi5wbmciKToKICAgICAgICAgICAgICAgICAgICB3aXRoIG9wZW4ob3MucGF0aC5qb2luKGFwcF9kaXIsIG9zLnBhdGguYmFzZW5hbWUobikpLCAid2IiKSBhcyBmOgogICAgICAgICAgICAgICAgICAgICAgICBmLndyaXRlKHoucmVhZChuKSkKICAgICAgICAgICAgICAgICAgICBwcmludCgiICAgICAg5Zu+5qCHIiwgb3MucGF0aC5iYXNlbmFtZShuKSwgIijoh6ogMC40LjcpIikKICAgIGlmIGdvdCA9PSAwIGFuZCBub3Qgb3MucGF0aC5leGlzdHMoT0xEX0lQQSk6CiAgICAgICAgcHJpbnQoIiAgICAgIOKaoCDmsqHmnInlm77moIfvvIhpY29ucy8g5Li656m65LiU5om+5LiN5YiwIDAuNC4377yJ77yMQXBwIOS8muaYvuekuueZveWbvuaghyIpCgogICAgcHJpbnQoIlszLzRdIOaJk+WMhSIpCiAgICBpZiBvcy5wYXRoLmV4aXN0cyhPVVRfSVBBKToKICAgICAgICBvcy5yZW1vdmUoT1VUX0lQQSkKICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKE9VVF9JUEEsICJ3IiwgemlwZmlsZS5aSVBfREVGTEFURUQpIGFzIHo6CiAgICAgICAgZm9yIHJvb3QsIF8sIGZpbGVzIGluIG9zLndhbGsob3MucGF0aC5qb2luKGJ1aWxkLCAiUGF5bG9hZCIpKToKICAgICAgICAgICAgZm9yIGZuIGluIGZpbGVzOgogICAgICAgICAgICAgICAgcCA9IG9zLnBhdGguam9pbihyb290LCBmbikKICAgICAgICAgICAgICAgIHoud3JpdGUocCwgb3MucGF0aC5yZWxwYXRoKHAsIGJ1aWxkKSkKICAgIHByaW50KCIgICAgICAlcyAoJS4xZiBLQikiICUgKE9VVF9JUEEsIG9zLnBhdGguZ2V0c2l6ZShPVVRfSVBBKSAvIDEwMjQuMCkpCgogICAgcHJpbnQoIls0LzRdIOiHquagoemqjCIpCiAgICBpbXBvcnQgbGllZgogICAgYiA9IGxpZWYuTWFjaE8ucGFyc2UoZXhlKS5hdCgwKQogICAgYXNzZXJ0IGIuaGVhZGVyLmNwdV90eXBlID09IGxpZWYuTWFjaE8uSGVhZGVyLkNQVV9UWVBFLkFSTTY0CiAgICBkYXRhID0gb3BlbihleGUsICJyYiIpLnJlYWQoKQogICAgZm9yIGJhZCBpbiAoYiJ1YnNhbiIsIGIiX19keWxkX2dldF9pbWFnZV9oZWFkZXJfY29udGFpbmluZ19hZGRyZXNzIik6CiAgICAgICAgYXNzZXJ0IGJhZCBub3QgaW4gZGF0YSwgIua3t+i/m+S6hiAlciIgJSBiYWQKICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKE9VVF9JUEEpIGFzIHo6CiAgICAgICAgbmFtZXMgPSB6Lm5hbWVsaXN0KCkKICAgICAgICBpMiA9IHBsaXN0bGliLmxvYWRzKHoucmVhZCgiUGF5bG9hZC9WaWJlR28uYXBwL0luZm8ucGxpc3QiKSkKICAgIGFzc2VydCAiUGF5bG9hZC9WaWJlR28uYXBwL1ZpYmVHbyIgaW4gbmFtZXMKICAgIGFzc2VydCBpMlsiQ0ZCdW5kbGVJZGVudGlmaWVyIl0gPT0gImNvbS52aWJlZ28uYXNzaXN0IgogICAgYXNzZXJ0ICJibHVldG9vdGgtY2VudHJhbCIgaW4gaTJbIlVJQmFja2dyb3VuZE1vZGVzIl0KICAgIHByaW50KCIgICAgICBPS++8mmFybTY0IC8gJXMgLyDlkI7lj7DmqKHlvI8gLyDml6AgdWJzYW7vvIglZCDlrZfoioLvvIkiCiAgICAgICAgICAlIChpMlsiQ0ZCdW5kbGVTaG9ydFZlcnNpb25TdHJpbmciXSwgbGVuKGRhdGEpKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+VibeGo 助手 0.6.0 打包器
+
+在 0.4.7 的基础上：
+  · 去掉两个空壳标签页（快捷 / 看护）
+  · 新增「麦克风」联动控制页
+  · 新增「深度探测」能力矩阵页（复用同一条 BLE 连接，不额外扫描）
+  · 内置 HearingLink（GATT 写入 / 断线重连 / 右耳锁定）+ 全局音频与通话探测
+"""
+import os, sys, shutil, subprocess, zipfile, plistlib
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(ROOT, "src")
+SDK = os.environ.get("IPHONEOS_SDK") or r"C:/Users/Administrator/WorkBuddy/2026-10-20-01-45-41/sdk/iPhoneOS16.5.sdk"
+OLD_IPA = os.environ.get("VIBEGO_BASE_IPA") or r"C:/Users/Administrator/Documents/xwechat_files/www_531818_com_6bde/msg/file/2026-10/VibeGo 助手_0.4.7.ipa"
+PY = sys.executable
+ZIG = [PY, "-m", "ziglang", "cc"]
+
+APP = "VibeGo"
+DISPLAY = "VibeGo 助手"
+VERSION = "0.7.0"
+BUILD_NO = "20"
+TARGET = "aarch64-ios.15.0"
+OUT_IPA = os.path.join(ROOT, "VibeGo助手-0.7.0.ipa")
+
+CFLAGS = [
+    "-target", TARGET,
+    "-isysroot", SDK,
+    "-isystem", os.path.join(SDK, "usr", "include"),
+    "-F", os.path.join(SDK, "System", "Library", "Frameworks"),
+    "-fobjc-arc", "-fobjc-exceptions", "-ObjC", "-O2",
+    "-fno-sanitize=undefined",
+    "-DHL_STANDALONE_APP=1",
+    "-I", SRC, "-I", os.path.join(SRC, "Core"), "-I", os.path.join(SRC, "UI"),
+    "-Wno-deprecated-declarations", "-Wno-nullability-completeness",
+    "-Wno-unused-variable", "-Wno-unused-function",
+    "-Wno-unused-but-set-variable", "-Wno-format",
+]
+
+FRAMEWORKS = ["UIKit", "CoreGraphics", "QuartzCore", "CoreBluetooth",
+              "Accessibility", "Security", "UserNotifications",
+              "AVFoundation", "CoreTelephony", "MediaPlayer", "Foundation",
+              "CallKit"]
+LDFLAGS = ["-Wl,-headerpad,0x4000"]
+
+
+def run(cmd):
+    r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
+    if r.returncode != 0:
+        print(r.stdout[-6000:])
+        print(r.stderr[-6000:])
+        raise SystemExit("FAILED: %s" % " ".join(cmd[:6]))
+    if r.stderr.strip():
+        for line in r.stderr.strip().splitlines():
+            if "error" in line or "warning" in line:
+                print("  ", line)
+    return r
+
+
+def sources():
+    out = []
+    for root, _, files in os.walk(SRC):
+        for fn in sorted(files):
+            if fn.endswith(".m"):
+                out.append(os.path.join(root, fn))
+    return out
+
+
+def main():
+    build = os.path.join(ROOT, "build")
+    if os.path.exists(build):
+        shutil.rmtree(build)
+    app_dir = os.path.join(build, "Payload", "VibeGo.app")
+    os.makedirs(app_dir)
+
+    srcs = sources()
+    print("[1/4] 编译 %d 个源文件" % len(srcs))
+    exe = os.path.join(app_dir, APP)
+    cmd = ZIG + CFLAGS + LDFLAGS + ["-L", os.path.join(SDK, "usr", "lib")]
+    cmd += srcs + ["-o", exe]
+    for f in FRAMEWORKS:
+        cmd += ["-framework", f]
+    cmd += ["-l", "objc"]
+    run(cmd)
+    os.chmod(exe, 0o755)
+    print("      二进制 %.1f KB" % (os.path.getsize(exe) / 1024.0))
+
+    print("[2/4] 组装 App 包")
+    with open(os.path.join(SRC, "Info.plist"), "rb") as f:
+        info = plistlib.load(f)
+    info["CFBundleShortVersionString"] = VERSION
+    info["CFBundleVersion"] = BUILD_NO
+    info["CFBundleDisplayName"] = DISPLAY
+    info["CFBundleName"] = DISPLAY
+    info["MinimumOSVersion"] = "15.0"
+    info["NSBluetoothAlwaysUsageDescription"] = (
+        "用于连接 Vibe Go 助听器：读取电池/状态信息，并联动调节麦克风音量档位"
+        "（播放声音时压低、安静时恢复、通话时按通话档位）。全部在本机完成。")
+    modes = info.get("UIBackgroundModes", [])
+    for m in ("bluetooth-central", "audio"):
+        if m not in modes:
+            modes.append(m)
+    info["UIBackgroundModes"] = modes
+    info["UIFileSharingEnabled"] = True
+    info["LSSupportsOpeningDocumentsInPlace"] = True
+    with open(os.path.join(app_dir, "Info.plist"), "wb") as f:
+        plistlib.dump(info, f)
+
+    # 图标：优先用本地 icons/（自给自足），没有才回落到 0.4.7 的 IPA
+    icon_dir = os.path.join(ROOT, "icons")
+    got = 0
+    if os.path.isdir(icon_dir):
+        for fn in sorted(os.listdir(icon_dir)):
+            if fn.lower().endswith(".png"):
+                shutil.copy2(os.path.join(icon_dir, fn), os.path.join(app_dir, fn))
+                print("      图标", fn, "(本地)")
+                got += 1
+    if got == 0 and os.path.exists(OLD_IPA):
+        with zipfile.ZipFile(OLD_IPA) as z:
+            for n in z.namelist():
+                if n.startswith("Payload/VibeGo.app/") and n.lower().endswith(".png"):
+                    with open(os.path.join(app_dir, os.path.basename(n)), "wb") as f:
+                        f.write(z.read(n))
+                    print("      图标", os.path.basename(n), "(自 0.4.7)")
+    if got == 0 and not os.path.exists(OLD_IPA):
+        print("      ⚠ 没有图标（icons/ 为空且找不到 0.4.7），App 会显示白图标")
+
+    print("[3/4] 打包")
+    if os.path.exists(OUT_IPA):
+        os.remove(OUT_IPA)
+    with zipfile.ZipFile(OUT_IPA, "w", zipfile.ZIP_DEFLATED) as z:
+        for root, _, files in os.walk(os.path.join(build, "Payload")):
+            for fn in files:
+                p = os.path.join(root, fn)
+                z.write(p, os.path.relpath(p, build))
+    print("      %s (%.1f KB)" % (OUT_IPA, os.path.getsize(OUT_IPA) / 1024.0))
+
+    print("[4/4] 自校验")
+    import lief
+    b = lief.MachO.parse(exe).at(0)
+    assert b.header.cpu_type == lief.MachO.Header.CPU_TYPE.ARM64
+    data = open(exe, "rb").read()
+    for bad in (b"ubsan", b"__dyld_get_image_header_containing_address"):
+        assert bad not in data, "混进了 %r" % bad
+    with zipfile.ZipFile(OUT_IPA) as z:
+        names = z.namelist()
+        i2 = plistlib.loads(z.read("Payload/VibeGo.app/Info.plist"))
+    assert "Payload/VibeGo.app/VibeGo" in names
+    assert i2["CFBundleIdentifier"] == "com.vibego.assist"
+    assert "bluetooth-central" in i2["UIBackgroundModes"]
+    print("      OK：arm64 / %s / 后台模式 / 无 ubsan（%d 字节）"
+          % (i2["CFBundleShortVersionString"], len(data)))
+
+
+if __name__ == "__main__":
+    main()
