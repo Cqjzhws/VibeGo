@@ -1,1 +1,29 @@
-I2ltcG9ydCA8VUlLaXQvVUlLaXQuaD4KI2ltcG9ydCA8Q29yZUJsdWV0b290aC9Db3JlQmx1ZXRvb3RoLmg+CgpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTgoKZXh0ZXJuIE5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR1Jzc2lEaWRDaGFuZ2VOb3RpZmljYXRpb247CgpAaW50ZXJmYWNlIFZHUnNzaVJlYWRpbmcgOiBOU09iamVjdApAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSkgTlNTdHJpbmcgKmtleTsKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHkpIE5TU3RyaW5nICpsb2NhbE5hbWU7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBhc3NpZ24pIE5TSW50ZWdlciBsYXN0UlNTSTsKQHByb3BlcnR5IChub25hdG9taWMsIGFzc2lnbikgZG91YmxlIGF2Z1JTU0k7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcpIE5TRGF0ZSAqdXBkYXRlZEF0OwpAcHJvcGVydHkgKG5vbmF0b21pYywgYXNzaWduKSBOU1VJbnRlZ2VyIHNhbXBsZXM7CkBlbmQKCkBpbnRlcmZhY2UgVkdSc3NpTW9uaXRvciA6IE5TT2JqZWN0IDxDQkNlbnRyYWxNYW5hZ2VyRGVsZWdhdGU+CisgKGluc3RhbmNldHlwZSlzaGFyZWQ7Ci0gKHZvaWQpc3RhcnQ7Ci0gKE5TQXJyYXk8VkdSc3NpUmVhZGluZyAqPiAqKXJlYWRpbmdzOwovLy8gMjAg56eS5YaF5LuN5Zyo5bm/5pKt55qEIFZpYmUg6K6+5aSH5pWw6YeP77yIMSDmiJYgMiDooajnpLrljZXogLMv5Y+M6ICz5Zyo5Zy677yJCi0gKE5TVUludGVnZXIpZnJlc2hEZXZpY2VDb3VudDsKLy8g6ZKI5a+56ZSM56m655S15rGg5L2O5Yqf546HIEJMRSDmoKHlh4bvvJo+PSAtODUg5LyY77ybLTg1fi05NSDmraPluLjvvJstOTV+LTEwMiDlgY/lvLHvvJs8IC0xMDIg5byxCisgKE5TU3RyaW5nICopcXVhbGl0eUxhYmVsOihkb3VibGUpcnNzaTsKKyAoVUlDb2xvciAqKXF1YWxpdHlDb2xvcjooZG91YmxlKXJzc2k7CisgKE5TSW50ZWdlcilzaWduYWxCYXJzOihkb3VibGUpcnNzaTsgLy8gMX40CkBlbmQKCk5TX0FTU1VNRV9OT05OVUxMX0VORAo=
+#import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+extern NSNotificationName const VGRssiDidChangeNotification;
+
+@interface VGRssiReading : NSObject
+@property (nonatomic, copy) NSString *key;
+@property (nonatomic, copy) NSString *localName;
+@property (nonatomic, assign) NSInteger lastRSSI;
+@property (nonatomic, assign) double avgRSSI;
+@property (nonatomic, strong) NSDate *updatedAt;
+@property (nonatomic, assign) NSUInteger samples;
+@end
+
+@interface VGRssiMonitor : NSObject <CBCentralManagerDelegate>
++ (instancetype)shared;
+- (void)start;
+- (NSArray<VGRssiReading *> *)readings;
+/// 20 秒内仍在广播的 Vibe 设备数量（1 或 2 表示单耳/双耳在场）
+- (NSUInteger)freshDeviceCount;
+// 针对锌空电池低功率 BLE 校准：>= -85 优；-85~-95 正常；-95~-102 偏弱；< -102 弱
++ (NSString *)qualityLabel:(double)rssi;
++ (UIColor *)qualityColor:(double)rssi;
++ (NSInteger)signalBars:(double)rssi; // 1~4
+@end
+
+NS_ASSUME_NONNULL_END
