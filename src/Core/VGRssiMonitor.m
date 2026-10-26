@@ -200,7 +200,7 @@ static const NSTimeInterval kVGFreshSeconds = 20.0;
         case 1: return [UIColor colorWithRed:0.45 green:0.85 blue:0.75 alpha:1];
         case 2: return [UIColor colorWithRed:0.98 green:0.78 blue:0.30 alpha:1];
         case 3: return [UIColor colorWithRed:0.98 green:0.55 blue:0.30 alpha:1];
-        default: return [UIColor colorWithRed:0.95 green:0.30 green:0.30 alpha:1];
+        default: return [UIColor colorWithRed:0.95 green:0.30 blue:0.30 alpha:1];
     }
 }
 
