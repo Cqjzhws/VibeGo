@@ -1,1 +1,255 @@
-I2ltcG9ydCAiVkdHYXR0UHJvYmVWQy5oIg0KI2ltcG9ydCAiVkdHYXR0UHJvYmUuaCINCiNpbXBvcnQgIlZHUHJvYmVEZXZpY2UuaCINCiNpbXBvcnQgIlZHUHJvYmVTbmFwc2hvdC5oIg0KI2ltcG9ydCAiVkdFYXJNYXAuaCINCiNpbXBvcnQgPG9iamMvcnVudGltZS5oPg0KDQpAaW50ZXJmYWNlIFZHR2F0dFByb2JlVkMgKCkNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcpIFVJTGFiZWwgKnN0YXRlTGFiZWw7DQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBVSVRleHRWaWV3ICpsb2dWaWV3Ow0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgVUlUZXh0VmlldyAqZGV2aWNlSW5mb1ZpZXc7DQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBVSVN0YWNrVmlldyAqZWFyQnRuU3RhY2s7DQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBVSUJ1dHRvbiAqc3RhcnRCdG47DQpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBVSUJ1dHRvbiAqc2hhcmVCdG47DQpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSkgTlNBcnJheTxWR1Byb2JlRGV2aWNlICo+ICpjdXJyZW50RGV2aWNlczsNCkBlbmQNCg0KQGltcGxlbWVudGF0aW9uIFZHR2F0dFByb2JlVkMNCg0KLSAodm9pZCl2aWV3RGlkTG9hZCB7DQogICAgW3N1cGVyIHZpZXdEaWRMb2FkXTsNCiAgICBzZWxmLnRpdGxlID0gQCJHQVRUIOWPquivu+aOoua1iyI7DQogICAgc2VsZi52aWV3LmJhY2tncm91bmRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjAzNSBncmVlbjowLjA1NSBibHVlOjAuMDcgYWxwaGE6MV07DQoNCiAgICAvLyDmuIXnqbrmr5Tlr7nln7rnur/vvIjplb/ot5HnmoTor63kuYnmjqjmlq3lt6XlhbfvvJrmjaLpqozphY3lkI7mg7Pph43mlrDotbfln7rnur/ml7bnlKjvvIkNCiAgICBzZWxmLm5hdmlnYXRpb25JdGVtLnJpZ2h0QmFyQnV0dG9uSXRlbSA9DQogICAgICAgIFtbVUlCYXJCdXR0b25JdGVtIGFsbG9jXSBpbml0V2l0aFRpdGxlOkAi5riF5Z+657q/Ig0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZTpVSUJhckJ1dHRvbkl0ZW1TdHlsZVBsYWluDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3RvcihyZXNldEJhc2VsaW5lVGFwcGVkKV07DQoNCiAgICBVSUxhYmVsICp3YXJuID0gW1VJTGFiZWwgbmV3XTsNCiAgICB3YXJuLnRleHQgPSBAIuWuieWFqOWPquivu++8muS4jemJtOadg+OAgeS4jeWGmeWFpeOAgeS4jeiuoumYhemAmuefpeOAguavj+asoeaOoua1i+e7k+adn+S8muS4juS4iuasoeiHquWKqOavlOWvue+8jOWIl+WHuuWPkeeUn+WPmOWMlueahOeJueW+geOAgiI7DQogICAgd2Fybi5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjEyXTsNCiAgICB3YXJuLnRleHRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjQgZ3JlZW46MC44NSBibHVlOjAuOCBhbHBoYToxXTsNCiAgICB3YXJuLm51bWJlck9mTGluZXMgPSAwOw0KICAgIHdhcm4udHJhbnNsYXRlc0F1dG9yZXNpemluZ01hc2tJbnRvQ29uc3RyYWludHMgPSBOTzsNCiAgICBbc2VsZi52aWV3IGFkZFN1YnZpZXc6d2Fybl07DQoNCiAgICBzZWxmLnN0YXRlTGFiZWwgPSBbVUlMYWJlbCBuZXddOw0KICAgIHNlbGYuc3RhdGVMYWJlbC50ZXh0ID0gQCLnqbrpl7IiOw0KICAgIHNlbGYuc3RhdGVMYWJlbC5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjE0IHdlaWdodDpVSUZvbnRXZWlnaHRTZW1pYm9sZF07DQogICAgc2VsZi5zdGF0ZUxhYmVsLnRleHRDb2xvciA9IFVJQ29sb3Iud2hpdGVDb2xvcjsNCiAgICBzZWxmLnN0YXRlTGFiZWwudHJhbnNsYXRlc0F1dG9yZXNpemluZ01hc2tJbnRvQ29uc3RyYWludHMgPSBOTzsNCiAgICBbc2VsZi52aWV3IGFkZFN1YnZpZXc6c2VsZi5zdGF0ZUxhYmVsXTsNCg0KICAgIHNlbGYuc3RhcnRCdG4gPSBbVUlCdXR0b24gYnV0dG9uV2l0aFR5cGU6VUlCdXR0b25UeXBlU3lzdGVtXTsNCiAgICBbc2VsZi5zdGFydEJ0biBzZXRUaXRsZTpAIuW8gOWni+aOoua1i++8iOe6pjE14oCTNDXnp5LvvIkiIGZvclN0YXRlOlVJQ29udHJvbFN0YXRlTm9ybWFsXTsNCiAgICBzZWxmLnN0YXJ0QnRuLnRpdGxlTGFiZWwuZm9udCA9IFtVSUZvbnQgc3lzdGVtRm9udE9mU2l6ZToxNiB3ZWlnaHQ6VUlGb250V2VpZ2h0Qm9sZF07DQogICAgW3NlbGYuc3RhcnRCdG4gc2V0VGl0bGVDb2xvcjpVSUNvbG9yLndoaXRlQ29sb3IgZm9yU3RhdGU6VUlDb250cm9sU3RhdGVOb3JtYWxdOw0KICAgIHNlbGYuc3RhcnRCdG4uYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuMTAgZ3JlZW46MC41NSBibHVlOjAuNTAgYWxwaGE6MV07DQogICAgc2VsZi5zdGFydEJ0bi5sYXllci5jb3JuZXJSYWRpdXMgPSAxMjsNCiAgICBzZWxmLnN0YXJ0QnRuLnRyYW5zbGF0ZXNBdXRvcmVzaXppbmdNYXNrSW50b0NvbnN0cmFpbnRzID0gTk87DQogICAgW3NlbGYuc3RhcnRCdG4gYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3RvcihzdGFydFRhcHBlZCkgZm9yQ29udHJvbEV2ZW50czpVSUNvbnRyb2xFdmVudFRvdWNoVXBJbnNpZGVdOw0KICAgIFtzZWxmLnZpZXcgYWRkU3VidmlldzpzZWxmLnN0YXJ0QnRuXTsNCg0KICAgIHNlbGYuc2hhcmVCdG4gPSBbVUlCdXR0b24gYnV0dG9uV2l0aFR5cGU6VUlCdXR0b25UeXBlU3lzdGVtXTsNCiAgICBbc2VsZi5zaGFyZUJ0biBzZXRUaXRsZTpAIuWIhuS6q+aXpeW/lyIgZm9yU3RhdGU6VUlDb250cm9sU3RhdGVOb3JtYWxdOw0KICAgIHNlbGYuc2hhcmVCdG4udGl0bGVMYWJlbC5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjE1IHdlaWdodDpVSUZvbnRXZWlnaHRTZW1pYm9sZF07DQogICAgW3NlbGYuc2hhcmVCdG4gc2V0VGl0bGVDb2xvcjpVSUNvbG9yLndoaXRlQ29sb3IgZm9yU3RhdGU6VUlDb250cm9sU3RhdGVOb3JtYWxdOw0KICAgIHNlbGYuc2hhcmVCdG4uYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC4xNSBhbHBoYToxXTsNCiAgICBzZWxmLnNoYXJlQnRuLmxheWVyLmNvcm5lclJhZGl1cyA9IDEyOw0KICAgIHNlbGYuc2hhcmVCdG4udHJhbnNsYXRlc0F1dG9yZXNpemluZ01hc2tJbnRvQ29uc3RyYWludHMgPSBOTzsNCiAgICBbc2VsZi5zaGFyZUJ0biBhZGRUYXJnZXQ6c2VsZiBhY3Rpb246QHNlbGVjdG9yKHNoYXJlVGFwcGVkKSBmb3JDb250cm9sRXZlbnRzOlVJQ29udHJvbEV2ZW50VG91Y2hVcEluc2lkZV07DQogICAgW3NlbGYudmlldyBhZGRTdWJ2aWV3OnNlbGYuc2hhcmVCdG5dOw0KDQogICAgc2VsZi5sb2dWaWV3ID0gW1VJVGV4dFZpZXcgbmV3XTsNCiAgICBzZWxmLmxvZ1ZpZXcuZWRpdGFibGUgPSBOTzsNCiAgICBzZWxmLmxvZ1ZpZXcuZm9udCA9IFtVSUZvbnQgZm9udFdpdGhOYW1lOkAiTWVubG8iIHNpemU6MTFdID86IFtVSUZvbnQgc3lzdGVtRm9udE9mU2l6ZToxMV07DQogICAgc2VsZi5sb2dWaWV3LmJhY2tncm91bmRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuMDYgYWxwaGE6MV07DQogICAgc2VsZi5sb2dWaWV3LnRleHRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjggZ3JlZW46MC45NSBibHVlOjAuOTIgYWxwaGE6MV07DQogICAgc2VsZi5sb2dWaWV3LmxheWVyLmNvcm5lclJhZGl1cyA9IDEyOw0KICAgIHNlbGYubG9nVmlldy50cmFuc2xhdGVzQXV0b3Jlc2l6aW5nTWFza0ludG9Db25zdHJhaW50cyA9IE5POw0KICAgIFtzZWxmLnZpZXcgYWRkU3VidmlldzpzZWxmLmxvZ1ZpZXddOw0KDQogICAgc2VsZi5kZXZpY2VJbmZvVmlldyA9IFtVSVRleHRWaWV3IG5ld107DQogICAgc2VsZi5kZXZpY2VJbmZvVmlldy5lZGl0YWJsZSA9IE5POw0KICAgIHNlbGYuZGV2aWNlSW5mb1ZpZXcuZm9udCA9IFtVSUZvbnQgZm9udFdpdGhOYW1lOkAiTWVubG8iIHNpemU6MTFdID86IFtVSUZvbnQgc3lzdGVtRm9udE9mU2l6ZToxMV07DQogICAgc2VsZi5kZXZpY2VJbmZvVmlldy5iYWNrZ3JvdW5kQ29sb3IgPSBbVUlDb2xvciBjb2xvcldpdGhSZWQ6MC4wNiBncmVlbjowLjEzIGJsdWU6MC4xMiBhbHBoYToxXTsNCiAgICBzZWxmLmRldmljZUluZm9WaWV3LnRleHRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjQ1IGdyZWVuOjAuOTUgYmx1ZTowLjg1IGFscGhhOjFdOw0KICAgIHNlbGYuZGV2aWNlSW5mb1ZpZXcubGF5ZXIuY29ybmVyUmFkaXVzID0gMTI7DQogICAgc2VsZi5kZXZpY2VJbmZvVmlldy50cmFuc2xhdGVzQXV0b3Jlc2l6aW5nTWFza0ludG9Db25zdHJhaW50cyA9IE5POw0KICAgIFtzZWxmLnZpZXcgYWRkU3VidmlldzpzZWxmLmRldmljZUluZm9WaWV3XTsNCg0KICAgIC8vIOW3puWPs+iAs+iuvuWumuihjO+8iOavj+WPquiuvuWkh+S4gOihjO+8muefrUlEICsg5bem6ICzICsg5Y+z6ICz77yM54K55LiA5qyh5YWo5bGA6K6w5b+G77yJDQogICAgc2VsZi5lYXJCdG5TdGFjayA9IFtVSVN0YWNrVmlldyBuZXddOw0KICAgIHNlbGYuZWFyQnRuU3RhY2suYXhpcyA9IFVJTGF5b3V0Q29uc3RyYWludEF4aXNWZXJ0aWNhbDsNCiAgICBzZWxmLmVhckJ0blN0YWNrLnNwYWNpbmcgPSA2Ow0KICAgIHNlbGYuZWFyQnRuU3RhY2sudHJhbnNsYXRlc0F1dG9yZXNpemluZ01hc2tJbnRvQ29uc3RyYWludHMgPSBOTzsNCiAgICBbc2VsZi52aWV3IGFkZFN1YnZpZXc6c2VsZi5lYXJCdG5TdGFja107DQoNCiAgICBbTlNMYXlvdXRDb25zdHJhaW50IGFjdGl2YXRlQ29uc3RyYWludHM6QFsNCiAgICAgICAgW3dhcm4udG9wQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYudmlldy5zYWZlQXJlYUxheW91dEd1aWRlLnRvcEFuY2hvciBjb25zdGFudDoxMl0sDQogICAgICAgIFt3YXJuLmxlYWRpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi52aWV3LmxlYWRpbmdBbmNob3IgY29uc3RhbnQ6MTZdLA0KICAgICAgICBbd2Fybi50cmFpbGluZ0FuY2hvciBjb25zdHJhaW50RXF1YWxUb0FuY2hvcjpzZWxmLnZpZXcudHJhaWxpbmdBbmNob3IgY29uc3RhbnQ6LTE2XSwNCiAgICAgICAgW3NlbGYuc3RhdGVMYWJlbC50b3BBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6d2Fybi5ib3R0b21BbmNob3IgY29uc3RhbnQ6MTBdLA0KICAgICAgICBbc2VsZi5zdGF0ZUxhYmVsLmxlYWRpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6d2Fybi5sZWFkaW5nQW5jaG9yXSwNCiAgICAgICAgW3NlbGYuc3RhcnRCdG4udG9wQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYuc3RhdGVMYWJlbC5ib3R0b21BbmNob3IgY29uc3RhbnQ6MTJdLA0KICAgICAgICBbc2VsZi5zdGFydEJ0bi5sZWFkaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOndhcm4ubGVhZGluZ0FuY2hvcl0sDQogICAgICAgIFtzZWxmLnN0YXJ0QnRuLnRyYWlsaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYudmlldy5jZW50ZXJYQW5jaG9yIGNvbnN0YW50Oi02XSwNCiAgICAgICAgW3NlbGYuc3RhcnRCdG4uaGVpZ2h0QW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQ29uc3RhbnQ6NDZdLA0KICAgICAgICBbc2VsZi5zaGFyZUJ0bi50b3BBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi5zdGFydEJ0bi50b3BBbmNob3JdLA0KICAgICAgICBbc2VsZi5zaGFyZUJ0bi5sZWFkaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYudmlldy5jZW50ZXJYQW5jaG9yIGNvbnN0YW50OjZdLA0KICAgICAgICBbc2VsZi5zaGFyZUJ0bi50cmFpbGluZ0FuY2hvciBjb25zdHJhaW50RXF1YWxUb0FuY2hvcjp3YXJuLnRyYWlsaW5nQW5jaG9yXSwNCiAgICAgICAgW3NlbGYuc2hhcmVCdG4uaGVpZ2h0QW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQ29uc3RhbnQ6NDZdLA0KICAgICAgICBbc2VsZi5kZXZpY2VJbmZvVmlldy50b3BBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi5zdGFydEJ0bi5ib3R0b21BbmNob3IgY29uc3RhbnQ6MTJdLA0KICAgICAgICBbc2VsZi5kZXZpY2VJbmZvVmlldy5sZWFkaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOndhcm4ubGVhZGluZ0FuY2hvcl0sDQogICAgICAgIFtzZWxmLmRldmljZUluZm9WaWV3LnRyYWlsaW5nQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOndhcm4udHJhaWxpbmdBbmNob3JdLA0KICAgICAgICBbc2VsZi5kZXZpY2VJbmZvVmlldy5oZWlnaHRBbmNob3IgY29uc3RyYWludEVxdWFsVG9Db25zdGFudDoxMTBdLA0KICAgICAgICBbc2VsZi5lYXJCdG5TdGFjay50b3BBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi5kZXZpY2VJbmZvVmlldy5ib3R0b21BbmNob3IgY29uc3RhbnQ6OF0sDQogICAgICAgIFtzZWxmLmVhckJ0blN0YWNrLmxlYWRpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6d2Fybi5sZWFkaW5nQW5jaG9yXSwNCiAgICAgICAgW3NlbGYuZWFyQnRuU3RhY2sudHJhaWxpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6d2Fybi50cmFpbGluZ0FuY2hvcl0sDQogICAgICAgIFtzZWxmLmxvZ1ZpZXcudG9wQW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQW5jaG9yOnNlbGYuZWFyQnRuU3RhY2suYm90dG9tQW5jaG9yIGNvbnN0YW50OjhdLA0KICAgICAgICBbc2VsZi5sb2dWaWV3LmxlYWRpbmdBbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6d2Fybi5sZWFkaW5nQW5jaG9yXSwNCiAgICAgICAgW3NlbGYubG9nVmlldy50cmFpbGluZ0FuY2hvciBjb25zdHJhaW50RXF1YWxUb0FuY2hvcjp3YXJuLnRyYWlsaW5nQW5jaG9yXSwNCiAgICAgICAgW3NlbGYubG9nVmlldy5ib3R0b21BbmNob3IgY29uc3RyYWludEVxdWFsVG9BbmNob3I6c2VsZi52aWV3LnNhZmVBcmVhTGF5b3V0R3VpZGUuYm90dG9tQW5jaG9yIGNvbnN0YW50Oi0xMl0sDQogICAgXV07DQoNCiAgICBbW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdIGFkZE9ic2VydmVyOnNlbGYgc2VsZWN0b3I6QHNlbGVjdG9yKHJlbG9hZExvZykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOlZHR2F0dExvZ05vdGlmaWNhdGlvbiBvYmplY3Q6bmlsXTsNCiAgICBbW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdIGFkZE9ic2VydmVyOnNlbGYgc2VsZWN0b3I6QHNlbGVjdG9yKHJlbG9hZFN0YXRlKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6VkdHYXR0U3RhdGVOb3RpZmljYXRpb24gb2JqZWN0Om5pbF07DQogICAgW1tOU05vdGlmaWNhdGlvbkNlbnRlciBkZWZhdWx0Q2VudGVyXSBhZGRPYnNlcnZlcjpzZWxmIHNlbGVjdG9yOkBzZWxlY3RvcihyZWxvYWREZXZpY2VzKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6VkdHYXR0RGV2aWNlc05vdGlmaWNhdGlvbiBvYmplY3Q6bmlsXTsNCiAgICBbc2VsZiByZWxvYWRMb2ddOyBbc2VsZiByZWxvYWRTdGF0ZV07IFtzZWxmIHJlbG9hZERldmljZXNdOw0KfQ0KDQotICh2b2lkKXN0YXJ0VGFwcGVkIHsNCiAgICBpZiAoW1ZHR2F0dFByb2JlIHNoYXJlZF0ucnVubmluZykgcmV0dXJuOw0KICAgIFtbVkdHYXR0UHJvYmUgc2hhcmVkXSBzdGFydF07DQogICAgW3NlbGYgcmVsb2FkTG9nXTsgW3NlbGYgcmVsb2FkU3RhdGVdOyBbc2VsZiByZWxvYWREZXZpY2VzXTsNCn0NCg0KLSAodm9pZClyZXNldEJhc2VsaW5lVGFwcGVkIHsNCiAgICBVSUFsZXJ0Q29udHJvbGxlciAqYWMgPSBbVUlBbGVydENvbnRyb2xsZXINCiAgICAgICAgYWxlcnRDb250cm9sbGVyV2l0aFRpdGxlOkAi5riF56m65o6i5rWL5Z+657q/77yfIg0KICAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2U6QCLmuIXnqbrlkI7vvIzkuIvmrKHmjqLmtYvkvJrph43mlrDorrDlvZXln7rnur/vvJvku47lho3kuIvkuIDmrKHmjqLmtYvotbfmiY3og73nnIvliLDjgIzlk6rkupvnibnlvoHlj5jkuobjgI3jgIIiDQogICAgICAgICAgICAgICAgICBwcmVmZXJyZWRTdHlsZTpVSUFsZXJ0Q29udHJvbGxlclN0eWxlQWxlcnRdOw0KICAgIFthYyBhZGRBY3Rpb246W1VJQWxlcnRBY3Rpb24gYWN0aW9uV2l0aFRpdGxlOkAi5Y+W5raIIiBzdHlsZTpVSUFsZXJ0QWN0aW9uU3R5bGVDYW5jZWwgaGFuZGxlcjpuaWxdXTsNCiAgICBbYWMgYWRkQWN0aW9uOltVSUFsZXJ0QWN0aW9uIGFjdGlvbldpdGhUaXRsZTpAIua4heepuiIgc3R5bGU6VUlBbGVydEFjdGlvblN0eWxlRGVzdHJ1Y3RpdmUNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZXI6XihVSUFsZXJ0QWN0aW9uICphKSB7DQogICAgICAgIFtWR1Byb2JlU25hcHNob3QgcmVzZXRBbGxdOw0KICAgICAgICBzZWxmLmRldmljZUluZm9WaWV3LnRleHQgPSBAIuWfuue6v+W3sua4heepuuOAgumHjeaWsOaOoua1i+S4gOasoeWNs+WPr+W7uueri+aWsOWfuue6v+OAgiI7DQogICAgfV1dOw0KICAgIFtzZWxmIHByZXNlbnRWaWV3Q29udHJvbGxlcjphYyBhbmltYXRlZDpZRVMgY29tcGxldGlvbjpuaWxdOw0KfQ0KDQotICh2b2lkKXNoYXJlVGFwcGVkIHsNCiAgICBOU1VSTCAqdXJsID0gW1tWR0dhdHRQcm9iZSBzaGFyZWRdIGV4cG9ydEZpbGVdOw0KICAgIFVJQWN0aXZpdHlWaWV3Q29udHJvbGxlciAqYXYgPSBbW1VJQWN0aXZpdHlWaWV3Q29udHJvbGxlciBhbGxvY10NCiAgICAgICAgaW5pdFdpdGhBY3Rpdml0eUl0ZW1zOkBbdXJsXSBhcHBsaWNhdGlvbkFjdGl2aXRpZXM6bmlsXTsNCiAgICBhdi5wb3BvdmVyUHJlc2VudGF0aW9uQ29udHJvbGxlci5zb3VyY2VWaWV3ID0gc2VsZi5zaGFyZUJ0bjsNCiAgICBbc2VsZiBwcmVzZW50Vmlld0NvbnRyb2xsZXI6YXYgYW5pbWF0ZWQ6WUVTIGNvbXBsZXRpb246bmlsXTsNCn0NCg0KLSAodm9pZClyZWxvYWRMb2cgew0KICAgIE5TQXJyYXkgKmxpbmVzID0gW1tWR0dhdHRQcm9iZSBzaGFyZWRdIGxpbmVzXTsNCiAgICBOU1N0cmluZyAqdGV4dCA9IFtsaW5lcyBjb21wb25lbnRzSm9pbmVkQnlTdHJpbmc6QCJcbiJdOw0KICAgIHNlbGYubG9nVmlldy50ZXh0ID0gdGV4dDsNCiAgICBpZiAobGluZXMuY291bnQgPiAwKSB7DQogICAgICAgIFtzZWxmLmxvZ1ZpZXcgc2Nyb2xsUmFuZ2VUb1Zpc2libGU6TlNNYWtlUmFuZ2UodGV4dC5sZW5ndGgsIDApXTsNCiAgICB9DQogICAgc2VsZi5zaGFyZUJ0bi5lbmFibGVkID0gbGluZXMuY291bnQgPiAwOw0KfQ0KDQotICh2b2lkKXJlbG9hZFN0YXRlIHsNCiAgICBzZWxmLnN0YXRlTGFiZWwudGV4dCA9IFtWR0dhdHRQcm9iZSBzaGFyZWRdLnN0YXRlVGV4dDsNCiAgICBzZWxmLnN0YXJ0QnRuLmVuYWJsZWQgPSAhW1ZHR2F0dFByb2JlIHNoYXJlZF0ucnVubmluZzsNCiAgICBzZWxmLnN0YXJ0QnRuLmFscGhhID0gW1ZHR2F0dFByb2JlIHNoYXJlZF0ucnVubmluZyA/IDAuNSA6IDE7DQp9DQoNCi0gKHZvaWQpcmVsb2FkRGV2aWNlcyB7DQogICAgTlNBcnJheTxWR1Byb2JlRGV2aWNlICo+ICpkcyA9IFtbVkdHYXR0UHJvYmUgc2hhcmVkXSBkZXZpY2VzXTsNCiAgICBzZWxmLmN1cnJlbnREZXZpY2VzID0gZHM7DQogICAgLy8g5ZCM5q2l5pyA5paw5pig5bCE5Yiw5qGj5qGI77yI5o6i5rWL5pe25Yib5bu655qE5a+56LGh5Y+v6IO95pep5LqO55So5oi36K6+5a6a77yJDQogICAgZm9yIChWR1Byb2JlRGV2aWNlICpkIGluIGRzKSBkLmVhckxhYmVsID0gW1ZHRWFyTWFwIGVhckxhYmVsRm9yS2V5OmQuZWFyS2V5XTsNCiAgICBpZiAoZHMuY291bnQgPT0gMCkgeyBzZWxmLmRldmljZUluZm9WaWV3LnRleHQgPSBAIiI7IHJldHVybjsgfQ0KICAgIE5TTXV0YWJsZUFycmF5ICpwYXJ0cyA9IFtOU011dGFibGVBcnJheSBhcnJheV07DQogICAgZm9yIChWR1Byb2JlRGV2aWNlICpkIGluIGRzKSBbcGFydHMgYWRkT2JqZWN0OltkIHN1bW1hcnldXTsNCiAgICBzZWxmLmRldmljZUluZm9WaWV3LnRleHQgPSBbcGFydHMgY29tcG9uZW50c0pvaW5lZEJ5U3RyaW5nOkAiXG5cbiJdOw0KICAgIFtzZWxmIHJlYnVpbGRFYXJCdXR0b25zXTsNCn0NCg0KI3ByYWdtYSBtYXJrIC0g5bem5Y+z6ICz6K6+5a6aDQoNCi0gKHZvaWQpcmVidWlsZEVhckJ1dHRvbnMgew0KICAgIGZvciAoVUlWaWV3ICp2IGluIHNlbGYuZWFyQnRuU3RhY2suYXJyYW5nZWRTdWJ2aWV3cykgW3YgcmVtb3ZlRnJvbVN1cGVydmlld107DQogICAgZm9yIChWR1Byb2JlRGV2aWNlICpkIGluIHNlbGYuY3VycmVudERldmljZXMpIHsNCiAgICAgICAgVUlTdGFja1ZpZXcgKnJvdyA9IFtVSVN0YWNrVmlldyBuZXddOw0KICAgICAgICByb3cuYXhpcyA9IFVJTGF5b3V0Q29uc3RyYWludEF4aXNIb3Jpem9udGFsOw0KICAgICAgICByb3cuc3BhY2luZyA9IDg7DQoNCiAgICAgICAgVUlMYWJlbCAqdGl0bGUgPSBbVUlMYWJlbCBuZXddOw0KICAgICAgICB0aXRsZS50ZXh0ID0gW05TU3RyaW5nIHN0cmluZ1dpdGhGb3JtYXQ6QCLigKYlQCDCtyAlQCIsIGQucGVyaXBoZXJhbElEID86IEAiPz8/Pz8/IiwNCiAgICAgICAgICAgICAgICAgICAgICBkLmVhckxhYmVsLmxlbmd0aCA/IGQuZWFyTGFiZWwgOiBAIuacquiuvuWumuiAs+WIqyJdOw0KICAgICAgICB0aXRsZS5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjEyIHdlaWdodDpVSUZvbnRXZWlnaHRTZW1pYm9sZF07DQogICAgICAgIHRpdGxlLnRleHRDb2xvciA9IFVJQ29sb3Iud2hpdGVDb2xvcjsNCiAgICAgICAgW3JvdyBhZGRBcnJhbmdlZFN1YnZpZXc6dGl0bGVdOw0KDQogICAgICAgIFVJVmlldyAqc3BhY2VyID0gW1VJVmlldyBuZXddOw0KICAgICAgICBbc3BhY2VyIHNldENvbnRlbnRIdWdnaW5nUHJpb3JpdHk6MSBmb3JBeGlzOlVJTGF5b3V0Q29uc3RyYWludEF4aXNIb3Jpem9udGFsXTsNCiAgICAgICAgW3NwYWNlciBzZXRDb250ZW50Q29tcHJlc3Npb25SZXNpc3RhbmNlUHJpb3JpdHk6MSBmb3JBeGlzOlVJTGF5b3V0Q29uc3RyYWludEF4aXNIb3Jpem9udGFsXTsNCiAgICAgICAgW3JvdyBhZGRBcnJhbmdlZFN1YnZpZXc6c3BhY2VyXTsNCg0KICAgICAgICBVSUJ1dHRvbiAqbGIgPSBbVUlCdXR0b24gYnV0dG9uV2l0aFR5cGU6VUlCdXR0b25UeXBlU3lzdGVtXTsNCiAgICAgICAgW2xiIHNldFRpdGxlOkAi6K6+5Li65bem6ICzIiBmb3JTdGF0ZTpVSUNvbnRyb2xTdGF0ZU5vcm1hbF07DQogICAgICAgIFtyb3cgYWRkQXJyYW5nZWRTdWJ2aWV3OmxiXTsNCg0KICAgICAgICBVSUJ1dHRvbiAqcmIgPSBbVUlCdXR0b24gYnV0dG9uV2l0aFR5cGU6VUlCdXR0b25UeXBlU3lzdGVtXTsNCiAgICAgICAgW3JiIHNldFRpdGxlOkAi6K6+5Li65Y+z6ICzIiBmb3JTdGF0ZTpVSUNvbnRyb2xTdGF0ZU5vcm1hbF07DQogICAgICAgIFtyb3cgYWRkQXJyYW5nZWRTdWJ2aWV3OnJiXTsNCg0KICAgICAgICBsYi50YWcgPSAwOyByYi50YWcgPSAxOw0KICAgICAgICBvYmpjX3NldEFzc29jaWF0ZWRPYmplY3QobGIsIEBzZWxlY3Rvcih0aXRsZSksIGQsIE9CSkNfQVNTT0NJQVRJT05fUkVUQUlOX05PTkFUT01JQyk7DQogICAgICAgIG9iamNfc2V0QXNzb2NpYXRlZE9iamVjdChyYiwgQHNlbGVjdG9yKHRpdGxlKSwgZCwgT0JKQ19BU1NPQ0lBVElPTl9SRVRBSU5fTk9OQVRPTUlDKTsNCiAgICAgICAgW2xiIGFkZFRhcmdldDpzZWxmIGFjdGlvbjpAc2VsZWN0b3IoZWFyVGFwcGVkOikgZm9yQ29udHJvbEV2ZW50czpVSUNvbnRyb2xFdmVudFRvdWNoVXBJbnNpZGVdOw0KICAgICAgICBbcmIgYWRkVGFyZ2V0OnNlbGYgYWN0aW9uOkBzZWxlY3RvcihlYXJUYXBwZWQ6KSBmb3JDb250cm9sRXZlbnRzOlVJQ29udHJvbEV2ZW50VG91Y2hVcEluc2lkZV07DQogICAgICAgIFtzZWxmIHN0eWxlRWFyQnV0dG9uOmxiIHNlbGVjdGVkOltkLmVhckxhYmVsIGlzRXF1YWxUb1N0cmluZzpAIuW3puiAsyJdXTsNCiAgICAgICAgW3NlbGYgc3R5bGVFYXJCdXR0b246cmIgc2VsZWN0ZWQ6W2QuZWFyTGFiZWwgaXNFcXVhbFRvU3RyaW5nOkAi5Y+z6ICzIl1dOw0KICAgICAgICBbbGIuaGVpZ2h0QW5jaG9yIGNvbnN0cmFpbnRFcXVhbFRvQ29uc3RhbnQ6MzJdLmFjdGl2ZSA9IFlFUzsNCiAgICAgICAgW3JiLmhlaWdodEFuY2hvciBjb25zdHJhaW50RXF1YWxUb0NvbnN0YW50OjMyXS5hY3RpdmUgPSBZRVM7DQoNCiAgICAgICAgW3NlbGYuZWFyQnRuU3RhY2sgYWRkQXJyYW5nZWRTdWJ2aWV3OnJvd107DQogICAgfQ0KfQ0KDQotICh2b2lkKXN0eWxlRWFyQnV0dG9uOihVSUJ1dHRvbiAqKWIgc2VsZWN0ZWQ6KEJPT0wpc2VsZWN0ZWQgew0KICAgIGIudGl0bGVMYWJlbC5mb250ID0gW1VJRm9udCBzeXN0ZW1Gb250T2ZTaXplOjEyIHdlaWdodDpVSUZvbnRXZWlnaHRTZW1pYm9sZF07DQogICAgYi5sYXllci5jb3JuZXJSYWRpdXMgPSAxMDsNCiAgICBiLmxheWVyLmJvcmRlcldpZHRoID0gMTsNCiAgICBiLmNvbnRlbnRFZGdlSW5zZXRzID0gVUlFZGdlSW5zZXRzTWFrZSg0LCAxMiwgNCwgMTIpOw0KICAgIGlmIChzZWxlY3RlZCkgew0KICAgICAgICBiLmJhY2tncm91bmRDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFJlZDowLjEwIGdyZWVuOjAuNTUgYmx1ZTowLjUwIGFscGhhOjFdOw0KICAgICAgICBiLmxheWVyLmJvcmRlckNvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoUmVkOjAuMTAgZ3JlZW46MC41NSBibHVlOjAuNTAgYWxwaGE6MV0uQ0dDb2xvcjsNCiAgICAgICAgW2Igc2V0VGl0bGVDb2xvcjpVSUNvbG9yLndoaXRlQ29sb3IgZm9yU3RhdGU6VUlDb250cm9sU3RhdGVOb3JtYWxdOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGIuYmFja2dyb3VuZENvbG9yID0gW1VJQ29sb3IgY29sb3JXaXRoV2hpdGU6MC4xMiBhbHBoYToxXTsNCiAgICAgICAgYi5sYXllci5ib3JkZXJDb2xvciA9IFtVSUNvbG9yIGNvbG9yV2l0aFdoaXRlOjAuMjUgYWxwaGE6MV0uQ0dDb2xvcjsNCiAgICAgICAgW2Igc2V0VGl0bGVDb2xvcjpbVUlDb2xvciBjb2xvcldpdGhXaGl0ZTowLjc1IGFscGhhOjFdIGZvclN0YXRlOlVJQ29udHJvbFN0YXRlTm9ybWFsXTsNCiAgICB9DQp9DQoNCi0gKHZvaWQpZWFyVGFwcGVkOihVSUJ1dHRvbiAqKXNlbmRlciB7DQogICAgVkdQcm9iZURldmljZSAqZCA9IG9iamNfZ2V0QXNzb2NpYXRlZE9iamVjdChzZW5kZXIsIEBzZWxlY3Rvcih0aXRsZSkpOw0KICAgIGlmICghZC5lYXJLZXkubGVuZ3RoKSByZXR1cm47DQogICAgTlNTdHJpbmcgKmVhciA9IHNlbmRlci50YWcgPT0gMCA/IEAi5bem6ICzIiA6IEAi5Y+z6ICzIjsNCiAgICAvLyDlho3mrKHngrnlh7vlt7LpgInkuK3nmoTmjInpkq4gPSDlj5bmtojorr7lrpoNCiAgICBpZiAoW2QuZWFyTGFiZWwgaXNFcXVhbFRvU3RyaW5nOmVhcl0pIHsNCiAgICAgICAgW1ZHRWFyTWFwIGNsZWFyRm9yRnVsbFVVSUQ6ZC5lYXJLZXldOw0KICAgIH0gZWxzZSB7DQogICAgICAgIFtWR0Vhck1hcCBzZXRFYXI6ZWFyIGZvckZ1bGxVVUlEOmQuZWFyS2V5XTsNCiAgICB9DQogICAgW3NlbGYgcmVsb2FkRGV2aWNlc107DQp9DQoNCkBlbmQNCg==
+#import "VGGattProbeVC.h"
+#import "VGGattProbe.h"
+#import "VGProbeDevice.h"
+#import "VGProbeSnapshot.h"
+#import "VGEarMap.h"
+#import <objc/runtime.h>
+
+@interface VGGattProbeVC ()
+@property (nonatomic, strong) UILabel *stateLabel;
+@property (nonatomic, strong) UITextView *logView;
+@property (nonatomic, strong) UITextView *deviceInfoView;
+@property (nonatomic, strong) UIStackView *earBtnStack;
+@property (nonatomic, strong) UIButton *startBtn;
+@property (nonatomic, strong) UIButton *shareBtn;
+@property (nonatomic, copy) NSArray<VGProbeDevice *> *currentDevices;
+@end
+
+@implementation VGGattProbeVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"GATT 只读探测";
+    self.view.backgroundColor = [UIColor colorWithRed:0.035 green:0.055 blue:0.07 alpha:1];
+
+    // 清空比对基线（长跑的语义推断工具：换验配后想重新起基线时用）
+    self.navigationItem.rightBarButtonItem =
+        [[UIBarButtonItem alloc] initWithTitle:@"清基线"
+                                         style:UIBarButtonItemStylePlain
+                                        target:self action:@selector(resetBaselineTapped)];
+
+    UILabel *warn = [UILabel new];
+    warn.text = @"安全只读：不鉴权、不写入、不订阅通知。每次探测结束会与上次自动比对，列出发生变化的特征。";
+    warn.font = [UIFont systemFontOfSize:12];
+    warn.textColor = [UIColor colorWithRed:0.4 green:0.85 blue:0.8 alpha:1];
+    warn.numberOfLines = 0;
+    warn.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:warn];
+
+    self.stateLabel = [UILabel new];
+    self.stateLabel.text = @"空闲";
+    self.stateLabel.font = [UIFont systemFontOfSize:14 weight:UIFontWeightSemibold];
+    self.stateLabel.textColor = UIColor.whiteColor;
+    self.stateLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.stateLabel];
+
+    self.startBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.startBtn setTitle:@"开始探测（约15–45秒）" forState:UIControlStateNormal];
+    self.startBtn.titleLabel.font = [UIFont systemFontOfSize:16 weight:UIFontWeightBold];
+    [self.startBtn setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    self.startBtn.backgroundColor = [UIColor colorWithRed:0.10 green:0.55 blue:0.50 alpha:1];
+    self.startBtn.layer.cornerRadius = 12;
+    self.startBtn.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.startBtn addTarget:self action:@selector(startTapped) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.startBtn];
+
+    self.shareBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.shareBtn setTitle:@"分享日志" forState:UIControlStateNormal];
+    self.shareBtn.titleLabel.font = [UIFont systemFontOfSize:15 weight:UIFontWeightSemibold];
+    [self.shareBtn setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    self.shareBtn.backgroundColor = [UIColor colorWithWhite:0.15 alpha:1];
+    self.shareBtn.layer.cornerRadius = 12;
+    self.shareBtn.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.shareBtn addTarget:self action:@selector(shareTapped) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.shareBtn];
+
+    self.logView = [UITextView new];
+    self.logView.editable = NO;
+    self.logView.font = [UIFont fontWithName:@"Menlo" size:11] ?: [UIFont systemFontOfSize:11];
+    self.logView.backgroundColor = [UIColor colorWithWhite:0.06 alpha:1];
+    self.logView.textColor = [UIColor colorWithRed:0.8 green:0.95 blue:0.92 alpha:1];
+    self.logView.layer.cornerRadius = 12;
+    self.logView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.logView];
+
+    self.deviceInfoView = [UITextView new];
+    self.deviceInfoView.editable = NO;
+    self.deviceInfoView.font = [UIFont fontWithName:@"Menlo" size:11] ?: [UIFont systemFontOfSize:11];
+    self.deviceInfoView.backgroundColor = [UIColor colorWithRed:0.06 green:0.13 blue:0.12 alpha:1];
+    self.deviceInfoView.textColor = [UIColor colorWithRed:0.45 green:0.95 blue:0.85 alpha:1];
+    self.deviceInfoView.layer.cornerRadius = 12;
+    self.deviceInfoView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.deviceInfoView];
+
+    // 左右耳设定行（每只设备一行：短ID + 左耳 + 右耳，点一次全局记忆）
+    self.earBtnStack = [UIStackView new];
+    self.earBtnStack.axis = UILayoutConstraintAxisVertical;
+    self.earBtnStack.spacing = 6;
+    self.earBtnStack.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:self.earBtnStack];
+
+    [NSLayoutConstraint activateConstraints:@[
+        [warn.topAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor constant:12],
+        [warn.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:16],
+        [warn.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-16],
+        [self.stateLabel.topAnchor constraintEqualToAnchor:warn.bottomAnchor constant:10],
+        [self.stateLabel.leadingAnchor constraintEqualToAnchor:warn.leadingAnchor],
+        [self.startBtn.topAnchor constraintEqualToAnchor:self.stateLabel.bottomAnchor constant:12],
+        [self.startBtn.leadingAnchor constraintEqualToAnchor:warn.leadingAnchor],
+        [self.startBtn.trailingAnchor constraintEqualToAnchor:self.view.centerXAnchor constant:-6],
+        [self.startBtn.heightAnchor constraintEqualToConstant:46],
+        [self.shareBtn.topAnchor constraintEqualToAnchor:self.startBtn.topAnchor],
+        [self.shareBtn.leadingAnchor constraintEqualToAnchor:self.view.centerXAnchor constant:6],
+        [self.shareBtn.trailingAnchor constraintEqualToAnchor:warn.trailingAnchor],
+        [self.shareBtn.heightAnchor constraintEqualToConstant:46],
+        [self.deviceInfoView.topAnchor constraintEqualToAnchor:self.startBtn.bottomAnchor constant:12],
+        [self.deviceInfoView.leadingAnchor constraintEqualToAnchor:warn.leadingAnchor],
+        [self.deviceInfoView.trailingAnchor constraintEqualToAnchor:warn.trailingAnchor],
+        [self.deviceInfoView.heightAnchor constraintEqualToConstant:110],
+        [self.earBtnStack.topAnchor constraintEqualToAnchor:self.deviceInfoView.bottomAnchor constant:8],
+        [self.earBtnStack.leadingAnchor constraintEqualToAnchor:warn.leadingAnchor],
+        [self.earBtnStack.trailingAnchor constraintEqualToAnchor:warn.trailingAnchor],
+        [self.logView.topAnchor constraintEqualToAnchor:self.earBtnStack.bottomAnchor constant:8],
+        [self.logView.leadingAnchor constraintEqualToAnchor:warn.leadingAnchor],
+        [self.logView.trailingAnchor constraintEqualToAnchor:warn.trailingAnchor],
+        [self.logView.bottomAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.bottomAnchor constant:-12],
+    ]];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadLog)
+                                                 name:VGGattLogNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadState)
+                                                 name:VGGattStateNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDevices)
+                                                 name:VGGattDevicesNotification object:nil];
+    [self reloadLog]; [self reloadState]; [self reloadDevices];
+}
+
+- (void)startTapped {
+    if ([VGGattProbe shared].running) return;
+    [[VGGattProbe shared] start];
+    [self reloadLog]; [self reloadState]; [self reloadDevices];
+}
+
+- (void)resetBaselineTapped {
+    UIAlertController *ac = [UIAlertController
+        alertControllerWithTitle:@"清空探测基线？"
+                         message:@"清空后，下次探测会重新记录基线；从再下一次探测起才能看到「哪些特征变了」。"
+                  preferredStyle:UIAlertControllerStyleAlert];
+    [ac addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+    [ac addAction:[UIAlertAction actionWithTitle:@"清空" style:UIAlertActionStyleDestructive
+                                       handler:^(UIAlertAction *a) {
+        [VGProbeSnapshot resetAll];
+        self.deviceInfoView.text = @"基线已清空。重新探测一次即可建立新基线。";
+    }]];
+    [self presentViewController:ac animated:YES completion:nil];
+}
+
+- (void)shareTapped {
+    NSURL *url = [[VGGattProbe shared] exportFile];
+    UIActivityViewController *av = [[UIActivityViewController alloc]
+        initWithActivityItems:@[url] applicationActivities:nil];
+    av.popoverPresentationController.sourceView = self.shareBtn;
+    [self presentViewController:av animated:YES completion:nil];
+}
+
+- (void)reloadLog {
+    NSArray *lines = [[VGGattProbe shared] lines];
+    NSString *text = [lines componentsJoinedByString:@"\n"];
+    self.logView.text = text;
+    if (lines.count > 0) {
+        [self.logView scrollRangeToVisible:NSMakeRange(text.length, 0)];
+    }
+    self.shareBtn.enabled = lines.count > 0;
+}
+
+- (void)reloadState {
+    self.stateLabel.text = [VGGattProbe shared].stateText;
+    self.startBtn.enabled = ![VGGattProbe shared].running;
+    self.startBtn.alpha = [VGGattProbe shared].running ? 0.5 : 1;
+}
+
+- (void)reloadDevices {
+    NSArray<VGProbeDevice *> *ds = [[VGGattProbe shared] devices];
+    self.currentDevices = ds;
+    // 同步最新映射到档案（探测时创建的对象可能早于用户设定）
+    for (VGProbeDevice *d in ds) d.earLabel = [VGEarMap earLabelForKey:d.earKey];
+    if (ds.count == 0) { self.deviceInfoView.text = @""; return; }
+    NSMutableArray *parts = [NSMutableArray array];
+    for (VGProbeDevice *d in ds) [parts addObject:[d summary]];
+    self.deviceInfoView.text = [parts componentsJoinedByString:@"\n\n"];
+    [self rebuildEarButtons];
+}
+
+#pragma mark - 左右耳设定
+
+- (void)rebuildEarButtons {
+    for (UIView *v in self.earBtnStack.arrangedSubviews) [v removeFromSuperview];
+    for (VGProbeDevice *d in self.currentDevices) {
+        UIStackView *row = [UIStackView new];
+        row.axis = UILayoutConstraintAxisHorizontal;
+        row.spacing = 8;
+
+        UILabel *title = [UILabel new];
+        title.text = [NSString stringWithFormat:@"…%@ · %@", d.peripheralID ?: @"??????",
+                      d.earLabel.length ? d.earLabel : @"未设定耳别"];
+        title.font = [UIFont systemFontOfSize:12 weight:UIFontWeightSemibold];
+        title.textColor = UIColor.whiteColor;
+        [row addArrangedSubview:title];
+
+        UIView *spacer = [UIView new];
+        [spacer setContentHuggingPriority:1 forAxis:UILayoutConstraintAxisHorizontal];
+        [spacer setContentCompressionResistancePriority:1 forAxis:UILayoutConstraintAxisHorizontal];
+        [row addArrangedSubview:spacer];
+
+        UIButton *lb = [UIButton buttonWithType:UIButtonTypeSystem];
+        [lb setTitle:@"设为左耳" forState:UIControlStateNormal];
+        [row addArrangedSubview:lb];
+
+        UIButton *rb = [UIButton buttonWithType:UIButtonTypeSystem];
+        [rb setTitle:@"设为右耳" forState:UIControlStateNormal];
+        [row addArrangedSubview:rb];
+
+        lb.tag = 0; rb.tag = 1;
+        objc_setAssociatedObject(lb, @selector(title), d, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(rb, @selector(title), d, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        [lb addTarget:self action:@selector(earTapped:) forControlEvents:UIControlEventTouchUpInside];
+        [rb addTarget:self action:@selector(earTapped:) forControlEvents:UIControlEventTouchUpInside];
+        [self styleEarButton:lb selected:[d.earLabel isEqualToString:@"左耳"]];
+        [self styleEarButton:rb selected:[d.earLabel isEqualToString:@"右耳"]];
+        [lb.heightAnchor constraintEqualToConstant:32].active = YES;
+        [rb.heightAnchor constraintEqualToConstant:32].active = YES;
+
+        [self.earBtnStack addArrangedSubview:row];
+    }
+}
+
+- (void)styleEarButton:(UIButton *)b selected:(BOOL)selected {
+    b.titleLabel.font = [UIFont systemFontOfSize:12 weight:UIFontWeightSemibold];
+    b.layer.cornerRadius = 10;
+    b.layer.borderWidth = 1;
+    b.contentEdgeInsets = UIEdgeInsetsMake(4, 12, 4, 12);
+    if (selected) {
+        b.backgroundColor = [UIColor colorWithRed:0.10 green:0.55 blue:0.50 alpha:1];
+        b.layer.borderColor = [UIColor colorWithRed:0.10 green:0.55 blue:0.50 alpha:1].CGColor;
+        [b setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    } else {
+        b.backgroundColor = [UIColor colorWithWhite:0.12 alpha:1];
+        b.layer.borderColor = [UIColor colorWithWhite:0.25 alpha:1].CGColor;
+        [b setTitleColor:[UIColor colorWithWhite:0.75 alpha:1] forState:UIControlStateNormal];
+    }
+}
+
+- (void)earTapped:(UIButton *)sender {
+    VGProbeDevice *d = objc_getAssociatedObject(sender, @selector(title));
+    if (!d.earKey.length) return;
+    NSString *ear = sender.tag == 0 ? @"左耳" : @"右耳";
+    // 再次点击已选中的按钮 = 取消设定
+    if ([d.earLabel isEqualToString:ear]) {
+        [VGEarMap clearForFullUUID:d.earKey];
+    } else {
+        [VGEarMap setEar:ear forFullUUID:d.earKey];
+    }
+    [self reloadDevices];
+}
+
+@end
