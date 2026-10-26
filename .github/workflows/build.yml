@@ -9,31 +9,47 @@ on:
 jobs:
   build:
     runs-on: macos-14
-    timeout-minutes: 30
+    timeout-minutes: 40
 
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup tools
+    - name: Install zig (official release)
       run: |
-        brew install zig
-        pip3 install --quiet lief
+        ZIG_VER="0.14.0"
+        ZIG_URL="https://ziglang.org/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz"
+        # fallback to x86 runner path
+        curl -sL -o /tmp/zig.tar.xz "$ZIG_URL" || \
+          curl -sL -o /tmp/zig.tar.xz "https://ziglang.org/download/${ZIG_VER}/zig-macos-x86_64-${ZIG_VER}.tar.xz" || \
+          curl -sL -o /tmp/zig.tar.xz "https://github.com/ziglang/zig/releases/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz"
+        ls -la /tmp/zig.tar.xz
+        tar xJf /tmp/zig.tar.xz -C /tmp
+        ZIG_DIR=$(ls -d /tmp/zig-*/)
+        export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
+        zig version
+        zig env
 
     - name: Download iPhoneOS SDK
       run: |
-        curl -sL -o /tmp/sdk.tgz https://github.com/zhuowei/XcodeStuff/raw/main/iPhoneOS16.5.sdk.tar.gz || \
-        curl -sL -o /tmp/sdk.tgz https://go.dev/dl/iPhoneOS16.5.sdk.tar.gz
-        mkdir -p ~/sdk && tar xzf /tmp/sdk.tgz -C ~/sdk
-        echo "SDK files:" && ls ~/sdk/
+        curl -sL -o /tmp/sdk.tgz "https://github.com/zhuowei/XcodeStuff/raw/main/iPhoneOS16.5.sdk.tar.gz" || \
+        curl -sL -o /tmp/sdk.tgz "https://go.dev/dl/iPhoneOS16.5.sdk.tar.gz" || \
+        curl -sL -o /tmp/sdk.tgz "https://build.loomchild.com/iPhoneOS16.5.sdk.tar.gz"
+        ls -la /tmp/sdk.tgz
+        file /tmp/sdk.tgz
+        mkdir -p ~/sdk
+        tar xzf /tmp/sdk.tgz -C ~/sdk || tar xf /tmp/sdk.tgz -C ~/sdk
+        find ~/sdk -maxdepth 2 -type d -name "iPhoneOS*.sdk"
 
     - name: Build IPA
       run: |
+        ZIG_DIR=$(ls -d /tmp/zig-*/)
+        export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
         export IPHONEOS_SDK=$(find ~/sdk -maxdepth 3 -name "iPhoneOS*.sdk" -type d | head -1)
-        echo "Using SDK: $IPHONEOS_SDK"
+        echo "SDK=$IPHONEOS_SDK"
+        ls "$IPHONEOS_SDK/"
         cd vibego
         python3 build.py
         ls -la VibeGo*.ipa
-        shasum -a 256 VibeGo*.ipa || true
 
     - uses: actions/upload-artifact@v4
       with:
