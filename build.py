@@ -29,10 +29,10 @@ CC = _cc()
 
 APP = "VibeGo"
 DISPLAY = "VibeGo 助手"
-VERSION = "0.7.0"
-BUILD_NO = "20"
+VERSION = "0.8.0"
+BUILD_NO = "21"
 TARGET = "aarch64-apple-ios15.0"
-OUT_IPA = os.path.join(ROOT, "VibeGo助手-0.7.0.ipa")
+OUT_IPA = os.path.join(ROOT, "VibeGo助手-0.8.0.ipa")
 
 BASE_CFLAGS = [
     "-target", TARGET,
