@@ -1,1 +1,9 @@
-Ly8KLy8gIFZHTGFiVkMuaCDigJQg5a6e6aqM5a6k77ya6IO95Yqb55+p6Zi1IC8g5b+r54Wn5a+55q+UIC8g5YaZ5YWl5a6e6aqM5Y+wIC8g6K6+5aSH5L+h5oGvCi8vCgojaW1wb3J0IDxVSUtpdC9VSUtpdC5oPgoKQGludGVyZmFjZSBWR0xhYlZDIDogVUlWaWV3Q29udHJvbGxlcgoKQGVuZAo=
+//
+//  VGLabVC.h — 实验室：能力矩阵 / 快照对比 / 写入实验台 / 设备信息
+//
+
+#import <UIKit/UIKit.h>
+
+@interface VGLabVC : UIViewController
+
+@end
