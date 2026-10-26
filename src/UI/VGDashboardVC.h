@@ -1,1 +1,3 @@
-I2ltcG9ydCA8VUlLaXQvVUlLaXQuaD4NCkBpbnRlcmZhY2UgVkdEYXNoYm9hcmRWQyA6IFVJVmlld0NvbnRyb2xsZXINCkBlbmQNCg==
+#import <UIKit/UIKit.h>
+@interface VGDashboardVC : UIViewController
+@end
