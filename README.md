@@ -1,1 +1,158 @@
-IyBWaWJlR28g5Yqp5omLIDAuNi4wCgroh6rlu7ogaU9TIOWKqeWQrOWZqOeuoeeQhiBBcHDvvIhidW5kbGUgYGNvbS52aWJlZ28uYXNzaXN0YO+8ie+8jFRyb2xsU3RvcmUg5a6J6KOF44CCCua6kOeggeWcqCBgc3JjL2DvvIznlKggemlnICsgaVBob25lT1MxNi41IFNESyDnm7TmjqXnvJbor5HvvIzml6DpnIAgTWFjL1hjb2Rl44CCCgojIyDmiJDlk4EKCmBWaWJlR2/liqnmiYstMC42LjAuaXBhYO+8iDE3MS42IEtC77yJCgp8IOaXtuacuiB8IOW3puiAs+m6puWFi+mjjiB8IOWPs+iAs+m6puWFi+mjjiB8CnwtLS18LS0tfC0tLXwKfCDliKvnmoQgQXBwIOaUvuWjsOmfs++8iOWqkuS9ky/op4bpopEv6K+t6Z+z5raI5oGv77yJIHwgMCXvvIjmoaPkvY0gMO+8iSB8IDAlIHwKfCBpT1Mg5omT55S16K+dIHwgNTAl77yI5qGj5L2NIDjvvIkgfCAwJSB8Cnwg5a6J6Z2Z5LiL5p2lIHwgNjAl77yI5qGj5L2NIDnvvIkgfCAwJe+8jOS4lOmUgeWumiB8CgotLS0KCiMjIDAuNi4wIOaUueS6huS7gOS5iAoKIyMjIOS4gOOAgeS/ruaOieeahOmXrumimAoKfCDpl67popggfCDljp/lm6AgfCDkv67ms5UgfAp8LS0tfC0tLXwtLS18Cnwg5ruR5Z2X5pi+56S6IDU2Je+8jOWunumZheWGmeWFpeaho+S9jSA477yINTMl77yJIHwg55m+5YiG5q+U5ZKMIDE2IOaho+S4jeaYr+S4gOS4gOWvueW6lO+8jOaNoueul+WQjuWPjeeul+S4oueyvuW6piB8IOaLluWKqOWQjuiHquWKqCoq5ZC46ZmE5Yiw55yf5a6e5qGj5L2NKirvvIzmoIfnrb7lkIzml7bmmL7npLrjgIzmoaPkvY0gOSDCtyA2MCXjgI0gfAp8IOavjyAxNSDnp5LliLfkuIDooYwgYOS8muivnea/gOa0u+Wksei0pWAgfCDlkI7lj7DmsqHpn7PpopHmkq3mlL7mnYPvvIxgc2V0QWN0aXZlOllFU2Ag5b+F54S25aSx6LSlIHwg5aSx6LSl5pS55Li65oyH5pWw6YCA6YG/IDE14oaSMzDihpI2MOKGkjEyMCDnp5LvvIzlkIzkuIDljp/lm6Dlj6rmiqXkuIDmrKEgfAp8ICoq5bem5Y+z6ICz6K+G5Yir5Y+v6IO95Y+N5o6JKiogfCDlkIzkuIDlj6rogLPkuIrkvJror7vliLDjgIzmnKzmnLogSUTjgI3lkozjgIzlr7nkvqcgSUTjgI3vvIzlr7nkvqcgSUQg5Lya6KaG55uW5q2j56Gu5L6n5YirIHwg5L6n5Yir54m55b6BIGA4RDE3QUMyRmAg5LiA5pem6K+75Yiw5bCxKirkuIrplIEqKu+8m+mFjeWvuSBJRCDlj6rorqQgYEM5N0QyMUQzYO+8jOWFtuS9meS4gOW+i+W/veeVpSB8CgrnrKzkuInmnaHmmK/pmpDol4/ngrjlvLnvvJrlt6bogLPkuIror7vlh7rmnaXnmoTlr7nkvqcgSUQg5pivIGAyRkYzNTFg77yI5Y+z6ICz55qEIElE77yJ77yM5aaC5p6c6KKr5b2T5oiQ5L6n5Yir77yMCuW3puiAs+S8muaLv+WPs+iAs+eahOaho+S9jeWOu+WGmeOAgeWPs+iAs+aLv+W3puiAs+eahOWGmSDigJTigJQg5pKt5pS+5pe26K+l5YWz55qE5rKh5YWz44CB5pqC5YGc5pe26K+l5oGi5aSN55qE5rKh5oGi5aSN77yMCuiAjOS4lOaXpeW/l+eci+S4iuWOu+WujOWFqOato+W4uOOAgueOsOWcqOW9u+W6leWgteatu+OAggoKIyMjIOS6jOOAgeS/nea0u++8iOWbnuetlOOAjOiDveS4jeiDveeUqOaegemAn2lPUyDpgqPlpZfjgI3vvIkKCioq5bey5pyJ55qEKirvvJpgVUlCYWNrZ3JvdW5kTW9kZXMgPSBibHVldG9vdGgtY2VudHJhbGAgKyDkuIDnm7Tmj6HnnYAgQkxFIOi/nuaOpeOAggrov5nmmK8gaU9TIOS4iuWwkeaVsOS4jemcgOimgei2iueLseWwseiDvemVv+acn+WQjuWPsOi/kOihjOeahOWQiOazleaWueW8j++8jOWunua1i+aSkeW+l+S9j+OAggoKKirmlrDliqDnmoQqKu+8mmBVSUJhY2tncm91bmRNb2RlcyA9IGF1ZGlvYCArIOaegeS9juW5heWZquWjsOW+queOr+aSreaUvu+8iGBITEtlZXBBbGl2ZWAg57G777yJ44CCCgotIOaViOaenOetieWQjOS6juOAjOaegemAn2lPU+OAjemHjOeahCoq6Z+z6aKR5pat6KiA5YWc5bqVKirvvJrns7vnu5/kvJrmiorlroPlvZPpn7PkuZDnsbsgQXBw77yM5b6I6Zq+6KKr5p2ACi0g5LiN5Lya5omT5omw5Yir5Lq677yaYFBsYXliYWNrICsgTWl4V2l0aE90aGVyc2DvvIzpn7Pph48gMSXvvIzms6LlvaLmmK8gwrExIExTQiDlmarlo7AKLSDpu5jorqQqKuWFs+mXrSoq44CC5Zug5Li65a6D5Lya5Y2g55So5pysIEFwcCDnmoTpn7PpopHkvJror53vvIhjYXRlZ29yeSDlj5jmiJAgUGxheWJhY2vvvInvvIwKICDlj6/og73mibDliqggYGlzT3RoZXJBdWRpb1BsYXlpbmdgIOeahOWPluWAvOOAguWPquacieecn+eahOmBh+WIsOWQjuWPsOiiq+adgOaJjeaJk+W8gAotIOW8gOWFs+WcqOOAjOm6puWFi+mjjuOAjemhteesrOS6jOS4qiBTd2l0Y2jvvIzmiJbogIUgYGhlYXJpbmdsaW5rLnBsaXN0YCDlhpkgYEhMS2VlcEFsaXZlQXVkaW8gPSB0cnVlYAoKKirlgZrkuI3liLDnmoQqKu+8muOAjOWcuuaZr+S8quijheW8leaTjuOAjemcgOimgSBgRkJTY2VuZWAvYFVJQXBwbGljYXRpb25gIOengeaciSBBUEkg6K6p57O757uf6K6k5Li6IEFwcCDov5jlnKjliY3lj7DvvIwK6YKj5piv6LaK54ux5o+S5Lu255qE5p2D6ZmQ77yIRlVCYWNrZ3JvdW5kIOazqOWFpeWIsCBTcHJpbmdCb2FyZCDkvqfvvInjgIJUcm9sbFN0b3JlIOaYr+S8quetvuWQje+8jArmi7/kuI3liLDov5nkuKrog73lipvjgILlpb3lnKggYGJsdWV0b290aC1jZW50cmFsYCArIOmfs+mikeaWreiogOS4pOWxguWPoOi1t+adpeW3sue7j+Wkn+eUqOOAggoKIyMjIOS4ieOAgeWunumqjOWupO+8iOWOn+OAjOa3seW6puaOoua1i+OAjeWNh+e6p++8iQoK5Zub5Liq5YiG5Yy677yM6aG26YOo5YiH5o2i77yaCgojIyMjIOKRoCDnn6npmLUK5YWo6YOoIDExNiDmnaHnibnlvoHvvIzmr4/mnaHmoIflh7rvvJrogLPliKsgLyDmnI3liqEgLyDog73lipvvvIhSIOivu+OAgVcg5bim5ZON5bqU5YaZ44CBV1cg5peg5ZON5bqU5YaZ44CBTiDpgJrnn6XjgIFJIOaMh+ekuu+8iS8K5b2T5YmN5YC8IC8gKiror63kuYnms6jop6MqKuOAguazqOino+aMieWvvOWHuueahOiDveWKm+efqemYtemAkOadoeWIpOivu++8jOWFsSA1OCDmnaHvvJoKCmBgYArinI4gMkEyOSAgICAgUiAgICAgICAgNTYgNjkgNjIgNjUgICAgICAgICAgICAgIOWItumAoOWVhgrinI4gOEQxN0FDMkYgUiAgICAgICAgMDAgICAgICAgICAgICAgICAgICAgICAgIOW3puWPs+S+p+WIqyAwMOW3pi8wMeWPswrinI4gMTQ1NEU5RDYgUi9XL1dXL04gMDAgMDEgICAgICAgICAgICAgICAgICAgIOKtkOm6puWFi+mjjumfs+mHjyBb5qGj5L2NXVswMV0K4pyOIDhCODIwQzZEIFIvVy9XVy9OIDA5IDAxICAgICAgICAgICAgICAgICAgICDvvJ/nlpHkvLzmgLvpn7Pph48gW+aho+S9jV1bMDFdCuKcjiA5MjE1QTI5NSBSL1cvV1cvTiAwOSAwMCAgICAgICAgICAgICAgICAgICAg77yf55aR5Ly86Z+z6YePIFvmoaPkvY1dWzAwXQrinI4gN0JFOTRBNTUgUi9XICAgICAgNTAgNzIgNkYgNjcgNzIgNjEgNkQgICAgIOKtkOW9k+WJjeeoi+W6j+WQjShBU0NJSSkK4pyOIDZENTc1OEExIFcvV1cgICAgICjlj6rlhpkpICAgICAgICAgICAgICAgICAgIOWRveS7pOmAmumBkyjlj6rlhpkpCmBgYAoK44CM5YWo6YeP6K+75Y+W44CN5oyJ6ZKu5oqK5omA5pyJ5Y+v6K+754m55b6B6K+75LiA6YGN77yM44CM5a+85Ye6IEpTT07jgI3lr7zlh7rlrozmlbTlv6vnhafvvIjlkKsgZGV2aWNlIOWtl+aute+8ieOAggoKIyMjIyDikaEg5a+55q+U77yI5pyA6YeN6KaB55qE5paw5bel5YW377yJCmBgYArikaAg6K6w5Z+657q/ICDihpIgIOWOuyBpT1Mg5pS55LiA5Liq6K6+572uICDihpIgIOKRoSDmib7lt67lvIIKYGBgCuiusOWfuue6v+aXtuS8muWFiOiHquWKqOWFqOmHj+ivu+WPliAyIOenkuWGjeaLjeeFp++8m+aJvuW3ruW8guaXtumAkOadoeavlOWvue+8jOWIl+WHugpg5bem6ICzIDdCRTk0QTU1IOeoi+W6j+WQjSA6IOaXp+WAvCDihpIg5paw5YC8YOOAggoK6L+Z5piv5a6a5L2N44CM56iL5bqP5YiH5o2iIC8g5oC76Z+z6YePIC8g6ZmN5ZmqIC8g5pa55ZCR5oCn44CN5pyA5b+r55qE5pa55rOV77yaCuWcqOiuvue9rumHjOWKqOS4gOS4i++8jOWTquS6m+eJueW+gei3n+edgOWPmO+8jOmCo+S6m+WwseaYr+imgeaJvueahOWFpeWPo+OAggoKIyMjIyDikaIg5YaZ5YWl5a6e6aqM5Y+wCuWIl+WHuuaJgOacieWPr+WGmeeJueW+ge+8iOm6puWFi+mjjumCo+adoeiHquWKqOaOkumZpO+8jOmBv+WFjeWSjOiBlOWKqOmAu+i+keaJk+aetu+8ie+8jOeCueS4gOihjO+8mgotIOW8ueWHuui+k+WFpeahhu+8jCoq6buY6K6k5aGr5b2T5YmN5YC8Kiog4oaSIOWGmeWdj+S6huWOn+agt+WGmeWbnuWNs+WPrwotIOaYvuekuuazqOino+WSjOWxnuaAp++8jOmBv+WFjeeejuWGmQotIOWGmeWQjiAwLjYg56eS6Ieq5Yqo5Zue6K+777yM55+p6Zi16YeM6IO955yL5Yiw5paw5YC8CgojIyMjIOKRoyDorr7lpIcK5Yi26YCg5ZWGIC8g5Z6L5Y+3IC8g5bqP5YiX5Y+3IC8g5Zu65Lu2IC8g6L2v5Lu2IC8g55S16YePIC8gKirlvZPliY3ogYblkKznqIvluo/lkI0qKu+8jArlpJbliqDkuIDku73jgIzlt7Lnn6Xnu5PorrrjgI3pgJ/mn6XvvIjlk6rkupvnibnlvoHlubLku4DkuYjjgIHlk6rkupvmmK/lnZHvvInjgIIKCi0tLQoKIyMgRVEgLyDljovnvKkgLyDmlrnlkJHmgKfog73kuI3og73liqDvvJ8KCioq5LiN5piv5paw5Yqf6IO977yM5piv6K6+5aSH5pys6Lqr55qE6IO95YqbKirvvIzlj6rmmK/lhaXlj6PmsqHlnKjmmI7pnaLkuIrjgIIKCuWOguWVhiBBcHAg6LWw55qE5pivIFdTIEF1ZGlvbG9neSDnmoQgRkFQSSDljY/orq7vvIhCb3VuY3lDYXN0bGUg5Yqg5a+G77yJ77yMCuiAjCBCTEUg54m55b6B5bGC6IO955yL5Yiw55qE5Y+q5pyJ5LqU5LiqKirnuq/lkb3ku6TpgJrpgZMqKu+8mgoKYGBgCjZENTc1OEExIC8gNzg2RkY2MDcgLyA2RUZBQjUyRSAvIDYyRENDOTJGIC8gOEI4Mjc2RTggICAg5YWo6YOoIFcvV1fvvIzmsqHmnInliJ3lgLwKYGBgCgrlroPku6zlj6rlhpnkuI3lm57miqXvvIzlhpnov5vljrvjgIzlr7nmr5TjgI3kuZ/nnIvkuI3liLDmlYjmnpwg4oCU4oCUIOWPquiDvemdoOWQrOOAguaJgOS7pe+8mgoKLSAqKuiDveWBmueahCoq77ya55So44CM5a+55q+U44CN5YWI5oqK5piO6Z2i5LiK55qE5Y+C5pWw5pG45riF77yI6Z+z6YeP44CB56iL5bqP77yJCi0gKirpmr7lgZrnmoQqKu+8mkVRL+WOi+e8qS/mlrnlkJHmgKflpKfmpoLnjoflnKjov5nkupTmnaHlkb3ku6TpgJrpgZPph4zvvIzmoLzlvI/mnKrnn6XvvIwKICDlj6rog73mipPljoLllYYgQXBwIOeahCBCTEUg5YyF5p2l5a2m77yI6ZyA6KaB6LaK54uxICsgQkxFIOaKk+WMhe+8jOaIluWuieWNk+erryBIQ0kgc25vb3DvvIkKLSAqKuS4jeW7uuiurueahCoq77ya55uy6K+V5ZG95Luk6YCa6YGT44CC5YaZ6ZSZ5Y+v6IO95oqK5Yqp5ZCs5Zmo6YWN572u5pCe5Lmx77yM6YKj5piv6KaB6L+U5Y6C6LCD5py655qECgrkuIDkuKrnjrDlrp7mj5DphpLvvJrnqIvluo/lkI3or7vlh7rmnaXmmK8gKipgUHJvZ3JhbSBFdCAtLSBFaW5zdGVsbHVuZyBFaW5zYCoq77yI5b636K+t77yM44CM56iL5bqPIEV0IC0tIOiuvue9riDkuIDjgI3vvInvvIwK6K+05piO6L+Z5Y+w6K6+5aSHKirmsqHooqvljoLllYYgQXBwIOmFjee9rui/h+eoi+W6jyoq77yM5b6I5Y+v6IO95Y+q5pyJ5Ye65Y6C6YKj5LiA5Liq44CC6YKj56eN5oOF5Ya15LiLCuOAjOaSreaUvuaXtuWIh+WIsOmfs+S5kOeoi+W6j+OAjei/meS4quaDs+azleaaguaXtuayoeacieaWmeWPr+eUqCDigJTigJQg5b6X5YWI5Zyo5Y6C5ZWGIEFwcCDph4zlu7rlpb3lh6DkuKrnqIvluo/jgIIKCi0tLQoKIyMg57yW6K+RCgpgYGBiYXNoCnB5dGhvbiBidWlsZC5weQpgYGAKCi0g57yW6K+R5Zmo77yaYHB5dGhvbiAtbSB6aWdsYW5nYO+8iDAuMTbvvIkrIGlQaG9uZU9TMTYuNS5zZGsKLSDlv4XpobvluKYgYC1mbm8tc2FuaXRpemU9dW5kZWZpbmVkYO+8mnppZyAwLjE2IOm7mOiupOW8gCBVQlNhbu+8jAogIOS8muW8leWFpSBgX2R5bGRfZ2V0X2ltYWdlX2hlYWRlcl9jb250YWluaW5nX2FkZHJlc3Ng77yIaU9TIOS4jeWvvOWHuu+8ieKGkiDkuIDlkK/liqjlsLHooqsgZHlsZCDmnYAKLSDnu53kuI3liqAgYC1XbCwtdW5kZWZpbmVkLGR5bmFtaWNfbG9va3VwYO+8mumCo+aYr+aKiumTvuaOpeacn+mUmeivr+aOqOWIsOi/kOihjOacn+WPmOaIkOmXqumAgAotIOiHquagoemqjOmhue+8muaXoCBgdWJzYW5gIC8g5pegIGBjb250YWluaW5nX2FkZHJlc3NgIOespuWPt+OAgWBfX3RleHRgIOWBj+enu+i/nOemu+mmlumhtQoKLS0tCgojIyDlj6/osIPlj4LmlbDvvIhg5paH5Lu2IEFwcCDihpIg5oiR55qEIGlQaG9uZSDihpIgVmliZUdvIOWKqeaJiyDihpIgaGVhcmluZ2xpbmsucGxpc3Rg77yJCgp8IOmUriB8IOm7mOiupCB8IOivtOaYjiB8CnwtLS18LS0tfC0tLXwKfCBgSExSZXN0b3JlUGVyY2VudExlZnRgIHwgNjAgfCDlronpnZnml7blt6bogLPmgaLlpI0gfAp8IGBITFJlc3RvcmVQZXJjZW50UmlnaHRgIHwgMCB8IOWuiemdmeaXtuWPs+iAs+aBouWkje+8iOWPs+iAs+mUgeWumuS8muWOi+WbniAw77yJIHwKfCBgSExDYWxsTXV0ZVBlcmNlbnRMZWZ0YCB8IDUwIHwg6YCa6K+d5pe25bem6ICzIHwKfCBgSExNdXRlUGVyY2VudGAgfCAwIHwg5Yir55qEIEFwcCDlh7rlo7Dml7bljovkvY7liLAgfAp8IGBITExldmVsTWF4YCB8IDE1IHwg5qGj5L2N5ruh6YeP56iL77yMNjAlIOKGkiDmoaPkvY0gOSB8CnwgYEhMS2VlcEFsaXZlQXVkaW9gIHwgZmFsc2UgfCDlkI7lj7Dpn7PpopHkv53mtLsgfAp8IGBITExvY2tSaWdodEVhcmAgfCB0cnVlIHwg5Y+z6ICz6ZSB5a6aIHwKfCBgSExMb2NrSW50ZXJ2YWxgIHwgMy4wIHwg6ZSB5a6a5qOA5p+l6Ze06ZqU77yI56eS77yJIHwKfCBgSExBdWRpb0F0dGFja2AgfCAwLjQgfCDlo7Dpn7PmjIHnu63lpJrkuYXmiY3nrpfjgIzlnKjmlL7jgI0gfAp8IGBITEF1ZGlvUmVsZWFzZWAgfCAwLjQgfCDlronpnZnlpJrkuYXmiY3mgaLlpI3vvIjotorlsI/otorlv6vvvIkgfAoK55WM6Z2i6YeM5pS555qE5ruR5Z2XL+W8gOWFs+WGmei/myBgTlNVc2VyRGVmYXVsdHNg77yMcGxpc3Qg6YeM55qE5ZCM5ZCN6ZSu5LyY5YWI57qn5pu06auY44CCCgojIyDml6Xlv5cKCmDmlofku7YgQXBwIOKGkiDmiJHnmoQgaVBob25lIOKGkiBWaWJlR28g5Yqp5omLIOKGkiBIZWFyaW5nTGluay5sb2dgCgrlhbPplK7ooYzvvJoKCmBgYApb6K+G5Yir77yaMDM4RDgyNjYt4oCmID0g5bem6ICz77yI5L6n5Yir54m55b6BIDAw77yJXSAgICAgICAg4oaQIOS+p+WIq+ehruiupApbdjMuNS4yIOWQr+WKqO+8muKApuaSreaUvuKGkjDmoaMgfCDmmoLlgZzihpLlt6bogLM55qGjL+WPs+iAszDmoaNdClvwn5SSIOWPs+iAsyDmoaPkvY3ot7PliLAgNu+8jOmUgeWbniAwXSAgICAgICAgICAgICAgICAgICAg4oaQIOmUgeWumueci+mXqOeLl+W3peS9nApb8J+nqiDlrp7pqozlhpnlhaUg5bem6ICzIDhCODIwQzZEIDogMDkgMDEg4oaSIDA4IDAxXSAgICDihpAg5a6e6aqM5a6k5YaZ5YWlClvkv53mtLtdIOmfs+mikeaWreiogOW3suW8gOWQr++8iFBsYXliYWNrK21peO+8jOmfs+mHjyAxJe+8iQpgYGAK
+# VibeGo 助手 0.6.0
+
+自建 iOS 助听器管理 App（bundle `com.vibego.assist`），TrollStore 安装。
+源码在 `src/`，用 zig + iPhoneOS16.5 SDK 直接编译，无需 Mac/Xcode。
+
+## 成品
+
+`VibeGo助手-0.6.0.ipa`（171.6 KB）
+
+| 时机 | 左耳麦克风 | 右耳麦克风 |
+|---|---|---|
+| 别的 App 放声音（媒体/视频/语音消息） | 0%（档位 0） | 0% |
+| iOS 打电话 | 50%（档位 8） | 0% |
+| 安静下来 | 60%（档位 9） | 0%，且锁定 |
+
+---
+
+## 0.6.0 改了什么
+
+### 一、修掉的问题
+
+| 问题 | 原因 | 修法 |
+|---|---|---|
+| 滑块显示 56%，实际写入档位 8（53%） | 百分比和 16 档不是一一对应，换算后反算丢精度 | 拖动后自动**吸附到真实档位**，标签同时显示「档位 9 · 60%」 |
+| 每 15 秒刷一行 `会话激活失败` | 后台没音频播放权，`setActive:YES` 必然失败 | 失败改为指数退避 15→30→60→120 秒，同一原因只报一次 |
+| **左右耳识别可能反掉** | 同一只耳上会读到「本机 ID」和「对侧 ID」，对侧 ID 会覆盖正确侧别 | 侧别特征 `8D17AC2F` 一旦读到就**上锁**；配对 ID 只认 `C97D21D3`，其余一律忽略 |
+
+第三条是隐藏炸弹：左耳上读出来的对侧 ID 是 `2FF351`（右耳的 ID），如果被当成侧别，
+左耳会拿右耳的档位去写、右耳拿左耳的写 —— 播放时该关的没关、暂停时该恢复的没恢复，
+而且日志看上去完全正常。现在彻底堵死。
+
+### 二、保活（回答「能不能用极速iOS 那套」）
+
+**已有的**：`UIBackgroundModes = bluetooth-central` + 一直握着 BLE 连接。
+这是 iOS 上少数不需要越狱就能长期后台运行的合法方式，实测撑得住。
+
+**新加的**：`UIBackgroundModes = audio` + 极低幅噪声循环播放（`HLKeepAlive` 类）。
+
+- 效果等同于「极速iOS」里的**音频断言兜底**：系统会把它当音乐类 App，很难被杀
+- 不会打扰别人：`Playback + MixWithOthers`，音量 1%，波形是 ±1 LSB 噪声
+- 默认**关闭**。因为它会占用本 App 的音频会话（category 变成 Playback），
+  可能扰动 `isOtherAudioPlaying` 的取值。只有真的遇到后台被杀才打开
+- 开关在「麦克风」页第二个 Switch，或者 `hearinglink.plist` 写 `HLKeepAliveAudio = true`
+
+**做不到的**：「场景伪装引擎」需要 `FBScene`/`UIApplication` 私有 API 让系统认为 App 还在前台，
+那是越狱插件的权限（FUBackground 注入到 SpringBoard 侧）。TrollStore 是伪签名，
+拿不到这个能力。好在 `bluetooth-central` + 音频断言两层叠起来已经够用。
+
+### 三、实验室（原「深度探测」升级）
+
+四个分区，顶部切换：
+
+#### ① 矩阵
+全部 116 条特征，每条标出：耳别 / 服务 / 能力（R 读、W 带响应写、WW 无响应写、N 通知、I 指示）/
+当前值 / **语义注解**。注解按导出的能力矩阵逐条判读，共 58 条：
+
+```
+✎ 2A29     R        56 69 62 65              制造商
+✎ 8D17AC2F R        00                       左右侧别 00左/01右
+✎ 1454E9D6 R/W/WW/N 00 01                    ⭐麦克风音量 [档位][01]
+✎ 8B820C6D R/W/WW/N 09 01                    ？疑似总音量 [档位][01]
+✎ 9215A295 R/W/WW/N 09 00                    ？疑似音量 [档位][00]
+✎ 7BE94A55 R/W      50 72 6F 67 72 61 6D     ⭐当前程序名(ASCII)
+✎ 6D5758A1 W/WW     (只写)                   命令通道(只写)
+```
+
+「全量读取」按钮把所有可读特征读一遍，「导出 JSON」导出完整快照（含 device 字段）。
+
+#### ② 对比（最重要的新工具）
+```
+① 记基线  →  去 iOS 改一个设置  →  ② 找差异
+```
+记基线时会先自动全量读取 2 秒再拍照；找差异时逐条比对，列出
+`左耳 7BE94A55 程序名 : 旧值 → 新值`。
+
+这是定位「程序切换 / 总音量 / 降噪 / 方向性」最快的方法：
+在设置里动一下，哪些特征跟着变，那些就是要找的入口。
+
+#### ③ 写入实验台
+列出所有可写特征（麦克风那条自动排除，避免和联动逻辑打架），点一行：
+- 弹出输入框，**默认填当前值** → 写坏了原样写回即可
+- 显示注解和属性，避免瞎写
+- 写后 0.6 秒自动回读，矩阵里能看到新值
+
+#### ④ 设备
+制造商 / 型号 / 序列号 / 固件 / 软件 / 电量 / **当前聆听程序名**，
+外加一份「已知结论」速查（哪些特征干什么、哪些是坑）。
+
+---
+
+## EQ / 压缩 / 方向性能不能加？
+
+**不是新功能，是设备本身的能力**，只是入口没在明面上。
+
+厂商 App 走的是 WS Audiology 的 FAPI 协议（BouncyCastle 加密），
+而 BLE 特征层能看到的只有五个**纯命令通道**：
+
+```
+6D5758A1 / 786FF607 / 6EFAB52E / 62DCC92F / 8B8276E8    全部 W/WW，没有初值
+```
+
+它们只写不回报，写进去「对比」也看不到效果 —— 只能靠听。所以：
+
+- **能做的**：用「对比」先把明面上的参数摸清（音量、程序）
+- **难做的**：EQ/压缩/方向性大概率在这五条命令通道里，格式未知，
+  只能抓厂商 App 的 BLE 包来学（需要越狱 + BLE 抓包，或安卓端 HCI snoop）
+- **不建议的**：盲试命令通道。写错可能把助听器配置搞乱，那是要返厂调机的
+
+一个现实提醒：程序名读出来是 **`Program Et -- Einstellung Eins`**（德语，「程序 Et -- 设置 一」），
+说明这台设备**没被厂商 App 配置过程序**，很可能只有出厂那一个。那种情况下
+「播放时切到音乐程序」这个想法暂时没有料可用 —— 得先在厂商 App 里建好几个程序。
+
+---
+
+## 编译
+
+```bash
+python build.py
+```
+
+- 编译器：`python -m ziglang`（0.16）+ iPhoneOS16.5.sdk
+- 必须带 `-fno-sanitize=undefined`：zig 0.16 默认开 UBSan，
+  会引入 `_dyld_get_image_header_containing_address`（iOS 不导出）→ 一启动就被 dyld 杀
+- 绝不加 `-Wl,-undefined,dynamic_lookup`：那是把链接期错误推到运行期变成闪退
+- 自校验项：无 `ubsan` / 无 `containing_address` 符号、`__text` 偏移远离首页
+
+---
+
+## 可调参数（`文件 App → 我的 iPhone → VibeGo 助手 → hearinglink.plist`）
+
+| 键 | 默认 | 说明 |
+|---|---|---|
+| `HLRestorePercentLeft` | 60 | 安静时左耳恢复 |
+| `HLRestorePercentRight` | 0 | 安静时右耳恢复（右耳锁定会压回 0） |
+| `HLCallMutePercentLeft` | 50 | 通话时左耳 |
+| `HLMutePercent` | 0 | 别的 App 出声时压低到 |
+| `HLLevelMax` | 15 | 档位满量程，60% → 档位 9 |
+| `HLKeepAliveAudio` | false | 后台音频保活 |
+| `HLLockRightEar` | true | 右耳锁定 |
+| `HLLockInterval` | 3.0 | 锁定检查间隔（秒） |
+| `HLAudioAttack` | 0.4 | 声音持续多久才算「在放」 |
+| `HLAudioRelease` | 0.4 | 安静多久才恢复（越小越快） |
+
+界面里改的滑块/开关写进 `NSUserDefaults`，plist 里的同名键优先级更高。
+
+## 日志
+
+`文件 App → 我的 iPhone → VibeGo 助手 → HearingLink.log`
+
+关键行：
+
+```
+[识别：038D8266-… = 左耳（侧别特征 00）]        ← 侧别确认
+[v3.5.2 启动：…播放→0档 | 暂停→左耳9档/右耳0档]
+[🔒 右耳 档位跳到 6，锁回 0]                    ← 锁定看门狗工作
+[🧪 实验写入 左耳 8B820C6D : 09 01 → 08 01]    ← 实验室写入
+[保活] 音频断言已开启（Playback+mix，音量 1%）
+```
