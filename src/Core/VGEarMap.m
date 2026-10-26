@@ -1,1 +1,51 @@
-I2ltcG9ydCAiVkdFYXJNYXAuaCIKCk5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR0Vhck1hcERpZENoYW5nZU5vdGlmaWNhdGlvbiA9IEAiVkdFYXJNYXBEaWRDaGFuZ2VOb3RpZmljYXRpb24iOwoKc3RhdGljIE5TU3RyaW5nICpjb25zdCBrVkdTdG9yZUtleSA9IEAidmdfZWFyX21hcCI7CgpAaW1wbGVtZW50YXRpb24gVkdFYXJNYXAKCisgKE5TTXV0YWJsZURpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilzdG9yZSB7CiAgICBOU0RpY3Rpb25hcnkgKnJhdyA9IFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIGRpY3Rpb25hcnlGb3JLZXk6a1ZHU3RvcmVLZXldOwogICAgcmV0dXJuIFtOU011dGFibGVEaWN0aW9uYXJ5IGRpY3Rpb25hcnlXaXRoRGljdGlvbmFyeTpyYXcgPzogQHt9XTsKfQoKKyAodm9pZClzYXZlOihOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilzdG9yZSB7CiAgICBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBzZXRPYmplY3Q6c3RvcmUgZm9yS2V5OmtWR1N0b3JlS2V5XTsKICAgIFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIHN5bmNocm9uaXplXTsKICAgIGRpc3BhdGNoX2FzeW5jKGRpc3BhdGNoX2dldF9tYWluX3F1ZXVlKCksIF57CiAgICAgICAgW1tOU05vdGlmaWNhdGlvbkNlbnRlciBkZWZhdWx0Q2VudGVyXSBwb3N0Tm90aWZpY2F0aW9uTmFtZTpWR0Vhck1hcERpZENoYW5nZU5vdGlmaWNhdGlvbiBvYmplY3Q6bmlsXTsKICAgIH0pOwp9CgorIChOU1N0cmluZyAqKWVhckxhYmVsRm9yS2V5OihOU1N0cmluZyAqKXV1aWRPclRhaWwgewogICAgaWYgKHV1aWRPclRhaWwubGVuZ3RoID09IDApIHJldHVybiBAIiI7CiAgICBOU0RpY3Rpb25hcnkgKnJhdyA9IFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIGRpY3Rpb25hcnlGb3JLZXk6a1ZHU3RvcmVLZXldOwogICAgZm9yIChOU1N0cmluZyAqZnVsbCBpbiByYXcpIHsKICAgICAgICBpZiAoW2Z1bGwgaXNFcXVhbFRvU3RyaW5nOnV1aWRPclRhaWxdIHx8IFtmdWxsIGhhc1N1ZmZpeDp1dWlkT3JUYWlsXSkgewogICAgICAgICAgICByZXR1cm4gW3Jhd1tmdWxsXSBpc0VxdWFsVG9TdHJpbmc6QCJMIl0gPyBAIuW3puiAsyIgOiBAIuWPs+iAsyI7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIEAiIjsKfQoKKyAodm9pZClzZXRFYXI6KE5TU3RyaW5nICopZWFyTGFiZWwgZm9yRnVsbFVVSUQ6KE5TU3RyaW5nICopZnVsbFVVSUQgewogICAgaWYgKGVhckxhYmVsLmxlbmd0aCA9PSAwIHx8IGZ1bGxVVUlELmxlbmd0aCA9PSAwKSByZXR1cm47CiAgICBOU011dGFibGVEaWN0aW9uYXJ5ICpzdG9yZSA9IFtzZWxmIHN0b3JlXTsKICAgIHN0b3JlW2Z1bGxVVUlEXSA9IFtlYXJMYWJlbCBpc0VxdWFsVG9TdHJpbmc6QCLlt6bogLMiXSA/IEAiTCIgOiBAIlIiOwogICAgW3NlbGYgc2F2ZTpzdG9yZV07Cn0KCisgKHZvaWQpY2xlYXJGb3JGdWxsVVVJRDooTlNTdHJpbmcgKilmdWxsVVVJRCB7CiAgICBpZiAoZnVsbFVVSUQubGVuZ3RoID09IDApIHJldHVybjsKICAgIE5TTXV0YWJsZURpY3Rpb25hcnkgKnN0b3JlID0gW3NlbGYgc3RvcmVdOwogICAgW3N0b3JlIHJlbW92ZU9iamVjdEZvcktleTpmdWxsVVVJRF07CiAgICBbc2VsZiBzYXZlOnN0b3JlXTsKfQoKKyAoTlNEaWN0aW9uYXJ5PE5TU3RyaW5nICosIE5TU3RyaW5nICo+ICopc25hcHNob3QgewogICAgcmV0dXJuIFtzZWxmIHN0b3JlXTsKfQoKQGVuZAo=
+#import "VGEarMap.h"
+
+NSNotificationName const VGEarMapDidChangeNotification = @"VGEarMapDidChangeNotification";
+
+static NSString *const kVGStoreKey = @"vg_ear_map";
+
+@implementation VGEarMap
+
++ (NSMutableDictionary<NSString *, NSString *> *)store {
+    NSDictionary *raw = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kVGStoreKey];
+    return [NSMutableDictionary dictionaryWithDictionary:raw ?: @{}];
+}
+
++ (void)save:(NSDictionary<NSString *, NSString *> *)store {
+    [[NSUserDefaults standardUserDefaults] setObject:store forKey:kVGStoreKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGEarMapDidChangeNotification object:nil];
+    });
+}
+
++ (NSString *)earLabelForKey:(NSString *)uuidOrTail {
+    if (uuidOrTail.length == 0) return @"";
+    NSDictionary *raw = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kVGStoreKey];
+    for (NSString *full in raw) {
+        if ([full isEqualToString:uuidOrTail] || [full hasSuffix:uuidOrTail]) {
+            return [raw[full] isEqualToString:@"L"] ? @"左耳" : @"右耳";
+        }
+    }
+    return @"";
+}
+
++ (void)setEar:(NSString *)earLabel forFullUUID:(NSString *)fullUUID {
+    if (earLabel.length == 0 || fullUUID.length == 0) return;
+    NSMutableDictionary *store = [self store];
+    store[fullUUID] = [earLabel isEqualToString:@"左耳"] ? @"L" : @"R";
+    [self save:store];
+}
+
++ (void)clearForFullUUID:(NSString *)fullUUID {
+    if (fullUUID.length == 0) return;
+    NSMutableDictionary *store = [self store];
+    [store removeObjectForKey:fullUUID];
+    [self save:store];
+}
+
++ (NSDictionary<NSString *, NSString *> *)snapshot {
+    return [self store];
+}
+
+@end
