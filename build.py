@@ -82,7 +82,7 @@ def main():
     cmd += srcs + ["-o", exe]
     for f in FRAMEWORKS:
         cmd += ["-framework", f]
-    cmd += ["-l", "objc"]
+    cmd += ["-l", "objc", "-l", "dispatch", "-l", "System", "-l", "dl"]
     run(cmd)
     os.chmod(exe, 0o755)
     print("      二进制 %.1f KB" % (os.path.getsize(exe) / 1024.0))
