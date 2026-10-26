@@ -10,13 +10,11 @@
 #import <dlfcn.h>
 #import <objc/message.h>
 
-// CallKit runtime load — 避免 zig clang 找不到 CallKit.framework Headers
-// @class / @protocol 前向声明让编译器不报错，运行时由 NSClassFromString 加载
+// CallKit runtime load — 避免 clang 链接到 __OBJC_PROTOCOL_$_CXCallObserverDelegate
+// 只用 @class 前向声明，HLCallProbe2_RT 不带任何 protocol
 @class CXCallObserver, CXCall;
-@protocol CXCallObserverDelegate;
 
-typedef void (*CXCallObserverDelegateIMP)(id, SEL, id, id);
-@interface HLCallProbe2_RT : NSObject <CXCallObserverDelegate>
+@interface HLCallProbe2_RT : NSObject
 @property (nonatomic, copy) void (^onChanged)(void);
 @end
 
