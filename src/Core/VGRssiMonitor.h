@@ -24,6 +24,16 @@ extern NSNotificationName const VGRssiDidChangeNotification;
 + (NSString *)qualityLabel:(double)rssi;
 + (UIColor *)qualityColor:(double)rssi;
 + (NSInteger)signalBars:(double)rssi; // 1~4
+
+// ---- Find My 测距（0.8.0 新增）----
+/// RSSI → 估算距离（米），粗略对数路径损耗模型
++ (double)estimatedDistanceMeters:(double)rssi;
+/// RSSI → 距离等级：0=贴身(<0.5m) 1=近(<2m) 2=中(<5m) 3=远(<10m) 4=很远(>=10m)
++ (NSInteger)distanceLevel:(double)rssi;
+/// 距离等级 → 中文标签
++ (NSString *)distanceLabel:(double)rssi;
+/// 距离等级 → 颜色（绿→红）
++ (UIColor *)distanceColor:(double)rssi;
 @end
 
 NS_ASSUME_NONNULL_END
