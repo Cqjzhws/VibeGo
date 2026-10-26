@@ -1,1 +1,64 @@
-I2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CgpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTgoKLy8vIOWNleasoeWPquivu+aemuS4vuW+l+WIsOeahOWNleWPquiuvuWkh+e7k+aehOWMluaho+ahiO+8iOWuieWFqO+8muS7headpeiHqiBTSUcg5qCH5YeG5Y+q6K+754m55b6B77yJCkBpbnRlcmZhY2UgVkdQcm9iZURldmljZSA6IE5TT2JqZWN0CgpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSwgbnVsbGFibGUpIE5TU3RyaW5nICpwZXJpcGhlcmFsSUQ7ICAgLy8g5pyr5bC+IDYg5L2NCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBjb3B5LCBudWxsYWJsZSkgTlNTdHJpbmcgKmVhcktleTsgICAgICAgICAvLyDlrozmlbQgVVVJRO+8iOeUqOS6juW3puWPs+iAs+aYoOWwhO+8iQpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSwgbnVsbGFibGUpIE5TU3RyaW5nICplYXJMYWJlbDsgICAgICAgLy8gQCLlt6bogLMiL0Ai5Y+z6ICzIu+8jOacquiuvuWumuS4uuepugpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSwgbnVsbGFibGUpIE5TU3RyaW5nICphZHZlcnRpc2VkTmFtZTsgLy8g5bm/5pKt5ZCNCkBwcm9wZXJ0eSAobm9uYXRvbWljLCBjb3B5LCBudWxsYWJsZSkgTlNTdHJpbmcgKm1hbnVmYWN0dXJlcjsKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqbW9kZWw7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBjb3B5LCBudWxsYWJsZSkgTlNTdHJpbmcgKnNlcmlhbDsKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqaHdSZXY7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBjb3B5LCBudWxsYWJsZSkgTlNTdHJpbmcgKmZ3UmV2OwpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSwgbnVsbGFibGUpIE5TU3RyaW5nICpzd1JldjsKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqYmF0dGVyeTsgICAgICAgIC8vIOWmgiAiMTAwJSIKQHByb3BlcnR5IChub25hdG9taWMsIGFzc2lnbikgTlNJbnRlZ2VyIGNoYXJDb3VudDsgICAgICAgICAgICAgLy8g5Y+R546w54m55b6B5pWwCi8vLyDljoLllYbkv6Hmga8v54q25oCBL+mFjee9ruetieWPr+ivu+eJueW+geeahOino+eggee7k+aenO+8mnNob3J0VVVJRCAtPiDlsZXnpLrkuLLvvIjnuq/lj6ror7vojrflj5bvvIkKQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZywgbnVsbGFibGUpIE5TTXV0YWJsZURpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKnJhd1ZhbHVlczsKCi8vLyDlub/mkq3ljoLllYbmlbDmja7vvIhoZXjvvIznlKjkuo7ov57mjqXliY3or4bliKvvvJvkuZ/kuLrkvqfliKvmjqjmlq3mj5Dkvpvkvp3mja7vvIkKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqbWZySGV4OwovLy8g55Sx5bm/5pKt5Y6C5ZWG5pWw5o2u5o6o5pat55qE6ICz5Yir77yIQCLlt6bogLMiL0Ai5Y+z6ICzIu+8jOS+neaNruS4jei2s+WImeS4uiBuaWzvvIkKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqbWZyRWFySGludDsKCi8vLyDmnKzmrKHmjqLmtYvnm7jlr7nkuIrmrKHlv6vnhafnmoTlj5jljJbvvIjmr4/ooYzlpoLjgIzlvZPliY3nqIvluo/lkI3vvJpBIOKGkiBC44CN77yJ77yb5peg5Z+657q/5YiZIG5pbApAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nLCBudWxsYWJsZSkgTlNBcnJheTxOU1N0cmluZyAqPiAqY2hhbmdlczsKLy8vIOaYr+WQpuWtmOWcqOWPr+eUqOeahOS4iuasoeWfuue6v+W/q+eFpwpAcHJvcGVydHkgKG5vbmF0b21pYywgYXNzaWduKSBCT09MIGhhc0Jhc2VsaW5lOwovLy8g5LiK5qyh5b+r54Wn55qE5pe26Ze05o+P6L+w77yI5aaC44CMMTAtMTYgMTI6MjnjgI3vvIkKQHByb3BlcnR5IChub25hdG9taWMsIGNvcHksIG51bGxhYmxlKSBOU1N0cmluZyAqYmFzZWxpbmVEYXRlVGV4dDsKLy8vIOeUqOS6juaMgeS5heWMluavlOWvueeahOmUru+8iOW6j+WIl+WPt+S8mOWFiO+8iQpAcHJvcGVydHkgKG5vbmF0b21pYywgY29weSwgbnVsbGFibGUpIE5TU3RyaW5nICpzbmFwc2hvdEtleTsKCi8vLyDmmL7npLrlkI3vvIzlpoLjgIxWaWJlIEdvIMK3NTYzMeOAje+8iOWei+WPtyArIOW6j+WIl+WPt+acqyA0IOS9je+8iQotIChOU1N0cmluZyAqKWRpc3BsYXlOYW1lOwoKLy8vIOWkmuihjOaRmOimge+8jOS+v+S6juebtOaOpeWxleekui/liIbkuqsKLSAoTlNTdHJpbmcgKilzdW1tYXJ5OwoKLy8vIOW9k+WJjeWKqeWQrOeoi+W6j+WQje+8iOadpeiHquW9k+WJjeeoi+W6j+WQjeeJueW+ge+8jOaXoOWImSBuaWzvvIkKLSAobnVsbGFibGUgTlNTdHJpbmcgKiljdXJyZW50UHJvZ3JhbU5hbWU7CgovLy8g55So5oi36Ieq5a6a5LmJ6ICz5Yir5pi+56S65ZCN77yI5aaC44CM5bem6ICzIMK3IOWuouWOheOAje+8ie+8jOaXoOWImSBuaWwKLSAobnVsbGFibGUgTlNTdHJpbmcgKillYXJEaXNwbGF5TmFtZTsKCi8vLyDnu7zlkIjmjqjmlq3ogLPliKvvvJrlub/mkq3kvqfliKvlrZfoioIgKyDphY3lr7kgSUQgKyDkvqfliKvmoIflv5fkvY0g5Lqk5Y+J6aqM6K+B77ybCi8vLyDov5Tlm57lpoLjgIzlj7PogLPvvIgzIOmhueS+neaNruS4gOiHtO+8muW5v+aSreS+p+WIq+Wtl+iKgiArIOmFjeWvuSBJRCArIOS+p+WIq+agh+W/l++8ieOAje+8jOaXoOazleaOqOaWreWImSBuaWwKLSAobnVsbGFibGUgTlNTdHJpbmcgKilpbmZlcnJlZEVhclRleHQ7CgovLy8g6YWN5a+55qCH6K+G77yI5L+h5oGv54m55b6BIDIg55qE5YC877yM5aaCIDJGRjM1MSAvIDJGQ0RBOO+8ie+8jOaXoOWImSBuaWwKLSAobnVsbGFibGUgTlNTdHJpbmcgKilwYWlyaW5nSUQ7CgovLy8g5LiO5Y+m5LiA5Y+q6ICz5py155qE6YWN5a+55qCH6K+G5piv5ZCm5LiA6Ie077yI55So5LqO5Yik5pat5piv5ZCm6YWN5aWX77yJCi0gKEJPT0wpaXNQYWlyZWRXaXRoOihWR1Byb2JlRGV2aWNlICopb3RoZXI7CgovLy8g5Y+v5oyB5LmF5YyW55qE44CM54m55b6BIOKGkiDlgLzjgI3lv6vnhafvvIjmjpLpmaTnqbrlgLzvvIkKLSAoTlNEaWN0aW9uYXJ5PE5TU3RyaW5nICosIE5TU3RyaW5nICo+ICopc25hcHNob3RWYWx1ZXM7CgpAZW5kCgpOU19BU1NVTUVfTk9OTlVMTF9FTkQK
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+/// 单次只读枚举得到的单只设备结构化档案（安全：仅来自 SIG 标准只读特征）
+@interface VGProbeDevice : NSObject
+
+@property (nonatomic, copy, nullable) NSString *peripheralID;   // 末尾 6 位
+@property (nonatomic, copy, nullable) NSString *earKey;         // 完整 UUID（用于左右耳映射）
+@property (nonatomic, copy, nullable) NSString *earLabel;       // @"左耳"/@"右耳"，未设定为空
+@property (nonatomic, copy, nullable) NSString *advertisedName; // 广播名
+@property (nonatomic, copy, nullable) NSString *manufacturer;
+@property (nonatomic, copy, nullable) NSString *model;
+@property (nonatomic, copy, nullable) NSString *serial;
+@property (nonatomic, copy, nullable) NSString *hwRev;
+@property (nonatomic, copy, nullable) NSString *fwRev;
+@property (nonatomic, copy, nullable) NSString *swRev;
+@property (nonatomic, copy, nullable) NSString *battery;        // 如 "100%"
+@property (nonatomic, assign) NSInteger charCount;             // 发现特征数
+/// 厂商信息/状态/配置等可读特征的解码结果：shortUUID -> 展示串（纯只读获取）
+@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSString *> *rawValues;
+
+/// 广播厂商数据（hex，用于连接前识别；也为侧别推断提供依据）
+@property (nonatomic, copy, nullable) NSString *mfrHex;
+/// 由广播厂商数据推断的耳别（@"左耳"/@"右耳"，依据不足则为 nil）
+@property (nonatomic, copy, nullable) NSString *mfrEarHint;
+
+/// 本次探测相对上次快照的变化（每行如「当前程序名：A → B」）；无基线则 nil
+@property (nonatomic, strong, nullable) NSArray<NSString *> *changes;
+/// 是否存在可用的上次基线快照
+@property (nonatomic, assign) BOOL hasBaseline;
+/// 上次快照的时间描述（如「10-16 12:29」）
+@property (nonatomic, copy, nullable) NSString *baselineDateText;
+/// 用于持久化比对的键（序列号优先）
+@property (nonatomic, copy, nullable) NSString *snapshotKey;
+
+/// 显示名，如「Vibe Go ·5631」（型号 + 序列号末 4 位）
+- (NSString *)displayName;
+
+/// 多行摘要，便于直接展示/分享
+- (NSString *)summary;
+
+/// 当前助听程序名（来自当前程序名特征，无则 nil）
+- (nullable NSString *)currentProgramName;
+
+/// 用户自定义耳别显示名（如「左耳 · 客厅」），无则 nil
+- (nullable NSString *)earDisplayName;
+
+/// 综合推断耳别：广播侧别字节 + 配对 ID + 侧别标志位 交叉验证；
+/// 返回如「右耳（3 项依据一致：广播侧别字节 + 配对 ID + 侧别标志）」，无法推断则 nil
+- (nullable NSString *)inferredEarText;
+
+/// 配对标识（信息特征 2 的值，如 2FF351 / 2FCDA8），无则 nil
+- (nullable NSString *)pairingID;
+
+/// 与另一只耳朵的配对标识是否一致（用于判断是否配套）
+- (BOOL)isPairedWith:(VGProbeDevice *)other;
+
+/// 可持久化的「特征 → 值」快照（排除空值）
+- (NSDictionary<NSString *, NSString *> *)snapshotValues;
+
+@end
+
+NS_ASSUME_NONNULL_END
