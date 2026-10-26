@@ -1,1 +1,26 @@
-Ly8KLy8gIFZHU3RhYmlsaXR5TG9nLmgg4oCUIOi/nuaOpeeos+WumuaAp+iusOW9le+8iOWOn+W3peeoi+mHjOe8uui/meS4quaWh+S7tu+8jOaMieiwg+eUqOeCueihpem9kO+8iQovLwoKI2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CgpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTgoKQGludGVyZmFjZSBWR1N0YWJpbGl0eUxvZyA6IE5TT2JqZWN0CgovLy8g5LqL5Lu25YiX6KGo77yMKirmlrDnmoTlnKjliY0qKu+8jOavj+adoeaYryBAe0AidHMiOiBOU051bWJlcijnp5IpLCBAInN0YXRlIjogQCJjb25uZWN0ZWQiL0AiZGlzY29ubmVjdGVkIiwgQCJzdW1tYXJ5IjogTlNTdHJpbmd9CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcsIHJlYWRvbmx5KSBOU0FycmF5PE5TRGljdGlvbmFyeSAqPiAqZXZlbnRzOwoKKyAoaW5zdGFuY2V0eXBlKXNoYXJlZDsKCi0gKHZvaWQpcmVjb3JkQ29ubmVjdGVkOihCT09MKWNvbm5lY3RlZCBlYXI6KE5TVUludGVnZXIpZWFyIHN1bW1hcnk6KE5TU3RyaW5nICopc3VtbWFyeTsKCi8vLyDmnIDov5EgMjQg5bCP5pe255qE57uf6K6h5paH5pysCi0gKE5TU3RyaW5nICopc3RhdGlzdGljc1RleHQ7CgovLy8g5a+85Ye6IENTViDliLAgRG9jdW1lbnRz77yM6L+U5Zue5paH5Lu2IFVSTAotIChOU1VSTCAqKWV4cG9ydEZpbGU7CgpAZW5kCgpOU19BU1NVTUVfTk9OTlVMTF9FTkQK
+//
+//  VGStabilityLog.h — 连接稳定性记录（原工程里缺这个文件，按调用点补齐）
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface VGStabilityLog : NSObject
+
+/// 事件列表，**新的在前**，每条是 @{@"ts": NSNumber(秒), @"state": @"connected"/@"disconnected", @"summary": NSString}
+@property (nonatomic, strong, readonly) NSArray<NSDictionary *> *events;
+
++ (instancetype)shared;
+
+- (void)recordConnected:(BOOL)connected ear:(NSUInteger)ear summary:(NSString *)summary;
+
+/// 最近 24 小时的统计文本
+- (NSString *)statisticsText;
+
+/// 导出 CSV 到 Documents，返回文件 URL
+- (NSURL *)exportFile;
+
+@end
+
+NS_ASSUME_NONNULL_END
