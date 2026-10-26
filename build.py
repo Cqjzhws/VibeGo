@@ -15,21 +15,27 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "src")
 SDK = os.environ.get("IPHONEOS_SDK") or r"C:/Users/Administrator/WorkBuddy/2026-10-20-01-45-41/sdk/iPhoneOS16.5.sdk"
 OLD_IPA = os.environ.get("VIBEGO_BASE_IPA") or r"C:/Users/Administrator/Documents/xwechat_files/www_531818_com_6bde/msg/file/2026-10/VibeGo 助手_0.4.7.ipa"
-PY = sys.executable
-ZIG = [PY, "-m", "ziglang", "cc"]
+import platform
+
+# macOS 上用 xcrun clang（最稳，自动处理 iOS SDK/stub/framework）
+# 其他平台 fallback 到 zig cc
+def _cc():
+    if platform.system() == "Darwin":
+        return ["xcrun", "--sdk", "iphoneos", "clang"]
+    import sys as _sys
+    return [_sys.executable, "-m", "ziglang", "cc"]
+
+CC = _cc()
 
 APP = "VibeGo"
 DISPLAY = "VibeGo 助手"
 VERSION = "0.7.0"
 BUILD_NO = "20"
-TARGET = "aarch64-ios.15.0"
+TARGET = "aarch64-apple-ios15.0"
 OUT_IPA = os.path.join(ROOT, "VibeGo助手-0.7.0.ipa")
 
-CFLAGS = [
+BASE_CFLAGS = [
     "-target", TARGET,
-    "-isysroot", SDK,
-    "-isystem", os.path.join(SDK, "usr", "include"),
-    "-F", os.path.join(SDK, "System", "Library", "Frameworks"),
     "-fobjc-arc", "-fobjc-exceptions", "-ObjC", "-O2",
     "-fno-sanitize=undefined",
     "-DHL_STANDALONE_APP=1",
@@ -38,6 +44,14 @@ CFLAGS = [
     "-Wno-unused-variable", "-Wno-unused-function",
     "-Wno-unused-but-set-variable", "-Wno-format",
 ]
+
+# macOS xcrun 会自动设置 sysroot/framework 搜索路径；非 macOS 手动加
+if platform.system() != "Darwin":
+    BASE_CFLAGS += [
+        "-isysroot", SDK,
+        "-isystem", os.path.join(SDK, "usr", "include"),
+        "-F", os.path.join(SDK, "System", "Library", "Frameworks"),
+    ]
 
 FRAMEWORKS = ["UIKit", "CoreGraphics", "QuartzCore", "CoreBluetooth",
               "Accessibility", "Security", "UserNotifications",
@@ -78,11 +92,14 @@ def main():
     srcs = sources()
     print("[1/4] 编译 %d 个源文件" % len(srcs))
     exe = os.path.join(app_dir, APP)
-    cmd = ZIG + CFLAGS + LDFLAGS + ["-L", os.path.join(SDK, "usr", "lib")]
+    cmd = CC + BASE_CFLAGS + LDFLAGS
+    if platform.system() != "Darwin":
+        cmd += ["-L", os.path.join(SDK, "usr", "lib")]
     cmd += srcs + ["-o", exe]
     for f in FRAMEWORKS:
         cmd += ["-framework", f]
-    cmd += ["-l", "objc", "-l", "dispatch", "-l", "System", "-l", "dl"]
+    if platform.system() != "Darwin":
+        cmd += ["-l", "objc", "-l", "dispatch", "-l", "System", "-l", "dl"]
     run(cmd)
     os.chmod(exe, 0o755)
     print("      二进制 %.1f KB" % (os.path.getsize(exe) / 1024.0))
