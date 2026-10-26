@@ -24,7 +24,7 @@ jobs:
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
         zig version
         # ziglang Python 模块——build.py 用 python3 -m ziglang cc 驱动
-        pip3 install ziglang lief --quiet
+        pip3 install ziglang lief --break-system-packages --quiet
         python3 -c "import ziglang; print('ziglang OK')"
 
     - name: Build IPA
