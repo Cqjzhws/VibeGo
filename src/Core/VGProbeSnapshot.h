@@ -1,1 +1,38 @@
-I2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CgpOU19BU1NVTUVfTk9OTlVMTF9CRUdJTgoKLy8vIOWPquivu+aOoua1i+eahOOAjOS4iuasoeW/q+eFp+OAjeWtmOWPluS4juW3ruW8guavlOWvueOAggovLy8KLy8vIOeUqOmAlO+8muWKqeWQrOWZqOeahOengeacieeJueW+gemHjOacieS6m+aYryoq5Lya5Y+Y55qEKirvvIjnqIvluo/lkI3jgIHnirbmgIHmoIflv5fjgIHorqHmlbDlmajvvInjgIIKLy8vIOWNleasoeaOoua1i+WPquiDveeci+WIsOOAjOW9k+WJjeWAvOOAje+8jOeci+S4jeWHuuWug+aYr+WQpuS8muWKqOOAguacrOexu+aKiuavj+asoeaOoua1i+eahOe7k+aenOWtmOWIsAovLy8g5pys5ZywIFVzZXJEZWZhdWx0c++8jOS4i+asoeaOoua1i+aXtuiHquWKqOavlOWvue+8jOaKiuOAjOWTquS6m+eJueW+geWPmOS6huOAgeS7juS7gOS5iOWPmOaIkOS7gOS5iOOAjQovLy8g55u05o6l5YiX5Ye65p2l4oCU4oCU6L+Z5qC355So5oi35Y+q6KaB5Zyo5omL5py65LiK5pON5L2c5LiA5LiL77yI5YiH56iL5bqPL+iwg+mfs+mHjy/lvIDlhbPvvInvvIwKLy8vIOWGjei3keS4gOasoeaOoua1i++8jOWwseiDveWumuS9jeWIsOWIsOW6leWTquS4queJueW+geWvueW6lOivpeWKn+iDveOAggovLy8KLy8vIOWuieWFqOi+ueeVjO+8mue6r+acrOWcsOivu+WGmSArIOe6r+Wtl+espuS4suavlOWvue+8jOS4jeeisOiTneeJmeOAgeS4jeWGmeWFpeiuvuWkh+S7u+S9leeJueW+geOAggpAaW50ZXJmYWNlIFZHUHJvYmVTbmFwc2hvdCA6IE5TT2JqZWN0CgovLy8g55Sf5oiQ6K6+5aSH5a2Y5YKo6ZSu77ya5LyY5YWI5bqP5YiX5Y+377yI5o2i5omL5py65Lmf6K6k5b6X5ZCM5LiA5Y+q6ICz77yJ77yM5ZCm5YiZ55SoIFVVSUQg5pyrIDYg5L2NCisgKE5TU3RyaW5nICopZGV2aWNlS2V5V2l0aFNlcmlhbDoobnVsbGFibGUgTlNTdHJpbmcgKilzZXJpYWwgZmFsbGJhY2s6KG51bGxhYmxlIE5TU3RyaW5nICopZmFsbGJhY2s7CgovLy8g5Y+W5LiK5qyh5b+r54Wn77yIc2hvcnRVVUlEIC0+IOWxleekuuS4su+8ie+8m+ayoeacieWImei/lOWbnuepuuWtl+WFuAorIChOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilsb2FkRm9yRGV2aWNlS2V5OihOU1N0cmluZyAqKWtleTsKCi8vLyDlrZjmnKzmrKHlv6vnhacKKyAodm9pZClzYXZlVmFsdWVzOihOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKil2YWx1ZXMgZm9yRGV2aWNlS2V5OihOU1N0cmluZyAqKWtleTsKCi8vLyDpppbmrKHlv6vnhafml7bpl7Tmj4/ov7DvvIjlpoLjgIzku4rlpKkgMTI6MjnjgI3vvInvvIzml6DliJkgbmlsCisgKG51bGxhYmxlIE5TU3RyaW5nICopc2F2ZWREYXRlVGV4dEZvckRldmljZUtleTooTlNTdHJpbmcgKilrZXk7CgovLy8g6K6h566X5Y+Y5YyW6KGM77yM5q+P6KGM5b2i5aaC77yaCi8vLyAgIOOAjOW9k+WJjeeoi+W6j+WQje+8mlByb2dyYW0gRXQgLS0gRWluc3RlbGx1bmcgRWlucyDihpIgVW5pdmVyc2Fs44CNCisgKE5TQXJyYXk8TlNTdHJpbmcgKj4gKiljaGFuZ2VzRnJvbU9sZDoobnVsbGFibGUgTlNEaWN0aW9uYXJ5PE5TU3RyaW5nICosIE5TU3RyaW5nICo+ICopb2xkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvTmV3OihOU0RpY3Rpb25hcnk8TlNTdHJpbmcgKiwgTlNTdHJpbmcgKj4gKilub3c7CgovLy8g5riF56m65YWo6YOo5b+r54Wn77yI55So5oi35Li75Yqo6YeN572u5Z+657q/55So77yJCisgKHZvaWQpcmVzZXRBbGw7CgpAZW5kCgpOU19BU1NVTUVfTk9OTlVMTF9FTkQK
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+/// 只读探测的「上次快照」存取与差异比对。
+///
+/// 用途：助听器的私有特征里有些是**会变的**（程序名、状态标志、计数器）。
+/// 单次探测只能看到「当前值」，看不出它是否会动。本类把每次探测的结果存到
+/// 本地 UserDefaults，下次探测时自动比对，把「哪些特征变了、从什么变成什么」
+/// 直接列出来——这样用户只要在手机上操作一下（切程序/调音量/开关），
+/// 再跑一次探测，就能定位到到底哪个特征对应该功能。
+///
+/// 安全边界：纯本地读写 + 纯字符串比对，不碰蓝牙、不写入设备任何特征。
+@interface VGProbeSnapshot : NSObject
+
+/// 生成设备存储键：优先序列号（换手机也认得同一只耳），否则用 UUID 末 6 位
++ (NSString *)deviceKeyWithSerial:(nullable NSString *)serial fallback:(nullable NSString *)fallback;
+
+/// 取上次快照（shortUUID -> 展示串）；没有则返回空字典
++ (NSDictionary<NSString *, NSString *> *)loadForDeviceKey:(NSString *)key;
+
+/// 存本次快照
++ (void)saveValues:(NSDictionary<NSString *, NSString *> *)values forDeviceKey:(NSString *)key;
+
+/// 首次快照时间描述（如「今天 12:29」），无则 nil
++ (nullable NSString *)savedDateTextForDeviceKey:(NSString *)key;
+
+/// 计算变化行，每行形如：
+///   「当前程序名：Program Et -- Einstellung Eins → Universal」
++ (NSArray<NSString *> *)changesFromOld:(nullable NSDictionary<NSString *, NSString *> *)old
+                                 toNew:(NSDictionary<NSString *, NSString *> *)now;
+
+/// 清空全部快照（用户主动重置基线用）
++ (void)resetAll;
+
+@end
+
+NS_ASSUME_NONNULL_END
