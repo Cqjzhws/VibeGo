@@ -1,13 +1,74 @@
 #import "VGBatteryMonitor.h"
 #import "HLLink.h"
+#import "VGEarMap.h"
 
 NSNotificationName const VGBatteryDidChangeNotification = @"VGBatteryDidChangeNotification";
+
+// HLLink 提供的统一日志（进环形缓冲 + 文件 + stderr）
+extern void HLExternalLog(NSString *fmt, ...) __attribute__((format(__NSString__, 1, 2)));
 
 static const uint16_t kVGCompany = 0x0295;        // WS Audiology = 661
 static const NSInteger kVGMaxBatteryDevices = 2;
 static const NSTimeInterval kVGPollInterval = 60.0;
 
 @implementation VGBatteryDevice
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _batteryHistory = [NSMutableArray array];
+    }
+    return self;
+}
+
+static const NSInteger kVGMaxHistory = 48;   // 最近 48 次读数（约 48 分钟）
+
+- (void)appendBatteryLevel:(NSInteger)level at:(NSDate *)time {
+    if (level < 0 || level > 100) return;
+    if (!self.firstSeenBattery) self.firstSeenBattery = @(level);
+    [self.batteryHistory addObject:@{@"level": @(level), @"time": time}];
+    while (self.batteryHistory.count > kVGMaxHistory) {
+        [self.batteryHistory removeObjectAtIndex:0];
+    }
+}
+
+- (NSInteger)batteryHealth {
+    // 锌空电池没有循环寿命概念，健康度 = 当前电量相对首次观测的保留率
+    if (!self.firstSeenBattery || !self.battery) return -1;
+    NSInteger first = self.firstSeenBattery.integerValue;
+    if (first <= 0) return -1;
+    NSInteger cur = self.battery.integerValue;
+    // 当前 >= 首次（充电后）= 健康 100；否则按比例
+    if (cur >= first) return 100;
+    return (NSInteger)lround((double)cur / (double)first * 100.0);
+}
+
+- (double)drainRatePerHour {
+    if (self.batteryHistory.count < 2) return 0;
+    // 取最近 30 分钟内的数据
+    NSDate *cutoff = [NSDate dateWithTimeIntervalSinceNow:-30 * 60];
+    NSMutableArray *recent = [NSMutableArray array];
+    for (NSDictionary *p in self.batteryHistory) {
+        if ([p[@"time"] compare:cutoff] != NSOrderedAscending) [recent addObject:p];
+    }
+    if (recent.count < 2) return 0;
+    NSDictionary *first = recent.firstObject;
+    NSDictionary *last = recent.lastObject;
+    NSTimeInterval dt = [last[@"time"] timeIntervalSinceDate:first[@"time"]];
+    if (dt <= 0) return 0;
+    double dl = [first[@"level"] doubleValue] - [last[@"level"] doubleValue];
+    if (dl <= 0) return 0;  // 没在放电（或在充电）
+    return dl / (dt / 3600.0);
+}
+
+- (NSInteger)estimatedMinutesRemaining {
+    if (!self.battery) return -1;
+    double rate = [self drainRatePerHour];
+    if (rate <= 0) return -1;
+    double hours = self.battery.doubleValue / rate;
+    return (NSInteger)lround(hours * 60.0);
+}
+
 @end
 
 @interface VGBatteryMonitor () <CBCentralManagerDelegate, CBPeripheralDelegate>
@@ -218,11 +279,12 @@ static const NSTimeInterval kVGPollInterval = 60.0;
     for (CBCharacteristic *c in service.characteristics) {
         if (!(c.properties & CBCharacteristicPropertyRead)) continue;
         NSString *u = c.UUID.UUIDString.uppercaseString;
-        // 只自动读取标准电池 + DIS 只读项 + 当前程序名/配对标识；绝不 setNotify、绝不写入
+        // 只自动读取标准电池 + DIS 只读项 + 当前程序名/配对标识 + 耳别标志；绝不 setNotify、绝不写入
         if ([u hasPrefix:@"2A19"] || [u hasPrefix:@"2A24"] || [u hasPrefix:@"2A25"] ||
             [u hasPrefix:@"2A26"] || [u hasPrefix:@"2A27"] || [u hasPrefix:@"2A28"] ||
             [u hasPrefix:@"2A29"] || [u hasPrefix:@"7BE94A55"] ||
-            [u hasPrefix:@"C97D21D3"] || [u hasPrefix:@"497EEB9E"]) {
+            [u hasPrefix:@"C97D21D3"] || [u hasPrefix:@"497EEB9E"] ||
+            [u hasPrefix:@"8D17AC2F"]) {
             [peripheral readValueForCharacteristic:c];
         }
     }
@@ -237,7 +299,16 @@ static const NSTimeInterval kVGPollInterval = 60.0;
 
     if ([u hasPrefix:@"2A19"]) {
         uint8_t pct = ((const uint8_t *)v.bytes)[0];
-        if (pct <= 100) d.battery = @(pct);
+        if (pct <= 100) {
+            d.battery = @(pct);
+            [d appendBatteryLevel:pct at:[NSDate date]];
+        }
+    } else if ([u hasPrefix:@"8D17AC2F"]) {
+        // 耳别标志：0x01 = 右耳，0x00 = 左耳
+        uint8_t flag = ((const uint8_t *)v.bytes)[0];
+        NSString *ear = (flag == 0x01) ? @"右耳" : @"左耳";
+        [VGEarMap setAutoEar:ear forKey:d.uuidString];
+        HLExternalLog(@"[耳别] %@ 自报=%@ (0x%02X)", d.shortId, ear, flag);
     } else {
         NSString *s = [[NSString alloc] initWithData:v encoding:NSUTF8StringEncoding];
         if (s.length == 0) return;
