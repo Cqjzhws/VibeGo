@@ -109,8 +109,13 @@ NSArray<NSString *> *HLRecentLines(void) {
                name:AVAudioSessionSilenceSecondaryAudioHintNotification object:nil];
     [nc addObserver:self selector:@selector(onInterruption:)
                name:AVAudioSessionInterruptionNotification object:nil];
+    [nc addObserver:self selector:@selector(onRouteChange:)
+               name:AVAudioSessionRouteChangeNotification object:nil];
 
-    _timer = [NSTimer scheduledTimerWithTimeInterval:0.15 target:self
+    // Bug #4: 事件驱动为主，timer 只做兜底（2s 一次，防通知漏发）。
+    // 之前 0.15s 持续轮询 isOtherAudioPlaying 在后台浪费电量，
+    // 现在收到 hint/interruption 通知立即 tick，timer 只是兜底。
+    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self
                                             selector:@selector(tick) userInfo:nil repeats:YES];
     [self tick];
 }
@@ -124,6 +129,15 @@ NSArray<NSString *> *HLRecentLines(void) {
 - (void)onInterruption:(NSNotification *)n {
     NSUInteger t = [n.userInfo[AVAudioSessionInterruptionTypeKey] unsignedIntegerValue];
     HLExternalLog(@"[音频] 中断通知 type=%lu", (unsigned long)t);
+    dispatch_async(dispatch_get_main_queue(), ^{ [self tick]; });
+}
+
+// Bug #4: 监听音频会话路由变化（耳机插拔、蓝牙连接/断开），
+// 路由变化时 isOtherAudioPlaying 可能瞬间跳变，及时响应。
+- (void)onRouteChange:(NSNotification *)n {
+    NSDictionary *u = n.userInfo;
+    NSNumber *reason = u[AVAudioSessionRouteChangeReasonKey];
+    HLExternalLog(@"[音频] 路由变化 reason=%ld", (long)reason.integerValue);
     dispatch_async(dispatch_get_main_queue(), ^{ [self tick]; });
 }
 
@@ -493,11 +507,162 @@ static NSArray *HL_GetCalls(id observer) {
 }
 @end
 
+#pragma mark - 自适应麦克风（0.8.0 Feature #3）
+
+// 用 AVAudioEngine input tap 监听环境噪音，自动调节恢复档位。
+// 设计：
+//   · 只在用户打开「自适应」开关时启动，避免和音频探测抢会话
+//   · 用 PlayAndRecord + MixWithOthers，不影响其他 App 播放
+//   · 每 0.5s 算一次 RMS → dB，映射到档位偏移：
+//       <30dB 安静 → -20%（压低恢复档，让麦克风更安静）
+//       30~50dB 正常 → 0
+//       50~70dB 吵 → +15%
+//       >70dB 很吵 → +30%
+//   · 偏移量叠加在用户设置的 HLRestorePercentLeft 上，写入 HLAdaptiveRestorePercentLeft
+//     HLLink 优先读自适应值，未启动时回退到用户值
+
+@interface HLAdaptiveMic : NSObject
++ (instancetype)shared;
+- (BOOL)enabled;
+- (void)setEnabled:(BOOL)on;
+/// 当前环境噪音 dB（-160~0），未启动返回 -160
+- (double)currentDB;
+/// 当前应用的恢复档位百分比（已叠加自适应偏移）
+- (NSInteger)effectiveRestorePercent;
+@end
+
+@implementation HLAdaptiveMic {
+    AVAudioEngine *_engine;
+    double _smoothedDB;
+    NSInteger _basePercent;
+    BOOL _running;
+}
+
++ (instancetype)shared {
+    static HLAdaptiveMic *s; static dispatch_once_t once;
+    dispatch_once(&once, ^{ s = [HLAdaptiveMic new]; });
+    return s;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) { _smoothedDB = -160; }
+    return self;
+}
+
+- (BOOL)enabled {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:@"HLAdaptiveMicEnabled"];
+}
+
+- (void)setEnabled:(BOOL)on {
+    [[NSUserDefaults standardUserDefaults] setBool:on forKey:@"HLAdaptiveMicEnabled"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    if (on) [self start];
+    else    [self stop];
+}
+
+- (double)currentDB { return _smoothedDB; }
+
+- (NSInteger)effectiveRestorePercent {
+    if (!_running) {
+        NSInteger base = [[NSUserDefaults standardUserDefaults] integerForKey:@"HLRestorePercentLeft"];
+        return base > 0 ? base : 60;
+    }
+    NSInteger base = _basePercent;
+    // dB → 偏移
+    NSInteger offset = 0;
+    if (_smoothedDB < -50)      offset = -20;   // 安静
+    else if (_smoothedDB < -30) offset = 0;     // 正常
+    else if (_smoothedDB < -15) offset = 15;    // 吵
+    else                        offset = 30;    // 很吵
+    NSInteger pct = base + offset;
+    return MAX(0, MIN(100, pct));
+}
+
+- (void)start {
+    if (_running) return;
+    _basePercent = [[NSUserDefaults standardUserDefaults] integerForKey:@"HLRestorePercentLeft"];
+    if (_basePercent <= 0) _basePercent = 60;
+
+    AVAudioSession *s = [AVAudioSession sharedInstance];
+    NSError *e = nil;
+    [s setCategory:AVAudioSessionCategoryPlayAndRecord
+              mode:AVAudioSessionModeDefault
+           options:AVAudioSessionCategoryOptionMixWithOthers |
+                   AVAudioSessionCategoryOptionAllowBluetooth
+             error:&e];
+    if (e) { HLExternalLog(@"[自适应] 设类别失败：%@", e.localizedDescription); return; }
+    [s setActive:YES error:&e];
+    if (e) { HLExternalLog(@"[自适应] 激活失败：%@", e.localizedDescription); return; }
+
+    if ([s respondsToSelector:@selector(requestRecordPermission:)]) {
+        [s requestRecordPermission:^(BOOL granted) {
+            if (!granted) {
+                HLExternalLog(@"[自适应] 麦克风权限被拒");
+                return;
+            }
+            dispatch_async(dispatch_get_main_queue(), ^{ [self startEngine]; });
+        }];
+    } else {
+        [self startEngine];
+    }
+}
+
+- (void)startEngine {
+    _engine = [AVAudioEngine new];
+    AVAudioInputNode *input = _engine.inputNode;
+    AVAudioFormat *fmt = [input outputFormatForBus:0];
+    __weak typeof(self) weakSelf = self;
+    [input installTapOnBus:0 bufferSize:1024 format:fmt block:^(AVAudioPCMBuffer *buf, AVAudioTime *t) {
+        if (buf.frameLength == 0) return;
+        float *data = buf.floatChannelData[0];
+        double sum = 0;
+        for (AVAudioFrameCount i = 0; i < buf.frameLength; i++) sum += data[i] * data[i];
+        double rms = sqrt(sum / buf.frameLength);
+        double db = 20 * log10(rms + 1e-10);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            __strong typeof(weakSelf) self = weakSelf;
+            if (!self) return;
+            // 平滑：0.3 新值 + 0.7 旧值
+            self->_smoothedDB = self->_smoothedDB * 0.7 + db * 0.3;
+            // 写回 NSUserDefaults，HLLink 会读
+            [[NSUserDefaults standardUserDefaults] setInteger:[self effectiveRestorePercent]
+                                                        forKey:@"HLRestorePercentLeft"];
+        });
+    }];
+    NSError *e = nil;
+    [_engine startAndReturnError:&e];
+    if (e) { HLExternalLog(@"[自适应] 引擎启动失败：%@", e.localizedDescription); return; }
+    _running = YES;
+    HLExternalLog(@"[自适应] 已启动，基准档位=%ld%%", (long)_basePercent);
+}
+
+- (void)stop {
+    if (!_running) return;
+    [_engine.inputNode removeTapOnBus:0];
+    [_engine stop];
+    _engine = nil;
+    _running = NO;
+    // 恢复用户原始档位
+    if (_basePercent > 0) {
+        [[NSUserDefaults standardUserDefaults] setInteger:_basePercent forKey:@"HLRestorePercentLeft"];
+    }
+    HLExternalLog(@"[自适应] 已停止，恢复档位=%ld%%", (long)_basePercent);
+}
+
+@end
+
 #pragma mark - 对外状态
 
 BOOL HLMediaPlaying(void) { return [HLAudioProbe2 shared].playing; }
 BOOL HLInCall(void)       { return [HLCallProbe2 shared].inCall; }
 NSString *HLCallCategory(void) { return [HLCallProbe2 shared].category; }
+
+// 自适应麦克风对外接口
+BOOL HLAdaptiveEnabled(void)            { return [[HLAdaptiveMic shared] enabled]; }
+void HLSetAdaptive(BOOL on)             { [[HLAdaptiveMic shared] setEnabled:on]; }
+double HLAdaptiveCurrentDB(void)        { return [[HLAdaptiveMic shared] currentDB]; }
+NSInteger HLAdaptiveRestorePercent(void){ return [[HLAdaptiveMic shared] effectiveRestorePercent]; }
 
 #pragma mark - 装配
 
