@@ -1,1 +1,15 @@
-I2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+DQojaW1wb3J0ICJWR0hlYXJpbmdEZXZpY2UuaCINCg0KTlNfQVNTVU1FX05PTk5VTExfQkVHSU4NCg0KZXh0ZXJuIE5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR1N0YXR1c0RpZENoYW5nZU5vdGlmaWNhdGlvbjsNCg0KQGludGVyZmFjZSBWR01vbml0b3IgOiBOU09iamVjdA0KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZywgcmVhZG9ubHkpIFZHSGVhcmluZ1N0YXR1cyAqbGF0ZXN0Ow0KKyAoaW5zdGFuY2V0eXBlKXNoYXJlZDsNCi0gKHZvaWQpc3RhcnQ7DQotICh2b2lkKXJlZnJlc2g7DQpAZW5kDQoNCk5TX0FTU1VNRV9OT05OVUxMX0VORA0K
+#import <Foundation/Foundation.h>
+#import "VGHearingDevice.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+extern NSNotificationName const VGStatusDidChangeNotification;
+
+@interface VGMonitor : NSObject
+@property (nonatomic, strong, readonly) VGHearingStatus *latest;
++ (instancetype)shared;
+- (void)start;
+- (void)refresh;
+@end
+
+NS_ASSUME_NONNULL_END
