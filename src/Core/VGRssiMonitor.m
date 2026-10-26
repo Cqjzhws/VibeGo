@@ -162,4 +162,46 @@ static const NSTimeInterval kVGFreshSeconds = 20.0;
     return 1;
 }
 
+#pragma mark - Find My 测距（0.8.0）
+
+// 对数路径损耗模型：d = 10^((TxPower - RSSI) / (10 * n))
+// TxPower 取 -59 dBm（1 米处典型 RSSI），路径损耗指数 n 取 2.0（自由空间）
+// 实际 BLE 在室内有反射，n 取 2.5 更准；这里取折中 2.2
++ (double)estimatedDistanceMeters:(double)rssi {
+    const double txPower = -59.0;
+    const double n = 2.2;
+    if (rssi >= 0) return 0;
+    double ratio = (txPower - rssi) / (10.0 * n);
+    return pow(10.0, ratio);
+}
+
++ (NSInteger)distanceLevel:(double)rssi {
+    double m = [self estimatedDistanceMeters:rssi];
+    if (m < 0.5)  return 0;
+    if (m < 2.0)  return 1;
+    if (m < 5.0)  return 2;
+    if (m < 10.0) return 3;
+    return 4;
+}
+
++ (NSString *)distanceLabel:(double)rssi {
+    switch ([self distanceLevel:rssi]) {
+        case 0: return @"贴身";
+        case 1: return @"近";
+        case 2: return @"中";
+        case 3: return @"远";
+        default: return @"很远";
+    }
+}
+
++ (UIColor *)distanceColor:(double)rssi {
+    switch ([self distanceLevel:rssi]) {
+        case 0: return [UIColor colorWithRed:0.30 green:0.90 blue:0.55 alpha:1];
+        case 1: return [UIColor colorWithRed:0.45 green:0.85 blue:0.75 alpha:1];
+        case 2: return [UIColor colorWithRed:0.98 green:0.78 blue:0.30 alpha:1];
+        case 3: return [UIColor colorWithRed:0.98 green:0.55 blue:0.30 alpha:1];
+        default: return [UIColor colorWithRed:0.95 green:0.30 green:0.30 alpha:1];
+    }
+}
+
 @end
