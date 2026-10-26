@@ -1,1 +1,290 @@
-I2ltcG9ydCAiVkdCYXR0ZXJ5TW9uaXRvci5oIgojaW1wb3J0ICJITExpbmsuaCIKCk5TTm90aWZpY2F0aW9uTmFtZSBjb25zdCBWR0JhdHRlcnlEaWRDaGFuZ2VOb3RpZmljYXRpb24gPSBAIlZHQmF0dGVyeURpZENoYW5nZU5vdGlmaWNhdGlvbiI7CgpzdGF0aWMgY29uc3QgdWludDE2X3Qga1ZHQ29tcGFueSA9IDB4MDI5NTsgICAgICAgIC8vIFdTIEF1ZGlvbG9neSA9IDY2MQpzdGF0aWMgY29uc3QgTlNJbnRlZ2VyIGtWR01heEJhdHRlcnlEZXZpY2VzID0gMjsKc3RhdGljIGNvbnN0IE5TVGltZUludGVydmFsIGtWR1BvbGxJbnRlcnZhbCA9IDYwLjA7CgpAaW1wbGVtZW50YXRpb24gVkdCYXR0ZXJ5RGV2aWNlCkBlbmQKCkBpbnRlcmZhY2UgVkdCYXR0ZXJ5TW9uaXRvciAoKSA8Q0JDZW50cmFsTWFuYWdlckRlbGVnYXRlLCBDQlBlcmlwaGVyYWxEZWxlZ2F0ZT4KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgQ0JDZW50cmFsTWFuYWdlciAqY2VudHJhbDsKQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgZGlzcGF0Y2hfcXVldWVfdCBxOwpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBOU011dGFibGVEaWN0aW9uYXJ5PE5TU3RyaW5nICosIFZHQmF0dGVyeURldmljZSAqPiAqaXRlbXM7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCBzdHJvbmcpIE5TTXV0YWJsZURpY3Rpb25hcnk8TlNTdHJpbmcgKiwgQ0JQZXJpcGhlcmFsICo+ICpwZXJpczsKQHByb3BlcnR5IChub25hdG9taWMsIGFzc2lnbikgTlNUaW1lSW50ZXJ2YWwgbGFzdFBvc3Q7CkBlbmQKCkBpbXBsZW1lbnRhdGlvbiBWR0JhdHRlcnlNb25pdG9yCgorIChpbnN0YW5jZXR5cGUpc2hhcmVkIHsKICAgIHN0YXRpYyBWR0JhdHRlcnlNb25pdG9yICptOwogICAgc3RhdGljIGRpc3BhdGNoX29uY2VfdCBvbmNlOwogICAgZGlzcGF0Y2hfb25jZSgmb25jZSwgXnsgbSA9IFtWR0JhdHRlcnlNb25pdG9yIG5ld107IH0pOwogICAgcmV0dXJuIG07Cn0KCi0gKGluc3RhbmNldHlwZSlpbml0IHsKICAgIHNlbGYgPSBbc3VwZXIgaW5pdF07CiAgICBpZiAoc2VsZikgewogICAgICAgIF9pdGVtcyA9IFtOU011dGFibGVEaWN0aW9uYXJ5IGRpY3Rpb25hcnldOwogICAgICAgIF9wZXJpcyA9IFtOU011dGFibGVEaWN0aW9uYXJ5IGRpY3Rpb25hcnldOwogICAgICAgIF9xID0gZGlzcGF0Y2hfcXVldWVfY3JlYXRlKCJ2Zy5iYXR0ZXJ5IiwgRElTUEFUQ0hfUVVFVUVfU0VSSUFMKTsKICAgIH0KICAgIHJldHVybiBzZWxmOwp9CgotICh2b2lkKXN0YXJ0IHsKICAgIGRpc3BhdGNoX2FzeW5jKHNlbGYucSwgXnsKICAgICAgICBpZiAoc2VsZi5jZW50cmFsKSByZXR1cm47CiAgICAgICAgc2VsZi5jZW50cmFsID0gW1tDQkNlbnRyYWxNYW5hZ2VyIGFsbG9jXQogICAgICAgICAgICBpbml0V2l0aERlbGVnYXRlOnNlbGYgcXVldWU6c2VsZi5xCiAgICAgICAgICAgICAgICAgICAgIG9wdGlvbnM6QHsgQ0JDZW50cmFsTWFuYWdlck9wdGlvblNob3dQb3dlckFsZXJ0S2V5OiBATk8gfV07CiAgICAgICAgW3NlbGYgc3RhcnRQb2xsVGltZXJdOwogICAgfSk7Cn0KCiNwcmFnbWEgbWFyayAtIFBvbGxpbmcKCi0gKHZvaWQpc3RhcnRQb2xsVGltZXIgewogICAgZGlzcGF0Y2hfc291cmNlX3QgdCA9IGRpc3BhdGNoX3NvdXJjZV9jcmVhdGUoRElTUEFUQ0hfU09VUkNFX1RZUEVfVElNRVIsIDAsIDAsIHNlbGYucSk7CiAgICB1aW50NjRfdCBpdiA9ICh1aW50NjRfdCkoa1ZHUG9sbEludGVydmFsICogTlNFQ19QRVJfU0VDKTsKICAgIGRpc3BhdGNoX3NvdXJjZV9zZXRfdGltZXIodCwgZGlzcGF0Y2hfdGltZShESVNQQVRDSF9USU1FX05PVywgaXYpLCBpdiwgKHVpbnQ2NF90KSg1ICogTlNFQ19QRVJfU0VDKSk7CiAgICBfX3dlYWsgdHlwZW9mKHNlbGYpIHdlYWtTZWxmID0gc2VsZjsKICAgIGRpc3BhdGNoX3NvdXJjZV9zZXRfZXZlbnRfaGFuZGxlcih0LCBeeyBbd2Vha1NlbGYgcG9sbE9uY2VdOyB9KTsKICAgIGRpc3BhdGNoX3Jlc3VtZSh0KTsKfQoKLSAodm9pZClwb2xsT25jZSB7CiAgICAvLyDimIUg5YWI6K+VIEhMTGluayDlt7Lnu4/ov57kuIrnmoTvvIjpgb/lhY3ph43lpI0gc2Nhbi9jb25uZWN077yJCiAgICBpZiAoW0hMTGluayBzaGFyZWRdLnN0YXR1c1RleHQubGVuZ3RoID4gMCAmJiBzZWxmLnBlcmlzLmNvdW50ID09IDApIHsKICAgICAgICBAdHJ5IHsKICAgICAgICAgICAgZm9yIChDQlBlcmlwaGVyYWwgKnAgaW4gW1tITExpbmsgc2hhcmVkXSBjb25uZWN0ZWRQZXJpcGhlcmFsc10pIHsKICAgICAgICAgICAgICAgIGlmIChwLnN0YXRlID09IENCUGVyaXBoZXJhbFN0YXRlQ29ubmVjdGVkICYmICFzZWxmLnBlcmlzW3AuaWRlbnRpZmllci5VVUlEU3RyaW5nXSkgewogICAgICAgICAgICAgICAgICAgIHNlbGYucGVyaXNbcC5pZGVudGlmaWVyLlVVSURTdHJpbmddID0gcDsKICAgICAgICAgICAgICAgICAgICBWR0JhdHRlcnlEZXZpY2UgKmQgPSBbVkdCYXR0ZXJ5RGV2aWNlIG5ld107CiAgICAgICAgICAgICAgICAgICAgZC51dWlkU3RyaW5nID0gcC5pZGVudGlmaWVyLlVVSURTdHJpbmc7CiAgICAgICAgICAgICAgICAgICAgZC5zaG9ydElkID0gW2QudXVpZFN0cmluZyBzdWJzdHJpbmdGcm9tSW5kZXg6ZC51dWlkU3RyaW5nLmxlbmd0aCAtIDZdOwogICAgICAgICAgICAgICAgICAgIGQuY29ubmVjdGVkID0gWUVTOwogICAgICAgICAgICAgICAgICAgIGQubmFtZSA9IHAubmFtZSA/OiBAIlZpYmUiOwogICAgICAgICAgICAgICAgICAgIGQudXBkYXRlZEF0ID0gW05TRGF0ZSBkYXRlXTsKICAgICAgICAgICAgICAgICAgICBzZWxmLml0ZW1zW3AuaWRlbnRpZmllci5VVUlEU3RyaW5nXSA9IGQ7CiAgICAgICAgICAgICAgICAgICAgcC5kZWxlZ2F0ZSA9IHNlbGY7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IEBjYXRjaCAoTlNFeGNlcHRpb24gKmUpIHsKICAgICAgICAgICAgTlNMb2coQCJbVmliZUdvXSBITExpbmsgZmFzdCBwYXRoIGV4Y2VwdGlvbjogJUAiLCBlKTsKICAgICAgICB9CiAgICB9CgogICAgZm9yIChDQlBlcmlwaGVyYWwgKnAgaW4gc2VsZi5wZXJpcy5hbGxWYWx1ZXMpIHsKICAgICAgICBpZiAocC5zdGF0ZSAhPSBDQlBlcmlwaGVyYWxTdGF0ZUNvbm5lY3RlZCkgY29udGludWU7CiAgICAgICAgW3AgcmVhZFJTU0ldOwogICAgICAgIENCQ2hhcmFjdGVyaXN0aWMgKmJhdHQgPSBbc2VsZiBmaW5kQ2hhcmFjdGVyaXN0aWM6QCIyQTE5IiBwZXJpcGhlcmFsOnBdOwogICAgICAgIGlmIChiYXR0KSBbcCByZWFkVmFsdWVGb3JDaGFyYWN0ZXJpc3RpYzpiYXR0XTsKICAgICAgICAvLyDlvZPliY3nqIvluo/lkI3vvIg3QkU5NEE1Ne+8jOWPr+ivu++8ieKAlOKAlOWPquivu++8jOS4jeWGmeWFpQogICAgICAgIENCQ2hhcmFjdGVyaXN0aWMgKnByb2cgPSBbc2VsZiBmaW5kQ2hhcmFjdGVyaXN0aWM6QCI3QkU5NEE1NS04RDkxLTQ1OTItQkMwRi1FQTM2NjRDQ0QzQTkiIHBlcmlwaGVyYWw6cF07CiAgICAgICAgaWYgKHByb2cpIFtwIHJlYWRWYWx1ZUZvckNoYXJhY3RlcmlzdGljOnByb2ddOwogICAgfQp9CgotIChDQkNoYXJhY3RlcmlzdGljICopZmluZENoYXJhY3RlcmlzdGljOihOU1N0cmluZyAqKXNob3J0VVVJRCBwZXJpcGhlcmFsOihDQlBlcmlwaGVyYWwgKilwIHsKICAgIC8vIOe7n+S4gOavlOi+g+OAjOWOu+WfuuW6leeahOefreWQjeOAje+8mjE2LWJpdO+8iOWmgiAyQTE577yJ5LiOIDEyOC1iaXQg6YO96IO95YmN57yA5Yy56YWNCiAgICBOU1N0cmluZyAqcXVlcnkgPSBbc2hvcnRVVUlEIHVwcGVyY2FzZVN0cmluZ107CiAgICBmb3IgKENCU2VydmljZSAqc3ZjIGluIHAuc2VydmljZXMpIHsKICAgICAgICBmb3IgKENCQ2hhcmFjdGVyaXN0aWMgKmMgaW4gc3ZjLmNoYXJhY3RlcmlzdGljcykgewogICAgICAgICAgICBOU1N0cmluZyAqYmFzZSA9IFtbYy5VVUlELlVVSURTdHJpbmcgdXBwZXJjYXNlU3RyaW5nXQogICAgICAgICAgICAgICAgc3RyaW5nQnlSZXBsYWNpbmdPY2N1cnJlbmNlc09mU3RyaW5nOkAiLTAwMDAtMTAwMC04MDAwLTAwODA1RjlCMzRGQiIgd2l0aFN0cmluZzpAIiJdOwogICAgICAgICAgICBpZiAoW2Jhc2UgaGFzUHJlZml4OnF1ZXJ5XSkgcmV0dXJuIGM7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIG5pbDsKfQoKI3ByYWdtYSBtYXJrIC0gTm90aWZ5CgotICh2b2lkKXBvc3RDaGFuZ2UgewogICAgTlNUaW1lSW50ZXJ2YWwgbm93ID0gW05TRGF0ZSBkYXRlXS50aW1lSW50ZXJ2YWxTaW5jZTE5NzA7CiAgICBpZiAobm93IC0gc2VsZi5sYXN0UG9zdCA8IDAuOCkgcmV0dXJuOwogICAgc2VsZi5sYXN0UG9zdCA9IG5vdzsKICAgIGRpc3BhdGNoX2FzeW5jKGRpc3BhdGNoX2dldF9tYWluX3F1ZXVlKCksIF57CiAgICAgICAgW1tOU05vdGlmaWNhdGlvbkNlbnRlciBkZWZhdWx0Q2VudGVyXSBwb3N0Tm90aWZpY2F0aW9uTmFtZTpWR0JhdHRlcnlEaWRDaGFuZ2VOb3RpZmljYXRpb24gb2JqZWN0Om5pbF07CiAgICB9KTsKfQoKI3ByYWdtYSBtYXJrIC0gQ2VudHJhbAoKLSAodm9pZCljZW50cmFsTWFuYWdlckRpZFVwZGF0ZVN0YXRlOihDQkNlbnRyYWxNYW5hZ2VyICopY2VudHJhbCB7CiAgICBpZiAoY2VudHJhbC5zdGF0ZSAhPSBDQk1hbmFnZXJTdGF0ZVBvd2VyZWRPbikgcmV0dXJuOwogICAgW2NlbnRyYWwgc2NhbkZvclBlcmlwaGVyYWxzV2l0aFNlcnZpY2VzOm5pbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcHRpb25zOkB7IENCQ2VudHJhbE1hbmFnZXJTY2FuT3B0aW9uQWxsb3dEdXBsaWNhdGVzS2V5OiBATk8gfV07CiAgICAvLyDlt7LorqTor4bnmoTorr7lpIfvvIjlpoIgQXBwIOWGhSBjZW50cmFsIOmHjeW7uu+8ieebtOaOpeWwneivlemHjei/ngogICAgZm9yIChDQlBlcmlwaGVyYWwgKnAgaW4gc2VsZi5wZXJpcy5hbGxWYWx1ZXMpIHsKICAgICAgICBpZiAocC5zdGF0ZSA9PSBDQlBlcmlwaGVyYWxTdGF0ZURpc2Nvbm5lY3RlZCkgW2NlbnRyYWwgY29ubmVjdFBlcmlwaGVyYWw6cCBvcHRpb25zOm5pbF07CiAgICB9Cn0KCi0gKHZvaWQpY2VudHJhbE1hbmFnZXI6KENCQ2VudHJhbE1hbmFnZXIgKiljZW50cmFsCiAgICBkaWREaXNjb3ZlclBlcmlwaGVyYWw6KENCUGVyaXBoZXJhbCAqKXBlcmlwaGVyYWwKICAgICAgICBhZHZlcnRpc2VtZW50RGF0YTooTlNEaWN0aW9uYXJ5ICopYWR2IFJTU0k6KE5TTnVtYmVyICopUlNTSSB7CiAgICBOU0RhdGEgKm1mciA9IGFkdltDQkFkdmVydGlzZW1lbnREYXRhTWFudWZhY3R1cmVyRGF0YUtleV07CiAgICBpZiAobWZyLmxlbmd0aCA8IDIpIHJldHVybjsKICAgIGNvbnN0IHVpbnQ4X3QgKmIgPSBtZnIuYnl0ZXM7CiAgICBpZiAoKGJbMF0gfCAoYlsxXSA8PCA4KSkgIT0ga1ZHQ29tcGFueSkgcmV0dXJuOwoKICAgIE5TU3RyaW5nICprZXkgPSBwZXJpcGhlcmFsLmlkZW50aWZpZXIuVVVJRFN0cmluZzsKICAgIFZHQmF0dGVyeURldmljZSAqZCA9IHNlbGYuaXRlbXNba2V5XTsKICAgIGlmICghZCkgewogICAgICAgIGlmIChzZWxmLml0ZW1zLmNvdW50ID49IGtWR01heEJhdHRlcnlEZXZpY2VzKSByZXR1cm47CiAgICAgICAgZCA9IFtWR0JhdHRlcnlEZXZpY2UgbmV3XTsKICAgICAgICBkLnV1aWRTdHJpbmcgPSBrZXk7CiAgICAgICAgZC5zaG9ydElkID0gW2tleSBzdWJzdHJpbmdGcm9tSW5kZXg6a2V5Lmxlbmd0aCAtIDZdOwogICAgICAgIGQuY29ubmVjdGVkID0gTk87CiAgICAgICAgc2VsZi5pdGVtc1trZXldID0gZDsKICAgICAgICBzZWxmLnBlcmlzW2tleV0gPSBwZXJpcGhlcmFsOwogICAgfSBlbHNlIHsKICAgICAgICBzZWxmLnBlcmlzW2tleV0gPSBwZXJpcGhlcmFsOwogICAgfQogICAgZC5uYW1lID0gYWR2W0NCQWR2ZXJ0aXNlbWVudERhdGFMb2NhbE5hbWVLZXldID86IChwZXJpcGhlcmFsLm5hbWUgPzogQCJWaWJlIik7CiAgICBkLnVwZGF0ZWRBdCA9IFtOU0RhdGUgZGF0ZV07CgogICAgaWYgKHBlcmlwaGVyYWwuc3RhdGUgPT0gQ0JQZXJpcGhlcmFsU3RhdGVEaXNjb25uZWN0ZWQpIHsKICAgICAgICBwZXJpcGhlcmFsLmRlbGVnYXRlID0gc2VsZjsKICAgICAgICBbY2VudHJhbCBjb25uZWN0UGVyaXBoZXJhbDpwZXJpcGhlcmFsIG9wdGlvbnM6bmlsXTsKICAgIH0KICAgIFtzZWxmIHBvc3RDaGFuZ2VdOwp9CgotICh2b2lkKWNlbnRyYWxNYW5hZ2VyOihDQkNlbnRyYWxNYW5hZ2VyICopY2VudHJhbCBkaWRDb25uZWN0UGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCB7CiAgICBWR0JhdHRlcnlEZXZpY2UgKmQgPSBzZWxmLml0ZW1zW3BlcmlwaGVyYWwuaWRlbnRpZmllci5VVUlEU3RyaW5nXTsKICAgIGQuY29ubmVjdGVkID0gWUVTOwogICAgZC51cGRhdGVkQXQgPSBbTlNEYXRlIGRhdGVdOwogICAgcGVyaXBoZXJhbC5kZWxlZ2F0ZSA9IHNlbGY7CiAgICBbcGVyaXBoZXJhbCByZWFkUlNTSV07CiAgICAvLyDlj6rlj5HnjrDmoIflh4YgU0lHIOacjeWKoe+8mueUteaxoCArIOiuvuWkh+S/oeaBr++8m+WOguWVhuengeacieacjeWKoeS4gOW+i+S4jeeisAogICAgW3BlcmlwaGVyYWwgZGlzY292ZXJTZXJ2aWNlczpAWwogICAgICAgIFtDQlVVSUQgVVVJRFdpdGhTdHJpbmc6QCIxODBGIl0sCiAgICAgICAgW0NCVVVJRCBVVUlEV2l0aFN0cmluZzpAIjE4MEEiXSwKICAgIF1dOwogICAgW3NlbGYgcG9zdENoYW5nZV07Cn0KCi0gKHZvaWQpY2VudHJhbE1hbmFnZXI6KENCQ2VudHJhbE1hbmFnZXIgKiljZW50cmFsIGRpZEZhaWxUb0Nvbm5lY3RQZXJpcGhlcmFsOihDQlBlcmlwaGVyYWwgKilwZXJpcGhlcmFsIGVycm9yOihOU0Vycm9yICopZXJyb3IgewogICAgVkdCYXR0ZXJ5RGV2aWNlICpkID0gc2VsZi5pdGVtc1twZXJpcGhlcmFsLmlkZW50aWZpZXIuVVVJRFN0cmluZ107CiAgICBkLmNvbm5lY3RlZCA9IE5POwogICAgZC51cGRhdGVkQXQgPSBbTlNEYXRlIGRhdGVdOwogICAgLy8gMiDnp5LlkI7ph43or5UKICAgIGRpc3BhdGNoX2FmdGVyKGRpc3BhdGNoX3RpbWUoRElTUEFUQ0hfVElNRV9OT1csIChpbnQ2NF90KSgyLjAgKiBOU0VDX1BFUl9TRUMpKSwgc2VsZi5xLCBeewogICAgICAgIGlmIChzZWxmLmNlbnRyYWwuc3RhdGUgPT0gQ0JNYW5hZ2VyU3RhdGVQb3dlcmVkT24gJiYKICAgICAgICAgICAgcGVyaXBoZXJhbC5zdGF0ZSA9PSBDQlBlcmlwaGVyYWxTdGF0ZURpc2Nvbm5lY3RlZCkgewogICAgICAgICAgICBbc2VsZi5jZW50cmFsIGNvbm5lY3RQZXJpcGhlcmFsOnBlcmlwaGVyYWwgb3B0aW9uczpuaWxdOwogICAgICAgIH0KICAgIH0pOwogICAgW3NlbGYgcG9zdENoYW5nZV07Cn0KCi0gKHZvaWQpY2VudHJhbE1hbmFnZXI6KENCQ2VudHJhbE1hbmFnZXIgKiljZW50cmFsIGRpZERpc2Nvbm5lY3RQZXJpcGhlcmFsOihDQlBlcmlwaGVyYWwgKilwZXJpcGhlcmFsIGVycm9yOihOU0Vycm9yICopZXJyb3IgewogICAgVkdCYXR0ZXJ5RGV2aWNlICpkID0gc2VsZi5pdGVtc1twZXJpcGhlcmFsLmlkZW50aWZpZXIuVVVJRFN0cmluZ107CiAgICBkLmNvbm5lY3RlZCA9IE5POwogICAgZC51cGRhdGVkQXQgPSBbTlNEYXRlIGRhdGVdOwogICAgLy8g56uL5Y2z5oyC6LW36YeN6L+e77yI6K6+5aSH5YaN5qyh5bm/5pKt5pe257O757uf6Ieq5Yqo6L+e5LiK77yJCiAgICBpZiAoZXJyb3IpIHsKICAgICAgICBOU0xvZyhAIltWaWJlR29dIGJhdHRlcnkgZGlzY29ubmVjdDogJUAiLCBlcnJvci5sb2NhbGl6ZWREZXNjcmlwdGlvbik7CiAgICB9CiAgICBbY2VudHJhbCBjb25uZWN0UGVyaXBoZXJhbDpwZXJpcGhlcmFsIG9wdGlvbnM6bmlsXTsKICAgIFtzZWxmIHBvc3RDaGFuZ2VdOwp9CgojcHJhZ21hIG1hcmsgLSBQZXJpcGhlcmFsCgotICh2b2lkKXBlcmlwaGVyYWw6KENCUGVyaXBoZXJhbCAqKXBlcmlwaGVyYWwgZGlkRGlzY292ZXJTZXJ2aWNlczooTlNFcnJvciAqKWVycm9yIHsKICAgIGlmIChlcnJvcikgewogICAgICAgIE5TTG9nKEAiW1ZpYmVHb10gZGlzY292ZXIgc2VydmljZXMgZXJyb3I6ICVAIiwgZXJyb3IubG9jYWxpemVkRGVzY3JpcHRpb24pOwogICAgICAgIHJldHVybjsKICAgIH0KICAgIGZvciAoQ0JTZXJ2aWNlICpzdmMgaW4gcGVyaXBoZXJhbC5zZXJ2aWNlcykgewogICAgICAgIFtwZXJpcGhlcmFsIGRpc2NvdmVyQ2hhcmFjdGVyaXN0aWNzOm5pbCBmb3JTZXJ2aWNlOnN2Y107CiAgICB9Cn0KCi0gKHZvaWQpcGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCBkaWREaXNjb3ZlckNoYXJhY3RlcmlzdGljc0ZvclNlcnZpY2U6KENCU2VydmljZSAqKXNlcnZpY2UgZXJyb3I6KE5TRXJyb3IgKillcnJvciB7CiAgICBpZiAoZXJyb3IpIHsKICAgICAgICBOU0xvZyhAIltWaWJlR29dIGRpc2NvdmVyIGNoYXJzIGVycm9yICglQCk6ICVAIiwgc2VydmljZS5VVUlELlVVSURTdHJpbmcsIGVycm9yLmxvY2FsaXplZERlc2NyaXB0aW9uKTsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBmb3IgKENCQ2hhcmFjdGVyaXN0aWMgKmMgaW4gc2VydmljZS5jaGFyYWN0ZXJpc3RpY3MpIHsKICAgICAgICBpZiAoIShjLnByb3BlcnRpZXMgJiBDQkNoYXJhY3RlcmlzdGljUHJvcGVydHlSZWFkKSkgY29udGludWU7CiAgICAgICAgTlNTdHJpbmcgKnUgPSBjLlVVSUQuVVVJRFN0cmluZy51cHBlcmNhc2VTdHJpbmc7CiAgICAgICAgLy8g5Y+q6Ieq5Yqo6K+75Y+W5qCH5YeG55S15rGgICsgRElTIOWPquivu+mhuSArIOW9k+WJjeeoi+W6j+WQjS/phY3lr7nmoIfor4bvvJvnu53kuI0gc2V0Tm90aWZ544CB57ud5LiN5YaZ5YWlCiAgICAgICAgaWYgKFt1IGhhc1ByZWZpeDpAIjJBMTkiXSB8fCBbdSBoYXNQcmVmaXg6QCIyQTI0Il0gfHwgW3UgaGFzUHJlZml4OkAiMkEyNSJdIHx8CiAgICAgICAgICAgIFt1IGhhc1ByZWZpeDpAIjJBMjYiXSB8fCBbdSBoYXNQcmVmaXg6QCIyQTI3Il0gfHwgW3UgaGFzUHJlZml4OkAiMkEyOCJdIHx8CiAgICAgICAgICAgIFt1IGhhc1ByZWZpeDpAIjJBMjkiXSB8fCBbdSBoYXNQcmVmaXg6QCI3QkU5NEE1NSJdIHx8CiAgICAgICAgICAgIFt1IGhhc1ByZWZpeDpAIkM5N0QyMUQzIl0gfHwgW3UgaGFzUHJlZml4OkAiNDk3RUVCOUUiXSkgewogICAgICAgICAgICBbcGVyaXBoZXJhbCByZWFkVmFsdWVGb3JDaGFyYWN0ZXJpc3RpYzpjXTsKICAgICAgICB9CiAgICB9Cn0KCi0gKHZvaWQpcGVyaXBoZXJhbDooQ0JQZXJpcGhlcmFsICopcGVyaXBoZXJhbCBkaWRVcGRhdGVWYWx1ZUZvckNoYXJhY3RlcmlzdGljOihDQkNoYXJhY3RlcmlzdGljICopYyBlcnJvcjooTlNFcnJvciAqKWVycm9yIHsKICAgIFZHQmF0dGVyeURldmljZSAqZCA9IHNlbGYuaXRlbXNbcGVyaXBoZXJhbC5pZGVudGlmaWVyLlVVSURTdHJpbmddOwogICAgaWYgKCFkIHx8IGVycm9yKSByZXR1cm47IC8vIOWKoOWvhumUmeivr+etie+8muW/veeVpe+8jOS4jeinpuWPkeS7u+S9lemFjeWvueWKqOS9nAogICAgTlNEYXRhICp2ID0gYy52YWx1ZTsKICAgIGlmICh2Lmxlbmd0aCA9PSAwKSByZXR1cm47CiAgICBOU1N0cmluZyAqdSA9IGMuVVVJRC5VVUlEU3RyaW5nLnVwcGVyY2FzZVN0cmluZzsKCiAgICBpZiAoW3UgaGFzUHJlZml4OkAiMkExOSJdKSB7CiAgICAgICAgdWludDhfdCBwY3QgPSAoKGNvbnN0IHVpbnQ4X3QgKil2LmJ5dGVzKVswXTsKICAgICAgICBpZiAocGN0IDw9IDEwMCkgZC5iYXR0ZXJ5ID0gQChwY3QpOwogICAgfSBlbHNlIHsKICAgICAgICBOU1N0cmluZyAqcyA9IFtbTlNTdHJpbmcgYWxsb2NdIGluaXRXaXRoRGF0YTp2IGVuY29kaW5nOk5TVVRGOFN0cmluZ0VuY29kaW5nXTsKICAgICAgICBpZiAocy5sZW5ndGggPT0gMCkgcmV0dXJuOwogICAgICAgIGlmIChbdSBoYXNQcmVmaXg6QCIyQTI5Il0pIGQubWFudWZhY3R1cmVyID0gczsKICAgICAgICBlbHNlIGlmIChbdSBoYXNQcmVmaXg6QCIyQTI0Il0pIGQubW9kZWwgPSBzOwogICAgICAgIGVsc2UgaWYgKFt1IGhhc1ByZWZpeDpAIjJBMjUiXSkgZC5zZXJpYWwgPSBzOwogICAgICAgIGVsc2UgaWYgKFt1IGhhc1ByZWZpeDpAIjJBMjciXSkgZC5oYXJkd2FyZSA9IHM7CiAgICAgICAgZWxzZSBpZiAoW3UgaGFzUHJlZml4OkAiMkEyNiJdKSBkLmZpcm13YXJlID0gczsKICAgICAgICBlbHNlIGlmIChbdSBoYXNQcmVmaXg6QCIyQTI4Il0pIGQuc29mdHdhcmUgPSBzOwogICAgICAgIGVsc2UgaWYgKFt1IGhhc1ByZWZpeDpAIjdCRTk0QTU1Il0pIGQuY3VycmVudFByb2dyYW0gPSBzOwogICAgICAgIGVsc2UgaWYgKFt1IGhhc1ByZWZpeDpAIkM5N0QyMUQzIl0pIGQucGFpcmluZ0lEQSA9IHM7CiAgICAgICAgZWxzZSBpZiAoW3UgaGFzUHJlZml4OkAiNDk3RUVCOUUiXSkgZC5wYWlyaW5nSURCID0gczsKICAgIH0KICAgIGQudXBkYXRlZEF0ID0gW05TRGF0ZSBkYXRlXTsKICAgIFtzZWxmIHBvc3RDaGFuZ2VdOwp9CgotIChOU1N0cmluZyAqKWN1cnJlbnRQcm9ncmFtTmFtZSB7CiAgICBfX2Jsb2NrIE5TU3RyaW5nICpvdXQgPSBAIiI7CiAgICBkaXNwYXRjaF9zeW5jKHNlbGYucSwgXnsKICAgICAgICBmb3IgKFZHQmF0dGVyeURldmljZSAqZCBpbiBzZWxmLml0ZW1zLmFsbFZhbHVlcykgewogICAgICAgICAgICBpZiAoZC5jdXJyZW50UHJvZ3JhbS5sZW5ndGgpIHsgb3V0ID0gZC5jdXJyZW50UHJvZ3JhbTsgcmV0dXJuOyB9CiAgICAgICAgfQogICAgfSk7CiAgICByZXR1cm4gb3V0Owp9CgotICh2b2lkKXBlcmlwaGVyYWw6KENCUGVyaXBoZXJhbCAqKXBlcmlwaGVyYWwgZGlkUmVhZFJTU0k6KE5TTnVtYmVyICopUlNTSSBlcnJvcjooTlNFcnJvciAqKWVycm9yIHsKICAgIGlmIChlcnJvcikgcmV0dXJuOwogICAgVkdCYXR0ZXJ5RGV2aWNlICpkID0gc2VsZi5pdGVtc1twZXJpcGhlcmFsLmlkZW50aWZpZXIuVVVJRFN0cmluZ107CiAgICBpZiAoIWQpIHJldHVybjsKICAgIGQucnNzaSA9IFJTU0k7CiAgICBkLnVwZGF0ZWRBdCA9IFtOU0RhdGUgZGF0ZV07CiAgICBbc2VsZiBwb3N0Q2hhbmdlXTsKfQoKI3ByYWdtYSBtYXJrIC0gU25hcHNob3QKCi0gKE5TQXJyYXk8VkdCYXR0ZXJ5RGV2aWNlICo+ICopZGV2aWNlcyB7CiAgICBfX2Jsb2NrIE5TQXJyYXkgKm91dCA9IEBbXTsKICAgIGRpc3BhdGNoX3N5bmMoc2VsZi5xLCBeewogICAgICAgIG91dCA9IFtzZWxmLml0ZW1zLmFsbFZhbHVlcyBzb3J0ZWRBcnJheVVzaW5nQ29tcGFyYXRvcjoKICAgICAgICAgICAgICAgXk5TQ29tcGFyaXNvblJlc3VsdChWR0JhdHRlcnlEZXZpY2UgKmEsIFZHQmF0dGVyeURldmljZSAqYikgewogICAgICAgICAgICByZXR1cm4gW2EudXVpZFN0cmluZyBjb21wYXJlOmIudXVpZFN0cmluZ107CiAgICAgICAgfV07CiAgICB9KTsKICAgIHJldHVybiBvdXQ7Cn0KCkBlbmQK
+#import "VGBatteryMonitor.h"
+#import "HLLink.h"
+
+NSNotificationName const VGBatteryDidChangeNotification = @"VGBatteryDidChangeNotification";
+
+static const uint16_t kVGCompany = 0x0295;        // WS Audiology = 661
+static const NSInteger kVGMaxBatteryDevices = 2;
+static const NSTimeInterval kVGPollInterval = 60.0;
+
+@implementation VGBatteryDevice
+@end
+
+@interface VGBatteryMonitor () <CBCentralManagerDelegate, CBPeripheralDelegate>
+@property (nonatomic, strong) CBCentralManager *central;
+@property (nonatomic, strong) dispatch_queue_t q;
+@property (nonatomic, strong) NSMutableDictionary<NSString *, VGBatteryDevice *> *items;
+@property (nonatomic, strong) NSMutableDictionary<NSString *, CBPeripheral *> *peris;
+@property (nonatomic, assign) NSTimeInterval lastPost;
+@end
+
+@implementation VGBatteryMonitor
+
++ (instancetype)shared {
+    static VGBatteryMonitor *m;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{ m = [VGBatteryMonitor new]; });
+    return m;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _items = [NSMutableDictionary dictionary];
+        _peris = [NSMutableDictionary dictionary];
+        _q = dispatch_queue_create("vg.battery", DISPATCH_QUEUE_SERIAL);
+    }
+    return self;
+}
+
+- (void)start {
+    dispatch_async(self.q, ^{
+        if (self.central) return;
+        self.central = [[CBCentralManager alloc]
+            initWithDelegate:self queue:self.q
+                     options:@{ CBCentralManagerOptionShowPowerAlertKey: @NO }];
+        [self startPollTimer];
+    });
+}
+
+#pragma mark - Polling
+
+- (void)startPollTimer {
+    dispatch_source_t t = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, self.q);
+    uint64_t iv = (uint64_t)(kVGPollInterval * NSEC_PER_SEC);
+    dispatch_source_set_timer(t, dispatch_time(DISPATCH_TIME_NOW, iv), iv, (uint64_t)(5 * NSEC_PER_SEC));
+    __weak typeof(self) weakSelf = self;
+    dispatch_source_set_event_handler(t, ^{ [weakSelf pollOnce]; });
+    dispatch_resume(t);
+}
+
+- (void)pollOnce {
+    // ★ 先试 HLLink 已经连上的（避免重复 scan/connect）
+    if ([HLLink shared].statusText.length > 0 && self.peris.count == 0) {
+        @try {
+            for (CBPeripheral *p in [[HLLink shared] connectedPeripherals]) {
+                if (p.state == CBPeripheralStateConnected && !self.peris[p.identifier.UUIDString]) {
+                    self.peris[p.identifier.UUIDString] = p;
+                    VGBatteryDevice *d = [VGBatteryDevice new];
+                    d.uuidString = p.identifier.UUIDString;
+                    d.shortId = [d.uuidString substringFromIndex:d.uuidString.length - 6];
+                    d.connected = YES;
+                    d.name = p.name ?: @"Vibe";
+                    d.updatedAt = [NSDate date];
+                    self.items[p.identifier.UUIDString] = d;
+                    p.delegate = self;
+                }
+            }
+        } @catch (NSException *e) {
+            NSLog(@"[VibeGo] HLLink fast path exception: %@", e);
+        }
+    }
+
+    for (CBPeripheral *p in self.peris.allValues) {
+        if (p.state != CBPeripheralStateConnected) continue;
+        [p readRSSI];
+        CBCharacteristic *batt = [self findCharacteristic:@"2A19" peripheral:p];
+        if (batt) [p readValueForCharacteristic:batt];
+        // 当前程序名（7BE94A55，可读）——只读，不写入
+        CBCharacteristic *prog = [self findCharacteristic:@"7BE94A55-8D91-4592-BC0F-EA3664CCD3A9" peripheral:p];
+        if (prog) [p readValueForCharacteristic:prog];
+    }
+}
+
+- (CBCharacteristic *)findCharacteristic:(NSString *)shortUUID peripheral:(CBPeripheral *)p {
+    // 统一比较「去基底的短名」：16-bit（如 2A19）与 128-bit 都能前缀匹配
+    NSString *query = [shortUUID uppercaseString];
+    for (CBService *svc in p.services) {
+        for (CBCharacteristic *c in svc.characteristics) {
+            NSString *base = [[c.UUID.UUIDString uppercaseString]
+                stringByReplacingOccurrencesOfString:@"-0000-1000-8000-00805F9B34FB" withString:@""];
+            if ([base hasPrefix:query]) return c;
+        }
+    }
+    return nil;
+}
+
+#pragma mark - Notify
+
+- (void)postChange {
+    NSTimeInterval now = [NSDate date].timeIntervalSince1970;
+    if (now - self.lastPost < 0.8) return;
+    self.lastPost = now;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:VGBatteryDidChangeNotification object:nil];
+    });
+}
+
+#pragma mark - Central
+
+- (void)centralManagerDidUpdateState:(CBCentralManager *)central {
+    if (central.state != CBManagerStatePoweredOn) return;
+    [central scanForPeripheralsWithServices:nil
+                                    options:@{ CBCentralManagerScanOptionAllowDuplicatesKey: @NO }];
+    // 已认识的设备（如 App 内 central 重建）直接尝试重连
+    for (CBPeripheral *p in self.peris.allValues) {
+        if (p.state == CBPeripheralStateDisconnected) [central connectPeripheral:p options:nil];
+    }
+}
+
+- (void)centralManager:(CBCentralManager *)central
+    didDiscoverPeripheral:(CBPeripheral *)peripheral
+        advertisementData:(NSDictionary *)adv RSSI:(NSNumber *)RSSI {
+    NSData *mfr = adv[CBAdvertisementDataManufacturerDataKey];
+    if (mfr.length < 2) return;
+    const uint8_t *b = mfr.bytes;
+    if ((b[0] | (b[1] << 8)) != kVGCompany) return;
+
+    NSString *key = peripheral.identifier.UUIDString;
+    VGBatteryDevice *d = self.items[key];
+    if (!d) {
+        if (self.items.count >= kVGMaxBatteryDevices) return;
+        d = [VGBatteryDevice new];
+        d.uuidString = key;
+        d.shortId = [key substringFromIndex:key.length - 6];
+        d.connected = NO;
+        self.items[key] = d;
+        self.peris[key] = peripheral;
+    } else {
+        self.peris[key] = peripheral;
+    }
+    d.name = adv[CBAdvertisementDataLocalNameKey] ?: (peripheral.name ?: @"Vibe");
+    d.updatedAt = [NSDate date];
+
+    if (peripheral.state == CBPeripheralStateDisconnected) {
+        peripheral.delegate = self;
+        [central connectPeripheral:peripheral options:nil];
+    }
+    [self postChange];
+}
+
+- (void)centralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral {
+    VGBatteryDevice *d = self.items[peripheral.identifier.UUIDString];
+    d.connected = YES;
+    d.updatedAt = [NSDate date];
+    peripheral.delegate = self;
+    [peripheral readRSSI];
+    // 只发现标准 SIG 服务：电池 + 设备信息；厂商私有服务一律不碰
+    [peripheral discoverServices:@[
+        [CBUUID UUIDWithString:@"180F"],
+        [CBUUID UUIDWithString:@"180A"],
+    ]];
+    [self postChange];
+}
+
+- (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    VGBatteryDevice *d = self.items[peripheral.identifier.UUIDString];
+    d.connected = NO;
+    d.updatedAt = [NSDate date];
+    // 2 秒后重试
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), self.q, ^{
+        if (self.central.state == CBManagerStatePoweredOn &&
+            peripheral.state == CBPeripheralStateDisconnected) {
+            [self.central connectPeripheral:peripheral options:nil];
+        }
+    });
+    [self postChange];
+}
+
+- (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
+    VGBatteryDevice *d = self.items[peripheral.identifier.UUIDString];
+    d.connected = NO;
+    d.updatedAt = [NSDate date];
+    // 立即挂起重连（设备再次广播时系统自动连上）
+    if (error) {
+        NSLog(@"[VibeGo] battery disconnect: %@", error.localizedDescription);
+    }
+    [central connectPeripheral:peripheral options:nil];
+    [self postChange];
+}
+
+#pragma mark - Peripheral
+
+- (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error {
+    if (error) {
+        NSLog(@"[VibeGo] discover services error: %@", error.localizedDescription);
+        return;
+    }
+    for (CBService *svc in peripheral.services) {
+        [peripheral discoverCharacteristics:nil forService:svc];
+    }
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error {
+    if (error) {
+        NSLog(@"[VibeGo] discover chars error (%@): %@", service.UUID.UUIDString, error.localizedDescription);
+        return;
+    }
+    for (CBCharacteristic *c in service.characteristics) {
+        if (!(c.properties & CBCharacteristicPropertyRead)) continue;
+        NSString *u = c.UUID.UUIDString.uppercaseString;
+        // 只自动读取标准电池 + DIS 只读项 + 当前程序名/配对标识；绝不 setNotify、绝不写入
+        if ([u hasPrefix:@"2A19"] || [u hasPrefix:@"2A24"] || [u hasPrefix:@"2A25"] ||
+            [u hasPrefix:@"2A26"] || [u hasPrefix:@"2A27"] || [u hasPrefix:@"2A28"] ||
+            [u hasPrefix:@"2A29"] || [u hasPrefix:@"7BE94A55"] ||
+            [u hasPrefix:@"C97D21D3"] || [u hasPrefix:@"497EEB9E"]) {
+            [peripheral readValueForCharacteristic:c];
+        }
+    }
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)c error:(NSError *)error {
+    VGBatteryDevice *d = self.items[peripheral.identifier.UUIDString];
+    if (!d || error) return; // 加密错误等：忽略，不触发任何配对动作
+    NSData *v = c.value;
+    if (v.length == 0) return;
+    NSString *u = c.UUID.UUIDString.uppercaseString;
+
+    if ([u hasPrefix:@"2A19"]) {
+        uint8_t pct = ((const uint8_t *)v.bytes)[0];
+        if (pct <= 100) d.battery = @(pct);
+    } else {
+        NSString *s = [[NSString alloc] initWithData:v encoding:NSUTF8StringEncoding];
+        if (s.length == 0) return;
+        if ([u hasPrefix:@"2A29"]) d.manufacturer = s;
+        else if ([u hasPrefix:@"2A24"]) d.model = s;
+        else if ([u hasPrefix:@"2A25"]) d.serial = s;
+        else if ([u hasPrefix:@"2A27"]) d.hardware = s;
+        else if ([u hasPrefix:@"2A26"]) d.firmware = s;
+        else if ([u hasPrefix:@"2A28"]) d.software = s;
+        else if ([u hasPrefix:@"7BE94A55"]) d.currentProgram = s;
+        else if ([u hasPrefix:@"C97D21D3"]) d.pairingIDA = s;
+        else if ([u hasPrefix:@"497EEB9E"]) d.pairingIDB = s;
+    }
+    d.updatedAt = [NSDate date];
+    [self postChange];
+}
+
+- (NSString *)currentProgramName {
+    __block NSString *out = @"";
+    dispatch_sync(self.q, ^{
+        for (VGBatteryDevice *d in self.items.allValues) {
+            if (d.currentProgram.length) { out = d.currentProgram; return; }
+        }
+    });
+    return out;
+}
+
+- (void)peripheral:(CBPeripheral *)peripheral didReadRSSI:(NSNumber *)RSSI error:(NSError *)error {
+    if (error) return;
+    VGBatteryDevice *d = self.items[peripheral.identifier.UUIDString];
+    if (!d) return;
+    d.rssi = RSSI;
+    d.updatedAt = [NSDate date];
+    [self postChange];
+}
+
+#pragma mark - Snapshot
+
+- (NSArray<VGBatteryDevice *> *)devices {
+    __block NSArray *out = @[];
+    dispatch_sync(self.q, ^{
+        out = [self.items.allValues sortedArrayUsingComparator:
+               ^NSComparisonResult(VGBatteryDevice *a, VGBatteryDevice *b) {
+            return [a.uuidString compare:b.uuidString];
+        }];
+    });
+    return out;
+}
+
+@end
