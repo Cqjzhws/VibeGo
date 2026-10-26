@@ -26,6 +26,8 @@
 	<string>15.0</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>用于只读枚举 Vibe Go 助听器开放的蓝牙服务与电池信息，不写入任何数据。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>用于自适应麦克风：采集环境噪音水平，自动调节助听器麦克风档位（仅本机分析，不上传）。</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
