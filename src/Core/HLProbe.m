@@ -1,1 +1,495 @@
-Ly8KLy8gIEhMUHJvYmUubSDigJQg5YWo5bGA6Z+z6aKRL+mAmuivneaOoua1iyArIOWQr+WKqOijhemFjQovLwovLyAg5oqKIEdsb2JhbEhBIOmCo+Wll+OAjOWIpOaWreWIq+eahCBBcHAg5Zyo5LiN5Zyo5pS+5aOw6Z+z44CN5pCs6L+bIFZpYmVHbyDliqnmiYvov5vnqIvvvIwKLy8gIEdBVFQg6YOo5YiG5a6M5YWo5aSN55SoIEhlYXJpbmdMaW5rLm3vvIjlkIzkuIDku73mupDnoIHvvIzms6jlhaXniYggLyDni6znq4vniYggLyDmnKwgQXBwIOS4ieWkhOS4gOiHtO+8ieOAggovLwoKI2ltcG9ydCA8Rm91bmRhdGlvbi9Gb3VuZGF0aW9uLmg+CiNpbXBvcnQgPEFWRm91bmRhdGlvbi9BVkZvdW5kYXRpb24uaD4KI2ltcG9ydCA8Q2FsbEtpdC9DYWxsS2l0Lmg+CiNpbXBvcnQgPGRsZmNuLmg+CiNpbXBvcnQgPG9iamMvbWVzc2FnZS5oPgoKI2ltcG9ydCAiZ2F0dF9jb25maWcuaCIKCmV4dGVybiB2b2lkIEhMU2V0UGxheWluZ1Byb3ZpZGVyKEJPT0wgKF5wKSh2b2lkKSk7CmV4dGVybiB2b2lkIEhMU2V0TG9nU2luayh2b2lkIChec2luaykoTlNTdHJpbmcgKmxpbmUpKTsKZXh0ZXJuIHZvaWQgSExFeHRlcm5hbExvZyhOU1N0cmluZyAqZm10LCAuLi4pOwpleHRlcm4gdm9pZCBITFNldENhbGxNb2RlKEJPT0wgb24pOwpleHRlcm4gdm9pZCBITFJlYXBwbHlOb3codm9pZCk7CmV4dGVybiBOU1N0cmluZyAqSExTdGF0dXNUZXh0KHZvaWQpOwoKc3RhdGljIGlkIEFQcmVmKE5TU3RyaW5nICprZXksIGlkIGZhbGxiYWNrKSB7CiAgICBAdHJ5IHsKICAgICAgICBOU1N0cmluZyAqcGF0aCA9IFtOU1NlYXJjaFBhdGhGb3JEaXJlY3Rvcmllc0luRG9tYWlucyhOU0RvY3VtZW50RGlyZWN0b3J5LCBOU1VzZXJEb21haW5NYXNrLCBZRVMpLmZpcnN0T2JqZWN0CiAgICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nQnlBcHBlbmRpbmdQYXRoQ29tcG9uZW50OkAiaGVhcmluZ2xpbmsucGxpc3QiXTsKICAgICAgICBOU0RpY3Rpb25hcnkgKmYgPSBbTlNEaWN0aW9uYXJ5IGRpY3Rpb25hcnlXaXRoQ29udGVudHNPZkZpbGU6cGF0aF07CiAgICAgICAgaWYgKGZba2V5XSkgcmV0dXJuIGZba2V5XTsKICAgIH0gQGNhdGNoIChOU0V4Y2VwdGlvbiAqZSkge30KICAgIGlkIHYgPSBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBvYmplY3RGb3JLZXk6a2V5XTsKICAgIHJldHVybiB2ID86IGZhbGxiYWNrOwp9CgojcHJhZ21hIG1hcmsgLSDml6Xlv5fnjq/lvaLnvJPlhrLvvIjnu5nnlYzpnaLnnIvvvIkKCnN0YXRpYyBOU011dGFibGVBcnJheTxOU1N0cmluZyAqPiAqSExfcmluZyA9IG5pbDsKCnN0YXRpYyB2b2lkIEhMUmluZ0FwcGVuZChOU1N0cmluZyAqbGluZSkgewogICAgc3RhdGljIGRpc3BhdGNoX29uY2VfdCBvbmNlOwogICAgZGlzcGF0Y2hfb25jZSgmb25jZSwgXnsgSExfcmluZyA9IFtOU011dGFibGVBcnJheSBhcnJheV07IH0pOwogICAgQHN5bmNocm9uaXplZCAoSExfcmluZykgewogICAgICAgIFtITF9yaW5nIGFkZE9iamVjdDpbbGluZSBzdHJpbmdCeVRyaW1taW5nQ2hhcmFjdGVyc0luU2V0OltOU0NoYXJhY3RlclNldCBuZXdsaW5lQ2hhcmFjdGVyU2V0XV1dOwogICAgICAgIHdoaWxlIChITF9yaW5nLmNvdW50ID4gMjAwKSBbSExfcmluZyByZW1vdmVPYmplY3RBdEluZGV4OjBdOwogICAgfQp9CgpOU0FycmF5PE5TU3RyaW5nICo+ICpITFJlY2VudExpbmVzKHZvaWQpIHsKICAgIHJldHVybiBITF9yaW5nID8gW0hMX3JpbmcgY29weV0gOiBAW107Cn0KI3ByYWdtYSBtYXJrIC0g6Z+z6aKR5o6i5rWLCgpAaW50ZXJmYWNlIEhMQXVkaW9Qcm9iZTIgOiBOU09iamVjdAorIChpbnN0YW5jZXR5cGUpc2hhcmVkOwotICh2b2lkKXN0YXJ0OwpAcHJvcGVydHkgKG5vbmF0b21pYywgcmVhZG9ubHkpIEJPT0wgcGxheWluZzsKQHByb3BlcnR5IChub25hdG9taWMsIHJlYWRvbmx5KSBCT09MIHJhd090aGVyOwpAcHJvcGVydHkgKG5vbmF0b21pYywgcmVhZG9ubHkpIEJPT0wgcmF3SGludDsKQGVuZAoKQGltcGxlbWVudGF0aW9uIEhMQXVkaW9Qcm9iZTIgewogICAgTlNUaW1lciAqX3RpbWVyOwogICAgQk9PTCBfcGxheWluZzsKICAgIEJPT0wgX2xhc3RPdGhlciwgX2xhc3RIaW50OwogICAgQk9PTCBfaGFzTGFzdDsKICAgIE5TVGltZUludGVydmFsIF9hdWRpb1NpbmNlOwogICAgTlNUaW1lSW50ZXJ2YWwgX3NpbGVuY2VTaW5jZTsKICAgIE5TVGltZUludGVydmFsIF9yYXdTaW5jZTsKICAgIE5TVGltZUludGVydmFsIF9sYXN0QmVhdDsKICAgIE5TVGltZUludGVydmFsIF9sYXN0UmVhY3RpdmF0ZTsKICAgIGRvdWJsZSBfcmVhY3RpdmF0ZUdhcDsgICAgICAgICAgLy8g5b2T5YmN6YeN6K+V6Ze06ZqU77yI5aSx6LSl5bCx57+75YCN5YiwIDEyMHPvvIkKICAgIE5TU3RyaW5nICpfbGFzdEFjdGl2YXRlRXJyOyAgICAgLy8g5LiK5qyh5aSx6LSl5Y6f5Zug77yM6YeN5aSN55qE5LiN5YaN5Yi35pel5b+XCn0KCisgKGluc3RhbmNldHlwZSlzaGFyZWQgewogICAgc3RhdGljIEhMQXVkaW9Qcm9iZTIgKnM7IHN0YXRpYyBkaXNwYXRjaF9vbmNlX3Qgb25jZTsKICAgIGRpc3BhdGNoX29uY2UoJm9uY2UsIF57IHMgPSBbSExBdWRpb1Byb2JlMiBuZXddOyB9KTsKICAgIHJldHVybiBzOwp9CgotIChCT09MKXBsYXlpbmcgIHsgcmV0dXJuIF9wbGF5aW5nOyB9Ci0gKEJPT0wpcmF3T3RoZXIgeyByZXR1cm4gX2xhc3RPdGhlcjsgfQotIChCT09MKXJhd0hpbnQgIHsgcmV0dXJuIF9sYXN0SGludDsgfQoKLSAodm9pZClzdGFydCB7CiAgICBOU0ludGVnZXIgbW9kZSA9IFtBUHJlZihAIkhMQXVkaW9TZXNzaW9uTW9kZSIsIEAoSExfREVGQVVMVF9BVURJT19TRVNTSU9OKSkgaW50ZWdlclZhbHVlXTsKICAgIEFWQXVkaW9TZXNzaW9uICpzID0gW0FWQXVkaW9TZXNzaW9uIHNoYXJlZEluc3RhbmNlXTsKICAgIGlmIChtb2RlID09IDEpIHsKICAgICAgICBOU0Vycm9yICplID0gbmlsOwogICAgICAgIFtzIHNldENhdGVnb3J5OkFWQXVkaW9TZXNzaW9uQ2F0ZWdvcnlBbWJpZW50CiAgICAgICAgICAgICAgICAgIG1vZGU6QVZBdWRpb1Nlc3Npb25Nb2RlRGVmYXVsdAogICAgICAgICAgICAgICBvcHRpb25zOkFWQXVkaW9TZXNzaW9uQ2F0ZWdvcnlPcHRpb25NaXhXaXRoT3RoZXJzCiAgICAgICAgICAgICAgICAgZXJyb3I6JmVdOwogICAgICAgIGlmIChlKSBITEV4dGVybmFsTG9nKEAiW+mfs+mikV0g6K6+57G75Yir5aSx6LSl77yaJUAiLCBlLmxvY2FsaXplZERlc2NyaXB0aW9uKTsKICAgICAgICBlID0gbmlsOwogICAgICAgIFtzIHNldEFjdGl2ZTpZRVMgZXJyb3I6JmVdOwogICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6Z+z6aKRXSDnqbrkvJror53lt7Lmv4DmtLvvvIhhbWJpZW50K21peO+8iSVAIiwKICAgICAgICAgICAgICAgICAgICAgIGUgPyBbQCIg5aSx6LSl77yaIiBzdHJpbmdCeUFwcGVuZGluZ1N0cmluZzplLmxvY2FsaXplZERlc2NyaXB0aW9uXSA6IEAiIik7CiAgICB9CgogICAgTlNOb3RpZmljYXRpb25DZW50ZXIgKm5jID0gW05TTm90aWZpY2F0aW9uQ2VudGVyIGRlZmF1bHRDZW50ZXJdOwogICAgW25jIGFkZE9ic2VydmVyOnNlbGYgc2VsZWN0b3I6QHNlbGVjdG9yKG9uSGludDopCiAgICAgICAgICAgICAgIG5hbWU6QVZBdWRpb1Nlc3Npb25TaWxlbmNlU2Vjb25kYXJ5QXVkaW9IaW50Tm90aWZpY2F0aW9uIG9iamVjdDpuaWxdOwogICAgW25jIGFkZE9ic2VydmVyOnNlbGYgc2VsZWN0b3I6QHNlbGVjdG9yKG9uSW50ZXJydXB0aW9uOikKICAgICAgICAgICAgICAgbmFtZTpBVkF1ZGlvU2Vzc2lvbkludGVycnVwdGlvbk5vdGlmaWNhdGlvbiBvYmplY3Q6bmlsXTsKCiAgICBfdGltZXIgPSBbTlNUaW1lciBzY2hlZHVsZWRUaW1lcldpdGhUaW1lSW50ZXJ2YWw6MC4xNSB0YXJnZXQ6c2VsZgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yOkBzZWxlY3Rvcih0aWNrKSB1c2VySW5mbzpuaWwgcmVwZWF0czpZRVNdOwogICAgW3NlbGYgdGlja107Cn0KCi0gKHZvaWQpb25IaW50OihOU05vdGlmaWNhdGlvbiAqKW4gewogICAgTlNVSW50ZWdlciB0ID0gW24udXNlckluZm9bQVZBdWRpb1Nlc3Npb25TaWxlbmNlU2Vjb25kYXJ5QXVkaW9IaW50VHlwZUtleV0gdW5zaWduZWRJbnRlZ2VyVmFsdWVdOwogICAgSExFeHRlcm5hbExvZyhAIlvpn7PpopFdIOmdmemfs+aPkOekuumAmuefpSB0eXBlPSVsdSIsICh1bnNpZ25lZCBsb25nKXQpOwogICAgZGlzcGF0Y2hfYXN5bmMoZGlzcGF0Y2hfZ2V0X21haW5fcXVldWUoKSwgXnsgW3NlbGYgdGlja107IH0pOwp9CgotICh2b2lkKW9uSW50ZXJydXB0aW9uOihOU05vdGlmaWNhdGlvbiAqKW4gewogICAgTlNVSW50ZWdlciB0ID0gW24udXNlckluZm9bQVZBdWRpb1Nlc3Npb25JbnRlcnJ1cHRpb25UeXBlS2V5XSB1bnNpZ25lZEludGVnZXJWYWx1ZV07CiAgICBITEV4dGVybmFsTG9nKEAiW+mfs+mikV0g5Lit5pat6YCa55+lIHR5cGU9JWx1IiwgKHVuc2lnbmVkIGxvbmcpdCk7CiAgICBkaXNwYXRjaF9hc3luYyhkaXNwYXRjaF9nZXRfbWFpbl9xdWV1ZSgpLCBeeyBbc2VsZiB0aWNrXTsgfSk7Cn0KCi0gKHZvaWQpdGljayB7CiAgICBAdHJ5IHsKICAgICAgICBBVkF1ZGlvU2Vzc2lvbiAqcyA9IFtBVkF1ZGlvU2Vzc2lvbiBzaGFyZWRJbnN0YW5jZV07CiAgICAgICAgQk9PTCBvdGhlciA9IHMuaXNPdGhlckF1ZGlvUGxheWluZzsKICAgICAgICBCT09MIGhpbnQgID0gcy5zZWNvbmRhcnlBdWRpb1Nob3VsZEJlU2lsZW5jZWRIaW50OwogICAgICAgIEJPT0wgdXNlSGludCA9IFtBUHJlZihAIkhMQXVkaW9Vc2VIaW50IiwgQChITF9ERUZBVUxUX0FVRElPX1VTRV9ISU5UKSkgYm9vbFZhbHVlXTsKICAgICAgICBOU0ludGVnZXIgc2lnTW9kZSA9IFtBUHJlZihAIkhMQXVkaW9TaWduYWxNb2RlIiwgQChITF9ERUZBVUxUX0FVRElPX1NJR05BTCkpIGludGVnZXJWYWx1ZV07CgogICAgICAgIEJPT0wgcmF3OwogICAgICAgIGlmIChzaWdNb2RlID09IDEpICAgICAgcmF3ID0gb3RoZXI7CiAgICAgICAgZWxzZSBpZiAoc2lnTW9kZSA9PSAyKSByYXcgPSBoaW50OwogICAgICAgIGVsc2UgICAgICAgICAgICAgICAgICAgcmF3ID0gb3RoZXIgfHwgKHVzZUhpbnQgJiYgaGludCk7CgogICAgICAgIE5TVGltZUludGVydmFsIG5vdyA9IFtbTlNEYXRlIGRhdGVdIHRpbWVJbnRlcnZhbFNpbmNlMTk3MF07CgogICAgICAgIC8vIOWQjuWPsOayoeaciemfs+mikeaSreaUvuadg+aXtiBzZXRBY3RpdmU6WUVTIOW/heeEtuWksei0pe+8iCJTZXNzaW9uIGFjdGl2YXRpb24gZmFpbGVkIu+8ieOAggogICAgICAgIC8vIOi/meS4jeaYr+mUmeivr++8jOWPquaYr+aLv+S4jeWIsOS8muivne+8m+WIpOWumumdoCBpc090aGVyQXVkaW9QbGF5aW5nL2hpbnTvvIzkuI3pnIDopoHkvJror53mtLvot4PjgIIKICAgICAgICAvLyDmiYDku6XvvJrlpLHotKXlsLHpgIDpgb/vvIgxNXPihpIzMHPihpI2MHPihpIxMjBz77yJ77yM5ZCM5qC355qE5Y6f5Zug5Y+q5oql5LiA5qyh77yM5Yir5Yi35pel5b+X44CCCiAgICAgICAgaWYgKF9yZWFjdGl2YXRlR2FwIDw9IDApIF9yZWFjdGl2YXRlR2FwID0gMTUuMDsKICAgICAgICBpZiAobm93IC0gX2xhc3RSZWFjdGl2YXRlID49IF9yZWFjdGl2YXRlR2FwKSB7CiAgICAgICAgICAgIF9sYXN0UmVhY3RpdmF0ZSA9IG5vdzsKICAgICAgICAgICAgTlNFcnJvciAqZSA9IG5pbDsKICAgICAgICAgICAgaWYgKFtzIHNldEFjdGl2ZTpZRVMgZXJyb3I6JmVdKSB7CiAgICAgICAgICAgICAgICBpZiAoX2xhc3RBY3RpdmF0ZUVycikgSExFeHRlcm5hbExvZyhAIlvpn7PpopFdIOS8muivneW3suaBouWkjea/gOa0uyIpOwogICAgICAgICAgICAgICAgX2xhc3RBY3RpdmF0ZUVyciA9IG5pbDsKICAgICAgICAgICAgICAgIF9yZWFjdGl2YXRlR2FwID0gMTUuMDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE5TU3RyaW5nICptc2cgPSBlLmxvY2FsaXplZERlc2NyaXB0aW9uID86IEAi5pyq55+lIjsKICAgICAgICAgICAgICAgIGlmICghW19sYXN0QWN0aXZhdGVFcnIgaXNFcXVhbFRvU3RyaW5nOm1zZ10pIHsKICAgICAgICAgICAgICAgICAgICBITEV4dGVybmFsTG9nKEAiW+mfs+mikV0g5Lya6K+d5r+A5rS75aSx6LSl77yI5ZCO5Y+w5bi46KeB77yM5LiN5b2x5ZON5Yik5a6a77yJ77yaJUAiLCBtc2cpOwogICAgICAgICAgICAgICAgICAgIF9sYXN0QWN0aXZhdGVFcnIgPSBtc2c7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBfcmVhY3RpdmF0ZUdhcCA9IE1JTihfcmVhY3RpdmF0ZUdhcCAqIDIuMCwgMTIwLjApOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiAoIV9oYXNMYXN0IHx8IG90aGVyICE9IF9sYXN0T3RoZXIgfHwgaGludCAhPSBfbGFzdEhpbnQpIHsKICAgICAgICAgICAgZG91YmxlIGhlbGQgPSBfcmF3U2luY2UgPiAwID8gKG5vdyAtIF9yYXdTaW5jZSkgOiAwOwogICAgICAgICAgICBfaGFzTGFzdCA9IFlFUzsKICAgICAgICAgICAgX2xhc3RPdGhlciA9IG90aGVyOwogICAgICAgICAgICBfbGFzdEhpbnQgID0gaGludDsKICAgICAgICAgICAgaWYgKF9yYXdTaW5jZSA+IDApIEhMRXh0ZXJuYWxMb2coQCJb6Z+z6aKRXSDkuIrkuIDnirbmgIHnu7TmjIHkuoYgJS4xZnMiLCBoZWxkKTsKICAgICAgICAgICAgX3Jhd1NpbmNlID0gbm93OwogICAgICAgICAgICBfbGFzdEJlYXQgPSBub3c7CiAgICAgICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6Z+z6aKRXSDliKvlrrblnKjmlL49JWQg5o+Q56S6PSVkIOKGkiDljp/lp4vliKTlrpo9JWQiLCBvdGhlciwgaGludCwgcmF3KTsKICAgICAgICB9CgogICAgICAgIGlmIChyYXcgJiYgbm93IC0gX2xhc3RCZWF0ID49IDIwLjApIHsKICAgICAgICAgICAgX2xhc3RCZWF0ID0gbm93OwogICAgICAgICAgICBITEV4dGVybmFsTG9nKEAiW+mfs+mikV0g5LuN5Zyo5pS+77yM5bey5oyB57utICUuMGZzIiwgbm93IC0gX3Jhd1NpbmNlKTsKICAgICAgICB9CgogICAgICAgIGRvdWJsZSBhdHRhY2sgID0gW0FQcmVmKEAiSExBdWRpb0F0dGFjayIsICBAKEhMX0RFRkFVTFRfQVVESU9fQVRUQUNLKSkgIGRvdWJsZVZhbHVlXTsKICAgICAgICBkb3VibGUgcmVsZWFzZSA9IFtBUHJlZihAIkhMQXVkaW9SZWxlYXNlIiwgQChITF9ERUZBVUxUX0FVRElPX1JFTEVBU0UpKSBkb3VibGVWYWx1ZV07CgogICAgICAgIGlmIChyYXcpIHsKICAgICAgICAgICAgaWYgKF9hdWRpb1NpbmNlIDw9IDApIF9hdWRpb1NpbmNlID0gbm93OwogICAgICAgICAgICBCT09MIHJlYWwgPSAobm93IC0gX2F1ZGlvU2luY2UpID49IGF0dGFjazsKICAgICAgICAgICAgaWYgKHJlYWwpIHsKICAgICAgICAgICAgICAgIF9zaWxlbmNlU2luY2UgPSAwOwogICAgICAgICAgICAgICAgaWYgKCFfcGxheWluZykgewogICAgICAgICAgICAgICAgICAgIF9wbGF5aW5nID0gWUVTOwogICAgICAgICAgICAgICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6Z+z6aKRXSDliKTlrpog4oaSIOacieWjsOmfs++8jOWOi+m6puWFi+mjjiIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgX2F1ZGlvU2luY2UgPSAwOwogICAgICAgICAgICBpZiAoX3BsYXlpbmcpIHsKICAgICAgICAgICAgICAgIGlmIChfc2lsZW5jZVNpbmNlIDw9IDApIF9zaWxlbmNlU2luY2UgPSBub3c7CiAgICAgICAgICAgICAgICBlbHNlIGlmIChub3cgLSBfc2lsZW5jZVNpbmNlID49IHJlbGVhc2UpIHsKICAgICAgICAgICAgICAgICAgICBfcGxheWluZyA9IE5POyBfc2lsZW5jZVNpbmNlID0gMDsKICAgICAgICAgICAgICAgICAgICBITEV4dGVybmFsTG9nKEAiW+mfs+mikV0g5Yik5a6aIOKGkiDlronpnZkgJS4xZnPvvIzmgaLlpI3puqblhYvpo44iLCByZWxlYXNlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gQGNhdGNoIChOU0V4Y2VwdGlvbiAqZSkgewogICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6Z+z6aKRXSB0aWNrIOW8guW4uO+8miVAIiwgZS5yZWFzb24pOwogICAgfQp9CgpAZW5kCgojcHJhZ21hIG1hcmsgLSDlkI7lj7Dkv53mtLvvvIjpn7PpopHmlq3oqIDlhZzlupXvvIkKCi8vICDkuLrku4DkuYjpnIDopoHvvJoKLy8gICAg5Li75L+d5rS75pivIEluZm8ucGxpc3Qg55qEIGJsdWV0b290aC1jZW50cmFsICsg5LiA55u05o+h552AIEJMRSDov57mjqXvvIzlrp7mtYvlpJ/nlKjjgIIKLy8gICAg5L2G57O757uf5Zyo5p+Q5Lqb5oOF5Ya15LiL77yI5YaF5a2Y5Y6L5Yqb44CB6ZW/5pe26Ze05LiN55So77yJ5LuN5Y+v6IO95Zue5pS26L+b56iL44CC6L+Z5pe26KGl5LiA5p2hCi8vICAgIOOAjOato+WcqOaSreaUvumfs+mikeOAjeeahOaWreiogO+8jOiuqeezu+e7n+aKiuWug+W9k+mfs+S5kOexuyBBcHAg55yL5b6F77yM5Yeg5LmO5LiN5Lya6KKr5p2A44CCCi8vCi8vICDkuLrku4DkuYjpu5jorqTlhbPpl63vvJoKLy8gICAg5a6D5Lya5Y2g55So5pysIEFwcCDnmoTpn7PpopHkvJror53vvIhjYXRlZ29yeSDlj5jmiJAgUGxheWJhY2vvvInvvIzlj6/og73mibDliqgKLy8gICAgaXNPdGhlckF1ZGlvUGxheWluZyAvIHNpbGVuY2VkSGludCDnmoTlj5blgLzjgILlip/og73kvJjlhYjvvIzmiYDku6XlgZrmiJDlvIDlhbPvvIwKLy8gICAg5Y+q5pyJ56Gu5a6e6YGH5Yiw44CM5ZCO5Y+w6KKr5p2A44CN5pe25omN5omT5byA44CCCi8vCi8vICDmgI7kuYjlgZrliLDkuI3miZPmibDliKvkurrvvJoKLy8gICAgUGxheWJhY2sgKyBNaXhXaXRoT3RoZXJz77yM6Z+z6YePIDAuMDHvvIzmkq3mlL4gwrExIExTQiDnmoTmnoHkvY7luYXlmarlo7AKLy8gICAg77yI57qvIDAg5pyJ5Lqb57O757uf5Lya5Yik5a6a5Li644CM6Z2Z6Z+z5rWB44CN6ICM5LiN5Lqn55Sf5pat6KiA77yJ44CCCgpAaW50ZXJmYWNlIEhMS2VlcEFsaXZlIDogTlNPYmplY3QKKyAoaW5zdGFuY2V0eXBlKXNoYXJlZDsKLSAoQk9PTCllbmFibGVkOwotICh2b2lkKXNldEVuYWJsZWQ6KEJPT0wpb247Ci0gKHZvaWQpc3RhcnQ7CkBwcm9wZXJ0eSAobm9uYXRvbWljLCByZWFkb25seSkgQk9PTCBydW5uaW5nOwpAZW5kCgpAaW1wbGVtZW50YXRpb24gSExLZWVwQWxpdmUgewogICAgQVZBdWRpb1BsYXllciAqX3BsYXllcjsKICAgIEJPT0wgX3J1bm5pbmc7Cn0KCisgKGluc3RhbmNldHlwZSlzaGFyZWQgewogICAgc3RhdGljIEhMS2VlcEFsaXZlICpzOyBzdGF0aWMgZGlzcGF0Y2hfb25jZV90IG9uY2U7CiAgICBkaXNwYXRjaF9vbmNlKCZvbmNlLCBeeyBzID0gW0hMS2VlcEFsaXZlIG5ld107IH0pOwogICAgcmV0dXJuIHM7Cn0KCi0gKEJPT0wpcnVubmluZyB7IHJldHVybiBfcnVubmluZzsgfQoKLSAoQk9PTCllbmFibGVkIHsKICAgIHJldHVybiBbQVByZWYoQCJITEtlZXBBbGl2ZUF1ZGlvIiwgQDApIGJvb2xWYWx1ZV07Cn0KCi0gKHZvaWQpc2V0RW5hYmxlZDooQk9PTClvbiB7CiAgICBbW05TVXNlckRlZmF1bHRzIHN0YW5kYXJkVXNlckRlZmF1bHRzXSBzZXRCb29sOm9uIGZvcktleTpAIkhMS2VlcEFsaXZlQXVkaW8iXTsKICAgIFtbTlNVc2VyRGVmYXVsdHMgc3RhbmRhcmRVc2VyRGVmYXVsdHNdIHN5bmNocm9uaXplXTsKICAgIGlmIChvbikgW3NlbGYgc3RhcnRdOwogICAgZWxzZSAgICBbc2VsZiBzdG9wXTsKfQoKLy8gMjIwNTBIeiAvIOWNleWjsOmBkyAvIDE2Yml0IC8gMSDnp5LvvIzCsTEgTFNCIOWZquWjsApzdGF0aWMgTlNEYXRhICpITExvd05vaXNlV2F2KHZvaWQpIHsKICAgIFVJbnQzMiBzciA9IDIyMDUwLCBjaCA9IDEsIGJwcyA9IDE2OwogICAgVUludDMyIGRhdGFMZW4gPSBzciAqIGNoICogKGJwcyAvIDgpOwogICAgTlNNdXRhYmxlRGF0YSAqZCA9IFtOU011dGFibGVEYXRhIGRhdGFdOwogICAgW2QgYXBwZW5kQnl0ZXM6IlJJRkYiIGxlbmd0aDo0XTsKICAgIFVJbnQzMiByaWZmU3ogPSAzNiArIGRhdGFMZW47ICBbZCBhcHBlbmRCeXRlczomcmlmZlN6IGxlbmd0aDo0XTsKICAgIFtkIGFwcGVuZEJ5dGVzOiJXQVZFZm10ICIgbGVuZ3RoOjhdOwogICAgVUludDMyIGZtdFN6ID0gMTY7ICAgICAgICAgICAgIFtkIGFwcGVuZEJ5dGVzOiZmbXRTeiBsZW5ndGg6NF07CiAgICBVSW50MTYgZm10ID0gMTsgICAgICAgICAgICAgICAgW2QgYXBwZW5kQnl0ZXM6JmZtdCBsZW5ndGg6Ml07CiAgICBVSW50MTYgbmMgPSAoVUludDE2KWNoOyAgICAgICAgW2QgYXBwZW5kQnl0ZXM6Jm5jIGxlbmd0aDoyXTsKICAgIFtkIGFwcGVuZEJ5dGVzOiZzciBsZW5ndGg6NF07CiAgICBVSW50MzIgYnl0ZVJhdGUgPSBzciAqIGNoICogKGJwcyAvIDgpOyBbZCBhcHBlbmRCeXRlczomYnl0ZVJhdGUgbGVuZ3RoOjRdOwogICAgVUludDE2IGFsaWduID0gKFVJbnQxNikoY2ggKiBicHMgLyA4KTsgW2QgYXBwZW5kQnl0ZXM6JmFsaWduIGxlbmd0aDoyXTsKICAgIFVJbnQxNiBiaXRzID0gKFVJbnQxNilicHM7ICAgICBbZCBhcHBlbmRCeXRlczomYml0cyBsZW5ndGg6Ml07CiAgICBbZCBhcHBlbmRCeXRlczoiZGF0YSIgbGVuZ3RoOjRdOwogICAgW2QgYXBwZW5kQnl0ZXM6JmRhdGFMZW4gbGVuZ3RoOjRdOwoKICAgIE5TTXV0YWJsZURhdGEgKnBjbSA9IFtOU011dGFibGVEYXRhIGRhdGFXaXRoTGVuZ3RoOmRhdGFMZW5dOwogICAgaW50MTZfdCAqcCA9IHBjbS5tdXRhYmxlQnl0ZXM7CiAgICBmb3IgKE5TVUludGVnZXIgaSA9IDA7IGkgPCBkYXRhTGVuIC8gMjsgaSsrKSBwW2ldID0gKGkgJSAyKSA/IDEgOiAtMTsKICAgIFtkIGFwcGVuZERhdGE6cGNtXTsKICAgIHJldHVybiBkOwp9CgotICh2b2lkKXN0YXJ0IHsKICAgIGlmIChfcnVubmluZykgcmV0dXJuOwogICAgaWYgKCFbc2VsZiBlbmFibGVkXSkgeyBITEV4dGVybmFsTG9nKEAiW+S/nea0u10g6Z+z6aKR5L+d5rS75YWz6Zet77yISExLZWVwQWxpdmVBdWRpbz0w77yJIik7IHJldHVybjsgfQogICAgQHRyeSB7CiAgICAgICAgQVZBdWRpb1Nlc3Npb24gKnMgPSBbQVZBdWRpb1Nlc3Npb24gc2hhcmVkSW5zdGFuY2VdOwogICAgICAgIE5TRXJyb3IgKmUgPSBuaWw7CiAgICAgICAgW3Mgc2V0Q2F0ZWdvcnk6QVZBdWRpb1Nlc3Npb25DYXRlZ29yeVBsYXliYWNrCiAgICAgICAgICAgICAgICAgIG1vZGU6QVZBdWRpb1Nlc3Npb25Nb2RlRGVmYXVsdAogICAgICAgICAgICAgICBvcHRpb25zOkFWQXVkaW9TZXNzaW9uQ2F0ZWdvcnlPcHRpb25NaXhXaXRoT3RoZXJzCiAgICAgICAgICAgICAgICAgZXJyb3I6JmVdOwogICAgICAgIGlmIChlKSBITEV4dGVybmFsTG9nKEAiW+S/nea0u10g6K6+57G75Yir5aSx6LSl77yaJUAiLCBlLmxvY2FsaXplZERlc2NyaXB0aW9uKTsKICAgICAgICBlID0gbmlsOwogICAgICAgIFtzIHNldEFjdGl2ZTpZRVMgZXJyb3I6JmVdOwogICAgICAgIGlmIChlKSBITEV4dGVybmFsTG9nKEAiW+S/nea0u10g5r+A5rS75aSx6LSl77yaJUAiLCBlLmxvY2FsaXplZERlc2NyaXB0aW9uKTsKCiAgICAgICAgX3BsYXllciA9IFtbQVZBdWRpb1BsYXllciBhbGxvY10gaW5pdFdpdGhEYXRhOkhMTG93Tm9pc2VXYXYoKSBlcnJvcjomZV07CiAgICAgICAgaWYgKCFfcGxheWVyKSB7CiAgICAgICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb5L+d5rS7XSDmkq3mlL7lmajliJvlu7rlpLHotKXvvJolQCIsIGUubG9jYWxpemVkRGVzY3JpcHRpb24gPzogQCLmnKrnn6UiKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBfcGxheWVyLm51bWJlck9mTG9vcHMgPSAtMTsKICAgICAgICBfcGxheWVyLnZvbHVtZSA9IDAuMDFmOwogICAgICAgIF9wbGF5ZXIubWV0ZXJpbmdFbmFibGVkID0gTk87CiAgICAgICAgQk9PTCBvayA9IFtfcGxheWVyIHBsYXldOwogICAgICAgIF9ydW5uaW5nID0gb2s7CiAgICAgICAgSExFeHRlcm5hbExvZyhAIlvkv53mtLtdIOmfs+mikeaWreiogCVA77yIUGxheWJhY2srbWl477yM6Z+z6YePIDElJe+8iSIsIG9rID8gQCLlt7LlvIDlkK8iIDogQCLlvIDlkK/lpLHotKUiKTsKICAgIH0gQGNhdGNoIChOU0V4Y2VwdGlvbiAqZXgpIHsKICAgICAgICBITEV4dGVybmFsTG9nKEAiW+S/nea0u10g5byC5bi477yaJUAiLCBleC5yZWFzb24pOwogICAgfQp9CgotICh2b2lkKXN0b3AgewogICAgaWYgKCFfcnVubmluZyAmJiAhX3BsYXllcikgcmV0dXJuOwogICAgQHRyeSB7CiAgICAgICAgW19wbGF5ZXIgc3RvcF07CiAgICAgICAgX3BsYXllciA9IG5pbDsKICAgICAgICBfcnVubmluZyA9IE5POwogICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb5L+d5rS7XSDpn7PpopHmlq3oqIDlt7LlhbPpl60iKTsKICAgIH0gQGNhdGNoIChOU0V4Y2VwdGlvbiAqZXgpIHt9Cn0KCkBlbmQKCkJPT0wgSExLZWVwQWxpdmVSdW5uaW5nKHZvaWQpIHsgcmV0dXJuIFtITEtlZXBBbGl2ZSBzaGFyZWRdLnJ1bm5pbmc7IH0Kdm9pZCBITFNldEtlZXBBbGl2ZShCT09MIG9uKSAgeyBbW0hMS2VlcEFsaXZlIHNoYXJlZF0gc2V0RW5hYmxlZDpvbl07IH0KQk9PTCBITEtlZXBBbGl2ZUVuYWJsZWQodm9pZCkgeyByZXR1cm4gW1tITEtlZXBBbGl2ZSBzaGFyZWRdIGVuYWJsZWRdOyB9CgojcHJhZ21hIG1hcmsgLSDpgJror53mjqLmtYsKCnR5cGVkZWYgQk9PTCAoKkFWU0NHZXRWb2xOYW1lRm4pKGlkLCBTRUwsIGZsb2F0ICosIE5TU3RyaW5nICoqKTsKCnN0YXRpYyBpZCBITF9BVlN5c3RlbUNvbnRyb2xsZXIodm9pZCkgewogICAgc3RhdGljIGlkIGluc3QgPSBuaWw7CiAgICBzdGF0aWMgZGlzcGF0Y2hfb25jZV90IG9uY2U7CiAgICBkaXNwYXRjaF9vbmNlKCZvbmNlLCBeewogICAgICAgIHZvaWQgKmggPSBkbG9wZW4oIi9TeXN0ZW0vTGlicmFyeS9Qcml2YXRlRnJhbWV3b3Jrcy9NZWRpYUV4cGVyaWVuY2UuZnJhbWV3b3JrL01lZGlhRXhwZXJpZW5jZSIsIFJUTERfTk9XKTsKICAgICAgICBpZiAoIWgpIHsgSExFeHRlcm5hbExvZyhAIlvpgJror51dIE1lZGlhRXhwZXJpZW5jZSDmiZPkuI3lvIAiKTsgcmV0dXJuOyB9CiAgICAgICAgQ2xhc3MgYyA9IE5TQ2xhc3NGcm9tU3RyaW5nKEAiQVZTeXN0ZW1Db250cm9sbGVyIik7CiAgICAgICAgaWYgKCFjKSB7IEhMRXh0ZXJuYWxMb2coQCJb6YCa6K+dXSDmsqHmnIkgQVZTeXN0ZW1Db250cm9sbGVyIOexuyIpOyByZXR1cm47IH0KICAgICAgICBTRUwgc2VsID0gTlNTZWxlY3RvckZyb21TdHJpbmcoQCJzaGFyZWRBVlN5c3RlbUNvbnRyb2xsZXIiKTsKICAgICAgICBpZiAoIVtjIHJlc3BvbmRzVG9TZWxlY3RvcjpzZWxdKSB7IEhMRXh0ZXJuYWxMb2coQCJb6YCa6K+dXSDmsqHmnIkgc2hhcmVkQVZTeXN0ZW1Db250cm9sbGVyIik7IHJldHVybjsgfQogICAgICAgIEB0cnkgewogICAgICAgICAgICBpbnN0ID0gKChpZCAoKikoaWQsIFNFTCkpb2JqY19tc2dTZW5kKShjLCBzZWwpOwogICAgICAgICAgICBITEV4dGVybmFsTG9nKEAiW+mAmuivnV0gQVZTeXN0ZW1Db250cm9sbGVyIOW3suWwsee7qiIpOwogICAgICAgIH0gQGNhdGNoIChOU0V4Y2VwdGlvbiAqZSkgewogICAgICAgICAgICBITEV4dGVybmFsTG9nKEAiW+mAmuivnV0g5Y+W5a6e5L6L5aSx6LSl77yaJUAiLCBlLnJlYXNvbik7CiAgICAgICAgfQogICAgfSk7CiAgICByZXR1cm4gaW5zdDsKfQoKc3RhdGljIE5TU3RyaW5nICpITF9BY3RpdmVDYXRlZ29yeSh2b2lkKSB7CiAgICBpZCBpbnN0ID0gSExfQVZTeXN0ZW1Db250cm9sbGVyKCk7CiAgICBpZiAoIWluc3QpIHJldHVybiBuaWw7CiAgICBTRUwgc2VsID0gTlNTZWxlY3RvckZyb21TdHJpbmcoQCJnZXRBY3RpdmVDYXRlZ29yeVZvbHVtZTphbmROYW1lOiIpOwogICAgaWYgKCFbaW5zdCByZXNwb25kc1RvU2VsZWN0b3I6c2VsXSkgcmV0dXJuIG5pbDsKICAgIGZsb2F0IHZvbCA9IDAuZjsgTlNTdHJpbmcgKm5hbWUgPSBuaWw7CiAgICBCT09MIG9rID0gTk87CiAgICBAdHJ5IHsgb2sgPSAoKEFWU0NHZXRWb2xOYW1lRm4pb2JqY19tc2dTZW5kKShpbnN0LCBzZWwsICZ2b2wsICZuYW1lKTsgfSBAY2F0Y2ggKE5TRXhjZXB0aW9uICplKSB7IHJldHVybiBuaWw7IH0KICAgIHJldHVybiBvayA/IG5hbWUgOiBuaWw7Cn0KCkBpbnRlcmZhY2UgSExDYWxsUHJvYmUyIDogTlNPYmplY3QKKyAoaW5zdGFuY2V0eXBlKXNoYXJlZDsKLSAodm9pZClzdGFydDsKQHByb3BlcnR5IChub25hdG9taWMsIHJlYWRvbmx5KSBCT09MIGluQ2FsbDsKQHByb3BlcnR5IChub25hdG9taWMsIHJlYWRvbmx5KSBCT09MIGN0Q2FsbDsKQHByb3BlcnR5IChub25hdG9taWMsIHJlYWRvbmx5LCBjb3B5KSBOU1N0cmluZyAqY2F0ZWdvcnk7CkBlbmQKCi8vIE1BUks6IC0gQ1hDYWxsT2JzZXJ2ZXIgcmVwbGFjZW1lbnQKLy8gQ1RDYWxsQ2VudGVyIOWcqCBpT1MgMTAg5bCxIGRlcHJlY2F0ZWTvvIzlkI7lj7AgQXBwIOaLv+S4jeWIsCBjdXJyZW50Q2FsbHPjgIIKLy8gQ1hDYWxsT2JzZXJ2ZXIg5pivIENhbGxLaXQg5qGG5p625o+Q5L6b55qE5ZCO5Y+w5Y+v55So5pu/5Luj4oCU4oCU5LiN6ZyA6KaB55So5oi35p2D6ZmQ44CB5LiN6ZyA6KaBIGVudGlsZW1lbnTjgIIKCkBpbnRlcmZhY2UgSExDYWxsUHJvYmUyICgpIDxDWENhbGxPYnNlcnZlcj4KQHByb3BlcnR5IChub25hdG9taWMsIHN0cm9uZykgQ1hDYWxsT2JzZXJ2ZXIgKm9ic2VydmVyOwpAcHJvcGVydHkgKG5vbmF0b21pYywgc3Ryb25nKSBOU0hhc2hUYWJsZTxDWENhbGwgKj4gKmFjdGl2ZUNhbGxzOwpAZW5kCgpAaW1wbGVtZW50YXRpb24gSExDYWxsUHJvYmUyIHsKICAgIE5TVGltZXIgKl90aW1lcjsKICAgIEJPT0wgX2luQ2FsbDsKICAgIEJPT0wgX2xhc3RDVDsKICAgIEJPT0wgX2xhc3RTZXNzaW9uQ2FsbDsKICAgIE5TU3RyaW5nICpfbGFzdENhdDsKICAgIEJPT0wgX2hhc0xhc3Q7Cn0KCisgKGluc3RhbmNldHlwZSlzaGFyZWQgewogICAgc3RhdGljIEhMQ2FsbFByb2JlMiAqczsgc3RhdGljIGRpc3BhdGNoX29uY2VfdCBvbmNlOwogICAgZGlzcGF0Y2hfb25jZSgmb25jZSwgXnsgcyA9IFtITENhbGxQcm9iZTIgbmV3XTsgfSk7CiAgICByZXR1cm4gczsKfQoKLSAoaW5zdGFuY2V0eXBlKWluaXQgewogICAgaWYgKChzZWxmID0gW3N1cGVyIGluaXRdKSkgewogICAgICAgIF9hY3RpdmVDYWxscyA9IFtOU0hhc2hUYWJsZSB3ZWFrT2JqZWN0c0hhc2hUYWJsZV07CiAgICB9CiAgICByZXR1cm4gc2VsZjsKfQoKLSAoQk9PTClpbkNhbGwgICB7IHJldHVybiBfaW5DYWxsOyB9Ci0gKEJPT0wpY3RDYWxsICAgeyByZXR1cm4gX2xhc3RDVDsgfQotIChOU1N0cmluZyAqKWNhdGVnb3J5IHsgcmV0dXJuIF9sYXN0Q2F0ID86IEAiLSI7IH0KCi0gKHZvaWQpc3RhcnQgewogICAgaWYgKCFbQVByZWYoQCJITENhbGxNb2RlRW5hYmxlIiwgQChITF9ERUZBVUxUX0NBTExfRU5BQkxFKSkgYm9vbFZhbHVlXSkgewogICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6YCa6K+dXSDpgJror53mqKHlvI/lt7LlhbPpl60iKTsKICAgICAgICByZXR1cm47CiAgICB9CiAgICAvLyBDWENhbGxPYnNlcnZlciDigJQgaU9TIDEwKywg5ZCO5Y+w5Y+v55SoLCDml6DpnIDnlKjmiLfmjojmnYMKICAgIF9vYnNlcnZlciA9IFtDWENhbGxPYnNlcnZlciBuZXddOwogICAgX29ic2VydmVyLmRlbGVnYXRlID0gc2VsZjsKICAgIEhMRXh0ZXJuYWxMb2coQCJb6YCa6K+dXSBDWENhbGxPYnNlcnZlciDlt7Lms6jlhozvvIjmm7/ku6MgQ1RDYWxsQ2VudGVy77yJIik7CgogICAgX3RpbWVyID0gW05TVGltZXIgc2NoZWR1bGVkVGltZXJXaXRoVGltZUludGVydmFsOjEuMCB0YXJnZXQ6c2VsZgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yOkBzZWxlY3Rvcih0aWNrKSB1c2VySW5mbzpuaWwgcmVwZWF0czpZRVNdOwogICAgW3NlbGYgdGlja107Cn0KCi8vIE1BUks6IENYQ2FsbE9ic2VydmVyIGRlbGVnYXRlIOKAlCDlrp7ml7bpgJror53nirbmgIHlj5jljJYKCi0gKHZvaWQpY2FsbE9ic2VydmVyOihDWENhbGxPYnNlcnZlciAqKWNhbGxPYnNlcnZlcgogICAgICAgICAgICBjYWxsQ2hhbmdlZDooQ1hDYWxsICopY2FsbCB7CiAgICBkaXNwYXRjaF9hc3luYyhkaXNwYXRjaF9nZXRfbWFpbl9xdWV1ZSgpLCBeewogICAgICAgIEJPT0wgaGFzQWN0aXZlID0gTk87CiAgICAgICAgZm9yIChDWENhbGwgKmMgaW4gY2FsbE9ic2VydmVyLmNhbGxzKSB7CiAgICAgICAgICAgIGlmICghYy5oYXNFbmRlZCkgeyBoYXNBY3RpdmUgPSBZRVM7IGJyZWFrOyB9CiAgICAgICAgfQogICAgICAgIC8vIOeri+WNs+WTjeW6lO+8muS7u+S9lea0u+i3g+mAmuivneaIluWImue7k+adn+eahOmAmuivnemDveinpuWPkSB0aWNrCiAgICAgICAgW3NlbGYgdGlja107CiAgICB9KTsKfQoKLy8gTUFSSzog54q25oCB5Yik5a6aCgotICh2b2lkKXRpY2sgewogICAgTlNTdHJpbmcgKmNhdCA9IEhMX0FjdGl2ZUNhdGVnb3J5KCk7CgogICAgLy8g5LuOIENYQ2FsbE9ic2VydmVyIOaLv+a0u+i3g+mAmuivneWIl+ihqO+8iGhhc0VuZGVkPU5PIOihqOekuuato+WcqOmAmuivneS4re+8iQogICAgQk9PTCBjdCA9IE5POwogICAgaWYgKF9vYnNlcnZlcikgewogICAgICAgIGZvciAoQ1hDYWxsICpjIGluIF9vYnNlcnZlci5jYWxscykgewogICAgICAgICAgICBpZiAoIWMuaGFzRW5kZWQpIHsgY3QgPSBZRVM7IGJyZWFrOyB9CiAgICAgICAgfQogICAgfQoKICAgIC8vIOS5n+eUqCBBVkF1ZGlvU2Vzc2lvbi5tb2RlIOWFnOW6le+8mlZvaWNlQ2hhdC9WaWRlb0NoYXQg6YO95piv6YCa6K+d5LitCiAgICBBVkF1ZGlvU2Vzc2lvbiAqc2VzcyA9IFtBVkF1ZGlvU2Vzc2lvbiBzaGFyZWRJbnN0YW5jZV07CiAgICBOU1N0cmluZyAqbW9kZSA9IHNlc3MubW9kZSA/OiBAIiI7CiAgICBCT09MIHNlc3Npb25DYWxsID0gKFttb2RlIGlzRXF1YWxUb1N0cmluZzpBVkF1ZGlvU2Vzc2lvbk1vZGVWb2ljZUNoYXRdIHx8CiAgICAgICAgICAgICAgICAgICAgICAgIFttb2RlIGlzRXF1YWxUb1N0cmluZzpBVkF1ZGlvU2Vzc2lvbk1vZGVWaWRlb0NoYXRdKTsKCiAgICBCT09MIGlzQ2FsbCA9IGN0IHx8IHNlc3Npb25DYWxsIHx8IChjYXQgJiYgW2NhdCByYW5nZU9mU3RyaW5nOkAiUGhvbmVDYWxsIl0ubG9jYXRpb24gIT0gTlNOb3RGb3VuZCk7CgogICAgaWYgKCFfaGFzTGFzdCB8fCBjdCAhPSBfbGFzdENUIHx8IHNlc3Npb25DYWxsICE9IF9sYXN0U2Vzc2lvbkNhbGwgfHwKICAgICAgICAhKChjYXQgPT0gX2xhc3RDYXQpIHx8IChjYXQgJiYgX2xhc3RDYXQgJiYgW2NhdCBpc0VxdWFsVG9TdHJpbmc6X2xhc3RDYXRdKSkpIHsKICAgICAgICBfaGFzTGFzdCA9IFlFUzsKICAgICAgICBfbGFzdENUID0gY3Q7CiAgICAgICAgX2xhc3RTZXNzaW9uQ2FsbCA9IHNlc3Npb25DYWxsOwogICAgICAgIF9sYXN0Q2F0ID0gY2F0OwogICAgICAgIEhMRXh0ZXJuYWxMb2coQCJb6YCa6K+dXSBDWD0lZCBzZXNzaW9uPSVkIGNhdGVnb3J5PSVAIOKGkiDliKTlrpo9JWQiLCBjdCwgc2Vzc2lvbkNhbGwsIGNhdCA/OiBAIj8iLCBpc0NhbGwpOwogICAgfQoKICAgIGlmIChpc0NhbGwgIT0gX2luQ2FsbCkgewogICAgICAgIF9pbkNhbGwgPSBpc0NhbGw7CiAgICAgICAgSExFeHRlcm5hbExvZyhAIlvpgJror51dICVAIiwgaXNDYWxsID8gQCLov5vlhaXpgJror53vvIjlt6bogLPmjInpgJror53moaPkvY3vvIkiIDogQCLpgJror53nu5PmnZ8iKTsKICAgICAgICBITFNldENhbGxNb2RlKGlzQ2FsbCk7CiAgICAgICAgSExSZWFwcGx5Tm93KCk7CiAgICB9Cn0KCkBlbmQKCiNwcmFnbWEgbWFyayAtIOWvueWklueKtuaAgQoKQk9PTCBITE1lZGlhUGxheWluZyh2b2lkKSB7IHJldHVybiBbSExBdWRpb1Byb2JlMiBzaGFyZWRdLnBsYXlpbmc7IH0KQk9PTCBITEluQ2FsbCh2b2lkKSAgICAgICB7IHJldHVybiBbSExDYWxsUHJvYmUyIHNoYXJlZF0uaW5DYWxsOyB9Ck5TU3RyaW5nICpITENhbGxDYXRlZ29yeSh2b2lkKSB7IHJldHVybiBbSExDYWxsUHJvYmUyIHNoYXJlZF0uY2F0ZWdvcnk7IH0KCiNwcmFnbWEgbWFyayAtIOijhemFjQoKX19hdHRyaWJ1dGVfXygoY29uc3RydWN0b3IpKQpzdGF0aWMgdm9pZCBITFByb2JlQm9vdHN0cmFwKHZvaWQpIHsKICAgIGRpc3BhdGNoX2FzeW5jKGRpc3BhdGNoX2dldF9tYWluX3F1ZXVlKCksIF57CiAgICAgICAgSExTZXRMb2dTaW5rKF4oTlNTdHJpbmcgKmxpbmUpIHsgSExSaW5nQXBwZW5kKGxpbmUpOyB9KTsKCiAgICAgICAgSExBdWRpb1Byb2JlMiAqcHJvYmUgPSBbSExBdWRpb1Byb2JlMiBzaGFyZWRdOwogICAgICAgIEhMU2V0UGxheWluZ1Byb3ZpZGVyKF5CT09MeyByZXR1cm4gcHJvYmUucGxheWluZyB8fCBbSExDYWxsUHJvYmUyIHNoYXJlZF0uaW5DYWxsOyB9KTsKICAgICAgICBbcHJvYmUgc3RhcnRdOwogICAgICAgIFtbSExDYWxsUHJvYmUyIHNoYXJlZF0gc3RhcnRdOwogICAgICAgIFtbSExLZWVwQWxpdmUgc2hhcmVkXSBzdGFydF07CgogICAgICAgIC8vIOeJiOacrOWPt+S7jiBJbmZvLnBsaXN0IOivu++8jOWIq+WGjeehrOe8luegge+8iDAuNi41IOWwseWboOS4uui/meS4qu+8jOaXpeW/l+mHjOS4gOebtOaYvuekuiAwLjYuNO+8iQogICAgICAgIE5TU3RyaW5nICp2ZXIgPSBbW05TQnVuZGxlIG1haW5CdW5kbGVdIG9iamVjdEZvckluZm9EaWN0aW9uYXJ5S2V5OkAiQ0ZCdW5kbGVTaG9ydFZlcnNpb25TdHJpbmciXTsKICAgICAgICBITEV4dGVybmFsTG9nKEAiVmliZUdvIOWKqeaJiyAlQO+8mum6puWFi+mjjuiBlOWKqCArIOWunumqjOWupO+8iOaOoua1iy9HQVRUL+S/nea0u+Wdh+WGhee9ru+8iSIsIHZlciA/OiBAIj8iKTsKICAgIH0pOwp9Cg==
+//
+//  HLProbe.m — 全局音频/通话探测 + 启动装配
+//
+//  把 GlobalHA 那套「判断别的 App 在不在放声音」搬进 VibeGo 助手进程，
+//  GATT 部分完全复用 HearingLink.m（同一份源码，注入版 / 独立版 / 本 App 三处一致）。
+//
+
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CallKit/CallKit.h>
+#import <dlfcn.h>
+#import <objc/message.h>
+
+#import "gatt_config.h"
+
+extern void HLSetPlayingProvider(BOOL (^p)(void));
+extern void HLSetLogSink(void (^sink)(NSString *line));
+extern void HLExternalLog(NSString *fmt, ...);
+extern void HLSetCallMode(BOOL on);
+extern void HLReapplyNow(void);
+extern NSString *HLStatusText(void);
+
+static id APref(NSString *key, id fallback) {
+    @try {
+        NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject
+                          stringByAppendingPathComponent:@"hearinglink.plist"];
+        NSDictionary *f = [NSDictionary dictionaryWithContentsOfFile:path];
+        if (f[key]) return f[key];
+    } @catch (NSException *e) {}
+    id v = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    return v ?: fallback;
+}
+
+#pragma mark - 日志环形缓冲（给界面看）
+
+static NSMutableArray<NSString *> *HL_ring = nil;
+
+static void HLRingAppend(NSString *line) {
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{ HL_ring = [NSMutableArray array]; });
+    @synchronized (HL_ring) {
+        [HL_ring addObject:[line stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]]];
+        while (HL_ring.count > 200) [HL_ring removeObjectAtIndex:0];
+    }
+}
+
+NSArray<NSString *> *HLRecentLines(void) {
+    return HL_ring ? [HL_ring copy] : @[];
+}
+#pragma mark - 音频探测
+
+@interface HLAudioProbe2 : NSObject
++ (instancetype)shared;
+- (void)start;
+@property (nonatomic, readonly) BOOL playing;
+@property (nonatomic, readonly) BOOL rawOther;
+@property (nonatomic, readonly) BOOL rawHint;
+@end
+
+@implementation HLAudioProbe2 {
+    NSTimer *_timer;
+    BOOL _playing;
+    BOOL _lastOther, _lastHint;
+    BOOL _hasLast;
+    NSTimeInterval _audioSince;
+    NSTimeInterval _silenceSince;
+    NSTimeInterval _rawSince;
+    NSTimeInterval _lastBeat;
+    NSTimeInterval _lastReactivate;
+    double _reactivateGap;          // 当前重试间隔（失败就翻倍到 120s）
+    NSString *_lastActivateErr;     // 上次失败原因，重复的不再刷日志
+}
+
++ (instancetype)shared {
+    static HLAudioProbe2 *s; static dispatch_once_t once;
+    dispatch_once(&once, ^{ s = [HLAudioProbe2 new]; });
+    return s;
+}
+
+- (BOOL)playing  { return _playing; }
+- (BOOL)rawOther { return _lastOther; }
+- (BOOL)rawHint  { return _lastHint; }
+
+- (void)start {
+    NSInteger mode = [APref(@"HLAudioSessionMode", @(HL_DEFAULT_AUDIO_SESSION)) integerValue];
+    AVAudioSession *s = [AVAudioSession sharedInstance];
+    if (mode == 1) {
+        NSError *e = nil;
+        [s setCategory:AVAudioSessionCategoryAmbient
+                  mode:AVAudioSessionModeDefault
+               options:AVAudioSessionCategoryOptionMixWithOthers
+                 error:&e];
+        if (e) HLExternalLog(@"[音频] 设类别失败：%@", e.localizedDescription);
+        e = nil;
+        [s setActive:YES error:&e];
+        HLExternalLog(@"[音频] 空会话已激活（ambient+mix）%@",
+                      e ? [@" 失败：" stringByAppendingString:e.localizedDescription] : @"");
+    }
+
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+    [nc addObserver:self selector:@selector(onHint:)
+               name:AVAudioSessionSilenceSecondaryAudioHintNotification object:nil];
+    [nc addObserver:self selector:@selector(onInterruption:)
+               name:AVAudioSessionInterruptionNotification object:nil];
+
+    _timer = [NSTimer scheduledTimerWithTimeInterval:0.15 target:self
+                                            selector:@selector(tick) userInfo:nil repeats:YES];
+    [self tick];
+}
+
+- (void)onHint:(NSNotification *)n {
+    NSUInteger t = [n.userInfo[AVAudioSessionSilenceSecondaryAudioHintTypeKey] unsignedIntegerValue];
+    HLExternalLog(@"[音频] 静音提示通知 type=%lu", (unsigned long)t);
+    dispatch_async(dispatch_get_main_queue(), ^{ [self tick]; });
+}
+
+- (void)onInterruption:(NSNotification *)n {
+    NSUInteger t = [n.userInfo[AVAudioSessionInterruptionTypeKey] unsignedIntegerValue];
+    HLExternalLog(@"[音频] 中断通知 type=%lu", (unsigned long)t);
+    dispatch_async(dispatch_get_main_queue(), ^{ [self tick]; });
+}
+
+- (void)tick {
+    @try {
+        AVAudioSession *s = [AVAudioSession sharedInstance];
+        BOOL other = s.isOtherAudioPlaying;
+        BOOL hint  = s.secondaryAudioShouldBeSilencedHint;
+        BOOL useHint = [APref(@"HLAudioUseHint", @(HL_DEFAULT_AUDIO_USE_HINT)) boolValue];
+        NSInteger sigMode = [APref(@"HLAudioSignalMode", @(HL_DEFAULT_AUDIO_SIGNAL)) integerValue];
+
+        BOOL raw;
+        if (sigMode == 1)      raw = other;
+        else if (sigMode == 2) raw = hint;
+        else                   raw = other || (useHint && hint);
+
+        NSTimeInterval now = [[NSDate date] timeIntervalSince1970];
+
+        // 后台没有音频播放权时 setActive:YES 必然失败（"Session activation failed"）。
+        // 这不是错误，只是拿不到会话；判定靠 isOtherAudioPlaying/hint，不需要会话活跃。
+        // 所以：失败就退避（15s→30s→60s→120s），同样的原因只报一次，别刷日志。
+        if (_reactivateGap <= 0) _reactivateGap = 15.0;
+        if (now - _lastReactivate >= _reactivateGap) {
+            _lastReactivate = now;
+            NSError *e = nil;
+            if ([s setActive:YES error:&e]) {
+                if (_lastActivateErr) HLExternalLog(@"[音频] 会话已恢复激活");
+                _lastActivateErr = nil;
+                _reactivateGap = 15.0;
+            } else {
+                NSString *msg = e.localizedDescription ?: @"未知";
+                if (![_lastActivateErr isEqualToString:msg]) {
+                    HLExternalLog(@"[音频] 会话激活失败（后台常见，不影响判定）：%@", msg);
+                    _lastActivateErr = msg;
+                }
+                _reactivateGap = MIN(_reactivateGap * 2.0, 120.0);
+            }
+        }
+
+        if (!_hasLast || other != _lastOther || hint != _lastHint) {
+            double held = _rawSince > 0 ? (now - _rawSince) : 0;
+            _hasLast = YES;
+            _lastOther = other;
+            _lastHint  = hint;
+            if (_rawSince > 0) HLExternalLog(@"[音频] 上一状态维持了 %.1fs", held);
+            _rawSince = now;
+            _lastBeat = now;
+            HLExternalLog(@"[音频] 别家在放=%d 提示=%d → 原始判定=%d", other, hint, raw);
+        }
+
+        if (raw && now - _lastBeat >= 20.0) {
+            _lastBeat = now;
+            HLExternalLog(@"[音频] 仍在放，已持续 %.0fs", now - _rawSince);
+        }
+
+        double attack  = [APref(@"HLAudioAttack",  @(HL_DEFAULT_AUDIO_ATTACK))  doubleValue];
+        double release = [APref(@"HLAudioRelease", @(HL_DEFAULT_AUDIO_RELEASE)) doubleValue];
+
+        if (raw) {
+            if (_audioSince <= 0) _audioSince = now;
+            BOOL real = (now - _audioSince) >= attack;
+            if (real) {
+                _silenceSince = 0;
+                if (!_playing) {
+                    _playing = YES;
+                    HLExternalLog(@"[音频] 判定 → 有声音，压麦克风");
+                }
+            }
+        } else {
+            _audioSince = 0;
+            if (_playing) {
+                if (_silenceSince <= 0) _silenceSince = now;
+                else if (now - _silenceSince >= release) {
+                    _playing = NO; _silenceSince = 0;
+                    HLExternalLog(@"[音频] 判定 → 安静 %.1fs，恢复麦克风", release);
+                }
+            }
+        }
+    } @catch (NSException *e) {
+        HLExternalLog(@"[音频] tick 异常：%@", e.reason);
+    }
+}
+
+@end
+
+#pragma mark - 后台保活（音频断言兜底）
+
+//  为什么需要：
+//    主保活是 Info.plist 的 bluetooth-central + 一直握着 BLE 连接，实测够用。
+//    但系统在某些情况下（内存压力、长时间不用）仍可能回收进程。这时补一条
+//    「正在播放音频」的断言，让系统把它当音乐类 App 看待，几乎不会被杀。
+//
+//  为什么默认关闭：
+//    它会占用本 App 的音频会话（category 变成 Playback），可能扰动
+//    isOtherAudioPlaying / silencedHint 的取值。功能优先，所以做成开关，
+//    只有确实遇到「后台被杀」时才打开。
+//
+//  怎么做到不打扰别人：
+//    Playback + MixWithOthers，音量 0.01，播放 ±1 LSB 的极低幅噪声
+//    （纯 0 有些系统会判定为「静音流」而不产生断言）。
+
+@interface HLKeepAlive : NSObject
++ (instancetype)shared;
+- (BOOL)enabled;
+- (void)setEnabled:(BOOL)on;
+- (void)start;
+@property (nonatomic, readonly) BOOL running;
+@end
+
+@implementation HLKeepAlive {
+    AVAudioPlayer *_player;
+    BOOL _running;
+}
+
++ (instancetype)shared {
+    static HLKeepAlive *s; static dispatch_once_t once;
+    dispatch_once(&once, ^{ s = [HLKeepAlive new]; });
+    return s;
+}
+
+- (BOOL)running { return _running; }
+
+- (BOOL)enabled {
+    return [APref(@"HLKeepAliveAudio", @0) boolValue];
+}
+
+- (void)setEnabled:(BOOL)on {
+    [[NSUserDefaults standardUserDefaults] setBool:on forKey:@"HLKeepAliveAudio"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    if (on) [self start];
+    else    [self stop];
+}
+
+// 22050Hz / 单声道 / 16bit / 1 秒，±1 LSB 噪声
+static NSData *HLLowNoiseWav(void) {
+    UInt32 sr = 22050, ch = 1, bps = 16;
+    UInt32 dataLen = sr * ch * (bps / 8);
+    NSMutableData *d = [NSMutableData data];
+    [d appendBytes:"RIFF" length:4];
+    UInt32 riffSz = 36 + dataLen;  [d appendBytes:&riffSz length:4];
+    [d appendBytes:"WAVEfmt " length:8];
+    UInt32 fmtSz = 16;             [d appendBytes:&fmtSz length:4];
+    UInt16 fmt = 1;                [d appendBytes:&fmt length:2];
+    UInt16 nc = (UInt16)ch;        [d appendBytes:&nc length:2];
+    [d appendBytes:&sr length:4];
+    UInt32 byteRate = sr * ch * (bps / 8); [d appendBytes:&byteRate length:4];
+    UInt16 align = (UInt16)(ch * bps / 8); [d appendBytes:&align length:2];
+    UInt16 bits = (UInt16)bps;     [d appendBytes:&bits length:2];
+    [d appendBytes:"data" length:4];
+    [d appendBytes:&dataLen length:4];
+
+    NSMutableData *pcm = [NSMutableData dataWithLength:dataLen];
+    int16_t *p = pcm.mutableBytes;
+    for (NSUInteger i = 0; i < dataLen / 2; i++) p[i] = (i % 2) ? 1 : -1;
+    [d appendData:pcm];
+    return d;
+}
+
+- (void)start {
+    if (_running) return;
+    if (![self enabled]) { HLExternalLog(@"[保活] 音频保活关闭（HLKeepAliveAudio=0）"); return; }
+    @try {
+        AVAudioSession *s = [AVAudioSession sharedInstance];
+        NSError *e = nil;
+        [s setCategory:AVAudioSessionCategoryPlayback
+                  mode:AVAudioSessionModeDefault
+               options:AVAudioSessionCategoryOptionMixWithOthers
+                 error:&e];
+        if (e) HLExternalLog(@"[保活] 设类别失败：%@", e.localizedDescription);
+        e = nil;
+        [s setActive:YES error:&e];
+        if (e) HLExternalLog(@"[保活] 激活失败：%@", e.localizedDescription);
+
+        _player = [[AVAudioPlayer alloc] initWithData:HLLowNoiseWav() error:&e];
+        if (!_player) {
+            HLExternalLog(@"[保活] 播放器创建失败：%@", e.localizedDescription ?: @"未知");
+            return;
+        }
+        _player.numberOfLoops = -1;
+        _player.volume = 0.01f;
+        _player.meteringEnabled = NO;
+        BOOL ok = [_player play];
+        _running = ok;
+        HLExternalLog(@"[保活] 音频断言%@（Playback+mix，音量 1%%）", ok ? @"已开启" : @"开启失败");
+    } @catch (NSException *ex) {
+        HLExternalLog(@"[保活] 异常：%@", ex.reason);
+    }
+}
+
+- (void)stop {
+    if (!_running && !_player) return;
+    @try {
+        [_player stop];
+        _player = nil;
+        _running = NO;
+        HLExternalLog(@"[保活] 音频断言已关闭");
+    } @catch (NSException *ex) {}
+}
+
+@end
+
+BOOL HLKeepAliveRunning(void) { return [HLKeepAlive shared].running; }
+void HLSetKeepAlive(BOOL on)  { [[HLKeepAlive shared] setEnabled:on]; }
+BOOL HLKeepAliveEnabled(void) { return [[HLKeepAlive shared] enabled]; }
+
+#pragma mark - 通话探测
+
+typedef BOOL (*AVSCGetVolNameFn)(id, SEL, float *, NSString **);
+
+static id HL_AVSystemController(void) {
+    static id inst = nil;
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        void *h = dlopen("/System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience", RTLD_NOW);
+        if (!h) { HLExternalLog(@"[通话] MediaExperience 打不开"); return; }
+        Class c = NSClassFromString(@"AVSystemController");
+        if (!c) { HLExternalLog(@"[通话] 没有 AVSystemController 类"); return; }
+        SEL sel = NSSelectorFromString(@"sharedAVSystemController");
+        if (![c respondsToSelector:sel]) { HLExternalLog(@"[通话] 没有 sharedAVSystemController"); return; }
+        @try {
+            inst = ((id (*)(id, SEL))objc_msgSend)(c, sel);
+            HLExternalLog(@"[通话] AVSystemController 已就绪");
+        } @catch (NSException *e) {
+            HLExternalLog(@"[通话] 取实例失败：%@", e.reason);
+        }
+    });
+    return inst;
+}
+
+static NSString *HL_ActiveCategory(void) {
+    id inst = HL_AVSystemController();
+    if (!inst) return nil;
+    SEL sel = NSSelectorFromString(@"getActiveCategoryVolume:andName:");
+    if (![inst respondsToSelector:sel]) return nil;
+    float vol = 0.f; NSString *name = nil;
+    BOOL ok = NO;
+    @try { ok = ((AVSCGetVolNameFn)objc_msgSend)(inst, sel, &vol, &name); } @catch (NSException *e) { return nil; }
+    return ok ? name : nil;
+}
+
+@interface HLCallProbe2 : NSObject
++ (instancetype)shared;
+- (void)start;
+@property (nonatomic, readonly) BOOL inCall;
+@property (nonatomic, readonly) BOOL ctCall;
+@property (nonatomic, readonly, copy) NSString *category;
+@end
+
+// MARK: - CXCallObserver replacement
+// CTCallCenter 在 iOS 10 就 deprecated，后台 App 拿不到 currentCalls。
+// CXCallObserver 是 CallKit 框架提供的后台可用替代——不需要用户权限、不需要 entilement。
+
+@interface HLCallProbe2 () <CXCallObserver>
+@property (nonatomic, strong) CXCallObserver *observer;
+@property (nonatomic, strong) NSHashTable<CXCall *> *activeCalls;
+@end
+
+@implementation HLCallProbe2 {
+    NSTimer *_timer;
+    BOOL _inCall;
+    BOOL _lastCT;
+    BOOL _lastSessionCall;
+    NSString *_lastCat;
+    BOOL _hasLast;
+}
+
++ (instancetype)shared {
+    static HLCallProbe2 *s; static dispatch_once_t once;
+    dispatch_once(&once, ^{ s = [HLCallProbe2 new]; });
+    return s;
+}
+
+- (instancetype)init {
+    if ((self = [super init])) {
+        _activeCalls = [NSHashTable weakObjectsHashTable];
+    }
+    return self;
+}
+
+- (BOOL)inCall   { return _inCall; }
+- (BOOL)ctCall   { return _lastCT; }
+- (NSString *)category { return _lastCat ?: @"-"; }
+
+- (void)start {
+    if (![APref(@"HLCallModeEnable", @(HL_DEFAULT_CALL_ENABLE)) boolValue]) {
+        HLExternalLog(@"[通话] 通话模式已关闭");
+        return;
+    }
+    // CXCallObserver — iOS 10+, 后台可用, 无需用户授权
+    _observer = [CXCallObserver new];
+    _observer.delegate = self;
+    HLExternalLog(@"[通话] CXCallObserver 已注册（替代 CTCallCenter）");
+
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self
+                                            selector:@selector(tick) userInfo:nil repeats:YES];
+    [self tick];
+}
+
+// MARK: CXCallObserver delegate — 实时通话状态变化
+
+- (void)callObserver:(CXCallObserver *)callObserver
+            callChanged:(CXCall *)call {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        BOOL hasActive = NO;
+        for (CXCall *c in callObserver.calls) {
+            if (!c.hasEnded) { hasActive = YES; break; }
+        }
+        // 立即响应：任何活跃通话或刚结束的通话都触发 tick
+        [self tick];
+    });
+}
+
+// MARK: 状态判定
+
+- (void)tick {
+    NSString *cat = HL_ActiveCategory();
+
+    // 从 CXCallObserver 拿活跃通话列表（hasEnded=NO 表示正在通话中）
+    BOOL ct = NO;
+    if (_observer) {
+        for (CXCall *c in _observer.calls) {
+            if (!c.hasEnded) { ct = YES; break; }
+        }
+    }
+
+    // 也用 AVAudioSession.mode 兜底：VoiceChat/VideoChat 都是通话中
+    AVAudioSession *sess = [AVAudioSession sharedInstance];
+    NSString *mode = sess.mode ?: @"";
+    BOOL sessionCall = ([mode isEqualToString:AVAudioSessionModeVoiceChat] ||
+                        [mode isEqualToString:AVAudioSessionModeVideoChat]);
+
+    BOOL isCall = ct || sessionCall || (cat && [cat rangeOfString:@"PhoneCall"].location != NSNotFound);
+
+    if (!_hasLast || ct != _lastCT || sessionCall != _lastSessionCall ||
+        !((cat == _lastCat) || (cat && _lastCat && [cat isEqualToString:_lastCat]))) {
+        _hasLast = YES;
+        _lastCT = ct;
+        _lastSessionCall = sessionCall;
+        _lastCat = cat;
+        HLExternalLog(@"[通话] CX=%d session=%d category=%@ → 判定=%d", ct, sessionCall, cat ?: @"?", isCall);
+    }
+
+    if (isCall != _inCall) {
+        _inCall = isCall;
+        HLExternalLog(@"[通话] %@", isCall ? @"进入通话（左耳按通话档位）" : @"通话结束");
+        HLSetCallMode(isCall);
+        HLReapplyNow();
+    }
+}
+
+@end
+
+#pragma mark - 对外状态
+
+BOOL HLMediaPlaying(void) { return [HLAudioProbe2 shared].playing; }
+BOOL HLInCall(void)       { return [HLCallProbe2 shared].inCall; }
+NSString *HLCallCategory(void) { return [HLCallProbe2 shared].category; }
+
+#pragma mark - 装配
+
+__attribute__((constructor))
+static void HLProbeBootstrap(void) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        HLSetLogSink(^(NSString *line) { HLRingAppend(line); });
+
+        HLAudioProbe2 *probe = [HLAudioProbe2 shared];
+        HLSetPlayingProvider(^BOOL{ return probe.playing || [HLCallProbe2 shared].inCall; });
+        [probe start];
+        [[HLCallProbe2 shared] start];
+        [[HLKeepAlive shared] start];
+
+        // 版本号从 Info.plist 读，别再硬编码（0.6.5 就因为这个，日志里一直显示 0.6.4）
+        NSString *ver = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+        HLExternalLog(@"VibeGo 助手 %@：麦克风联动 + 实验室（探测/GATT/保活均内置）", ver ?: @"?");
+    });
+}
