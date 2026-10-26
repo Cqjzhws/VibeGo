@@ -1,1 +1,42 @@
-I2ltcG9ydCAiVkdBcHBEZWxlZ2F0ZS5oIgojaW1wb3J0ICJWR0Rhc2hib2FyZFZDLmgiCiNpbXBvcnQgIlZHTWljcm9waG9uZVZDLmgiCiNpbXBvcnQgIlZHTGFiVkMuaCIKI2ltcG9ydCAiVkdEaWFnbm9zZVZDLmgiCiNpbXBvcnQgIlZHR2F0dFByb2JlVkMuaCIKI2ltcG9ydCAiVkdNb25pdG9yLmgiCiNpbXBvcnQgIlZHUnNzaU1vbml0b3IuaCIKI2ltcG9ydCAiVkdCYXR0ZXJ5TW9uaXRvci5oIgoKQGltcGxlbWVudGF0aW9uIFZHQXBwRGVsZWdhdGUKCi0gKEJPT0wpYXBwbGljYXRpb246KFVJQXBwbGljYXRpb24gKilhcHBsaWNhdGlvbgogICAgZGlkRmluaXNoTGF1bmNoaW5nV2l0aE9wdGlvbnM6KE5TRGljdGlvbmFyeSAqKWxhdW5jaE9wdGlvbnMgewogICAgc2VsZi53aW5kb3cgPSBbW1VJV2luZG93IGFsbG9jXSBpbml0V2l0aEZyYW1lOlVJU2NyZWVuLm1haW5TY3JlZW4uYm91bmRzXTsKCiAgICBVSVZpZXdDb250cm9sbGVyICooXm5hdikoVUlWaWV3Q29udHJvbGxlciAqLCBOU1N0cmluZyAqLCBOU1N0cmluZyAqKSA9IF4oVUlWaWV3Q29udHJvbGxlciAqdmMsIE5TU3RyaW5nICp0aXRsZSwgTlNTdHJpbmcgKmljb24pIHsKICAgICAgICBVSU5hdmlnYXRpb25Db250cm9sbGVyICpuID0gW1tVSU5hdmlnYXRpb25Db250cm9sbGVyIGFsbG9jXSBpbml0V2l0aFJvb3RWaWV3Q29udHJvbGxlcjp2Y107CiAgICAgICAgbi50YWJCYXJJdGVtID0gW1tVSVRhYkJhckl0ZW0gYWxsb2NdIGluaXRXaXRoVGl0bGU6dGl0bGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZTpbVUlJbWFnZSBzeXN0ZW1JbWFnZU5hbWVkOmljb25dIHRhZzowXTsKICAgICAgICByZXR1cm4gbjsKICAgIH07CgogICAgVUlUYWJCYXJDb250cm9sbGVyICp0YWJzID0gW1VJVGFiQmFyQ29udHJvbGxlciBuZXddOwogICAgdGFicy52aWV3Q29udHJvbGxlcnMgPSBAWwogICAgICAgIG5hdihbVkdEYXNoYm9hcmRWQyBuZXddLCBAIueKtuaAgSIsIEAid2F2ZWZvcm0iKSwKICAgICAgICBuYXYoW1ZHTWljcm9waG9uZVZDIG5ld10sIEAi6bqm5YWL6aOOIiwgQCJtaWMuZmlsbCIpLAogICAgICAgIG5hdihbVkdMYWJWQyBuZXddLCBAIuWunumqjOWupCIsIEAidGVzdHR1YmUuMiIpLAogICAgICAgIG5hdihbVkdEaWFnbm9zZVZDIG5ld10sIEAi6K+K5patIiwgQCJzdGV0aG9zY29wZSIpLAogICAgICAgIG5hdihbVkdHYXR0UHJvYmVWQyBuZXddLCBAIkdBVFQiLCBAImFudGVubmEucmFkaW93YXZlcy5sZWZ0LmFuZC5yaWdodCIpLAogICAgXTsKCiAgICBzZWxmLndpbmRvdy5yb290Vmlld0NvbnRyb2xsZXIgPSB0YWJzOwogICAgW3NlbGYud2luZG93IG1ha2VLZXlBbmRWaXNpYmxlXTsKCiAgICBbW1ZHTW9uaXRvciBzaGFyZWRdIHN0YXJ0XTsKICAgIFtbVkdSc3NpTW9uaXRvciBzaGFyZWRdIHN0YXJ0XTsKICAgIFtbVkdCYXR0ZXJ5TW9uaXRvciBzaGFyZWRdIHN0YXJ0XTsKICAgIHJldHVybiBZRVM7Cn0KCkBlbmQK
+#import "VGAppDelegate.h"
+#import "VGDashboardVC.h"
+#import "VGMicrophoneVC.h"
+#import "VGLabVC.h"
+#import "VGDiagnoseVC.h"
+#import "VGGattProbeVC.h"
+#import "VGMonitor.h"
+#import "VGRssiMonitor.h"
+#import "VGBatteryMonitor.h"
+
+@implementation VGAppDelegate
+
+- (BOOL)application:(UIApplication *)application
+    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+    UIViewController *(^nav)(UIViewController *, NSString *, NSString *) = ^(UIViewController *vc, NSString *title, NSString *icon) {
+        UINavigationController *n = [[UINavigationController alloc] initWithRootViewController:vc];
+        n.tabBarItem = [[UITabBarItem alloc] initWithTitle:title
+                                                     image:[UIImage systemImageNamed:icon] tag:0];
+        return n;
+    };
+
+    UITabBarController *tabs = [UITabBarController new];
+    tabs.viewControllers = @[
+        nav([VGDashboardVC new], @"状态", @"waveform"),
+        nav([VGMicrophoneVC new], @"麦克风", @"mic.fill"),
+        nav([VGLabVC new], @"实验室", @"testtube.2"),
+        nav([VGDiagnoseVC new], @"诊断", @"stethoscope"),
+        nav([VGGattProbeVC new], @"GATT", @"antenna.radiowaves.left.and.right"),
+    ];
+
+    self.window.rootViewController = tabs;
+    [self.window makeKeyAndVisible];
+
+    [[VGMonitor shared] start];
+    [[VGRssiMonitor shared] start];
+    [[VGBatteryMonitor shared] start];
+    return YES;
+}
+
+@end
