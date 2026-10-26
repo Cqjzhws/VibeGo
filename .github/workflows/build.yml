@@ -1,1 +1,42 @@
-bmFtZTogQnVpbGQgVmliZUdvCm9uOgogIHB1c2g6CiAgICBicmFuY2hlczpbbWFpbl0Kam9iczoKICBidWlsZDoKICAgIHJ1bnMtb246IG1hY29zLTE0CiAgICB0aW1lb3V0LW1pbnV0ZXM6IDMwCiAgICBzdGVwczoKICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgLSBuYW1lOiBTZXR1cAogICAgICBydW46IHwKICAgICAgICBicmV3IGluc3RhbGwgemlnCiAgICAgICAgcGlwMyBpbnN0YWxsIC0tcXVpZXQgbGllZgogICAgICAgIGN1cmwgLXNMIC1vIC90bXAvc2RrLnRneiBodHRwczovL2dpdGh1Yi5jb20vemh1b3dlaS9YY29kZVN0dWZmL3Jhdy9tYWluL2lQaG9uZU9TMTYuNS5zZGsudGFyLmd6IHx8IGN1cmwgLXNMIC1vIC90bXAvc2RrLnRneiBodHRwczovL2dvLmRldi9kbC9pUGhvbmVPUzE2LjUuc2RrLnRhci5negogICAgICAgIG1rZGlyIC1wIH4vc2RrICYmIHRhciB4emYgL3RtcC9zZGsudGd6IC1DIH4vc2RrCiAgICAtIG5hbWU6IEJ1aWxkCiAgICAgIHJ1bjogfAogICAgICAgIGV4cG9ydCBJUEhPTkVPU19TREs9JChmaW5kIH4vc2RrIC1tYXhkZXB0aCAzIC1uYW1lIGlQaG9uZU9TKi5zZGsgLXR5cGUgZCB8IGhlYWQgLTEpCiAgICAgICAgY2QgdmliZWdvICYmIHB5dGhvbjMgYnVpbGQucHkgJiYgbHMgVmliZUdvKi5pcGEKICAgIC0gdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgd2l0aDoKICAgICAgICBuYW1lOiB2aWJlZ28taXBhCiAgICAgICAgcGF0aDogdmliZWdvL1ZpYmVHbyouaXBh
+name: Build VibeGo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 30
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup tools
+      run: |
+        brew install zig
+        pip3 install --quiet lief
+
+    - name: Download iPhoneOS SDK
+      run: |
+        curl -sL -o /tmp/sdk.tgz https://github.com/zhuowei/XcodeStuff/raw/main/iPhoneOS16.5.sdk.tar.gz || \
+        curl -sL -o /tmp/sdk.tgz https://go.dev/dl/iPhoneOS16.5.sdk.tar.gz
+        mkdir -p ~/sdk && tar xzf /tmp/sdk.tgz -C ~/sdk
+        echo "SDK files:" && ls ~/sdk/
+
+    - name: Build IPA
+      run: |
+        export IPHONEOS_SDK=$(find ~/sdk -maxdepth 3 -name "iPhoneOS*.sdk" -type d | head -1)
+        echo "Using SDK: $IPHONEOS_SDK"
+        cd vibego
+        python3 build.py
+        ls -la VibeGo*.ipa
+        shasum -a 256 VibeGo*.ipa || true
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: vibego-ipa
+        path: vibego/VibeGo*.ipa
+        if-no-files-found: error
