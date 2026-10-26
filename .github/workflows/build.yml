@@ -14,39 +14,26 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install zig (official release)
+    - name: Install zig
       run: |
         ZIG_VER="0.14.0"
-        ZIG_URL="https://ziglang.org/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz"
-        # fallback to x86 runner path
-        curl -sL -o /tmp/zig.tar.xz "$ZIG_URL" || \
-          curl -sL -o /tmp/zig.tar.xz "https://ziglang.org/download/${ZIG_VER}/zig-macos-x86_64-${ZIG_VER}.tar.xz" || \
-          curl -sL -o /tmp/zig.tar.xz "https://github.com/ziglang/zig/releases/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz"
-        ls -la /tmp/zig.tar.xz
+        curl -sL -o /tmp/zig.tar.xz "https://ziglang.org/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz" || \
+          curl -sL -o /tmp/zig.tar.xz "https://ziglang.org/download/${ZIG_VER}/zig-macos-x86_64-${ZIG_VER}.tar.xz"
         tar xJf /tmp/zig.tar.xz -C /tmp
         ZIG_DIR=$(ls -d /tmp/zig-*/)
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
+        echo "ZIG_DIR=$ZIG_DIR" >> $GITHUB_ENV
         zig version
-        zig env
-
-    - name: Download iPhoneOS SDK
-      run: |
-        curl -sL -o /tmp/sdk.tgz "https://github.com/zhuowei/XcodeStuff/raw/main/iPhoneOS16.5.sdk.tar.gz" || \
-        curl -sL -o /tmp/sdk.tgz "https://go.dev/dl/iPhoneOS16.5.sdk.tar.gz" || \
-        curl -sL -o /tmp/sdk.tgz "https://build.loomchild.com/iPhoneOS16.5.sdk.tar.gz"
-        ls -la /tmp/sdk.tgz
-        file /tmp/sdk.tgz
-        mkdir -p ~/sdk
-        tar xzf /tmp/sdk.tgz -C ~/sdk || tar xf /tmp/sdk.tgz -C ~/sdk
-        find ~/sdk -maxdepth 2 -type d -name "iPhoneOS*.sdk"
 
     - name: Build IPA
       run: |
         ZIG_DIR=$(ls -d /tmp/zig-*/)
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
-        export IPHONEOS_SDK=$(find ~/sdk -maxdepth 3 -name "iPhoneOS*.sdk" -type d | head -1)
+        # Use Xcode-bundled iPhoneOS SDK (macos-14 has Xcode 15 with iOS 17 SDK)
+        export IPHONEOS_SDK="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk"
         echo "SDK=$IPHONEOS_SDK"
-        ls "$IPHONEOS_SDK/"
+        ls "$IPHONEOS_SDK/" | head -10
+        uname -m
         cd vibego
         python3 build.py
         ls -la VibeGo*.ipa
