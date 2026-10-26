@@ -4,6 +4,7 @@
 #import "VGLabVC.h"
 #import "VGDiagnoseVC.h"
 #import "VGGattProbeVC.h"
+#import "VGFindMyVC.h"
 #import "VGMonitor.h"
 #import "VGRssiMonitor.h"
 #import "VGBatteryMonitor.h"
@@ -25,6 +26,7 @@
     tabs.viewControllers = @[
         nav([VGDashboardVC new], @"状态", @"waveform"),
         nav([VGMicrophoneVC new], @"麦克风", @"mic.fill"),
+        nav([VGFindMyVC new], @"查找", @"location.fill"),
         nav([VGLabVC new], @"实验室", @"testtube.2"),
         nav([VGDiagnoseVC new], @"诊断", @"stethoscope"),
         nav([VGGattProbeVC new], @"GATT", @"antenna.radiowaves.left.and.right"),
