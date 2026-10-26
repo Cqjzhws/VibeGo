@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install zig
+    - name: Install zig + ziglang
       run: |
         ZIG_VER="0.14.0"
         curl -sL -o /tmp/zig.tar.xz "https://ziglang.org/download/${ZIG_VER}/zig-macos-aarch64-${ZIG_VER}.tar.xz" || \
@@ -22,16 +22,15 @@ jobs:
         tar xJf /tmp/zig.tar.xz -C /tmp
         ZIG_DIR=$(ls -d /tmp/zig-*/)
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
-        echo "ZIG_DIR=$ZIG_DIR"
         zig version
+        # ziglang Python 模块——build.py 用 python3 -m ziglang cc 驱动
+        pip3 install ziglang lief --quiet
+        python3 -c "import ziglang; print('ziglang OK')"
 
     - name: Build IPA
       run: |
-        ZIG_DIR=$(ls -d /tmp/zig-*/)
-        export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
         export IPHONEOS_SDK="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk"
         echo "SDK=$IPHONEOS_SDK"
-        ls
         ls src/ | head -5
         python3 build.py
         ls -la VibeGo*.ipa
