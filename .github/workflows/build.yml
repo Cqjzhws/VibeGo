@@ -22,24 +22,22 @@ jobs:
         tar xJf /tmp/zig.tar.xz -C /tmp
         ZIG_DIR=$(ls -d /tmp/zig-*/)
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
-        echo "ZIG_DIR=$ZIG_DIR" >> $GITHUB_ENV
+        echo "ZIG_DIR=$ZIG_DIR"
         zig version
 
     - name: Build IPA
       run: |
         ZIG_DIR=$(ls -d /tmp/zig-*/)
         export PATH="${ZIG_DIR}${PATH:+:${PATH}}"
-        # Use Xcode-bundled iPhoneOS SDK (macos-14 has Xcode 15 with iOS 17 SDK)
         export IPHONEOS_SDK="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk"
         echo "SDK=$IPHONEOS_SDK"
-        ls "$IPHONEOS_SDK/" | head -10
-        uname -m
-        cd vibego
+        ls
+        ls src/ | head -5
         python3 build.py
         ls -la VibeGo*.ipa
 
     - uses: actions/upload-artifact@v4
       with:
         name: vibego-ipa
-        path: vibego/VibeGo*.ipa
+        path: VibeGo*.ipa
         if-no-files-found: error
