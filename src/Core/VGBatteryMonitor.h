@@ -23,6 +23,18 @@ extern NSNotificationName const VGBatteryDidChangeNotification;
 @property (nonatomic, copy) NSString *firmware;      // 2A26
 @property (nonatomic, copy) NSString *software;      // 2A28
 @property (nonatomic, strong) NSDate *updatedAt;
+
+// ---- 电池健康（0.8.0 新增）----
+/// 电量历史：最近 48 次读数 @{@"level": @(0-100), @"time": NSDate}
+@property (nonatomic, strong) NSMutableArray<NSDictionary *> *batteryHistory;
+/// 首次观测到的电量（用于估算衰减）
+@property (nonatomic, strong, nullable) NSNumber *firstSeenBattery;
+/// 电池健康度 0~100：基于首次满电到当前的衰减估算
+- (NSInteger)batteryHealth;
+/// 预计剩余使用分钟数（基于最近 10 分钟的放电速率）；数据不足返回 -1
+- (NSInteger)estimatedMinutesRemaining;
+/// 放电速率：百分比/小时（基于最近 30 分钟数据）；数据不足返回 0
+- (double)drainRatePerHour;
 @end
 
 /// 持续在后台（App 生命周期内）扫描 company=661 的 Vibe Go，
